@@ -41,25 +41,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -167,25 +167,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -289,25 +289,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -461,25 +461,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -583,25 +583,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -734,25 +734,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -880,25 +880,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1065,25 +1065,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1193,25 +1193,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1309,25 +1309,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1431,25 +1431,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1547,25 +1547,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1676,25 +1676,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
@@ -1826,25 +1826,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color4
+	- A.color0
 
-	- dotlessi.color0
+	- comma.color1
 
-	- i.loclTRK
+	- i.color3
 
-	- l.color1
+	- I.color1
 
-	- H.color2
+	- n.color1
 
-	- L.color2
+	- uni030C.alt.color0
 
-	- n.color0
+	- uni0326.color1
 
-	- i.color0
+	- acutecomb.color1
 
-	- uni0307.color0
+	- uni030C.alt.color1
 
-	- n.color2 
+	- i.color2 
 
 	- And 48 more.
 
