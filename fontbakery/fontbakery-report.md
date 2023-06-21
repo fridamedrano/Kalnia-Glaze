@@ -34,27 +34,27 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -86,7 +86,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -163,27 +163,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -215,7 +215,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -309,27 +309,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -361,7 +361,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -453,27 +453,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -505,7 +505,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -534,7 +534,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Ecircumflex (U+00CA): L<<532.0,864.0>--<908.0,779.0>> -> L<<908.0,779.0>--<912.0,778.0>> 
 
-	* And 64 more.
+	* And 66 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -597,27 +597,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -649,7 +649,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -713,27 +713,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -765,7 +765,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -853,7 +853,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Kalnia-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -885,27 +885,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -937,16 +937,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* cent (U+00A2): L<<324.0,541.0>--<324.0,541.0>> -> L<<324.0,541.0>--<324.0,541.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -972,7 +966,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Acircumflex (U+00C2): L<<199.0,288.0>--<199.0,289.0>>/L<<199.0,289.0>--<198.0,285.0>> = 14.036243467926484 
 
-	* And 138 more.
+	* And 136 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[6] Kalnia-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -1007,27 +1001,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1059,7 +1053,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 342 more.
+	- And 348 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1123,27 +1117,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1175,7 +1169,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1239,27 +1233,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1291,7 +1285,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1424,27 +1418,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1476,7 +1470,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1559,27 +1553,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1611,7 +1605,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1685,27 +1679,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1737,7 +1731,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1814,27 +1808,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.color2
+	- A.color1
 
-	- dotlessi.color1
+	- F.color2
 
-	- uni030C.alt.color1
-
-	- gravecomb.color0
-
-	- periodcentered.loclCAT
-
-	- comma.color0
-
-	- E.color2
+	- acutecomb.color1
 
 	- uni030C.alt.color0
 
-	- C.color2
+	- G.color2
 
-	- uni030C.color0 
+	- e.color0
 
-	- And 63 more.
+	- acutecomb.color0
+
+	- uni030C.color1
+
+	- I.color0
+
+	- l.color0 
+
+	- And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1866,7 +1860,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- And 340 more.
+	- And 346 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1895,7 +1889,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Oacute (U+00D3): L<<695.0,778.0>--<698.0,779.0>> -> L<<698.0,779.0>--<980.0,871.0>> 
 
-	* And 31 more.
+	* And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1937,7 +1931,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 105 | 1570 | 85 | 1335 | 0 |
+| 0 | 0 | 104 | 1570 | 85 | 1336 | 0 |
 | 0% | 0% | 3% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
