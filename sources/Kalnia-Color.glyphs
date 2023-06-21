@@ -40,9 +40,7 @@ dP ̋   ̊ ̃   ̧ ˙¨
 jfj/f_j.liga/f_f.liga ß/f_k.liga/f_b.liga/f_h.liga ﬁﬂ�*†ƒ‡&§?¿{}()£®™©@˜pþqdðeæ4⁴3³2²69875432μ¹ªºyxvwskgzŋnmẞSJKŊXUVWŒTZBPÞRAÁĂǍÂÄÀĀĄÅÃÆĆČÇĊÐĎĐÉĚÊËĖÈĒĘĞĢĠHĦIĲÍÎÏİÌĪĮĶLĹĽĻŁMNŃŇŅÑÓÔÖÒŐŌØÕQŔŘŖŚŠŞȘŤȚÚŬÛÜÙŰŪŲŮẂŴẄẀÝŶŸỲŹŽŻaáăǎâäàāąåãbćčçċďđéěêëėèēęğģġħiıíîï/idotaccent ìĳīįȷķlĺľļłnńňņñóôöòőōøõœŕřŗśšşșťțúŭûüùűūųůẃŵẅẁýŷÿỳźžż01⁄½¼¾/CR/.notdef/ENSPACE/THINSPACE/ZEROWIDTH  /nbspace .,:;…!¡·•*#///backslash/periodcentered.loclCAT/periodcentered.loclCAT.case -­–—_[]‚„“”‘’«»‹›\"'¶°′″|¦¢¤$€¥∕+−×÷=≠><≥≤±≈~¬^µ%‰↑↓◌̈̇̀́̋/caroncomb.alt ̧̨̦̂̌̆̊̃̄̒¨˙`´˝ˆˇ˘˚¯¸˛ʼʻ,",
 "AÁǍÂÄÀĀHIÍÎÏİÌĪLĹĽĻlĺľļiıíîï/idotaccent ìnńňņaáǎâäàāeéěêëėèē·.,/periodcentered.loclCAT/periodcentered.loclCAT.case 
 ̈ ̇ ̀ ́ ̋ /caroncomb.alt  ̂ ̌ ̆ ̊ ̃ ̄ ̒ ̦ ̧ ̨ 
-ĂĄÅÃÆBCĆČÇĊDÐĎĐEÉĚÊËĖÈĒĘFGĞĢĠĦĲĮJKĶŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŤȚUÚŬÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻăąåãæbcćčçċdðďđęfgğģġhħĳīįjȷkķłmñŋoóôöòőōøõœpþqrŕřŗsśšşșßtťțuúŭûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż/f_b.liga/f_f.liga/f_h.liga/f_j.liga/f_k.liga ﬁﬂªºμ0123456789⁄½¼¾¹²³⁴/ZEROWIDTHNOBREAK/CR/.notdef/ENSPACE/THINSPACE/ZEROWIDTH  /nbspace :;…!¡?¿•*#///backslash -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ@&¶§©®™°′″|¦†‡¢¤$€£¥∕+−×÷=≠><≥≤±≈~¬^µ%‰↑↓◌�̈̇̀́̋/caroncomb.alt ̧̨̦̂̌̆̊̃̄̒¨˙`´˝ˆˇ˘˚˜¯¸˛ʼʻ",
-"ø",
-"õ"
+ĂĄÅÃÆBCĆČÇĊDÐĎĐEÉĚÊËĖÈĒĘFGĞĢĠĦĲĮJKĶŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŤȚUÚŬÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻăąåãæbcćčçċdðďđęfgğģġhħĳīįjȷkķłmñŋoóôöòőōøõœpþqrŕřŗsśšşșßtťțuúŭûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż/f_b.liga/f_f.liga/f_h.liga/f_j.liga/f_k.liga ﬁﬂªºμ0123456789⁄½¼¾¹²³⁴/ZEROWIDTHNOBREAK/CR/.notdef/ENSPACE/THINSPACE/ZEROWIDTH  /nbspace :;…!¡?¿•*#///backslash -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ@&¶§©®™°′″|¦†‡¢¤$€£¥∕+−×÷=≠><≥≤±≈~¬^µ%‰↑↓◌�̈̇̀́̋/caroncomb.alt ̧̨̦̂̌̆̊̃̄̒¨˙`´˝ˆˇ˘˚˜¯¸˛ʼʻ"
 );
 axes = (
 {
@@ -17011,10 +17009,11 @@ width = 1063;
 unicode = 88;
 },
 {
-color = 4;
+color = 1;
 glyphname = Y;
 kernLeft = VV;
 kernRight = V;
+lastChange = "2023-06-21 07:44:12 +0000";
 layers = (
 {
 anchors = (
