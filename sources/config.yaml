@@ -1,5 +1,6 @@
 sources:
-  - Kalnia-Color.glyphs
+  #- Kalnia-Color.glyphs
+  - Kalnia-Color-OHa.glyphs
 buildVariable: true
 buildStatic: true
 buildWebfont: false
