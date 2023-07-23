@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[6] Kalnia-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[5] Kalnia-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -29,35 +29,6 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -68,25 +39,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -95,30 +66,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aacute (U+00C1): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Abreve (U+0102): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Acircumflex (U+00C2): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Adieresis (U+00C4): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Agrave (U+00C0): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Amacron (U+0100): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aogonek (U+0104): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aring (U+00C5): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Atilde (U+00C3): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989 
-
-	* And 27 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+	* seven (U+0037): L<<61.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 12.138441278057911 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[5] KalniaExtended-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -145,35 +94,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -184,25 +104,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 5	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -211,58 +131,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Aacute (U+00C1): L<<662.0,778.0>--<665.0,779.0>> -> L<<665.0,779.0>--<978.0,861.0>>
-
-	* Acircumflex (U+00C2): L<<500.0,864.0>--<876.0,779.0>> -> L<<876.0,779.0>--<880.0,778.0>>
-
-	* Agrave (U+00C0): L<<284.0,861.0>--<597.0,779.0>> -> L<<597.0,779.0>--<600.0,778.0>>
-
-	* Cacute (U+0106): L<<717.0,778.0>--<720.0,779.0>> -> L<<720.0,779.0>--<1033.0,861.0>>
-
-	* Ccaron (U+010C): L<<807.0,805.0>--<431.0,890.0>> -> L<<431.0,890.0>--<427.0,891.0>>
-
-	* Dcaron (U+010E): L<<748.0,805.0>--<372.0,890.0>> -> L<<372.0,890.0>--<368.0,891.0>>
-
-	* Dcroat (U+0110): L<<748.0,805.0>--<372.0,890.0>> -> L<<372.0,890.0>--<368.0,891.0>>
-
-	* Eacute (U+00C9): L<<694.0,778.0>--<697.0,779.0>> -> L<<697.0,779.0>--<1010.0,861.0>>
-
-	* Ecaron (U+011A): L<<784.0,805.0>--<408.0,890.0>> -> L<<408.0,890.0>--<404.0,891.0>>
-
-	* Ecircumflex (U+00CA): L<<532.0,864.0>--<908.0,779.0>> -> L<<908.0,779.0>--<912.0,778.0>> 
-
-	* And 66 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* C (U+0043): B<<910.0,24.5>-<1015.0,42.0>-<1107.0,83.0>>/B<<1107.0,83.0>-<1038.0,71.0>-<964.0,71.0>> = 14.154439854180508
-
-	* Cacute (U+0106): B<<910.0,24.5>-<1015.0,42.0>-<1107.0,83.0>>/B<<1107.0,83.0>-<1038.0,71.0>-<964.0,71.0>> = 14.154439854180508
-
-	* Ccaron (U+010C): B<<910.0,24.5>-<1015.0,42.0>-<1107.0,83.0>>/B<<1107.0,83.0>-<1038.0,71.0>-<964.0,71.0>> = 14.154439854180508
-
-	* Ccedilla (U+00C7): B<<701.5,-168.0>-<661.0,-186.0>-<602.0,-193.0>>/L<<602.0,-193.0>--<716.0,-193.0>> = 6.766174822553066
-
-	* Ccedilla (U+00C7): B<<910.0,24.5>-<1015.0,42.0>-<1107.0,83.0>>/B<<1107.0,83.0>-<1038.0,71.0>-<964.0,71.0>> = 14.154439854180508
-
-	* Cdotaccent (U+010A): B<<910.0,24.5>-<1015.0,42.0>-<1107.0,83.0>>/B<<1107.0,83.0>-<1038.0,71.0>-<964.0,71.0>> = 14.154439854180508
-
-	* Scedilla (U+015E): B<<698.5,-168.0>-<658.0,-186.0>-<599.0,-193.0>>/L<<599.0,-193.0>--<713.0,-193.0>> = 6.766174822553066
-
-	* a (U+0061): B<<467.0,20.0>-<540.0,33.0>-<578.0,58.0>>/B<<578.0,58.0>-<568.0,53.0>-<558.0,53.0>> = 6.775656169398931
-
-	* aacute (U+00E1): B<<467.0,20.0>-<540.0,33.0>-<578.0,58.0>>/B<<578.0,58.0>-<568.0,53.0>-<558.0,53.0>> = 6.775656169398931
-
-	* abreve (U+0103): B<<467.0,20.0>-<540.0,33.0>-<578.0,58.0>>/B<<578.0,58.0>-<568.0,53.0>-<558.0,53.0>> = 6.775656169398931 
-
-	* And 20 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+	* fi (U+FB01): L<<580.0,500.0>--<697.0,495.0>> -> L<<697.0,495.0>--<1318.0,515.0>> [code: found-colinear-vectors]
+</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -296,35 +166,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -335,69 +176,69 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* dollar (U+0024): X=610.0,Y=1.0 (should be at baseline 0?)
+
+	* dollar (U+0024): X=561.0,Y=709.0 (should be at cap-height 708?)
+
+	* ampersand (U+0026): X=760.0,Y=709.0 (should be at cap-height 708?)
+
+	* two (U+0032): X=550.5,Y=-1.0 (should be at baseline 0?)
+
+	* three (U+0033): X=446.0,Y=2.0 (should be at baseline 0?)
+
+	* three (U+0033): X=450.0,Y=707.0 (should be at cap-height 708?)
+
+	* three (U+0033): X=325.5,Y=708.5 (should be at cap-height 708?)
+
+	* four (U+0034): X=207.5,Y=706.5 (should be at cap-height 708?)
+
+	* five (U+0035): X=351.5,Y=2.0 (should be at baseline 0?)
+
+	* six (U+0036): X=768.0,Y=706.0 (should be at cap-height 708?) 
+
+	* And 76 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* fi (U+FB01): L<<442.0,500.0>--<623.0,492.0>> -> L<<623.0,492.0>--<1086.0,515.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Aacute (U+00C1): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Abreve (U+0102): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Acircumflex (U+00C2): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Adieresis (U+00C4): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Agrave (U+00C0): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Amacron (U+0100): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Aogonek (U+0104): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Aring (U+00C5): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779
-
-	* Atilde (U+00C3): B<<237.0,154.0>-<237.0,192.0>-<254.0,240.0>>/L<<254.0,240.0>--<107.0,14.0>> = 13.539237670706779 
-
-	* And 79 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaExtended-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] KalniaExtended-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -431,35 +272,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -470,25 +282,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -506,34 +318,6 @@ Use -F or --full-lists to disable shortening of long lists.
 	* Wdieresis (U+1E84): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>> 
 
 	* And Wgrave (U+1E80): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<191.0,72.0>-<191.0,97.0>-<210.0,131.0>>/L<<210.0,131.0>--<135.0,7.0>> = 1.9696866000377569
-
-	* A (U+0041): L<<135.0,7.0>--<269.0,7.0>>/B<<269.0,7.0>-<229.0,14.0>-<210.0,29.0>> = 9.926245506651705
-
-	* Aacute (U+00C1): B<<191.0,72.0>-<191.0,97.0>-<210.0,131.0>>/L<<210.0,131.0>--<135.0,7.0>> = 1.9696866000377569
-
-	* Aacute (U+00C1): L<<135.0,7.0>--<269.0,7.0>>/B<<269.0,7.0>-<229.0,14.0>-<210.0,29.0>> = 9.926245506651705
-
-	* Abreve (U+0102): B<<191.0,72.0>-<191.0,97.0>-<210.0,131.0>>/L<<210.0,131.0>--<135.0,7.0>> = 1.9696866000377569
-
-	* Abreve (U+0102): L<<135.0,7.0>--<269.0,7.0>>/B<<269.0,7.0>-<229.0,14.0>-<210.0,29.0>> = 9.926245506651705
-
-	* Acircumflex (U+00C2): B<<191.0,72.0>-<191.0,97.0>-<210.0,131.0>>/L<<210.0,131.0>--<135.0,7.0>> = 1.9696866000377569
-
-	* Acircumflex (U+00C2): L<<135.0,7.0>--<269.0,7.0>>/B<<269.0,7.0>-<229.0,14.0>-<210.0,29.0>> = 9.926245506651705
-
-	* Adieresis (U+00C4): B<<191.0,72.0>-<191.0,97.0>-<210.0,131.0>>/L<<210.0,131.0>--<135.0,7.0>> = 1.9696866000377569
-
-	* Adieresis (U+00C4): L<<135.0,7.0>--<269.0,7.0>>/B<<269.0,7.0>-<229.0,14.0>-<210.0,29.0>> = 9.926245506651705 
-
-	* And 185 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -550,7 +334,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,198.0>--<711.0,202.0>> 
 
 	* And seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaExtended-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] KalniaExtended-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -584,35 +368,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -623,25 +378,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -650,64 +405,14 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Aacute (U+00C1): L<<640.0,778.0>--<643.0,779.0>> -> L<<643.0,779.0>--<925.0,871.0>>
-
-	* Agrave (U+00C0): L<<304.0,871.0>--<586.0,779.0>> -> L<<586.0,779.0>--<589.0,778.0>>
-
-	* Cacute (U+0106): L<<693.0,778.0>--<696.0,779.0>> -> L<<696.0,779.0>--<978.0,871.0>>
-
-	* Eacute (U+00C9): L<<667.0,778.0>--<670.0,779.0>> -> L<<670.0,779.0>--<952.0,871.0>>
-
-	* Egrave (U+00C8): L<<331.0,871.0>--<613.0,779.0>> -> L<<613.0,779.0>--<616.0,778.0>>
-
-	* Iacute (U+00CD): L<<338.0,778.0>--<341.0,779.0>> -> L<<341.0,779.0>--<623.0,871.0>>
-
-	* Igrave (U+00CC): L<<2.0,871.0>--<284.0,779.0>> -> L<<284.0,779.0>--<287.0,778.0>>
-
-	* Lacute (U+0139): L<<341.0,778.0>--<344.0,779.0>> -> L<<344.0,779.0>--<626.0,871.0>>
-
-	* Nacute (U+0143): L<<672.0,778.0>--<675.0,779.0>> -> L<<675.0,779.0>--<957.0,871.0>>
-
-	* Oacute (U+00D3): L<<695.0,778.0>--<698.0,779.0>> -> L<<698.0,779.0>--<980.0,871.0>> 
-
-	* And 33 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* C (U+0043): B<<875.5,21.0>-<975.0,38.0>-<1060.0,77.0>>/B<<1060.0,77.0>-<978.0,56.0>-<885.0,56.0>> = 10.282188402233944
-
-	* Cacute (U+0106): B<<875.5,21.0>-<975.0,38.0>-<1060.0,77.0>>/B<<1060.0,77.0>-<978.0,56.0>-<885.0,56.0>> = 10.282188402233944
-
-	* Ccaron (U+010C): B<<875.5,21.0>-<975.0,38.0>-<1060.0,77.0>>/B<<1060.0,77.0>-<978.0,56.0>-<885.0,56.0>> = 10.282188402233944
-
-	* Ccedilla (U+00C7): B<<698.5,-172.0>-<658.0,-191.0>-<598.0,-196.0>>/B<<598.0,-196.0>-<619.0,-196.0>-<643.0,-196.0>> = 4.763641690726143
-
-	* Ccedilla (U+00C7): B<<875.5,21.0>-<975.0,38.0>-<1060.0,77.0>>/B<<1060.0,77.0>-<978.0,56.0>-<885.0,56.0>> = 10.282188402233944
-
-	* Cdotaccent (U+010A): B<<875.5,21.0>-<975.0,38.0>-<1060.0,77.0>>/B<<1060.0,77.0>-<978.0,56.0>-<885.0,56.0>> = 10.282188402233944
-
-	* E (U+0045): B<<1039.0,117.0>-<980.0,40.0>-<882.0,17.0>>/L<<882.0,17.0>--<1192.0,17.0>> = 13.207928462779101
-
-	* E (U+0045): L<<1192.0,691.0>--<866.0,691.0>>/B<<866.0,691.0>-<955.0,671.0>-<1014.0,602.0>> = 12.665063765042364
-
-	* Eacute (U+00C9): B<<1039.0,117.0>-<980.0,40.0>-<882.0,17.0>>/L<<882.0,17.0>--<1192.0,17.0>> = 13.207928462779101
-
-	* Eacute (U+00C9): L<<1192.0,691.0>--<866.0,691.0>>/B<<866.0,691.0>-<955.0,671.0>-<1014.0,602.0>> = 12.665063765042364 
-
-	* And 44 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* fi (U+FB01): L<<514.0,500.0>--<662.0,494.0>> -> L<<662.0,494.0>--<1208.0,515.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* B (U+0042): L<<632.0,366.0>--<515.0,367.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] Kalnia-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Kalnia-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -734,35 +439,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -773,25 +449,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -800,30 +476,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Aacute (U+00C1): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Abreve (U+0102): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Acircumflex (U+00C2): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Adieresis (U+00C4): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Agrave (U+00C0): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Amacron (U+0100): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Aogonek (U+0104): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Aring (U+00C5): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* Atilde (U+00C3): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688 
-
-	* And 150 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+	* seven (U+0037): L<<79.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 10.519561400141608 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[8] Kalnia-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -850,35 +504,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -889,25 +514,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 5	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -936,7 +561,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* G (U+0047): X=511.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 61 more.
+	* And 25 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -944,64 +569,26 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Acircumflex (U+00C2): L<<357.0,911.0>--<359.0,909.0>> -> L<<359.0,909.0>--<482.0,795.0>>
+	* four (U+0034): L<<410.0,204.0>--<410.0,546.0>> -> L<<410.0,546.0>--<415.0,724.0>>
 
-	* Ccaron (U+010C): L<<385.0,794.0>--<383.0,796.0>> -> L<<383.0,796.0>--<260.0,910.0>>
+	* onequarter (U+00BC): L<<392.0,93.0>--<392.0,230.0>> -> L<<392.0,230.0>--<395.0,302.0>>
 
-	* Dcaron (U+010E): L<<344.0,794.0>--<342.0,796.0>> -> L<<342.0,796.0>--<219.0,910.0>>
+	* threequarters (U+00BE): L<<502.0,93.0>--<502.0,230.0>> -> L<<502.0,230.0>--<505.0,302.0>> 
 
-	* Dcroat (U+0110): L<<344.0,794.0>--<342.0,796.0>> -> L<<342.0,796.0>--<219.0,910.0>>
-
-	* Ecaron (U+011A): L<<352.0,794.0>--<350.0,796.0>> -> L<<350.0,796.0>--<227.0,910.0>>
-
-	* Ecircumflex (U+00CA): L<<356.0,911.0>--<358.0,909.0>> -> L<<358.0,909.0>--<481.0,795.0>>
-
-	* Icircumflex (U+00CE): L<<160.0,911.0>--<162.0,909.0>> -> L<<162.0,909.0>--<285.0,795.0>>
-
-	* Ncaron (U+0147): L<<414.0,794.0>--<412.0,796.0>> -> L<<412.0,796.0>--<289.0,910.0>>
-
-	* Ocircumflex (U+00D4): L<<373.0,911.0>--<375.0,909.0>> -> L<<375.0,909.0>--<498.0,795.0>>
-
-	* Rcaron (U+0158): L<<331.0,794.0>--<329.0,796.0>> -> L<<329.0,796.0>--<206.0,910.0>> 
-
-	* And 27 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* And uni2074 (U+2074): L<<171.0,509.0>--<171.0,646.0>> -> L<<171.0,646.0>--<174.0,718.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Aacute (U+00C1): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Abreve (U+0102): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Acircumflex (U+00C2): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Adieresis (U+00C4): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Agrave (U+00C0): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Amacron (U+0100): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Aogonek (U+0104): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Aring (U+00C5): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792
-
-	* Atilde (U+00C3): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792 
-
-	* And 172 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>>/B<<84.0,592.0>-<98.0,666.0>-<126.5,694.5>> = 10.219206124172278 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1035,35 +622,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1074,56 +632,28 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<200.0,88.0>-<200.0,116.0>-<218.0,153.0>>/L<<218.0,153.0>--<129.0,8.0>> = 5.599019901513194
-
-	* A (U+0041): L<<129.0,8.0>--<285.0,8.0>>/B<<285.0,8.0>-<241.0,18.0>-<220.5,36.5>> = 12.80426606528674
-
-	* Aacute (U+00C1): B<<200.0,88.0>-<200.0,116.0>-<218.0,153.0>>/L<<218.0,153.0>--<129.0,8.0>> = 5.599019901513194
-
-	* Aacute (U+00C1): L<<129.0,8.0>--<285.0,8.0>>/B<<285.0,8.0>-<241.0,18.0>-<220.5,36.5>> = 12.80426606528674
-
-	* Abreve (U+0102): B<<200.0,88.0>-<200.0,116.0>-<218.0,153.0>>/L<<218.0,153.0>--<129.0,8.0>> = 5.599019901513194
-
-	* Abreve (U+0102): L<<129.0,8.0>--<285.0,8.0>>/B<<285.0,8.0>-<241.0,18.0>-<220.5,36.5>> = 12.80426606528674
-
-	* Acircumflex (U+00C2): B<<200.0,88.0>-<200.0,116.0>-<218.0,153.0>>/L<<218.0,153.0>--<129.0,8.0>> = 5.599019901513194
-
-	* Acircumflex (U+00C2): L<<129.0,8.0>--<285.0,8.0>>/B<<285.0,8.0>-<241.0,18.0>-<220.5,36.5>> = 12.80426606528674
-
-	* Adieresis (U+00C4): B<<200.0,88.0>-<200.0,116.0>-<218.0,153.0>>/L<<218.0,153.0>--<129.0,8.0>> = 5.599019901513194
-
-	* Adieresis (U+00C4): L<<129.0,8.0>--<285.0,8.0>>/B<<285.0,8.0>-<241.0,18.0>-<220.5,36.5>> = 12.80426606528674 
-
-	* And 160 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1134,7 +664,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1161,35 +691,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1200,25 +701,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1227,36 +728,14 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Aacute (U+00C1): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Abreve (U+0102): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Acircumflex (U+00C2): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Adieresis (U+00C4): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Agrave (U+00C0): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Amacron (U+0100): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Aogonek (U+0104): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Aring (U+00C5): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
-
-	* Atilde (U+00C3): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424 
-
-	* And 170 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>>/B<<80.0,588.0>-<94.0,662.0>-<126.0,692.5>> = 10.235669245481464 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1283,35 +762,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1322,84 +772,68 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 5	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* ampersand (U+0026): X=1071.0,Y=2.0 (should be at baseline 0?)
+
+	* ampersand (U+0026): X=950.0,Y=1.5 (should be at baseline 0?)
+
+	* parenleft (U+0028): X=264.5,Y=-0.5 (should be at baseline 0?)
+
+	* parenright (U+0029): X=294.5,Y=-0.5 (should be at baseline 0?)
+
+	* two (U+0032): X=329.5,Y=710.0 (should be at cap-height 708?)
+
+	* three (U+0033): X=300.5,Y=2.0 (should be at baseline 0?)
+
+	* three (U+0033): X=305.5,Y=706.0 (should be at cap-height 708?)
+
+	* five (U+0035): X=326.5,Y=2.0 (should be at baseline 0?)
+
+	* seven (U+0037): X=884.5,Y=706.0 (should be at cap-height 708?)
+
+	* G (U+0047): X=777.5,Y=0.5 (should be at baseline 0?) 
+
+	* And 67 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Acircumflex (U+00C2): L<<544.0,911.0>--<547.0,909.0>> -> L<<547.0,909.0>--<697.0,796.0>>
+	* four (U+0034): L<<720.0,204.0>--<720.0,546.0>> -> L<<720.0,546.0>--<725.0,724.0>>
 
-	* Ccaron (U+010C): L<<585.0,794.0>--<582.0,796.0>> -> L<<582.0,796.0>--<432.0,909.0>>
+	* onequarter (U+00BC): L<<566.0,93.0>--<566.0,230.0>> -> L<<566.0,230.0>--<567.0,302.0>>
 
-	* Dcaron (U+010E): L<<561.0,794.0>--<558.0,796.0>> -> L<<558.0,796.0>--<408.0,909.0>>
+	* threequarters (U+00BE): L<<697.0,93.0>--<697.0,230.0>> -> L<<697.0,230.0>--<698.0,302.0>> 
 
-	* Dcroat (U+0110): L<<561.0,794.0>--<558.0,796.0>> -> L<<558.0,796.0>--<408.0,909.0>>
-
-	* Ecaron (U+011A): L<<545.0,794.0>--<542.0,796.0>> -> L<<542.0,796.0>--<392.0,909.0>>
-
-	* Ecircumflex (U+00CA): L<<550.0,911.0>--<553.0,909.0>> -> L<<553.0,909.0>--<703.0,796.0>>
-
-	* Icircumflex (U+00CE): L<<219.0,911.0>--<222.0,909.0>> -> L<<222.0,909.0>--<372.0,796.0>>
-
-	* Ncaron (U+0147): L<<576.0,794.0>--<573.0,796.0>> -> L<<573.0,796.0>--<423.0,909.0>>
-
-	* Ocircumflex (U+00D4): L<<578.0,911.0>--<581.0,909.0>> -> L<<581.0,909.0>--<731.0,796.0>>
-
-	* Rcaron (U+0158): L<<494.0,794.0>--<491.0,796.0>> -> L<<491.0,796.0>--<341.0,909.0>> 
-
-	* And 27 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<179.0,50.0>-<179.0,68.0>-<191.0,91.0>>/L<<191.0,91.0>--<142.0,5.0>> = 2.12027053535989
-
-	* A (U+0041): L<<142.0,5.0>--<248.0,5.0>>/B<<248.0,5.0>-<179.0,14.0>-<179.0,50.0>> = 7.431407971172489
-
-	* Aacute (U+00C1): B<<179.0,50.0>-<179.0,68.0>-<191.0,91.0>>/L<<191.0,91.0>--<142.0,5.0>> = 2.12027053535989
-
-	* Aacute (U+00C1): L<<142.0,5.0>--<248.0,5.0>>/B<<248.0,5.0>-<179.0,14.0>-<179.0,50.0>> = 7.431407971172489
-
-	* Abreve (U+0102): B<<179.0,50.0>-<179.0,68.0>-<191.0,91.0>>/L<<191.0,91.0>--<142.0,5.0>> = 2.12027053535989
-
-	* Abreve (U+0102): L<<142.0,5.0>--<248.0,5.0>>/B<<248.0,5.0>-<179.0,14.0>-<179.0,50.0>> = 7.431407971172489
-
-	* Acircumflex (U+00C2): B<<179.0,50.0>-<179.0,68.0>-<191.0,91.0>>/L<<191.0,91.0>--<142.0,5.0>> = 2.12027053535989
-
-	* Acircumflex (U+00C2): L<<142.0,5.0>--<248.0,5.0>>/B<<248.0,5.0>-<179.0,14.0>-<179.0,50.0>> = 7.431407971172489
-
-	* Adieresis (U+00C4): B<<179.0,50.0>-<179.0,68.0>-<191.0,91.0>>/L<<191.0,91.0>--<142.0,5.0>> = 2.12027053535989
-
-	* Adieresis (U+00C4): L<<142.0,5.0>--<248.0,5.0>>/B<<248.0,5.0>-<179.0,14.0>-<179.0,50.0>> = 7.431407971172489 
-
-	* And 182 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* And uni2074 (U+2074): L<<293.0,509.0>--<293.0,646.0>> -> L<<293.0,646.0>--<294.0,718.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1428,7 +862,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1455,35 +889,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1494,25 +899,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1522,35 +927,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* fi (U+FB01): L<<398.0,500.0>--<599.0,492.0>> -> L<<599.0,492.0>--<1013.0,515.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Aacute (U+00C1): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Abreve (U+0102): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Acircumflex (U+00C2): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Adieresis (U+00C4): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Agrave (U+00C0): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Amacron (U+0100): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Aogonek (U+0104): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Aring (U+00C5): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657
-
-	* Atilde (U+00C3): B<<223.0,129.0>-<223.0,164.0>-<241.0,207.0>>/L<<241.0,207.0>--<116.0,12.0>> = 9.94650036850657 
-
-	* And 104 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[6] Kalnia-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Kalnia-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1577,35 +954,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1616,56 +964,68 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: AE	Contours detected: 1	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: AE	Contours detected: 1	Expected: 2
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: NULL	Contours detected: 3	Expected: 0 
 
-	- And 348 more.
+	- And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* ampersand (U+0026): X=481.5,Y=710.0 (should be at cap-height 708?)
+
+	* two (U+0032): X=336.0,Y=1.5 (should be at baseline 0?)
+
+	* three (U+0033): X=261.0,Y=2.0 (should be at baseline 0?)
+
+	* three (U+0033): X=264.0,Y=707.0 (should be at cap-height 708?)
+
+	* six (U+0036): X=395.0,Y=706.0 (should be at cap-height 708?)
+
+	* seven (U+0037): X=584.0,Y=706.0 (should be at cap-height 708?)
+
+	* nine (U+0039): X=252.0,Y=2.0 (should be at baseline 0?)
+
+	* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
+
+	* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?) 
+
+	* And 48 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* Euro (U+20AC): L<<270.0,394.0>--<270.0,394.0>> -> L<<270.0,394.0>--<535.0,394.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aacute (U+00C1): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Abreve (U+0102): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Acircumflex (U+00C2): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Adieresis (U+00C4): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Agrave (U+00C0): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Amacron (U+0100): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aogonek (U+0104): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aring (U+00C5): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Atilde (U+00C3): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569 
-
-	* And 58 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* seven (U+0037): L<<68.0,708.0>--<65.0,575.0>>/B<<65.0,575.0>-<99.0,723.0>-<248.0,723.0>> = 11.64588943093649 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[6] Kalnia-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1693,35 +1053,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1732,54 +1063,60 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* cent (U+00A2): L<<324.0,541.0>--<324.0,541.0>> -> L<<324.0,541.0>--<324.0,541.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* A (U+0041): L<<199.0,288.0>--<199.0,289.0>>/L<<199.0,289.0>--<198.0,285.0>> = 14.036243467926484
-
-	* Aacute (U+00C1): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Aacute (U+00C1): L<<199.0,288.0>--<199.0,289.0>>/L<<199.0,289.0>--<198.0,285.0>> = 14.036243467926484
-
-	* Abreve (U+0102): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
 	* Abreve (U+0102): B<<379.0,862.0>-<388.0,862.0>-<400.0,916.0>>/L<<400.0,916.0>--<398.0,906.0>> = 1.2188752351313326
-
-	* Abreve (U+0102): L<<199.0,288.0>--<199.0,289.0>>/L<<199.0,289.0>--<198.0,285.0>> = 14.036243467926484
 
 	* Abreve (U+0102): L<<360.0,906.0>--<358.0,916.0>>/B<<358.0,916.0>-<370.0,862.0>-<379.0,862.0>> = 1.2188752351313326
 
-	* Acircumflex (U+00C2): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+	* Gbreve (U+011E): B<<385.0,862.0>-<394.0,862.0>-<406.0,916.0>>/L<<406.0,916.0>--<404.0,906.0>> = 1.2188752351313326
 
-	* Acircumflex (U+00C2): L<<199.0,288.0>--<199.0,289.0>>/L<<199.0,289.0>--<198.0,285.0>> = 14.036243467926484 
+	* Gbreve (U+011E): L<<366.0,906.0>--<364.0,916.0>>/B<<364.0,916.0>-<376.0,862.0>-<385.0,862.0>> = 1.2188752351313326
 
-	* And 136 more.
+	* Ubreve (U+016C): B<<381.0,862.0>-<390.0,862.0>-<402.0,916.0>>/L<<402.0,916.0>--<400.0,906.0>> = 1.2188752351313326
+
+	* Ubreve (U+016C): L<<362.0,906.0>--<360.0,916.0>>/B<<360.0,916.0>-<372.0,862.0>-<381.0,862.0>> = 1.2188752351313326
+
+	* abreve (U+0103): B<<303.0,654.0>-<312.0,654.0>-<324.0,708.0>>/L<<324.0,708.0>--<322.0,698.0>> = 1.2188752351313326
+
+	* abreve (U+0103): L<<284.0,698.0>--<282.0,708.0>>/B<<282.0,708.0>-<294.0,654.0>-<303.0,654.0>> = 1.2188752351313326
+
+	* breve (U+02D8): B<<210.0,654.0>-<219.0,654.0>-<231.0,708.0>>/L<<231.0,708.0>--<229.0,698.0>> = 1.2188752351313326
+
+	* breve (U+02D8): L<<191.0,698.0>--<190.0,708.0>>/B<<190.0,708.0>-<202.0,654.0>-<210.0,654.0>> = 6.818214571651848 
+
+	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[7] Kalnia-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -1809,35 +1146,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- gravecomb.color1
-
-	- a.color0
-
-	- uni0308.color2
-
-	- gravecomb.color0
-
-	- uni0302.color1
-
-	- uni0307.color1
-
-	- periodcentered.loclCAT.case
-
-	- acutecomb.color1
-
-	- uni030C.alt.color0
-
-	- i.loclTRK 
-
-	- And 67 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1848,91 +1156,75 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: exclam	Contours detected: 3	Expected: 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: comma	Contours detected: 2	Expected: 1
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: period	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: colon	Contours detected: 4	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: question	Contours detected: 3	Expected: 2
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
-	- Glyph name: C	Contours detected: 3	Expected: 1
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And 346 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* dollar (U+0024): X=168.5,Y=2.0 (should be at baseline 0?)
+
+	* dollar (U+0024): X=469.5,Y=2.0 (should be at baseline 0?)
+
+	* ampersand (U+0026): X=622.0,Y=1.0 (should be at baseline 0?)
+
+	* three (U+0033): X=238.0,Y=706.0 (should be at cap-height 708?)
+
+	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
+
+	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
+
+	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
+
+	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
+
+	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) 
+
+	* And 81 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Acircumflex (U+00C2): L<<361.0,862.0>--<506.0,790.0>> -> L<<506.0,790.0>--<510.0,788.0>>
-
-	* C (U+0043): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Cacute (U+0106): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Ccaron (U+010C): L<<443.0,807.0>--<298.0,879.0>> -> L<<298.0,879.0>--<294.0,881.0>>
-
-	* Ccaron (U+010C): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Ccedilla (U+00C7): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Cdotaccent (U+010A): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Dcaron (U+010E): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
-
-	* Dcroat (U+0110): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
-
-	* Ecaron (U+011A): L<<400.0,807.0>--<255.0,879.0>> -> L<<255.0,879.0>--<251.0,881.0>> 
-
-	* And 29 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* ampersand (U+0026): L<<440.0,164.0>--<439.0,165.0>> -> L<<439.0,165.0>--<232.0,380.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Aacute (U+00C1): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Abreve (U+0102): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Acircumflex (U+00C2): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Adieresis (U+00C4): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Agrave (U+00C0): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Amacron (U+0100): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Aogonek (U+0104): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Aring (U+00C5): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483
-
-	* Atilde (U+00C3): B<<192.0,222.0>-<192.0,266.0>-<201.0,320.0>>/L<<201.0,320.0>--<77.0,20.0>> = 12.994616791916483 
-
-	* And 22 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+	* seven (U+0037): L<<55.0,708.0>--<50.0,562.0>>/B<<50.0,562.0>-<70.0,639.0>-<128.0,681.0>> = 12.598857951586536 [code: found-jaggy-segments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 104 | 1570 | 85 | 1336 | 0 |
-| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
+| 0 | 0 | 89 | 1570 | 85 | 1351 | 0 |
+| 0% | 0% | 3% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
