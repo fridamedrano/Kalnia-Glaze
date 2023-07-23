@@ -1,5 +1,5 @@
 {
-.appVersion = "3205";
+.appVersion = "3207";
 .formatVersion = 3;
 DisplayStrings = (
 "MBHJPÞQVXbðfijmpþqvx
@@ -69,6 +69,21 @@ name = "EditView Line Height";
 value = 1100;
 },
 {
+name = "Axis Mappings";
+value = {
+wdth = {
+100 = 100;
+125 = 125;
+};
+wght = {
+100 = 100;
+300 = 300;
+550 = 400;
+900 = 700;
+};
+};
+},
+{
 name = "Use Line Breaks";
 value = 1;
 },
@@ -80,6 +95,14 @@ value = 1;
 name = fsType;
 value = (
 );
+},
+{
+name = "Export morx Table";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
 },
 {
 name = "Color Palettes";
@@ -12857,7 +12880,7 @@ color = 4;
 glyphname = H;
 kernLeft = HH;
 kernRight = H;
-lastChange = "2023-07-23 01:15:36 +0000";
+lastChange = "2023-07-23 03:22:23 +0000";
 layers = (
 {
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
@@ -77170,36 +77193,6 @@ axesValues = (
 14,
 100
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 1;
 };
@@ -77210,36 +77203,6 @@ weightClass = 100;
 axesValues = (
 40,
 100
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.11765;
@@ -77253,36 +77216,6 @@ axesValues = (
 60,
 100
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.20814;
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 0.79186;
@@ -77295,36 +77228,6 @@ axesValues = (
 110,
 100
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.43439;
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 0.56561;
@@ -77335,36 +77238,6 @@ name = Regular;
 axesValues = (
 140,
 100
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.57014;
@@ -77378,36 +77251,6 @@ axesValues = (
 190,
 100
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.79638;
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 0.20362;
@@ -77419,36 +77262,6 @@ weightClass = 600;
 axesValues = (
 235,
 100
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 1;
@@ -77462,36 +77275,6 @@ weightClass = 700;
 axesValues = (
 14,
 125
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
@@ -77515,36 +77298,6 @@ widthClass = 7;
 axesValues = (
 40,
 125
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.88235;
@@ -77570,36 +77323,6 @@ axesValues = (
 60,
 125
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.79186;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.20814;
@@ -77624,36 +77347,6 @@ axesValues = (
 110,
 125
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.56561;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.43439;
@@ -77676,36 +77369,6 @@ widthClass = 7;
 axesValues = (
 140,
 125
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.42986;
@@ -77731,36 +77394,6 @@ axesValues = (
 190,
 125
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
-);
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.20362;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.79638;
@@ -77784,36 +77417,6 @@ widthClass = 7;
 axesValues = (
 235,
 125
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-disabled = 1;
-name = "Color Layers to SVG";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export COLR Table";
-value = 1;
-},
-{
-disabled = 1;
-name = "Export SVG Table";
-value = 1;
-}
 );
 instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 1;
