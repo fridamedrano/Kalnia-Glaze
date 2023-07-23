@@ -1,5 +1,5 @@
 {
-.appVersion = "3195";
+.appVersion = "3207";
 DisplayStrings = (
 t,
 "Ù",
@@ -34,6 +34,15 @@ value = (
 );
 },
 {
+name = "Color Palettes";
+value = (
+(
+"115,250,121,255",
+"255,138,216,255"
+)
+);
+},
+{
 name = description;
 value = "Kalnia is a display typeface with high contrast and delicate terminals for poster headlines inspired in the fat faces of the Victorian era. It’s a variable font with weight and width axes.";
 },
@@ -62,7 +71,7 @@ Tag = wdth;
 date = "2022-03-23 12:33:01 +0000";
 designer = "Frida Medrano";
 designerURL = fridamedrano.com;
-familyName = Kalnia;
+familyName = "Kalnia-Color";
 featurePrefixes = (
 {
 automatic = 1;
