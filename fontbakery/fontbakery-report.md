@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[5] KalniaExtended-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[6] KalniaExtended-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -29,6 +29,15 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -39,25 +48,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -67,7 +76,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* fi (U+FB01): L<<580.0,500.0>--<697.0,495.0>> -> L<<697.0,495.0>--<1318.0,515.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -101,6 +110,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -111,25 +129,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -173,7 +191,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaExtended-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -207,6 +225,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -217,25 +244,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -269,7 +296,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* four (U+0034): L<<83.0,198.0>--<711.0,202.0>> 
 
 	* And seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaExtended-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -303,6 +330,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -313,25 +349,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -347,7 +383,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* B (U+0042): L<<632.0,366.0>--<515.0,367.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-ExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -385,6 +421,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -395,25 +440,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -429,7 +474,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] Kalnia-Color-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Kalnia-Color-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Light.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -460,6 +505,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -470,25 +524,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -498,7 +552,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* seven (U+0037): L<<79.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 10.519561400141608 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-Color-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -529,6 +583,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -539,25 +602,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -595,7 +658,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Medium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -626,6 +689,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -636,25 +708,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
 	- Glyph name: AE	Contours detected: 1	Expected: 2
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: AE	Contours detected: 1	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0 
-
-	- And 6 more.
+	- And 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -698,7 +770,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* seven (U+0037): L<<68.0,708.0>--<65.0,575.0>>/B<<65.0,575.0>-<99.0,723.0>-<248.0,723.0>> = 11.64588943093649 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[6] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -732,6 +804,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -742,25 +823,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -774,7 +855,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -801,6 +882,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -811,25 +901,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -901,7 +991,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -928,6 +1018,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -938,25 +1037,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -966,7 +1065,7 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* fi (U+FB01): L<<398.0,500.0>--<599.0,492.0>> -> L<<599.0,492.0>--<1013.0,515.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] Kalnia-Color-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Thin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -997,6 +1096,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1007,25 +1115,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1081,7 +1189,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Bold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -1112,6 +1220,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1122,25 +1239,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1184,7 +1301,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* seven (U+0037): L<<55.0,708.0>--<50.0,562.0>>/B<<50.0,562.0>-<70.0,639.0>-<128.0,681.0>> = 12.598857951586536 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-Color-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-SemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -1222,6 +1339,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- I.color0 
+
+	- And I.color1
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1232,25 +1358,25 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: NULL	Contours detected: 3	Expected: 0
 
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 4	Expected: 3
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Imacron	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And 4 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1265,8 +1391,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 91 | 1647 | 92 | 1258 | 0 |
-| 0% | 0% | 3% | 53% | 3% | 41% | 0% |
+| 0 | 7 | 105 | 1647 | 92 | 1244 | 0 |
+| 0% | 0% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
