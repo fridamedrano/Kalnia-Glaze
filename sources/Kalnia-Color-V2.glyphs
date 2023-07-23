@@ -103,15 +103,6 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
-},
-{
-name = "Color Palettes";
-value = (
-(
-(115,250,121,255),
-(255,138,216,255)
-)
-);
 }
 );
 date = "2022-03-23 12:33:01 +0000";
