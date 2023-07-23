@@ -34,25 +34,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -163,25 +163,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -298,25 +298,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -451,25 +451,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -590,25 +590,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -716,25 +716,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -836,25 +836,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -962,25 +962,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1093,25 +1093,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1219,25 +1219,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1403,25 +1403,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1529,25 +1529,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1695,25 +1695,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
@@ -1868,25 +1868,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- H.color1
+	- r.color1
+
+	- A.color0
+
+	- a.color0
+
+	- i.color0
+
+	- D.color0
 
 	- n.color0
 
-	- period.color1
+	- C.color0
 
-	- r.color0
+	- E.color1
 
-	- period.color0
+	- D.color1
 
-	- I.color0
-
-	- a.color1
-
-	- C.color1
-
-	- I.color1
-
-	- A.color1 
+	- I.color1 
 
 	- And 18 more.
 
