@@ -45703,12 +45703,9 @@ color = 4;
 glyphname = hyphen;
 kernLeft = colon;
 kernRight = colon;
-lastChange = "2023-02-20 21:55:20 +0000";
+lastChange = "2023-07-23 04:00:38 +0000";
 layers = (
 {
-attr = {
-color = 1;
-};
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 shapes = (
 {
@@ -45744,9 +45741,6 @@ nodes = (
 width = 460;
 },
 {
-attr = {
-color = 1;
-};
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 shapes = (
 {
@@ -45782,9 +45776,6 @@ nodes = (
 width = 661;
 },
 {
-attr = {
-color = 1;
-};
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 shapes = (
 {
@@ -45820,9 +45811,6 @@ nodes = (
 width = 460;
 },
 {
-attr = {
-color = 1;
-};
 layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 shapes = (
 {
