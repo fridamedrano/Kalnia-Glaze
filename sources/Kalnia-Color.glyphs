@@ -7,7 +7,7 @@ t,
 O,
 "Ò",
 "̧",
-.CEDIHLAeliran
+"H a.CEDIHaLAelirn"
 );
 axes = (
 {
@@ -49,7 +49,9 @@ name = "Color Palettes";
 value = (
 (
 (115,250,121,255),
-(255,138,216,255)
+(255,138,216,255),
+(61,255,0,255),
+(255,0,247,255)
 )
 );
 }
@@ -9319,7 +9321,7 @@ color = 4;
 glyphname = H;
 kernLeft = HH;
 kernRight = H;
-lastChange = "2023-07-23 04:59:12 +0000";
+lastChange = "2023-07-23 18:42:22 +0000";
 layers = (
 {
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
@@ -10094,7 +10096,7 @@ width = 850;
 {
 associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 attr = {
-colorPalette = 0;
+colorPalette = 2;
 };
 layerId = "1CF18AF6-4801-4E18-97FF-F2F0FF2F5B38";
 name = "22 Jul 23 9:58 p.m.";
@@ -10148,7 +10150,7 @@ width = 1170;
 {
 associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 attr = {
-colorPalette = 1;
+colorPalette = 3;
 };
 layerId = "768F75A4-E474-43C5-BAA1-D5211BDFF3A3";
 name = "22 Jul 23 9:58 p.m.";
@@ -10233,7 +10235,7 @@ width = 1170;
 {
 associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 attr = {
-colorPalette = 0;
+colorPalette = 2;
 };
 layerId = "1B5FB155-4B0C-4C31-8965-A7B4598466BE";
 name = "22 Jul 23 9:58 p.m.";
@@ -10287,7 +10289,7 @@ width = 1400;
 {
 associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 attr = {
-colorPalette = 1;
+colorPalette = 3;
 };
 layerId = "6612908E-83EE-41AD-9F00-4D3EC04219E8";
 name = "22 Jul 23 9:58 p.m.";
@@ -20604,7 +20606,7 @@ color = 4;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2023-07-23 04:51:23 +0000";
+lastChange = "2023-07-23 18:42:02 +0000";
 layers = (
 {
 anchors = (
@@ -22177,7 +22179,7 @@ pos = (446,500);
 );
 associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 attr = {
-colorPalette = 0;
+colorPalette = 2;
 };
 layerId = "65EED96F-1533-4578-B895-BB6705754355";
 name = "22 Jul 23 9:47 p.m.";
@@ -22273,7 +22275,7 @@ pos = (446,500);
 );
 associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 attr = {
-colorPalette = 1;
+colorPalette = 3;
 };
 layerId = "E2CD86D5-1AE3-4F10-BE73-CD30482D68F8";
 name = "22 Jul 23 9:47 p.m.";
@@ -22456,7 +22458,7 @@ pos = (628,500);
 );
 associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 attr = {
-colorPalette = 0;
+colorPalette = 2;
 };
 layerId = "A6171FF6-BC96-4F62-8E3D-ED6E9D4D3E00";
 name = "22 Jul 23 9:47 p.m.";
@@ -22552,7 +22554,7 @@ pos = (628,500);
 );
 associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 attr = {
-colorPalette = 1;
+colorPalette = 3;
 };
 layerId = "160E74D8-80FB-4B31-B41D-CEFF6A4B577D";
 name = "22 Jul 23 9:47 p.m.";
