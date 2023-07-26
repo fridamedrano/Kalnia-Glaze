@@ -34,27 +34,27 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -80,13 +80,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 5	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -121,7 +121,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* acircumflex (U+00E2): B<<467.0,20.0>-<540.0,33.0>-<578.0,58.0>>/B<<578.0,58.0>-<568.0,53.0>-<558.0,53.0>> = 6.775656169398931 
 
-	* And 16 more.
+	* And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[9] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -163,27 +163,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -209,13 +209,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -250,7 +250,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<236.0,154.0>-<236.0,192.0>-<253.0,240.0>>/L<<253.0,240.0>--<107.0,14.0>> = 13.360727038045491 
 
-	* And 67 more.
+	* And 107 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -298,27 +298,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -344,13 +344,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -393,7 +393,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Adieresis (U+00C4): L<<134.0,7.0>--<268.0,7.0>>/B<<268.0,7.0>-<228.0,14.0>-<209.0,29.0>> = 9.926245506651705 
 
-	* And 160 more.
+	* And 337 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -451,27 +451,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -497,13 +497,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -538,7 +538,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Ecaron (U+011A): B<<1039.0,117.0>-<980.0,40.0>-<882.0,17.0>>/L<<882.0,17.0>--<1192.0,17.0>> = 13.207928462779101 
 
-	* And 39 more.
+	* And 55 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -590,27 +590,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -636,13 +636,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -671,7 +671,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424 
 
-	* And 148 more.
+	* And 323 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -716,27 +716,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -762,13 +762,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -797,7 +797,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688 
 
-	* And 130 more.
+	* And 257 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
@@ -836,27 +836,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -882,13 +882,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -923,7 +923,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Aogonek (U+0104): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386 
 
-	* And 111 more.
+	* And 155 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
@@ -962,27 +962,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1008,13 +1008,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 184 more.
+	- And 308 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1051,7 +1051,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569 
 
-	* And 55 more.
+	* And 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[8] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -1093,27 +1093,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1139,13 +1139,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1174,7 +1174,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Adieresis (U+00C4): L<<129.0,8.0>--<284.0,8.0>>/B<<284.0,8.0>-<240.0,18.0>-<219.5,36.5>> = 12.80426606528674 
 
-	* And 140 more.
+	* And 298 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1187,7 +1187,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1219,27 +1219,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1265,44 +1265,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 5	Expected: 2
 
+	- Glyph name: B	Contours detected: 7	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=1071.0,Y=2.0 (should be at baseline 0?)
-
-	* ampersand (U+0026): X=950.0,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=264.5,Y=-0.5 (should be at baseline 0?)
-
-	* parenright (U+0029): X=294.5,Y=-0.5 (should be at baseline 0?)
-
-	* two (U+0032): X=329.5,Y=710.0 (should be at cap-height 708?)
-
-	* three (U+0033): X=300.5,Y=2.0 (should be at baseline 0?)
-
-	* three (U+0033): X=305.5,Y=706.0 (should be at cap-height 708?)
-
-	* five (U+0035): X=326.5,Y=2.0 (should be at baseline 0?)
-
-	* seven (U+0037): X=884.5,Y=706.0 (should be at cap-height 708?)
-
-	* G (U+0047): X=777.5,Y=0.5 (should be at baseline 0?) 
-
-	* And 89 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1312,7 +1284,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* onequarter (U+00BC): L<<566.0,93.0>--<566.0,230.0>> -> L<<566.0,230.0>--<567.0,302.0>>
 
-	* threequarters (U+00BE): L<<697.0,93.0>--<697.0,230.0>> -> L<<697.0,230.0>--<698.0,302.0>> 
+	* t (U+0074): L<<182.0,640.0>--<178.0,490.0>> -> L<<178.0,490.0>--<178.0,61.0>>
+
+	* tcaron (U+0165): L<<182.0,640.0>--<178.0,490.0>> -> L<<178.0,490.0>--<178.0,61.0>>
+
+	* threequarters (U+00BE): L<<697.0,93.0>--<697.0,230.0>> -> L<<697.0,230.0>--<698.0,302.0>>
+
+	* uni021B (U+021B): L<<182.0,640.0>--<178.0,490.0>> -> L<<178.0,490.0>--<178.0,61.0>> 
 
 	* And uni2074 (U+2074): L<<293.0,509.0>--<293.0,646.0>> -> L<<293.0,646.0>--<294.0,718.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1340,7 +1318,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Adieresis (U+00C4): L<<141.0,5.0>--<247.0,5.0>>/B<<247.0,5.0>-<178.0,14.0>-<178.0,50.0>> = 7.431407971172489 
 
-	* And 162 more.
+	* And 331 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1403,27 +1381,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1449,13 +1427,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1490,7 +1468,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<222.0,129.0>-<222.0,164.0>-<240.0,207.0>>/L<<240.0,207.0>--<115.0,12.0>> = 9.94650036850657 
 
-	* And 93 more.
+	* And 141 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[10] Kalnia-Color-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
@@ -1529,27 +1507,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1575,13 +1553,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 5	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1610,7 +1588,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* G (U+0047): X=511.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 45 more.
+	* And 69 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1622,7 +1600,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* onequarter (U+00BC): L<<392.0,93.0>--<392.0,230.0>> -> L<<392.0,230.0>--<395.0,302.0>>
 
-	* threequarters (U+00BE): L<<502.0,93.0>--<502.0,230.0>> -> L<<502.0,230.0>--<505.0,302.0>> 
+	* t (U+0074): L<<114.0,640.0>--<110.0,490.0>> -> L<<110.0,490.0>--<110.0,61.0>>
+
+	* tcaron (U+0165): L<<114.0,640.0>--<110.0,490.0>> -> L<<110.0,490.0>--<110.0,61.0>>
+
+	* threequarters (U+00BE): L<<502.0,93.0>--<502.0,230.0>> -> L<<502.0,230.0>--<505.0,302.0>>
+
+	* uni021B (U+021B): L<<114.0,640.0>--<110.0,490.0>> -> L<<110.0,490.0>--<110.0,61.0>> 
 
 	* And uni2074 (U+2074): L<<171.0,509.0>--<171.0,646.0>> -> L<<171.0,646.0>--<174.0,718.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1650,7 +1634,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Atilde (U+00C3): B<<113.0,50.0>-<113.0,68.0>-<123.0,94.0>>/L<<123.0,94.0>--<89.0,5.0>> = 0.12953055440981792 
 
-	* And 152 more.
+	* And 319 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1659,7 +1643,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Bold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -1695,27 +1679,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1741,44 +1725,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 5	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* dollar (U+0024): X=168.5,Y=2.0 (should be at baseline 0?)
-
-	* dollar (U+0024): X=469.5,Y=2.0 (should be at baseline 0?)
-
-	* ampersand (U+0026): X=622.0,Y=1.0 (should be at baseline 0?)
-
-	* three (U+0033): X=238.0,Y=706.0 (should be at cap-height 708?)
-
-	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
-
-	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
-
-	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
-
-	* a (U+0061): X=387.0,Y=498.0 (should be at x-height 500?)
-
-	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
-
-	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?) 
-
-	* And 84 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1868,27 +1824,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- r.color1
+	- H.color0
 
-	- A.color0
+	- k.color0
 
-	- a.color0
+	- q.color1
 
-	- i.color0
+	- B.color1
 
-	- D.color0
+	- L.color1
 
-	- n.color0
+	- dotlessi.color0
 
-	- C.color0
+	- period.color1
 
-	- E.color1
+	- I.color0
 
-	- D.color1
+	- e.color1
 
-	- I.color1 
+	- Q.color1 
 
-	- And 18 more.
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1914,13 +1870,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: A	Contours detected: 4	Expected: 2
 
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
 	- Glyph name: C	Contours detected: 3	Expected: 1
 
-	- Glyph name: D	Contours detected: 4	Expected: 2
+	- Glyph name: D	Contours detected: 4	Expected: 2 
 
-	- Glyph name: E	Contours detected: 5	Expected: 1 
-
-	- And 182 more.
+	- And 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1955,7 +1911,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Atilde (U+00C3): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989 
 
-	* And 27 more.
+	* And 38 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details>
@@ -1963,7 +1919,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 111 | 1647 | 92 | 1238 | 0 |
+| 0 | 7 | 109 | 1647 | 92 | 1240 | 0 |
 | 0% | 0% | 4% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
