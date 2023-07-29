@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[9] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+<details><summary><b>[10] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -16,6 +16,16 @@ Fontbakery version: 0.8.9
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded" but got "KalniaColor Expanded". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded Regular"
+But got:  "KalniaColor Expanded Regular" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -39,13 +49,6 @@ Fontbakery version: 0.8.9
 	- j + k 
 
 	- And k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -55,25 +58,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -145,7 +148,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 421 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] Kalnia-Color-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -159,10 +162,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-ExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color" but got "KalniaColor". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Bold"
+But got:  "KalniaColor Bold" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -186,13 +195,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- j + k 
 
 	- And k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia-Color ExtraLight' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -202,25 +204,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -258,47 +260,63 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* Acircumflex (U+00C2): L<<361.0,862.0>--<506.0,790.0>> -> L<<506.0,790.0>--<510.0,788.0>>
+
+	* C (U+0043): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
+
+	* Cacute (U+0106): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
+
+	* Ccaron (U+010C): L<<443.0,807.0>--<298.0,879.0>> -> L<<298.0,879.0>--<294.0,881.0>>
+
+	* Ccaron (U+010C): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
+
+	* Ccedilla (U+00C7): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
+
+	* Cdotaccent (U+010A): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
+
+	* Dcaron (U+010E): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
+
+	* Dcroat (U+0110): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
+
+	* Ecaron (U+011A): L<<400.0,807.0>--<255.0,879.0>> -> L<<255.0,879.0>--<251.0,881.0>> 
+
+	* And 37 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+	* A (U+0041): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* AE (U+00C6): B<<845.5,29.5>-<832.0,11.0>-<795.0,9.0>>/L<<795.0,9.0>--<874.0,9.0>> = 3.094058058917113
+	* Aacute (U+00C1): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* AE (U+00C6): L<<672.0,359.0>--<687.0,287.0>>/L<<687.0,287.0>--<687.0,393.0>> = 11.768288932020628
+	* Abreve (U+0102): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* AE (U+00C6): L<<847.0,631.0>--<843.0,490.0>>/L<<843.0,490.0>--<874.0,699.0>> = 6.811927773881065
+	* Acircumflex (U+00C2): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* AE (U+00C6): L<<874.0,699.0>--<779.0,699.0>>/B<<779.0,699.0>-<817.0,698.0>-<832.5,682.5>> = 1.5074357587748821
+	* Adieresis (U+00C4): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* AE (U+00C6): L<<874.0,9.0>--<842.0,234.0>>/L<<842.0,234.0>--<855.0,89.0>> = 2.9712829451437766
+	* Agrave (U+00C0): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* Aacute (U+00C1): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+	* Amacron (U+0100): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* Abreve (U+0102): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+	* Aogonek (U+0104): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* Abreve (U+0102): B<<362.0,831.0>-<430.0,831.0>-<456.0,891.0>>/B<<456.0,891.0>-<425.0,843.0>-<362.0,843.0>> = 9.427029141687568
+	* Aring (U+00C5): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
 
-	* Abreve (U+0102): B<<362.0,843.0>-<298.0,843.0>-<267.0,891.0>>/B<<267.0,891.0>-<294.0,831.0>-<362.0,831.0>> = 8.627976632478775 
+	* Atilde (U+00C3): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457 
 
-	* And 771 more.
+	* And 28 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* T (U+0054): L<<86.0,469.0>--<85.0,586.0>>
-
-	* Tcaron (U+0164): L<<86.0,469.0>--<85.0,586.0>>
-
-	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> 
-
-	* And uni021A (U+021A): L<<86.0,469.0>--<85.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Kalnia-Color-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -312,10 +330,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Light.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Light" but got "KalniaColor Light". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Light"
+But got:  "KalniaColor Light" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color"
+But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -348,25 +378,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -432,7 +462,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 669 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -446,146 +476,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded SemiBold" but got "KalniaColor Expanded SemiBold". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded SemiBold"
+But got:  "KalniaColor Expanded SemiBold" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
 
 
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + b
-
-	- b + f
-
-	- f + h
-
-	- h + i
-
-	- i + j
-
-	- j + k 
-
-	- And k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- grave.color1
-
-	- uni2074.color0
-
-	- eight.color0
-
-	- uni00B9.color1
-
-	- questiondown.color0
-
-	- S.color0
-
-	- parenleft.color0
-
-	- plusminus.color0
-
-	- six.color0
-
-	- logicalnot.color0 
-
-	- And 290 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
-
-	- And 628 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* cent (U+00A2): L<<324.0,541.0>--<324.0,541.0>> -> L<<324.0,541.0>--<324.0,541.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* AE (U+00C6): B<<860.0,41.5>-<844.0,20.0>-<812.0,13.0>>/L<<812.0,13.0>--<918.0,13.0>> = 12.33908727832618
-
-	* AE (U+00C6): L<<918.0,13.0>--<888.0,230.0>>/L<<888.0,230.0>--<881.0,104.0>> = 11.051012056695225
-
-	* AE (U+00C6): L<<918.0,695.0>--<799.0,695.0>>/B<<799.0,695.0>-<830.0,689.0>-<845.5,673.0>> = 10.954062643398332
-
-	* Aacute (U+00C1): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Abreve (U+0102): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Acircumflex (U+00C2): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Adieresis (U+00C4): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Agrave (U+00C0): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Amacron (U+0100): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386 
-
-	* And 394 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color Expanded"
+But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -613,7 +519,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded SemiBold' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'KalniaColor Expanded SemiBold' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -625,25 +531,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -745,7 +651,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* B (U+0042): L<<632.0,366.0>--<515.0,367.0>> 
 
 	* And M (U+004D): L<<1415.0,687.0>--<1014.0,685.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] KalniaColor-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -759,6 +665,176 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Medium" but got "KalniaColor Medium". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Medium"
+But got:  "KalniaColor Medium" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color"
+But got:  "KalniaColor". [code: non-ribbi-bad-value]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k 
+
+	- And k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- M.color0
+
+	- copyright.color0
+
+	- u.color0
+
+	- zero.color0
+
+	- a.color0
+
+	- parenleft.color0
+
+	- germandbls.color1
+
+	- t.color1
+
+	- one.color0
+
+	- zero.color1 
+
+	- And 290 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
+
+	- And 628 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* Euro (U+20AC): L<<142.0,394.0>--<255.0,394.0>> -> L<<255.0,394.0>--<255.0,394.0>> 
+
+	* And Euro (U+20AC): L<<270.0,394.0>--<270.0,394.0>> -> L<<270.0,394.0>--<535.0,394.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* A (U+0041): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Aacute (U+00C1): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Abreve (U+0102): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Acircumflex (U+00C2): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Adieresis (U+00C4): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Agrave (U+00C0): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Amacron (U+0100): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Aogonek (U+0104): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
+
+	* Aogonek (U+0104): B<<658.5,-68.0>-<674.0,-45.0>-<710.0,-18.0>>/B<<710.0,-18.0>-<589.0,-75.0>-<589.0,-135.0>> = 11.645974248483189
+
+	* Aring (U+00C5): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569 
+
+	* And 215 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Medium" but got "KalniaColor Expanded Medium". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded Medium"
+But got:  "KalniaColor Expanded Medium" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color Expanded"
+But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -786,7 +862,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded Medium' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'KalniaColor Expanded Medium' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -798,25 +874,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -894,7 +970,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -908,148 +984,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Medium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Light" but got "KalniaColor Expanded Light". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded Light"
+But got:  "KalniaColor Expanded Light" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
 
 
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + b
-
-	- b + f
-
-	- f + h
-
-	- h + i
-
-	- i + j
-
-	- j + k 
-
-	- And k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- grave.color1
-
-	- uni2074.color0
-
-	- eight.color0
-
-	- uni00B9.color1
-
-	- questiondown.color0
-
-	- S.color0
-
-	- parenleft.color0
-
-	- plusminus.color0
-
-	- six.color0
-
-	- logicalnot.color0 
-
-	- And 290 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
-
-	- And 628 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* Euro (U+20AC): L<<142.0,394.0>--<255.0,394.0>> -> L<<255.0,394.0>--<255.0,394.0>> 
-
-	* And Euro (U+20AC): L<<270.0,394.0>--<270.0,394.0>> -> L<<270.0,394.0>--<535.0,394.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aacute (U+00C1): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Abreve (U+0102): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Acircumflex (U+00C2): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Adieresis (U+00C4): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Agrave (U+00C0): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Amacron (U+0100): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aogonek (U+0104): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569
-
-	* Aogonek (U+0104): B<<658.5,-68.0>-<674.0,-45.0>-<710.0,-18.0>>/B<<710.0,-18.0>-<589.0,-75.0>-<589.0,-135.0>> = 11.645974248483189
-
-	* Aring (U+00C5): B<<158.0,148.0>-<158.0,182.0>-<169.0,227.0>>/L<<169.0,227.0>--<82.0,14.0>> = 8.48132596389569 
-
-	* And 215 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color Expanded"
+But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1077,7 +1027,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded Light' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'KalniaColor Expanded Light' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1089,25 +1039,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -1183,7 +1133,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1197,6 +1147,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded ExtraLight" but got "KalniaColor Expanded ExtraLight". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded ExtraLight"
+But got:  "KalniaColor Expanded ExtraLight" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color Expanded"
+But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1224,7 +1190,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded ExtraLight' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'KalniaColor Expanded ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1236,25 +1202,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -1338,7 +1304,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,198.0>--<711.0,202.0>> 
 
 	* And seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] Kalnia-Color-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] KalniaColor-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1352,10 +1318,187 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Thin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color ExtraLight" but got "KalniaColor ExtraLight". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color ExtraLight"
+But got:  "KalniaColor ExtraLight" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color"
+But got:  "KalniaColor". [code: non-ribbi-bad-value]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k 
+
+	- And k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'KalniaColor ExtraLight' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- M.color0
+
+	- copyright.color0
+
+	- u.color0
+
+	- zero.color0
+
+	- a.color0
+
+	- parenleft.color0
+
+	- germandbls.color1
+
+	- t.color1
+
+	- one.color0
+
+	- zero.color1 
+
+	- And 290 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
+
+	- And 628 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* A (U+0041): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+
+	* AE (U+00C6): B<<845.5,29.5>-<832.0,11.0>-<795.0,9.0>>/L<<795.0,9.0>--<874.0,9.0>> = 3.094058058917113
+
+	* AE (U+00C6): L<<672.0,359.0>--<687.0,287.0>>/L<<687.0,287.0>--<687.0,393.0>> = 11.768288932020628
+
+	* AE (U+00C6): L<<847.0,631.0>--<843.0,490.0>>/L<<843.0,490.0>--<874.0,699.0>> = 6.811927773881065
+
+	* AE (U+00C6): L<<874.0,699.0>--<779.0,699.0>>/B<<779.0,699.0>-<817.0,698.0>-<832.5,682.5>> = 1.5074357587748821
+
+	* AE (U+00C6): L<<874.0,9.0>--<842.0,234.0>>/L<<842.0,234.0>--<855.0,89.0>> = 2.9712829451437766
+
+	* Aacute (U+00C1): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+
+	* Abreve (U+0102): B<<122.0,70.0>-<122.0,93.0>-<135.0,129.0>>/L<<135.0,129.0>--<88.0,7.0>> = 1.2137605626098424
+
+	* Abreve (U+0102): B<<362.0,831.0>-<430.0,831.0>-<456.0,891.0>>/B<<456.0,891.0>-<425.0,843.0>-<362.0,843.0>> = 9.427029141687568
+
+	* Abreve (U+0102): B<<362.0,843.0>-<298.0,843.0>-<267.0,891.0>>/B<<267.0,891.0>-<294.0,831.0>-<362.0,831.0>> = 8.627976632478775 
+
+	* And 771 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* T (U+0054): L<<86.0,469.0>--<85.0,586.0>>
+
+	* Tcaron (U+0164): L<<86.0,469.0>--<85.0,586.0>>
+
+	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> 
+
+	* And uni021A (U+021A): L<<86.0,469.0>--<85.0,586.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] KalniaColor-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color SemiBold" but got "KalniaColor SemiBold". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color SemiBold"
+But got:  "KalniaColor SemiBold" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color"
+But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1388,25 +1531,199 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
+
+	- And 290 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
+
+	- And 628 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* Euro (U+20AC): L<<660.0,522.0>--<693.0,409.0>> -> L<<693.0,409.0>--<695.0,404.0>>
+
+	* Y (U+0059): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Yacute (U+00DD): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ycircumflex (U+0176): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ydieresis (U+0178): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ygrave (U+1EF2): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* at (U+0040): L<<596.0,426.0>--<583.0,374.0>> -> L<<583.0,374.0>--<581.0,367.0>>
+
+	* g (U+0067): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* gbreve (U+011F): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* gdotaccent (U+0121): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>> 
+
+	* And 4 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* A (U+0041): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Aacute (U+00C1): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Abreve (U+0102): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Acircumflex (U+00C2): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Adieresis (U+00C4): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Agrave (U+00C0): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Amacron (U+0100): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Aogonek (U+0104): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+
+	* Aogonek (U+0104): B<<694.0,-62.0>-<708.0,-41.0>-<742.0,-16.0>>/B<<742.0,-16.0>-<607.0,-72.0>-<607.0,-133.0>> = 13.797427949183344
+
+	* Aring (U+00C5): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989 
+
+	* And 92 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] KalniaColor-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Thin" but got "KalniaColor Thin". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Thin"
+But got:  "KalniaColor Thin" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color"
+But got:  "KalniaColor". [code: non-ribbi-bad-value]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k 
+
+	- And k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- M.color0
+
+	- copyright.color0
+
+	- u.color0
+
+	- zero.color0
+
+	- a.color0
+
+	- parenleft.color0
+
+	- germandbls.color1
+
+	- t.color1
+
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -1506,7 +1823,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1520,6 +1837,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Thin" but got "KalniaColor Expanded Thin". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded Thin"
+But got:  "KalniaColor Expanded Thin" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
+Expected: "Kalnia Color Expanded"
+But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1547,7 +1880,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Color Expanded Thin' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'KalniaColor Expanded Thin' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1559,25 +1892,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -1699,7 +2032,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Kalnia-Color-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1713,10 +2046,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-Bold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color" but got "KalniaColor". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Regular"
+But got:  "KalniaColor Regular" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1749,25 +2088,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -1810,58 +2149,36 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Acircumflex (U+00C2): L<<361.0,862.0>--<506.0,790.0>> -> L<<506.0,790.0>--<510.0,788.0>>
-
-	* C (U+0043): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Cacute (U+0106): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Ccaron (U+010C): L<<443.0,807.0>--<298.0,879.0>> -> L<<298.0,879.0>--<294.0,881.0>>
-
-	* Ccaron (U+010C): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Ccedilla (U+00C7): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Cdotaccent (U+010A): L<<578.0,522.0>--<624.0,414.0>> -> L<<624.0,414.0>--<627.0,407.0>>
-
-	* Dcaron (U+010E): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
-
-	* Dcroat (U+0110): L<<436.0,807.0>--<291.0,879.0>> -> L<<291.0,879.0>--<287.0,881.0>>
-
-	* Ecaron (U+011A): L<<400.0,807.0>--<255.0,879.0>> -> L<<255.0,879.0>--<251.0,881.0>> 
-
-	* And 37 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
+	* cent (U+00A2): L<<324.0,541.0>--<324.0,541.0>> -> L<<324.0,541.0>--<324.0,541.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* A (U+0041): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Aacute (U+00C1): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* AE (U+00C6): B<<860.0,41.5>-<844.0,20.0>-<812.0,13.0>>/L<<812.0,13.0>--<918.0,13.0>> = 12.33908727832618
 
-	* Abreve (U+0102): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* AE (U+00C6): L<<918.0,13.0>--<888.0,230.0>>/L<<888.0,230.0>--<881.0,104.0>> = 11.051012056695225
 
-	* Acircumflex (U+00C2): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* AE (U+00C6): L<<918.0,695.0>--<799.0,695.0>>/B<<799.0,695.0>-<830.0,689.0>-<845.5,673.0>> = 10.954062643398332
 
-	* Adieresis (U+00C4): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* Aacute (U+00C1): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Agrave (U+00C0): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* Abreve (U+0102): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Amacron (U+0100): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* Acircumflex (U+00C2): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Aogonek (U+0104): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* Adieresis (U+00C4): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Aring (U+00C5): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+	* Agrave (U+00C0): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
 
-	* Atilde (U+00C3): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457 
+	* Amacron (U+0100): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386 
 
-	* And 28 more.
+	* And 394 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] Kalnia-Color-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1875,175 +2192,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-Color-SemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded" but got "KalniaColor Expanded". [code: mismatch]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + b
-
-	- b + f
-
-	- f + h
-
-	- h + i
-
-	- i + j
-
-	- j + k 
-
-	- And k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia-Color SemiBold' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- grave.color1
-
-	- uni2074.color0
-
-	- eight.color0
-
-	- uni00B9.color1
-
-	- questiondown.color0
-
-	- S.color0
-
-	- parenleft.color0
-
-	- plusminus.color0
-
-	- six.color0
-
-	- logicalnot.color0 
-
-	- And 290 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4 
-
-	- And 628 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* Euro (U+20AC): L<<660.0,522.0>--<693.0,409.0>> -> L<<693.0,409.0>--<695.0,404.0>>
-
-	* Y (U+0059): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Yacute (U+00DD): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ycircumflex (U+0176): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ydieresis (U+0178): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ygrave (U+1EF2): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* at (U+0040): L<<596.0,426.0>--<583.0,374.0>> -> L<<583.0,374.0>--<581.0,367.0>>
-
-	* g (U+0067): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* gbreve (U+011F): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* gdotaccent (U+0121): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>> 
-
-	* And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aacute (U+00C1): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Abreve (U+0102): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Acircumflex (U+00C2): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Adieresis (U+00C4): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Agrave (U+00C0): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Amacron (U+0100): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aogonek (U+0104): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
-
-	* Aogonek (U+0104): B<<694.0,-62.0>-<708.0,-41.0>-<742.0,-16.0>>/B<<742.0,-16.0>-<607.0,-72.0>-<607.0,-133.0>> = 13.797427949183344
-
-	* Aring (U+00C5): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989 
-
-	* And 92 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] KalniaColorExpanded-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "Kalnia Color Expanded Bold"
+But got:  "KalniaColor Expanded Bold" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2076,25 +2234,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- grave.color1
+	- M.color0
 
-	- uni2074.color0
+	- copyright.color0
 
-	- eight.color0
+	- u.color0
 
-	- uni00B9.color1
+	- zero.color0
 
-	- questiondown.color0
-
-	- S.color0
+	- a.color0
 
 	- parenleft.color0
 
-	- plusminus.color0
+	- germandbls.color1
 
-	- six.color0
+	- t.color1
 
-	- logicalnot.color0 
+	- one.color0
+
+	- zero.color1 
 
 	- And 290 more.
 
@@ -2193,8 +2351,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 14 | 7 | 109 | 1647 | 93 | 1225 | 0 |
-| 0% | 0% | 4% | 53% | 3% | 40% | 0% |
+| 14 | 38 | 107 | 1570 | 85 | 1281 | 0 |
+| 0% | 1% | 3% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
