@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[10] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+<details><summary><b>[9] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -16,16 +16,6 @@ Fontbakery version: 0.8.9
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded" but got "KalniaColor Expanded". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded Regular"
-But got:  "KalniaColor Expanded Regular" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -49,6 +39,13 @@ But got:  "KalniaColor Expanded Regular" [code: bad-entry]
 	- j + k 
 
 	- And k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -58,25 +55,25 @@ But got:  "KalniaColor Expanded Regular" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -148,7 +145,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 421 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColor-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaColor-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -162,16 +159,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color" but got "KalniaColor". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Bold"
-But got:  "KalniaColor Bold" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -204,25 +191,25 @@ But got:  "KalniaColor Bold" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -316,7 +303,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 28 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColor-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] KalniaColor-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -330,22 +317,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Light" but got "KalniaColor Light". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Light"
-But got:  "KalniaColor Light" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color"
-But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -378,25 +349,25 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -462,7 +433,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 669 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -476,22 +447,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded SemiBold" but got "KalniaColor Expanded SemiBold". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded SemiBold"
-But got:  "KalniaColor Expanded SemiBold" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color Expanded"
-But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -519,7 +474,7 @@ But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor Expanded SemiBold' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded SemiBold' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -531,25 +486,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -651,7 +606,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* B (U+0042): L<<632.0,366.0>--<515.0,367.0>> 
 
 	* And M (U+004D): L<<1415.0,687.0>--<1014.0,685.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] KalniaColor-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaColor-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -665,22 +620,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Medium" but got "KalniaColor Medium". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Medium"
-But got:  "KalniaColor Medium" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color"
-But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -713,25 +652,25 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -805,7 +744,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 215 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -819,22 +758,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Medium" but got "KalniaColor Expanded Medium". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded Medium"
-But got:  "KalniaColor Expanded Medium" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color Expanded"
-But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -862,7 +785,7 @@ But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor Expanded Medium' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded Medium' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -874,25 +797,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -970,7 +893,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -984,22 +907,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Light" but got "KalniaColor Expanded Light". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded Light"
-But got:  "KalniaColor Expanded Light" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color Expanded"
-But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1027,7 +934,7 @@ But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor Expanded Light' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded Light' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1039,25 +946,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -1133,7 +1040,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1147,22 +1054,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded ExtraLight" but got "KalniaColor Expanded ExtraLight". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded ExtraLight"
-But got:  "KalniaColor Expanded ExtraLight" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color Expanded"
-But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1190,7 +1081,7 @@ But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor Expanded ExtraLight' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1202,25 +1093,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -1304,7 +1195,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,198.0>--<711.0,202.0>> 
 
 	* And seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] KalniaColor-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1318,22 +1209,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color ExtraLight" but got "KalniaColor ExtraLight". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color ExtraLight"
-But got:  "KalniaColor ExtraLight" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color"
-But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1361,7 +1236,7 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor ExtraLight' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1373,25 +1248,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -1469,7 +1344,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> 
 
 	* And uni021A (U+021A): L<<86.0,469.0>--<85.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] KalniaColor-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1483,22 +1358,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color SemiBold" but got "KalniaColor SemiBold". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color SemiBold"
-But got:  "KalniaColor SemiBold" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color"
-But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1522,6 +1381,13 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 	- j + k 
 
 	- And k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Kalnia Color SemiBold' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1531,25 +1397,25 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -1643,7 +1509,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 92 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] KalniaColor-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1657,22 +1523,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Thin" but got "KalniaColor Thin". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Thin"
-But got:  "KalniaColor Thin" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color"
-But got:  "KalniaColor". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1705,25 +1555,25 @@ But got:  "KalniaColor". [code: non-ribbi-bad-value]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -1823,7 +1673,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1837,22 +1687,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded Thin" but got "KalniaColor Expanded Thin". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded Thin"
-But got:  "KalniaColor Expanded Thin" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)]
-Expected: "Kalnia Color Expanded"
-But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1880,7 +1714,7 @@ But got:  "KalniaColor Expanded". [code: non-ribbi-bad-value]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'KalniaColor Expanded Thin' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Kalnia Color Expanded Thin' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1892,25 +1726,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -2032,7 +1866,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] KalniaColor-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaColor-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -2046,16 +1880,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color" but got "KalniaColor". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Regular"
-But got:  "KalniaColor Regular" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2088,25 +1912,25 @@ But got:  "KalniaColor Regular" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -2178,7 +2002,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 394 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaColorExpanded-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -2192,16 +2016,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 		Original error message:
 		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Color Expanded" but got "KalniaColor Expanded". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
-Expected: "Kalnia Color Expanded Bold"
-But got:  "KalniaColor Expanded Bold" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2234,25 +2048,25 @@ But got:  "KalniaColor Expanded Bold" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- M.color0
+	- guilsinglleft.color0
 
-	- copyright.color0
+	- two.color0
 
-	- u.color0
+	- braceleft.color1
 
-	- zero.color0
+	- Z.color0
 
-	- a.color0
+	- braceleft.color0
 
-	- parenleft.color0
+	- bracketright.color0
 
-	- germandbls.color1
+	- oe.color1
 
-	- t.color1
+	- H.color0
 
-	- one.color0
+	- ampersand.color0
 
-	- zero.color1 
+	- l.color0 
 
 	- And 290 more.
 
@@ -2351,8 +2165,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 14 | 38 | 107 | 1570 | 85 | 1281 | 0 |
-| 0% | 1% | 3% | 51% | 3% | 41% | 0% |
+| 14 | 0 | 109 | 1570 | 86 | 1316 | 0 |
+| 0% | 0% | 4% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
