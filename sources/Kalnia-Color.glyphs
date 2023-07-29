@@ -338,7 +338,7 @@ pos = -355;
 over = -15;
 }
 );
-name = "Extended Thin";
+name = "Expanded Thin";
 stemValues = (
 5,
 10,
@@ -394,7 +394,7 @@ pos = -355;
 over = -15;
 }
 );
-name = "Bold Extended";
+name = "Expanded Bold";
 stemValues = (
 5,
 10,
@@ -148818,7 +148818,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148857,7 +148857,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148896,7 +148896,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148935,7 +148935,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148973,7 +148973,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -149012,7 +149012,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -149052,7 +149052,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Extended";
+value = "Kalnia Color Expanded";
 }
 );
 },
