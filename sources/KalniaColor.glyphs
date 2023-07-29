@@ -50,7 +50,7 @@ value = (
 }
 );
 date = "2022-03-23 12:33:01 +0000";
-familyName = KalniaColor;
+familyName = "Kalnia Color";
 featurePrefixes = (
 {
 automatic = 1;
@@ -148818,7 +148818,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148857,7 +148857,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148896,7 +148896,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148935,7 +148935,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -148973,7 +148973,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -149012,7 +149012,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 }
@@ -149052,7 +149052,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "KalniaColor Expanded";
+value = "Kalnia Color Expanded";
 }
 );
 },
