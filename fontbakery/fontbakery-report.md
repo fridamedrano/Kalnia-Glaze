@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[9] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+<details><summary><b>[10] KalniaColorExpanded-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -50,32 +50,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -145,7 +150,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 421 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] KalniaColor-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -186,32 +191,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -272,7 +282,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* Ecaron (U+011A): L<<400.0,807.0>--<255.0,879.0>> -> L<<255.0,879.0>--<251.0,881.0>> 
 
-	* And 37 more.
+	* And 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -303,7 +313,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 28 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] KalniaColor-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] KalniaColor-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -344,32 +354,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -433,7 +448,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 669 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] KalniaColorExpanded-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -481,32 +496,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -606,7 +626,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* B (U+0042): L<<632.0,366.0>--<515.0,367.0>> 
 
 	* And M (U+004D): L<<1415.0,687.0>--<1014.0,685.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaColor-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -647,32 +667,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -744,7 +769,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 215 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] KalniaColorExpanded-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -792,32 +817,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -893,7 +923,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -941,32 +971,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1040,7 +1075,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,196.0>--<704.0,201.0>> 
 
 	* And seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1088,32 +1123,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1195,7 +1235,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* four (U+0034): L<<83.0,198.0>--<711.0,202.0>> 
 
 	* And seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaColor-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1243,32 +1283,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1344,7 +1389,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> 
 
 	* And uni021A (U+021A): L<<86.0,469.0>--<85.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] KalniaColor-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1392,32 +1437,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1509,7 +1559,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 92 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] KalniaColor-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaColor-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1550,32 +1600,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1673,7 +1728,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] KalniaColorExpanded-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1721,32 +1776,37 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1866,7 +1926,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaColor-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaColor-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1907,32 +1967,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2043,32 +2108,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guilsinglleft.color0
+	- G.color0
 
-	- two.color0
+	- uni0328.color1
 
-	- braceleft.color1
+	- atilde.color1
 
-	- Z.color0
+	- Lcaron.color0
 
-	- braceleft.color0
+	- fl.color1
 
-	- bracketright.color0
+	- Uogonek.color0
 
-	- oe.color1
+	- omacron.color0
 
-	- H.color0
+	- zcaron.color1
 
-	- ampersand.color0
+	- less.color0
 
-	- l.color0 
+	- ordfeminine.color1 
 
-	- And 290 more.
+	- And 694 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2104,34 +2174,6 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* Aacute (U+00C1): L<<662.0,778.0>--<665.0,779.0>> -> L<<665.0,779.0>--<978.0,861.0>>
-
-	* Acircumflex (U+00C2): L<<500.0,864.0>--<876.0,779.0>> -> L<<876.0,779.0>--<880.0,778.0>>
-
-	* Agrave (U+00C0): L<<284.0,861.0>--<597.0,779.0>> -> L<<597.0,779.0>--<600.0,778.0>>
-
-	* Cacute (U+0106): L<<717.0,778.0>--<720.0,779.0>> -> L<<720.0,779.0>--<1033.0,861.0>>
-
-	* Ccaron (U+010C): L<<807.0,805.0>--<431.0,890.0>> -> L<<431.0,890.0>--<427.0,891.0>>
-
-	* Dcaron (U+010E): L<<748.0,805.0>--<372.0,890.0>> -> L<<372.0,890.0>--<368.0,891.0>>
-
-	* Dcroat (U+0110): L<<748.0,805.0>--<372.0,890.0>> -> L<<372.0,890.0>--<368.0,891.0>>
-
-	* Eacute (U+00C9): L<<694.0,778.0>--<697.0,779.0>> -> L<<697.0,779.0>--<1010.0,861.0>>
-
-	* Ecaron (U+011A): L<<784.0,805.0>--<408.0,890.0>> -> L<<408.0,890.0>--<404.0,891.0>>
-
-	* Ecircumflex (U+00CA): L<<532.0,864.0>--<908.0,779.0>> -> L<<908.0,779.0>--<912.0,778.0>> 
-
-	* And 87 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -2165,8 +2207,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 14 | 0 | 109 | 1570 | 86 | 1316 | 0 |
-| 0% | 0% | 4% | 51% | 3% | 43% | 0% |
+| 14 | 0 | 122 | 1570 | 86 | 1303 | 0 |
+| 0% | 0% | 4% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
