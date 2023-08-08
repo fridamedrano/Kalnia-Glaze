@@ -1,9 +1,9 @@
 sources:
-  - Kalnia-Color.glyphs
+  - KalniaColor.glyphs
 buildVariable: true
 buildStatic: true
 buildWebfont: false
 axisOrder:
   - wght
   - wdth
-familyName: 'Kalnia-Color'
+familyName: 'Kalnia Color'
