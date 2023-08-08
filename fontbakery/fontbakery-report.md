@@ -39,25 +39,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -167,25 +167,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -311,25 +311,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -450,25 +450,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -577,25 +577,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -705,25 +705,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -866,25 +866,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1022,25 +1022,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1160,25 +1160,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1308,25 +1308,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1465,25 +1465,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1627,25 +1627,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1769,25 +1769,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
@@ -1946,25 +1946,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- comma.color1
+	- cdotaccent.color1
 
-	- ohungarumlaut.color1
+	- endash.color0
 
-	- ycircumflex.color0
+	- ordmasculine.color0
 
-	- Rcaron.color0
+	- Rcaron.color1
 
-	- uni030B.color0
+	- Ccedilla.color1
 
-	- v.color1
+	- f_b.liga.color0
 
-	- Idotaccent.color1
+	- yen.color1
 
-	- parenleft.color1
+	- Atilde.color1
 
-	- dollar.color0
+	- Ygrave.color1
 
-	- fl.color0 
+	- six.color1 
 
 	- And 704 more.
 
