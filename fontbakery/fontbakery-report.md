@@ -39,25 +39,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -167,25 +167,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -311,25 +311,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -450,25 +450,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -577,25 +577,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -705,25 +705,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -866,25 +866,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1022,25 +1022,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1160,25 +1160,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1308,25 +1308,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1465,25 +1465,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1627,25 +1627,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1769,25 +1769,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
@@ -1946,25 +1946,25 @@ MODIFIERLETTERTURNEDCOMMA.color0, MODIFIERLETTERTURNEDCOMMA.color1, periodcenter
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- J.color0
+	- uni0156.color0
 
-	- Abreve.color1
+	- Icircumflex.color0
 
-	- ugrave.color1
+	- N.color1
 
-	- germandbls.color1
+	- three.color1
 
-	- Ograve.color0
+	- Emacron.color0
 
-	- uni021A.color0
+	- racute.color0
 
-	- Zacute.color1
+	- Ccaron.color0
 
-	- Ygrave.color1
+	- Abreve.color0
 
-	- exclamdown.color1
+	- Agrave.color0
 
-	- M.color1 
+	- ecaron.color1 
 
 	- And 704 more.
 
