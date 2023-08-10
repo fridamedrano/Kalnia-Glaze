@@ -2,6 +2,7 @@ from collections import defaultdict
 import re
 
 ALPHA_AXIS = { (("wdth", 100),): 0.0, (("wdth", 125),): 1.0 }
+STOP_AXIS = { (("wdth", 100),): 0.0, (("wdth", 125),): 0.8 }
 
 GRADIENT1 = PaintLinearGradient(
     (0, 0), (1000, 1000), (-90, 100),
@@ -16,15 +17,13 @@ GRADIENT1 = PaintLinearGradient(
 
 GRADIENT2 = PaintLinearGradient(
     (0, 0), (1000, 1000), (-90, 100),
-    ColorLine(
-        {
-            0.0: "#C8FFFFFF",
-            0.25: ("#968CFAFF", ALPHA_AXIS ),
-            0.5: ("#FF00DCFF", ALPHA_AXIS ),
-            0.75: "#FF82AAFF",
-            1: "#FFDCDCFF"
-        }
-    )
+    ColorLine([
+        (STOP_AXIS, "#C8FFFFFF"),
+        (0.25, ("#968CFAFF", ALPHA_AXIS )),
+        (0.5, "#FF00DCFF"),
+        (0.75, "#FF82AAFF"),
+        (1, ("#FFDCDCFF", ALPHA_AXIS))
+    ])
 )
 
 
@@ -47,4 +46,3 @@ for glyphname in base_glyphs:
     for more_glyph in additional_layers.get(glyphname, []):
         layers.append(PaintGlyph(more_glyph, GRADIENT2))
     glyphs[glyphname] = PaintColrLayers(layers)
-    
