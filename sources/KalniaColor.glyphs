@@ -3,7 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPÞQRSTUVWVXYZÆŒ.,μabcdefghiıjȷklmnopþqrstuvwxyzœæßð¹²³⁴ªº0123456789/.notdef !¡()[]•{}'‘’¿?¤¥$¢€%‰¸˙`´ˆˇ˚˜¶©†®@™‡£ƒ§&/f_b.liga ﬂﬁ/f_h.liga/f_j.liga/f_k.liga/f_f.liga ˛",
-"ẞ"
+"ẞ",
+"W.:"
 );
 axes = (
 {
@@ -170337,7 +170338,7 @@ nodes = (
 );
 }
 );
-width = 380;
+width = 420;
 },
 {
 associatedMasterId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
