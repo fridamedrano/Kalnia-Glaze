@@ -1,9 +1,17 @@
 sources:
   - KalniaColor.glyphs
 buildVariable: true
-buildStatic: true
+buildStatic: false
 buildWebfont: false
 axisOrder:
   - wght
   - wdth
 familyName: 'Kalnia Color'
+recipeProvider: googlefonts
+recipe:
+  ../fonts/variable/KalniaColor-Test[wdth,wght].ttf:
+    - source: KalniaColor.glyphs
+    - operation: buildVariable
+    - operation: fix
+    - operation: paintcompiler
+      args: -p ../paintcompiler-test/paints.py
