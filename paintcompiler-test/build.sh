@@ -1,3 +1,3 @@
 #!/bin/sh
     
-paintcompiler --output variable_ttf/KalniaColorVF.ttf "KalniaColor[wdth,wght].ttf"
+paintcompiler --output variable_ttf/KalniaGlazeVF.ttf "Kalnia-ColorVF.ttf"

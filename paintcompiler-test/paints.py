@@ -24,10 +24,10 @@ additional_layers = defaultdict(list)
 
 # Split all glyphs in the font into either base or additional
 for glyphname in font.getGlyphOrder():
-    if ".color" in glyphname:
-        baseglyph = re.sub(r".color.*", "", glyphname)
+    if ".layer" in glyphname:
+        baseglyph = re.sub(r".layer.*", "", glyphname)
         # We ignore A.color0 and use the base A outline instead
-        if glyphname.endswith(".color0"):
+        if glyphname.endswith(".layer0"):
             continue
         additional_layers[baseglyph].append(glyphname)
     else:
