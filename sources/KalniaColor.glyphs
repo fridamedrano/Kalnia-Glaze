@@ -1,8 +1,8 @@
 {
-.appVersion = "3208";
+.appVersion = "3218";
 .formatVersion = 3;
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPÞQRSTUVWVXYZÆŒ.,μabcdefghiıjȷklmnopþqrstuvwxyzœæßð¹²³⁴ªº0123456789/.notdef !¡()[]•{}'‘’¿?¤¥$¢€%‰¸˙`´ˆˇ˚˜¶©†®@™‡£ƒ§&/f_b.liga ﬂﬁ/f_h.liga/f_j.liga/f_k.liga/f_f.liga ˛",
+"ABCDEFGHIJKLMNOPÞQRSTUVWVXYZÆŒ.,μa:.bcdefghiıjȷklmnopþqrstuvwxyzœæßð¹²³⁴ªº0123456789/.notdef !¡()[]•{}'‘’¿?¤¥$¢€%‰¸˙`´ˆˇ˚˜¶©†®@™‡£ƒ§&/f_b.liga ﬂﬁ/f_h.liga/f_j.liga/f_k.liga/f_f.liga ˛",
 "ẞ",
 "W.:",
 "/f_h.liga",
@@ -19,7 +19,8 @@ mwæœß    ltiıjf
 ",
 "+-−×÷=≠›>‹<≥≤±
 ≈˜~¬^",
-"«»"
+"«»",
+"ÁÁ/Aacute.001"
 );
 axes = (
 {
@@ -67,7 +68,7 @@ value = (
 }
 );
 date = "2022-03-23 12:33:01 +0000";
-familyName = "Kalnia Color";
+familyName = "Kalnia Glaze";
 featurePrefixes = (
 {
 automatic = 1;
@@ -214,6 +215,19 @@ value = 0;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 iconName = Light;
@@ -271,6 +285,19 @@ value = 0;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 iconName = Bold;
@@ -327,6 +354,19 @@ value = 0;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 iconName = Light_Extended;
@@ -383,6 +423,19 @@ value = 0;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 iconName = Bold_Extended;
@@ -1643,23 +1696,9 @@ color = 5;
 glyphname = Aacute;
 kernLeft = A;
 kernRight = AA;
-lastChange = "2023-07-31 06:09:08 +0000";
+lastChange = "2023-09-14 15:51:56 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (410,0);
-},
-{
-name = ogonek;
-pos = (811,10);
-},
-{
-name = top;
-pos = (410,708);
-}
-);
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 shapes = (
 {
@@ -1673,20 +1712,6 @@ ref = acutecomb;
 width = 820;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (626,0);
-},
-{
-name = ogonek;
-pos = (1242,10);
-},
-{
-name = top;
-pos = (626,708);
-}
-);
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 shapes = (
 {
@@ -1700,20 +1725,6 @@ ref = acutecomb;
 width = 1251;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (355,0);
-},
-{
-name = ogonek;
-pos = (685,10);
-},
-{
-name = top;
-pos = (355,708);
-}
-);
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 shapes = (
 {
@@ -1727,20 +1738,6 @@ ref = acutecomb;
 width = 709;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (542,0);
-},
-{
-name = ogonek;
-pos = (1035,10);
-},
-{
-name = top;
-pos = (542,708);
-}
-);
 layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 shapes = (
 {
@@ -1752,262 +1749,6 @@ ref = acutecomb;
 }
 );
 width = 1084;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (355,0);
-},
-{
-name = ogonek;
-pos = (685,10);
-},
-{
-name = top;
-pos = (355,708);
-}
-);
-associatedMasterId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
-attr = {
-colorPalette = 0;
-};
-layerId = "D18A4937-60AC-45B9-A9EA-9E9D8E6F3C6E";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (355,208);
-ref = acutecomb;
-}
-);
-width = 709;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (410,0);
-},
-{
-name = ogonek;
-pos = (811,10);
-},
-{
-name = top;
-pos = (410,708);
-}
-);
-associatedMasterId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
-attr = {
-colorPalette = 0;
-};
-layerId = "6D3EF68D-6D4A-4F74-85B2-E5CCE3E527F1";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (411,208);
-ref = acutecomb;
-}
-);
-width = 820;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (542,0);
-},
-{
-name = ogonek;
-pos = (1035,10);
-},
-{
-name = top;
-pos = (542,708);
-}
-);
-associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
-attr = {
-colorPalette = 0;
-};
-layerId = "23BF9814-CAAA-42E5-9B93-DCA7141BDE6F";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (542,208);
-ref = acutecomb;
-}
-);
-width = 1084;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (626,0);
-},
-{
-name = ogonek;
-pos = (1242,10);
-},
-{
-name = top;
-pos = (626,708);
-}
-);
-associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
-attr = {
-colorPalette = 0;
-};
-layerId = "0685FBF5-C9E7-410B-AED8-CA357D1C1ACC";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (626,208);
-ref = acutecomb;
-}
-);
-width = 1251;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (355,0);
-},
-{
-name = ogonek;
-pos = (685,10);
-},
-{
-name = top;
-pos = (355,708);
-}
-);
-associatedMasterId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
-attr = {
-colorPalette = 1;
-};
-layerId = "B4B7AD1F-6407-4A4B-98BD-49B7C2DEEDD9";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (355,208);
-ref = acutecomb;
-}
-);
-width = 709;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (410,0);
-},
-{
-name = ogonek;
-pos = (811,10);
-},
-{
-name = top;
-pos = (410,708);
-}
-);
-associatedMasterId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
-attr = {
-colorPalette = 1;
-};
-layerId = "C4E64207-6637-47E0-B379-0570AED6ADE0";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (411,208);
-ref = acutecomb;
-}
-);
-width = 820;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (542,0);
-},
-{
-name = ogonek;
-pos = (1035,10);
-},
-{
-name = top;
-pos = (542,708);
-}
-);
-associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
-attr = {
-colorPalette = 1;
-};
-layerId = "23636E48-3D7B-469A-8E9D-4DD12B1C0C45";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (542,208);
-ref = acutecomb;
-}
-);
-width = 1084;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (626,0);
-},
-{
-name = ogonek;
-pos = (1242,10);
-},
-{
-name = top;
-pos = (626,708);
-}
-);
-associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
-attr = {
-colorPalette = 1;
-};
-layerId = "C7E9338A-D0D3-4EB4-9D38-CC4454A2D6E7";
-name = "30 Jul 23 11:08 p.m.";
-shapes = (
-{
-ref = A;
-},
-{
-pos = (626,208);
-ref = acutecomb;
-}
-);
-width = 1251;
 }
 );
 metricLeft = A;
@@ -51032,6 +50773,213 @@ width = 1338;
 }
 );
 unicode = 379;
+},
+{
+color = 5;
+glyphname = Aacute.001;
+kernLeft = A;
+kernRight = AA;
+lastChange = "2023-09-14 15:50:13 +0000";
+layers = (
+{
+layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (411,208);
+ref = acutecomb;
+}
+);
+width = 820;
+},
+{
+layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (626,208);
+ref = acutecomb;
+}
+);
+width = 1251;
+},
+{
+layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (355,208);
+ref = acutecomb;
+}
+);
+width = 709;
+},
+{
+layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (542,208);
+ref = acutecomb;
+}
+);
+width = 1084;
+},
+{
+associatedMasterId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
+attr = {
+colorPalette = 0;
+};
+layerId = "D18A4937-60AC-45B9-A9EA-9E9D8E6F3C6E";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (355,208);
+ref = acutecomb;
+}
+);
+width = 709;
+},
+{
+associatedMasterId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
+attr = {
+colorPalette = 0;
+};
+layerId = "6D3EF68D-6D4A-4F74-85B2-E5CCE3E527F1";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (411,208);
+ref = acutecomb;
+}
+);
+width = 820;
+},
+{
+associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
+attr = {
+colorPalette = 0;
+};
+layerId = "23BF9814-CAAA-42E5-9B93-DCA7141BDE6F";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (542,208);
+ref = acutecomb;
+}
+);
+width = 1084;
+},
+{
+associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
+attr = {
+colorPalette = 0;
+};
+layerId = "0685FBF5-C9E7-410B-AED8-CA357D1C1ACC";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (626,208);
+ref = acutecomb;
+}
+);
+width = 1251;
+},
+{
+associatedMasterId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
+attr = {
+colorPalette = 1;
+};
+layerId = "B4B7AD1F-6407-4A4B-98BD-49B7C2DEEDD9";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (355,208);
+ref = acutecomb;
+}
+);
+width = 709;
+},
+{
+associatedMasterId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
+attr = {
+colorPalette = 1;
+};
+layerId = "C4E64207-6637-47E0-B379-0570AED6ADE0";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (411,208);
+ref = acutecomb;
+}
+);
+width = 820;
+},
+{
+associatedMasterId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
+attr = {
+colorPalette = 1;
+};
+layerId = "23636E48-3D7B-469A-8E9D-4DD12B1C0C45";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (542,208);
+ref = acutecomb;
+}
+);
+width = 1084;
+},
+{
+associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
+attr = {
+colorPalette = 1;
+};
+layerId = "C7E9338A-D0D3-4EB4-9D38-CC4454A2D6E7";
+name = "30 Jul 23 11:08 p.m.";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (626,208);
+ref = acutecomb;
+}
+);
+width = 1251;
+}
+);
+metricLeft = A;
+metricRight = A;
 },
 {
 color = 4;
@@ -176546,7 +176494,7 @@ unicode = 768;
 {
 color = 5;
 glyphname = acutecomb;
-lastChange = "2023-07-31 06:25:08 +0000";
+lastChange = "2023-09-14 15:53:35 +0000";
 layers = (
 {
 anchors = (
@@ -176823,6 +176771,12 @@ pos = (0,500);
 {
 name = top;
 pos = (0,708);
+}
+);
+annotations = (
+{
+pos = (168,550);
+type = Minus;
 }
 );
 associatedMasterId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
@@ -185901,6 +185855,29 @@ unicode = 699;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Decompose Glyphs";
+value = (
+colon
+);
+}
+);
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Kalnia Glaze";
+}
+);
+}
+);
+type = variable;
+},
+{
 axesValues = (
 14,
 100
@@ -185918,6 +185895,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -185944,6 +185925,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -185971,6 +185956,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -185998,6 +185987,14 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Style Name as STAT entry";
+value = wdth;
 }
 );
 instanceInterpolations = {
@@ -186024,6 +186021,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -186051,6 +186052,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -186078,6 +186083,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -186121,6 +186130,15 @@ language = dflt;
 value = "Kalnia Color Expanded";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Thin";
+}
+);
 }
 );
 weightClass = 100;
@@ -186158,6 +186176,15 @@ values = (
 {
 language = dflt;
 value = "Kalnia Color Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded ExtraLight";
 }
 );
 }
@@ -186199,6 +186226,15 @@ language = dflt;
 value = "Kalnia Color Expanded";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Light";
+}
+);
 }
 );
 weightClass = 300;
@@ -186222,6 +186258,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wdth;
 }
 );
 instanceInterpolations = {
@@ -186236,6 +186276,15 @@ values = (
 {
 language = dflt;
 value = "Kalnia Color Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = Expanded;
 }
 );
 }
@@ -186276,6 +186325,15 @@ language = dflt;
 value = "Kalnia Color Expanded";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Medium";
+}
+);
 }
 );
 weightClass = 500;
@@ -186313,6 +186371,15 @@ values = (
 {
 language = dflt;
 value = "Kalnia Color Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded SemiBold";
 }
 );
 }
@@ -186362,6 +186429,15 @@ values = (
 {
 language = dflt;
 value = Bold;
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Bold";
 }
 );
 }
