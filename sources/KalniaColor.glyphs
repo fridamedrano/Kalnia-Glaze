@@ -186299,6 +186299,24 @@ name = "Decompose Glyphs";
 value = (
 colon
 );
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+100 = 100;
+125 = 125;
+};
+wght = {
+100 = 14;
+200 = 40;
+300 = 60;
+400 = 110;
+500 = 140;
+600 = 190;
+700 = 235;
+};
+};
 }
 );
 name = Regular;
@@ -186308,7 +186326,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Glaze";
+value = KalniaGlaze;
 }
 );
 }
@@ -186553,6 +186571,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Variable Font Style Name";
+value = "Expanded Thin";
 }
 );
 instanceInterpolations = {
@@ -186565,16 +186587,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded Thin";
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186600,6 +186613,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Variable Font Style Name";
+value = "Expanded ExtraLight";
 }
 );
 instanceInterpolations = {
@@ -186613,16 +186630,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded ExtraLight";
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186648,6 +186656,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Variable Font Style Name";
+value = "Expanded Light";
 }
 );
 instanceInterpolations = {
@@ -186661,16 +186673,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded Light";
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186700,6 +186703,10 @@ Location = 125;
 {
 name = "Style Name as STAT entry";
 value = wdth;
+},
+{
+name = "Variable Font Style Name";
+value = Expanded;
 }
 );
 instanceInterpolations = {
@@ -186713,16 +186720,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = Expanded;
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186747,6 +186745,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Variable Font Style Name";
+value = "Expanded Medium";
 }
 );
 instanceInterpolations = {
@@ -186760,16 +186762,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded Medium";
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186795,6 +186788,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = "Variable Font Style Name";
+value = "Expanded SemiBold";
 }
 );
 instanceInterpolations = {
@@ -186808,16 +186805,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded SemiBold";
+value = "Kalnia Glaze Expanded";
 }
 );
 }
@@ -186861,7 +186849,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Kalnia Color Expanded";
+value = "Kalnia Glaze Expanded";
 }
 );
 },
@@ -186871,15 +186859,6 @@ values = (
 {
 language = dflt;
 value = Bold;
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded Bold";
 }
 );
 }
