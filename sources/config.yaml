@@ -1,7 +1,7 @@
 sources:
   - KalniaColor.glyphs
 buildVariable: true
-buildStatic: false
+buildStatic: true
 buildWebfont: false
 axisOrder:
   - wght
