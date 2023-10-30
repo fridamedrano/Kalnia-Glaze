@@ -1,16 +1,16 @@
 sources:
-  - KalniaColor.glyphs
+  - Kalnia-Glaze.glyphs
 buildVariable: true
 buildStatic: false
 buildWebfont: false
 axisOrder:
   - wght
   - wdth
-familyName: 'Kalnia Color'
+familyName: 'Kalnia Glaze'
 recipeProvider: googlefonts
 recipe:
-  ../fonts/variable/KalniaColor-Test[wdth,wght].ttf:
-    - source: KalniaColor.glyphs
+  ../fonts/variable/Kalnia-Glaze-Test[wdth,wght].ttf:
+    - source: Kalnia-Glaze.glyphs
     - operation: buildVariable
     - operation: fix
     - operation: paintcompiler
