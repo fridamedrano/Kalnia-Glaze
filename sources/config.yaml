@@ -1,11 +1,14 @@
 sources:
   - Kalnia-Glaze.glyphs
-buildVariable: true
 buildStatic: true
-buildWebfont: false
+buildVariable: true
+buildTTF: true
+buildOTF: true
+buildWebfont: true
 axisOrder:
   - wght
   - wdth
+outputDir: "../fonts"
 familyName: 'Kalnia Glaze'
 recipeProvider: googlefonts
 recipe:
