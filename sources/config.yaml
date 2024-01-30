@@ -3,7 +3,7 @@ sources:
 buildStatic: true
 buildVariable: true
 buildTTF: true
-buildOTF: true
+buildOTF: false
 buildWebfont: true
 axisOrder:
   - wght
