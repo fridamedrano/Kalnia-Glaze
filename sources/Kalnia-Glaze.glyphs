@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3234";
 .formatVersion = 3;
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWX
@@ -259004,9 +259004,8 @@ width = 562;
 unicode = 699;
 },
 {
-export = 0;
 glyphname = "_zero-percent";
-lastChange = "2023-11-01 01:43:04 +0000";
+lastChange = "2024-01-30 07:46:08 +0000";
 layers = (
 {
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
