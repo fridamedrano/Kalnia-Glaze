@@ -2,10 +2,10 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[10] KalniaGlaze-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[8] KalniaGlaze-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -29,13 +29,6 @@ Fontbakery version: 0.8.13
 	- j + k 
 
 	- k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Glaze SemiBold' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
 
 
@@ -98,7 +91,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: at	Contours detected: 6	Expected: 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: A	Contours detected: 5	Expected: 2
 
 	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
 
@@ -264,17 +257,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 5	Expected: 2
 
-	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+	- Glyph name: Agrave	Contours detected: 7	Expected: 3
 
-	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+	- Glyph name: Aacute	Contours detected: 7	Expected: 3
 
-	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+	- Glyph name: Acircumflex	Contours detected: 7	Expected: 3
 
-	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+	- Glyph name: Atilde	Contours detected: 7	Expected: 3
 
-	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+	- Glyph name: Adieresis	Contours detected: 9	Expected: 4
 
-	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+	- Glyph name: Aring	Contours detected: 9	Expected: 3 or 4
 
 	- Glyph name: AE	Contours detected: 7	Expected: 2
 
@@ -390,15 +383,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
 
-	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+	- Glyph name: Amacron	Contours detected: 7	Expected: 3
 
 	- Glyph name: amacron	Contours detected: 7	Expected: 3
 
-	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+	- Glyph name: Abreve	Contours detected: 7	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 7	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+	- Glyph name: Aogonek	Contours detected: 7	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 7	Expected: 2
 
@@ -594,7 +587,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: florin	Contours detected: 4	Expected: 1
 
-	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
+	- Glyph name: uni01CD	Contours detected: 7	Expected: 3
 
 	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
 
@@ -724,27 +717,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fl	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: A	Contours detected: 4	Expected: 2
+	- Glyph name: A	Contours detected: 5	Expected: 2
 
 	- Glyph name: AE	Contours detected: 7	Expected: 2
 
-	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+	- Glyph name: Aacute	Contours detected: 7	Expected: 3
 
-	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+	- Glyph name: Abreve	Contours detected: 7	Expected: 3
 
-	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+	- Glyph name: Acircumflex	Contours detected: 7	Expected: 3
 
-	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+	- Glyph name: Adieresis	Contours detected: 9	Expected: 4
 
-	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+	- Glyph name: Agrave	Contours detected: 7	Expected: 3
 
-	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+	- Glyph name: Amacron	Contours detected: 7	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+	- Glyph name: Aogonek	Contours detected: 7	Expected: 2 or 3
 
-	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+	- Glyph name: Aring	Contours detected: 9	Expected: 3 or 4
 
-	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+	- Glyph name: Atilde	Contours detected: 7	Expected: 3
 
 	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
 
@@ -1290,6 +1283,1647 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 5	Expected: 2
 
+	- Glyph name: uni01CD	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: v	Contours detected: 3	Expected: 1
+
+	- Glyph name: w	Contours detected: 5	Expected: 1
+
+	- Glyph name: wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: x	Contours detected: 4	Expected: 1
+
+	- Glyph name: y	Contours detected: 4	Expected: 1
+
+	- Glyph name: yacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
+
+	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ygrave	Contours detected: 6	Expected: 2
+
+	- Glyph name: z	Contours detected: 4	Expected: 1
+
+	- Glyph name: zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2 
+
+	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̦̀ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* comma (U+002C): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* five (U+0035): X=96.0,Y=710.0 (should be at cap-height 708?)
+
+	* semicolon (U+003B): X=208.0,Y=1.5 (should be at baseline 0?)
+
+	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* G (U+0047): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* G (U+0047): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
+
+	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
+
+	* a (U+0061): X=387.0,Y=498.0 (should be at x-height 500?)
+
+	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
+
+	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
+
+	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
+
+	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
+
+	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?)
+
+	* c (U+0063): X=428.5,Y=498.5 (should be at x-height 500?)
+
+	* d (U+0064): X=325.0,Y=498.5 (should be at x-height 500?)
+
+	* f (U+0066): X=386.0,Y=707.5 (should be at cap-height 708?)
+
+	* i (U+0069): X=260.0,Y=706.0 (should be at cap-height 708?)
+
+	* i (U+0069): X=90.5,Y=706.0 (should be at cap-height 708?)
+
+	* j (U+006A): X=267.0,Y=706.0 (should be at cap-height 708?)
+
+	* j (U+006A): X=97.5,Y=706.0 (should be at cap-height 708?)
+
+	* k (U+006B): X=610.0,Y=502.0 (should be at x-height 500?)
+
+	* k (U+006B): X=590.0,Y=502.0 (should be at x-height 500?)
+
+	* k (U+006B): X=531.0,Y=1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=368.5,Y=1.5 (should be at baseline 0?)
+
+	* q (U+0071): X=256.5,Y=-2.0 (should be at baseline 0?)
+
+	* q (U+0071): X=206.0,Y=500.5 (should be at x-height 500?)
+
+	* q (U+0071): X=411.0,Y=498.0 (should be at x-height 500?)
+
+	* s (U+0073): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* s (U+0073): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* s (U+0073): X=244.0,Y=501.5 (should be at x-height 500?)
+
+	* t (U+0074): X=224.0,Y=2.0 (should be at baseline 0?)
+
+	* braceleft (U+007B): X=151.0,Y=1.0 (should be at baseline 0?)
+
+	* braceleft (U+007B): X=171.0,Y=1.0 (should be at baseline 0?)
+
+	* braceright (U+007D): X=446.0,Y=1.0 (should be at baseline 0?)
+
+	* braceright (U+007D): X=426.0,Y=1.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=84.0,Y=2.0 (should be at baseline 0?)
+
+	* section (U+00A7): X=405.0,Y=707.5 (should be at cap-height 708?)
+
+	* uni00B2 (U+00B2): X=125.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni00B3 (U+00B3): X=112.0,Y=706.0 (should be at cap-height 708?)
+
+	* onehalf (U+00BD): X=425.5,Y=-1.5 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=366.0,Y=1.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=345.0,Y=-2.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=132.0,Y=706.0 (should be at cap-height 708?)
+
+	* germandbls (U+00DF): X=534.5,Y=1.0 (should be at baseline 0?)
+
+	* germandbls (U+00DF): X=192.5,Y=709.5 (should be at cap-height 708?)
+
+	* thorn (U+00FE): X=368.5,Y=1.5 (should be at baseline 0?)
+
+	* ccaron (U+010D): X=184.0,Y=707.0 (should be at cap-height 708?)
+
+	* ecaron (U+011B): X=187.0,Y=707.0 (should be at cap-height 708?)
+
+	* Gbreve (U+011E): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* iogonek (U+012F): X=260.0,Y=706.0 (should be at cap-height 708?)
+
+	* iogonek (U+012F): X=90.5,Y=706.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=260.0,Y=706.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=90.5,Y=706.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=622.0,Y=706.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=452.5,Y=706.0 (should be at cap-height 708?)
+
+	* uni0137 (U+0137): X=531.0,Y=1.0 (should be at baseline 0?)
+
+	* ncaron (U+0148): X=228.0,Y=707.0 (should be at cap-height 708?)
+
+	* rcaron (U+0159): X=178.0,Y=707.0 (should be at cap-height 708?)
+
+	* sacute (U+015B): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* scedilla (U+015F): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* scedilla (U+015F): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=143.0,Y=707.0 (should be at cap-height 708?)
+
+	* tcaron (U+0165): X=224.0,Y=2.0 (should be at baseline 0?)
+
+	* zcaron (U+017E): X=180.0,Y=707.0 (should be at cap-height 708?)
+
+	* florin (U+0192): X=487.0,Y=707.5 (should be at cap-height 708?)
+
+	* uni01CE (U+01CE): X=188.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni0219 (U+0219): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0219 (U+0219): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni021B (U+021B): X=224.0,Y=2.0 (should be at baseline 0?)
+
+	* uni02BB (U+02BB): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* caron (U+02C7): X=66.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni030C (U+030C): X=-124.0,Y=707.0 (should be at cap-height 708?)
+
+	* quoteleft (U+2018): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotesinglbase (U+201A): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* quotedblleft (U+201C): X=465.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotedblleft (U+201C): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotedblbase (U+201E): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=423.0,Y=1.5 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=285.0,Y=706.0 (should be at cap-height 708?)
+
+	* uni25CC (U+25CC): X=548.0,Y=1.0 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=286.0,Y=1.0 (should be at baseline 0?) 
+
+	* fl (U+FB02): X=472.0,Y=710.0 (should be at cap-height 708?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* A (U+0041): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Aacute (U+00C1): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Abreve (U+0102): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Acircumflex (U+00C2): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Adieresis (U+00C4): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Agrave (U+00C0): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Amacron (U+0100): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Aogonek (U+0104): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Aring (U+00C5): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* Atilde (U+00C3): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
+
+	* a (U+0061): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* aacute (U+00E1): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* abreve (U+0103): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* acircumflex (U+00E2): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* adieresis (U+00E4): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* ae (U+00E6): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* ae (U+00E6): B<<713.5,13.0>-<746.0,21.0>-<779.0,41.0>>/B<<779.0,41.0>-<755.0,33.0>-<735.0,33.0>> = 12.783453941424346
+
+	* agrave (U+00E0): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* amacron (U+0101): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* aogonek (U+0105): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* aring (U+00E5): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* atilde (U+00E3): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
+
+	* b (U+0062): B<<430.5,485.5>-<404.0,476.0>-<375.0,444.0>>/B<<375.0,444.0>-<378.0,446.0>-<381.5,446.0>> = 14.125489158231446
+
+	* e (U+0065): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* eacute (U+00E9): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* ecaron (U+011B): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* ecircumflex (U+00EA): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* edieresis (U+00EB): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* edotaccent (U+0117): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* egrave (U+00E8): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* emacron (U+0113): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* eogonek (U+0119): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
+
+	* exclam (U+0021): B<<165.5,488.5>-<179.0,443.0>-<185.0,386.0>>/B<<185.0,386.0>-<191.0,443.0>-<204.5,488.5>> = 12.018011914988996
+
+	* exclamdown (U+00A1): B<<204.5,111.5>-<191.0,157.0>-<185.0,214.0>>/B<<185.0,214.0>-<179.0,157.0>-<165.5,111.5>> = 12.018011914988996
+
+	* oe (U+0153): B<<731.5,13.0>-<764.0,21.0>-<797.0,41.0>>/B<<797.0,41.0>-<773.0,33.0>-<753.0,33.0>> = 12.783453941424346
+
+	* uni01CD (U+01CD): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457 
+
+	* uni01CE (U+01CE): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k 
+
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: period	Contours detected: 2	Expected: 1
+
+	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: two	Contours detected: 5	Expected: 1
+
+	- Glyph name: three	Contours detected: 5	Expected: 1
+
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: five	Contours detected: 5	Expected: 1
+
+	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: seven	Contours detected: 4	Expected: 1
+
+	- Glyph name: eight	Contours detected: 6	Expected: 3
+
+	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: colon	Contours detected: 4	Expected: 2
+
+	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+
+	- Glyph name: question	Contours detected: 5	Expected: 2
+
+	- Glyph name: at	Contours detected: 6	Expected: 2
+
+	- Glyph name: A	Contours detected: 4	Expected: 2
+
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: C	Contours detected: 3	Expected: 1
+
+	- Glyph name: D	Contours detected: 4	Expected: 2
+
+	- Glyph name: E	Contours detected: 5	Expected: 1
+
+	- Glyph name: F	Contours detected: 4	Expected: 1
+
+	- Glyph name: G	Contours detected: 4	Expected: 1
+
+	- Glyph name: H	Contours detected: 3	Expected: 1
+
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: J	Contours detected: 3	Expected: 1
+
+	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: L	Contours detected: 3	Expected: 1
+
+	- Glyph name: M	Contours detected: 4	Expected: 1
+
+	- Glyph name: N	Contours detected: 4	Expected: 1
+
+	- Glyph name: O	Contours detected: 4	Expected: 2
+
+	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: Q	Contours detected: 5	Expected: 2
+
+	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: S	Contours detected: 4	Expected: 1
+
+	- Glyph name: T	Contours detected: 4	Expected: 1
+
+	- Glyph name: U	Contours detected: 3	Expected: 1
+
+	- Glyph name: V	Contours detected: 3	Expected: 1
+
+	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: X	Contours detected: 4	Expected: 1
+
+	- Glyph name: Y	Contours detected: 3	Expected: 1
+
+	- Glyph name: Z	Contours detected: 4	Expected: 1
+
+	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 2	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: a	Contours detected: 5	Expected: 2
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: c	Contours detected: 3	Expected: 1
+
+	- Glyph name: d	Contours detected: 4	Expected: 2
+
+	- Glyph name: e	Contours detected: 4	Expected: 2
+
+	- Glyph name: f	Contours detected: 3	Expected: 1
+
+	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
+
+	- Glyph name: h	Contours detected: 3	Expected: 1
+
+	- Glyph name: i	Contours detected: 4	Expected: 2
+
+	- Glyph name: j	Contours detected: 5	Expected: 2
+
+	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: m	Contours detected: 4	Expected: 1
+
+	- Glyph name: n	Contours detected: 3	Expected: 1
+
+	- Glyph name: o	Contours detected: 4	Expected: 2
+
+	- Glyph name: p	Contours detected: 4	Expected: 2
+
+	- Glyph name: q	Contours detected: 4	Expected: 2
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: s	Contours detected: 4	Expected: 1
+
+	- Glyph name: t	Contours detected: 2	Expected: 1
+
+	- Glyph name: u	Contours detected: 3	Expected: 1
+
+	- Glyph name: v	Contours detected: 3	Expected: 1
+
+	- Glyph name: w	Contours detected: 5	Expected: 1
+
+	- Glyph name: x	Contours detected: 4	Expected: 1
+
+	- Glyph name: y	Contours detected: 4	Expected: 1
+
+	- Glyph name: z	Contours detected: 4	Expected: 1
+
+	- Glyph name: braceleft	Contours detected: 4	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 4	Expected: 1
+
+	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
+
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: section	Contours detected: 6	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 4	Expected: 2
+
+	- Glyph name: copyright	Contours detected: 5	Expected: 3
+
+	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
+
+	- Glyph name: macron	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B2	Contours detected: 5	Expected: 1
+
+	- Glyph name: uni00B3	Contours detected: 5	Expected: 1
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
+
+	- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
+
+	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
+
+	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
+
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
+
+	- Glyph name: onehalf	Contours detected: 8	Expected: 3
+
+	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: questiondown	Contours detected: 5	Expected: 2
+
+	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+
+	- Glyph name: AE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Egrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Eacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: Eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: Oslash	Contours detected: 8	Expected: 2 or 3
+
+	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Yacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: germandbls	Contours detected: 5	Expected: 1
+
+	- Glyph name: agrave	Contours detected: 7	Expected: 3
+
+	- Glyph name: aacute	Contours detected: 7	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
+
+	- Glyph name: atilde	Contours detected: 7	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 9	Expected: 4
+
+	- Glyph name: aring	Contours detected: 9	Expected: 4
+
+	- Glyph name: ae	Contours detected: 7	Expected: 3
+
+	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: egrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: eacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: ntilde	Contours detected: 5	Expected: 2
+
+	- Glyph name: ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: oslash	Contours detected: 10	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: yacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 4	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 7	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 7	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 7	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 8	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 7	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 11	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 7	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
+
+	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 5	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 7	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 6	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 5	Expected: 1
+
+	- Glyph name: eng	Contours detected: 4	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: OE	Contours detected: 7	Expected: 2
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 7	Expected: 3
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: florin	Contours detected: 4	Expected: 1
+
+	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: breve	Contours detected: 2	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+	- Glyph name: ring	Contours detected: 4	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
+
+	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 6	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
+
+	- Glyph name: bullet	Contours detected: 2	Expected: 1
+
+	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
+
+	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
+
+	- Glyph name: minute	Contours detected: 2	Expected: 1
+
+	- Glyph name: second	Contours detected: 4	Expected: 2
+
+	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: trademark	Contours detected: 8	Expected: 2
+
+	- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+	- Glyph name: approxequal	Contours detected: 4	Expected: 2
+
+	- Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: fl	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: A	Contours detected: 4	Expected: 2
+
+	- Glyph name: AE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+
+	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: C	Contours detected: 3	Expected: 1
+
+	- Glyph name: Cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: D	Contours detected: 4	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
+
+	- Glyph name: E	Contours detected: 5	Expected: 1
+
+	- Glyph name: Eacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
+
+	- Glyph name: Egrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 7	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 5	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
+
+	- Glyph name: Eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: F	Contours detected: 4	Expected: 1
+
+	- Glyph name: G	Contours detected: 4	Expected: 1
+
+	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: H	Contours detected: 3	Expected: 1
+
+	- Glyph name: Hbar	Contours detected: 11	Expected: 2
+
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
+
+	- Glyph name: Igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: J	Contours detected: 3	Expected: 1
+
+	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: L	Contours detected: 3	Expected: 1
+
+	- Glyph name: Lacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 5	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 7	Expected: 1
+
+	- Glyph name: M	Contours detected: 4	Expected: 1
+
+	- Glyph name: N	Contours detected: 4	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
+
+	- Glyph name: O	Contours detected: 4	Expected: 2
+
+	- Glyph name: OE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Oslash	Contours detected: 8	Expected: 2 or 3
+
+	- Glyph name: Otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: Q	Contours detected: 5	Expected: 2
+
+	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Racute	Contours detected: 7	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
+
+	- Glyph name: S	Contours detected: 4	Expected: 1
+
+	- Glyph name: Sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: T	Contours detected: 4	Expected: 1
+
+	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: U	Contours detected: 3	Expected: 1
+
+	- Glyph name: Uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: V	Contours detected: 3	Expected: 1
+
+	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: X	Contours detected: 4	Expected: 1
+
+	- Glyph name: Y	Contours detected: 3	Expected: 1
+
+	- Glyph name: Yacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Z	Contours detected: 4	Expected: 1
+
+	- Glyph name: Zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: a	Contours detected: 5	Expected: 2
+
+	- Glyph name: aacute	Contours detected: 7	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 7	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: adieresis	Contours detected: 9	Expected: 4
+
+	- Glyph name: ae	Contours detected: 7	Expected: 3
+
+	- Glyph name: agrave	Contours detected: 7	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 7	Expected: 3
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 7	Expected: 2
+
+	- Glyph name: approxequal	Contours detected: 4	Expected: 2
+
+	- Glyph name: aring	Contours detected: 9	Expected: 4
+
+	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+	- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
+
+	- Glyph name: at	Contours detected: 6	Expected: 2
+
+	- Glyph name: atilde	Contours detected: 7	Expected: 3
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: braceleft	Contours detected: 4	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 4	Expected: 1
+
+	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 2	Expected: 1
+
+	- Glyph name: breve	Contours detected: 2	Expected: 1
+
+	- Glyph name: bullet	Contours detected: 2	Expected: 1
+
+	- Glyph name: c	Contours detected: 3	Expected: 1
+
+	- Glyph name: cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: colon	Contours detected: 4	Expected: 2
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: copyright	Contours detected: 5	Expected: 3
+
+	- Glyph name: d	Contours detected: 4	Expected: 2
+
+	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
+
+	- Glyph name: dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 8	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+	- Glyph name: e	Contours detected: 4	Expected: 2
+
+	- Glyph name: eacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: eight	Contours detected: 6	Expected: 3
+
+	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: eng	Contours detected: 4	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 6	Expected: 2
+
+	- Glyph name: eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
+
+	- Glyph name: f	Contours detected: 3	Expected: 1
+
+	- Glyph name: fi	Contours detected: 4	Expected: 3
+
+	- Glyph name: five	Contours detected: 5	Expected: 1
+
+	- Glyph name: fl	Contours detected: 3	Expected: 2
+
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
+
+	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: germandbls	Contours detected: 5	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
+
+	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
+
+	- Glyph name: h	Contours detected: 3	Expected: 1
+
+	- Glyph name: hbar	Contours detected: 7	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
+
+	- Glyph name: i	Contours detected: 4	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: j	Contours detected: 5	Expected: 2
+
+	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 4	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 6	Expected: 1
+
+	- Glyph name: m	Contours detected: 4	Expected: 1
+
+	- Glyph name: macron	Contours detected: 2	Expected: 1
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: n	Contours detected: 3	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ntilde	Contours detected: 5	Expected: 2
+
+	- Glyph name: o	Contours detected: 4	Expected: 2
+
+	- Glyph name: oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: onehalf	Contours detected: 8	Expected: 3
+
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
+
+	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
+
+	- Glyph name: oslash	Contours detected: 10	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: p	Contours detected: 4	Expected: 2
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: period	Contours detected: 2	Expected: 1
+
+	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
+
+	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
+
+	- Glyph name: q	Contours detected: 4	Expected: 2
+
+	- Glyph name: question	Contours detected: 5	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 5	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
+
+	- Glyph name: ring	Contours detected: 4	Expected: 2
+
+	- Glyph name: s	Contours detected: 4	Expected: 1
+
+	- Glyph name: sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: section	Contours detected: 6	Expected: 2
+
+	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+
+	- Glyph name: seven	Contours detected: 4	Expected: 1
+
+	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: t	Contours detected: 2	Expected: 1
+
+	- Glyph name: tcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 4	Expected: 2
+
+	- Glyph name: three	Contours detected: 5	Expected: 1
+
+	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 8	Expected: 2
+
+	- Glyph name: two	Contours detected: 5	Expected: 1
+
+	- Glyph name: u	Contours detected: 3	Expected: 1
+
+	- Glyph name: uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
+
+	- Glyph name: uni0122	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
 	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
 
 	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
@@ -1385,273 +3019,1417 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Acircumflex (U+00C2): L<<339.0,882.0>--<526.0,813.0>> -> L<<526.0,813.0>--<529.0,812.0>>
-
-	* Ecircumflex (U+00CA): L<<292.0,882.0>--<479.0,813.0>> -> L<<479.0,813.0>--<482.0,812.0>>
-
-	* Euro (U+20AC): L<<660.0,522.0>--<693.0,409.0>> -> L<<693.0,409.0>--<695.0,404.0>>
-
-	* Icircumflex (U+00CE): L<<126.0,882.0>--<313.0,813.0>> -> L<<313.0,813.0>--<316.0,812.0>>
-
-	* Ocircumflex (U+00D4): L<<336.0,882.0>--<523.0,813.0>> -> L<<523.0,813.0>--<526.0,812.0>>
-
-	* Ucircumflex (U+00DB): L<<325.0,882.0>--<512.0,813.0>> -> L<<512.0,813.0>--<515.0,812.0>>
-
-	* Wcircumflex (U+0174): L<<548.0,882.0>--<735.0,813.0>> -> L<<735.0,813.0>--<738.0,812.0>>
-
-	* Y (U+0059): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Yacute (U+00DD): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ycircumflex (U+0176): L<<331.0,882.0>--<518.0,813.0>> -> L<<518.0,813.0>--<521.0,812.0>>
-
-	* Ycircumflex (U+0176): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ydieresis (U+0178): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* Ygrave (U+1EF2): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
-
-	* acircumflex (U+00E2): L<<249.0,674.0>--<436.0,605.0>> -> L<<436.0,605.0>--<439.0,604.0>>
-
-	* at (U+0040): L<<596.0,426.0>--<583.0,374.0>> -> L<<583.0,374.0>--<581.0,367.0>>
-
-	* circumflex (U+02C6): L<<132.0,674.0>--<319.0,605.0>> -> L<<319.0,605.0>--<322.0,604.0>>
-
-	* ecircumflex (U+00EA): L<<248.0,674.0>--<435.0,605.0>> -> L<<435.0,605.0>--<438.0,604.0>>
-
-	* g (U+0067): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* gbreve (U+011F): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* gdotaccent (U+0121): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* icircumflex (U+00EE): L<<100.0,674.0>--<287.0,605.0>> -> L<<287.0,605.0>--<290.0,604.0>>
-
-	* ocircumflex (U+00F4): L<<252.0,674.0>--<439.0,605.0>> -> L<<439.0,605.0>--<442.0,604.0>>
-
-	* ucircumflex (U+00FB): L<<280.0,674.0>--<467.0,605.0>> -> L<<467.0,605.0>--<470.0,604.0>>
-
-	* uni0123 (U+0123): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
-
-	* uni0302 (U+0302): L<<-60.0,674.0>--<127.0,605.0>> -> L<<127.0,605.0>--<130.0,604.0>>
-
-	* wcircumflex (U+0175): L<<409.0,674.0>--<596.0,605.0>> -> L<<596.0,605.0>--<599.0,604.0>>
-
-	* ycircumflex (U+0177): L<<252.0,674.0>--<439.0,605.0>> -> L<<439.0,605.0>--<442.0,604.0>> 
-
-	* yen (U+00A5): L<<459.0,271.0>--<459.0,283.0>> -> L<<459.0,283.0>--<460.0,317.0>> [code: found-colinear-vectors]
+	* uni1E9E (U+1E9E): L<<145.0,11.0>--<187.0,558.0>> -> L<<187.0,558.0>--<184.0,697.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* A (U+0041): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Aacute (U+00C1): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* AE (U+00C6): B<<849.5,32.5>-<835.0,13.0>-<800.0,10.0>>/L<<800.0,10.0>--<887.0,10.0>> = 4.899092453787774
 
-	* Abreve (U+0102): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* AE (U+00C6): L<<852.0,629.0>--<856.0,489.0>>/L<<856.0,489.0>--<887.0,698.0>> = 10.073481173022614
 
-	* Acircumflex (U+00C2): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* AE (U+00C6): L<<887.0,10.0>--<855.0,233.0>>/L<<855.0,233.0>--<863.0,93.0>> = 4.895581645025753
 
-	* Adieresis (U+00C4): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* AE (U+00C6): L<<887.0,698.0>--<785.0,698.0>>/B<<785.0,698.0>-<821.0,695.0>-<836.5,679.5>> = 4.763641690726143
 
-	* Agrave (U+00C0): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Aacute (U+00C1): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Amacron (U+0100): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Abreve (U+0102): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Aogonek (U+0104): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Abreve (U+0102): B<<366.0,827.0>-<279.0,827.0>-<229.0,893.0>>/B<<229.0,893.0>-<250.0,853.0>-<285.5,831.0>> = 9.447213889966706
 
-	* Aring (U+00C5): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Abreve (U+0102): B<<446.5,831.0>-<482.0,853.0>-<503.0,893.0>>/B<<503.0,893.0>-<454.0,827.0>-<366.0,827.0>> = 8.891615459344234
 
-	* Atilde (U+00C3): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Acircumflex (U+00C2): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Atilde (U+00C3): B<<279.0,904.5>-<249.0,887.0>-<227.0,859.0>>/B<<227.0,859.0>-<244.0,874.0>-<268.0,874.0>> = 10.419107787628292
+	* Adieresis (U+00C4): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Atilde (U+00C3): B<<535.0,819.5>-<559.0,833.0>-<580.0,869.0>>/B<<580.0,869.0>-<570.0,856.0>-<551.0,856.0>> = 7.312154865298252
+	* Agrave (U+00C0): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Ntilde (U+00D1): B<<266.0,904.5>-<236.0,887.0>-<214.0,859.0>>/B<<214.0,859.0>-<231.0,874.0>-<255.0,874.0>> = 10.419107787628292
+	* Amacron (U+0100): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Ntilde (U+00D1): B<<522.0,819.5>-<546.0,833.0>-<567.0,869.0>>/B<<567.0,869.0>-<557.0,856.0>-<538.0,856.0>> = 7.312154865298252
+	* Aogonek (U+0104): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* Otilde (U+00D5): B<<276.0,904.5>-<246.0,887.0>-<224.0,859.0>>/B<<224.0,859.0>-<241.0,874.0>-<265.0,874.0>> = 10.419107787628292
+	* Aogonek (U+0104): B<<600.5,-78.0>-<619.0,-53.0>-<661.0,-21.0>>/B<<661.0,-21.0>-<607.0,-52.0>-<583.0,-79.5>> = 7.444932113060306
 
-	* Otilde (U+00D5): B<<532.0,819.5>-<556.0,833.0>-<577.0,869.0>>/B<<577.0,869.0>-<567.0,856.0>-<548.0,856.0>> = 7.312154865298252
+	* Aogonek (U+0104): B<<675.5,-196.0>-<694.0,-189.0>-<703.0,-180.0>>/B<<703.0,-180.0>-<678.0,-195.0>-<650.0,-195.0>> = 14.036243467926457
 
-	* a (U+0061): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Aring (U+00C5): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* aacute (U+00E1): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Aring (U+00C5): B<<434.5,897.5>-<421.0,912.0>-<399.0,918.0>>/B<<399.0,918.0>-<415.0,909.0>-<424.5,893.5>> = 14.102634839733502
 
-	* abreve (U+0103): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Atilde (U+00C3): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
 
-	* acircumflex (U+00E2): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Atilde (U+00C3): B<<241.0,892.5>-<219.0,876.0>-<206.0,846.0>>/B<<206.0,846.0>-<217.0,869.0>-<233.5,881.0>> = 2.1312723630784163
 
-	* adieresis (U+00E4): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Atilde (U+00C3): B<<496.5,818.5>-<513.0,829.0>-<525.0,855.0>>/B<<525.0,855.0>-<510.0,825.0>-<476.0,825.0>> = 1.7899106082458724
 
-	* ae (U+00E6): B<<207.5,200.5>-<238.0,238.0>-<284.0,256.0>>/B<<284.0,256.0>-<41.0,224.0>-<41.0,99.0>> = 13.868665440844241
+	* B (U+0042): B<<525.0,450.0>-<502.0,408.0>-<453.0,387.0>>/B<<453.0,387.0>-<488.0,394.0>-<519.0,413.5>> = 11.888658039627968
 
-	* ae (U+00E6): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* B (U+0042): B<<551.5,75.5>-<517.0,33.0>-<451.0,16.0>>/B<<451.0,16.0>-<629.0,38.0>-<629.0,188.0>> = 7.398266599624752
 
-	* ae (U+00E6): B<<726.0,9.5>-<758.0,17.0>-<788.0,35.0>>/B<<788.0,35.0>-<762.0,25.0>-<731.0,25.0>> = 9.926245506651668
+	* B (U+0042): B<<552.5,642.5>-<517.0,680.0>-<442.0,691.0>>/B<<442.0,691.0>-<493.0,676.0>-<520.5,638.5>> = 8.04564875000167
 
-	* agrave (U+00E0): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* B (U+0042): B<<581.0,307.5>-<533.0,348.0>-<462.0,357.0>>/B<<462.0,357.0>-<586.0,324.0>-<586.0,191.0>> = 7.678338544985706
 
-	* amacron (U+0101): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* C (U+0043): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
 
-	* ampersand (U+0026): B<<307.5,30.0>-<353.0,58.0>-<391.0,100.0>>/B<<391.0,100.0>-<362.0,80.0>-<327.0,80.0>> = 13.270116538601751
+	* C (U+0043): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
 
-	* aogonek (U+0105): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* C (U+0043): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
 
-	* aring (U+00E5): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Cacute (U+0106): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
 
-	* at (U+0040): B<<253.0,492.0>-<298.0,543.0>-<362.0,573.0>>/B<<362.0,573.0>-<266.0,554.0>-<195.0,510.0>> = 13.919723459844576
+	* Cacute (U+0106): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
 
-	* atilde (U+00E3): B<<189.0,696.5>-<159.0,679.0>-<137.0,651.0>>/B<<137.0,651.0>-<154.0,666.0>-<178.0,666.0>> = 10.419107787628292
+	* Cacute (U+0106): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
 
-	* atilde (U+00E3): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Ccaron (U+010C): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
 
-	* atilde (U+00E3): B<<445.0,611.5>-<469.0,625.0>-<490.0,661.0>>/B<<490.0,661.0>-<480.0,648.0>-<461.0,648.0>> = 7.312154865298252
+	* Ccaron (U+010C): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
 
-	* b (U+0062): B<<404.5,488.0>-<378.0,478.0>-<350.0,449.0>>/B<<350.0,449.0>-<358.0,454.0>-<366.0,456.0>> = 13.999702797170679
+	* Ccaron (U+010C): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
 
-	* c (U+0063): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
+	* Ccedilla (U+00C7): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
 
-	* cacute (U+0107): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
+	* Ccedilla (U+00C7): B<<478.0,-131.0>-<478.0,-81.0>-<426.0,-63.0>>/B<<426.0,-63.0>-<466.0,-83.0>-<466.0,-127.0>> = 7.471559176592336
 
-	* ccaron (U+010D): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
+	* Ccedilla (U+00C7): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
 
-	* ccedilla (U+00E7): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
+	* Ccedilla (U+00C7): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
 
-	* cdotaccent (U+010B): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
+	* Cdotaccent (U+010A): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
 
-	* cent (U+00A2): B<<388.0,50.5>-<418.0,57.0>-<446.0,74.0>>/B<<446.0,74.0>-<419.0,65.0>-<390.0,65.0>> = 12.828782871455394
+	* Cdotaccent (U+010A): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
 
-	* dagger (U+2020): B<<222.0,324.0>-<235.0,257.0>-<243.0,186.0>>/B<<243.0,186.0>-<251.0,257.0>-<264.0,324.5>> = 12.857495497659666
+	* Cdotaccent (U+010A): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
 
-	* e (U+0065): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* D (U+0044): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
 
-	* eacute (U+00E9): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* D (U+0044): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
 
-	* ecaron (U+011B): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* Dcaron (U+010E): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
 
-	* ecircumflex (U+00EA): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* Dcaron (U+010E): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
 
-	* edieresis (U+00EB): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* Dcroat (U+0110): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
 
-	* edotaccent (U+0117): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* Dcroat (U+0110): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
 
-	* egrave (U+00E8): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* E (U+0045): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* emacron (U+0113): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* E (U+0045): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* eng (U+014B): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* E (U+0045): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* eogonek (U+0119): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
+	* E (U+0045): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* exclam (U+0021): B<<158.0,530.0>-<175.0,469.0>-<182.0,394.0>>/B<<182.0,394.0>-<188.0,469.0>-<205.0,530.0>> = 9.906080141560388
+	* Eacute (U+00C9): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* exclamdown (U+00A1): B<<205.0,70.0>-<188.0,131.0>-<182.0,206.0>>/B<<182.0,206.0>-<175.0,131.0>-<158.0,70.0>> = 9.906080141560388
+	* Eacute (U+00C9): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* h (U+0068): B<<470.0,498.0>-<403.0,498.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<400.0,462.0>> = 9.109491175555853
+	* Eacute (U+00C9): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* hbar (U+0127): B<<470.0,498.0>-<403.0,498.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<400.0,462.0>> = 9.109491175555853
+	* Eacute (U+00C9): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* m (U+006D): B<<406.0,485.5>-<378.0,473.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<397.0,462.0>> = 9.699904937855514
+	* Ecaron (U+011A): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* m (U+006D): B<<757.0,485.5>-<729.0,473.0>-<705.0,448.0>>/B<<705.0,448.0>-<728.0,465.0>-<748.0,462.0>> = 9.699904937855514
+	* Ecaron (U+011A): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* n (U+006E): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* Ecaron (U+011A): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* nacute (U+0144): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* Ecaron (U+011A): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* ncaron (U+0148): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* Ecircumflex (U+00CA): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* nine (U+0039): B<<455.0,177.0>-<451.0,38.0>-<348.0,5.0>>/B<<348.0,5.0>-<485.0,17.0>-<551.0,104.5>> = 12.759020747746385
+	* Ecircumflex (U+00CA): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* ntilde (U+00F1): B<<229.0,696.5>-<199.0,679.0>-<177.0,651.0>>/B<<177.0,651.0>-<194.0,666.0>-<218.0,666.0>> = 10.419107787628292
+	* Ecircumflex (U+00CA): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* ntilde (U+00F1): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* Ecircumflex (U+00CA): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* ntilde (U+00F1): B<<485.0,611.5>-<509.0,625.0>-<530.0,661.0>>/B<<530.0,661.0>-<520.0,648.0>-<501.0,648.0>> = 7.312154865298252
+	* Edieresis (U+00CB): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* oe (U+0153): B<<748.0,9.5>-<780.0,17.0>-<810.0,35.0>>/B<<810.0,35.0>-<784.0,25.0>-<753.0,25.0>> = 9.926245506651668
+	* Edieresis (U+00CB): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* onequarter (U+00BC): B<<381.0,156.0>-<381.0,145.0>-<374.0,134.0>>/B<<374.0,134.0>-<387.0,149.0>-<392.5,168.5>> = 8.443190929176685
+	* Edieresis (U+00CB): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* otilde (U+00F5): B<<192.0,696.5>-<162.0,679.0>-<140.0,651.0>>/B<<140.0,651.0>-<157.0,666.0>-<181.0,666.0>> = 10.419107787628292
+	* Edieresis (U+00CB): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* otilde (U+00F5): B<<448.0,611.5>-<472.0,625.0>-<493.0,661.0>>/B<<493.0,661.0>-<483.0,648.0>-<464.0,648.0>> = 7.312154865298252
+	* Edotaccent (U+0116): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* q (U+0071): B<<262.0,12.0>-<289.0,22.0>-<316.0,51.0>>/B<<316.0,51.0>-<309.0,46.0>-<300.5,44.0>> = 11.507730696912791
+	* Edotaccent (U+0116): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* seven (U+0037): B<<312.0,2.0>-<412.0,2.0>-<471.0,51.0>>/B<<471.0,51.0>-<441.0,36.0>-<410.0,36.0>> = 13.144867617550734
+	* Edotaccent (U+0116): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* seven (U+0037): L<<57.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 13.77501831967461
+	* Edotaccent (U+0116): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* six (U+0036): B<<224.0,531.0>-<229.0,670.0>-<332.0,703.0>>/B<<332.0,703.0>-<195.0,691.0>-<129.0,603.5>> = 12.759020747746385
+	* Egrave (U+00C8): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* threequarters (U+00BE): B<<464.0,156.0>-<464.0,145.0>-<457.0,134.0>>/B<<457.0,134.0>-<470.0,149.0>-<475.5,168.5>> = 8.443190929176685
+	* Egrave (U+00C8): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* tilde (U+02DC): B<<155.0,696.5>-<125.0,679.0>-<103.0,651.0>>/B<<103.0,651.0>-<120.0,666.0>-<144.0,666.0>> = 10.419107787628292
+	* Egrave (U+00C8): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* tilde (U+02DC): B<<411.0,611.5>-<435.0,625.0>-<456.0,661.0>>/B<<456.0,661.0>-<446.0,648.0>-<427.0,648.0>> = 7.312154865298252
+	* Egrave (U+00C8): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* tildecomb (U+0303): B<<-120.0,696.5>-<-150.0,679.0>-<-172.0,651.0>>/B<<-172.0,651.0>-<-155.0,666.0>-<-131.0,666.0>> = 10.419107787628292
+	* Emacron (U+0112): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* tildecomb (U+0303): B<<136.0,611.5>-<160.0,625.0>-<181.0,661.0>>/B<<181.0,661.0>-<171.0,648.0>-<152.0,648.0>> = 7.312154865298252
+	* Emacron (U+0112): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* trademark (U+2122): B<<423.0,433.0>-<395.0,449.0>-<386.0,493.0>>/L<<386.0,493.0>--<386.0,433.0>> = 11.56013079421777
+	* Emacron (U+0112): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* trademark (U+2122): L<<289.0,647.0>--<290.0,636.0>>/L<<290.0,636.0>--<298.0,691.0>> = 13.470321734810023
+	* Emacron (U+0112): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* two (U+0032): B<<320.0,706.0>-<309.0,705.0>-<299.0,704.0>>/B<<299.0,704.0>-<309.0,703.0>-<317.5,702.0>> = 11.42118627499929
+	* Eng (U+014A): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
 
-	* u (U+0075): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eng (U+014A): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
 
-	* uacute (U+00FA): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): B<<488.5,-78.0>-<507.0,-53.0>-<549.0,-21.0>>/B<<549.0,-21.0>-<495.0,-52.0>-<471.0,-79.5>> = 7.444932113060306
 
-	* ubreve (U+016D): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
 
-	* ucircumflex (U+00FB): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): B<<563.5,-196.0>-<582.0,-189.0>-<591.0,-180.0>>/B<<591.0,-180.0>-<566.0,-195.0>-<538.0,-195.0>> = 14.036243467926457
 
-	* udieresis (U+00FC): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* ugrave (U+00F9): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
 
-	* uhungarumlaut (U+0171): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eogonek (U+0118): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* umacron (U+016B): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* Eth (U+00D0): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
 
-	* uni0146 (U+0146): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
+	* Eth (U+00D0): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
 
-	* uni01CD (U+01CD): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
+	* Euro (U+20AC): B<<246.0,585.5>-<290.0,664.0>-<363.0,697.0>>/B<<363.0,697.0>-<274.0,666.0>-<218.5,588.0>> = 5.121601733626017
 
-	* uni01CE (U+01CE): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
+	* Euro (U+20AC): B<<560.5,10.5>-<611.0,27.0>-<649.0,59.0>>/B<<649.0,59.0>-<577.0,11.0>-<486.0,11.0>> = 6.410840020232458
 
-	* uni2074 (U+2074): B<<114.0,577.0>-<114.0,566.0>-<107.0,555.0>>/B<<107.0,555.0>-<120.0,570.0>-<125.5,589.5>> = 8.443190929176685
+	* Euro (U+20AC): B<<717.0,621.0>-<669.0,668.0>-<597.0,690.0>>/B<<597.0,690.0>-<680.0,645.0>-<676.0,524.0>> = 11.474338850668653
 
-	* uogonek (U+0173): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* F (U+0046): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
 
-	* uring (U+016F): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
+	* F (U+0046): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
 
-	* z (U+007A): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365
+	* G (U+0047): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
 
-	* zacute (U+017A): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365
+	* G (U+0047): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
 
-	* zcaron (U+017E): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365 
+	* G (U+0047): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
 
-	* zdotaccent (U+017C): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+	* G (U+0047): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
 
+	* Gbreve (U+011E): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+	* Gbreve (U+011E): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
 
-	* uni1E9E (U+1E9E): L<<103.0,550.0>--<104.0,18.0>> 
+	* Gbreve (U+011E): B<<382.0,827.0>-<295.0,827.0>-<245.0,893.0>>/B<<245.0,893.0>-<266.0,853.0>-<301.5,831.0>> = 9.447213889966706
 
-	* uni1E9E (U+1E9E): L<<267.0,158.0>--<266.0,690.0>> [code: found-semi-vertical]
+	* Gbreve (U+011E): B<<462.5,831.0>-<498.0,853.0>-<519.0,893.0>>/B<<519.0,893.0>-<470.0,827.0>-<382.0,827.0>> = 8.891615459344234
+
+	* Gbreve (U+011E): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
+
+	* Gbreve (U+011E): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
+
+	* Gdotaccent (U+0120): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
+
+	* Gdotaccent (U+0120): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
+
+	* Gdotaccent (U+0120): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
+
+	* Gdotaccent (U+0120): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
+
+	* Iogonek (U+012E): B<<146.5,-78.0>-<165.0,-53.0>-<207.0,-21.0>>/B<<207.0,-21.0>-<153.0,-52.0>-<129.0,-79.5>> = 7.444932113060306
+
+	* Iogonek (U+012E): B<<221.5,-196.0>-<240.0,-189.0>-<249.0,-180.0>>/B<<249.0,-180.0>-<224.0,-195.0>-<196.0,-195.0>> = 14.036243467926457
+
+	* K (U+004B): B<<456.0,479.0>-<396.0,393.0>-<320.0,364.0>>/B<<320.0,364.0>-<362.0,375.0>-<404.0,404.5>> = 6.209408323242995
+
+	* K (U+004B): B<<623.0,-7.0>-<651.0,-7.0>-<664.0,3.0>>/B<<664.0,3.0>-<662.0,2.0>-<658.0,2.0>> = 11.003540851749474
+
+	* K (U+004B): L<<565.0,700.0>--<478.0,700.0>>/B<<478.0,700.0>-<498.0,697.0>-<509.5,682.5>> = 8.530765609948139
+
+	* L (U+004C): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* L (U+004C): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* Lacute (U+0139): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* Lacute (U+0139): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* Lcaron (U+013D): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* Lcaron (U+013D): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* Ldot (U+013F): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* Ldot (U+013F): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* Lslash (U+0141): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* Lslash (U+0141): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* M (U+004D): L<<145.0,10.0>--<248.0,10.0>>/B<<248.0,10.0>-<199.0,18.0>-<175.5,51.5>> = 9.272601777200284
+
+	* M (U+004D): L<<502.0,58.0>--<499.0,54.0>>/L<<499.0,54.0>--<501.0,58.0>> = 10.304846468766009
+
+	* N (U+004E): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+
+	* N (U+004E): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+
+	* Nacute (U+0143): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+
+	* Nacute (U+0143): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+
+	* Ncaron (U+0147): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+
+	* Ncaron (U+0147): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+
+	* Ntilde (U+00D1): B<<283.0,892.5>-<261.0,876.0>-<248.0,846.0>>/B<<248.0,846.0>-<259.0,869.0>-<275.5,881.0>> = 2.1312723630784163
+
+	* Ntilde (U+00D1): B<<538.5,818.5>-<555.0,829.0>-<567.0,855.0>>/B<<567.0,855.0>-<552.0,825.0>-<518.0,825.0>> = 1.7899106082458724
+
+	* Ntilde (U+00D1): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+
+	* Ntilde (U+00D1): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+
+	* O (U+004F): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* O (U+004F): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* O (U+004F): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* O (U+004F): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* OE (U+0152): B<<122.0,149.5>-<166.0,67.0>-<247.0,30.0>>/B<<247.0,30.0>-<188.0,71.0>-<157.0,154.0>> = 10.245573889060855
+
+	* OE (U+0152): B<<157.5,557.5>-<189.0,638.0>-<244.0,678.0>>/B<<244.0,678.0>-<166.0,641.0>-<122.0,560.0>> = 10.64962952375447
+
+	* OE (U+0152): B<<926.5,32.5>-<912.0,13.0>-<877.0,10.0>>/L<<877.0,10.0>--<964.0,10.0>> = 4.899092453787774
+
+	* OE (U+0152): L<<929.0,629.0>--<933.0,489.0>>/L<<933.0,489.0>--<964.0,698.0>> = 10.073481173022614
+
+	* OE (U+0152): L<<964.0,10.0>--<933.0,233.0>>/L<<933.0,233.0>--<940.0,93.0>> = 5.051759282935797
+
+	* OE (U+0152): L<<964.0,698.0>--<862.0,698.0>>/B<<862.0,698.0>-<899.0,695.0>-<914.0,679.5>> = 4.635463426902617
+
+	* Oacute (U+00D3): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Oacute (U+00D3): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Oacute (U+00D3): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Oacute (U+00D3): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Ocircumflex (U+00D4): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Ocircumflex (U+00D4): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Ocircumflex (U+00D4): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Ocircumflex (U+00D4): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Odieresis (U+00D6): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Odieresis (U+00D6): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Odieresis (U+00D6): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Odieresis (U+00D6): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Ograve (U+00D2): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Ograve (U+00D2): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Ograve (U+00D2): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Ograve (U+00D2): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Ohungarumlaut (U+0150): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Ohungarumlaut (U+0150): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Ohungarumlaut (U+0150): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Ohungarumlaut (U+0150): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Omacron (U+014C): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Omacron (U+014C): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Omacron (U+014C): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Omacron (U+014C): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* Oslash (U+00D8): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Oslash (U+00D8): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Otilde (U+00D5): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Otilde (U+00D5): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Otilde (U+00D5): B<<252.0,892.5>-<230.0,876.0>-<217.0,846.0>>/B<<217.0,846.0>-<228.0,869.0>-<244.5,881.0>> = 2.1312723630784163
+
+	* Otilde (U+00D5): B<<507.5,818.5>-<524.0,829.0>-<536.0,855.0>>/B<<536.0,855.0>-<521.0,825.0>-<487.0,825.0>> = 1.7899106082458724
+
+	* Otilde (U+00D5): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Otilde (U+00D5): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* P (U+0050): B<<518.0,396.0>-<482.0,349.0>-<418.0,331.0>>/B<<418.0,331.0>-<508.0,344.0>-<554.5,392.5>> = 7.489428580116645
+
+	* P (U+0050): B<<556.5,635.5>-<512.0,681.0>-<429.0,692.0>>/B<<429.0,692.0>-<486.0,674.0>-<520.0,629.5>> = 9.976146605459554
+
+	* Q (U+0051): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
+
+	* Q (U+0051): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
+
+	* Q (U+0051): B<<549.0,-153.0>-<469.0,-153.0>-<422.0,-89.0>>/B<<422.0,-89.0>-<467.0,-167.0>-<549.0,-167.0>> = 6.310990359630263
+
+	* Q (U+0051): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
+
+	* Q (U+0051): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
+
+	* R (U+0052): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
+
+	* R (U+0052): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
+
+	* R (U+0052): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
+
+	* Racute (U+0154): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
+
+	* Racute (U+0154): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
+
+	* Racute (U+0154): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
+
+	* Rcaron (U+0158): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
+
+	* Rcaron (U+0158): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
+
+	* Rcaron (U+0158): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
+
+	* S (U+0053): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
+
+	* S (U+0053): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
+
+	* S (U+0053): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
+
+	* S (U+0053): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
+
+	* S (U+0053): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
+
+	* S (U+0053): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
+
+	* Sacute (U+015A): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
+
+	* Sacute (U+015A): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
+
+	* Sacute (U+015A): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
+
+	* Sacute (U+015A): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
+
+	* Sacute (U+015A): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
+
+	* Sacute (U+015A): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
+
+	* Scaron (U+0160): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
+
+	* Scaron (U+0160): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
+
+	* Scaron (U+0160): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
+
+	* Scaron (U+0160): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
+
+	* Scaron (U+0160): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
+
+	* Scaron (U+0160): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
+
+	* Scedilla (U+015E): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
+
+	* Scedilla (U+015E): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
+
+	* Scedilla (U+015E): B<<453.0,-131.0>-<453.0,-81.0>-<401.0,-63.0>>/B<<401.0,-63.0>-<441.0,-83.0>-<441.0,-127.0>> = 7.471559176592336
+
+	* Scedilla (U+015E): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
+
+	* Scedilla (U+015E): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
+
+	* Scedilla (U+015E): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
+
+	* Scedilla (U+015E): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
+
+	* T (U+0054): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
+
+	* T (U+0054): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
+
+	* T (U+0054): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
+
+	* T (U+0054): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
+
+	* Tcaron (U+0164): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
+
+	* Tcaron (U+0164): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
+
+	* Tcaron (U+0164): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
+
+	* Tcaron (U+0164): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
+
+	* Thorn (U+00DE): B<<518.0,266.0>-<482.0,219.0>-<418.0,201.0>>/B<<418.0,201.0>-<505.0,213.0>-<553.0,262.5>> = 7.85532452703748
+
+	* Thorn (U+00DE): B<<556.5,503.5>-<512.0,547.0>-<429.0,559.0>>/B<<429.0,559.0>-<486.0,541.0>-<520.0,498.0>> = 9.298845909614686
+
+	* U (U+0055): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* U (U+0055): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Uacute (U+00DA): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Uacute (U+00DA): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Ubreve (U+016C): B<<378.0,827.0>-<291.0,827.0>-<241.0,893.0>>/B<<241.0,893.0>-<262.0,853.0>-<297.5,831.0>> = 9.447213889966706
+
+	* Ubreve (U+016C): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Ubreve (U+016C): B<<458.5,831.0>-<494.0,853.0>-<515.0,893.0>>/B<<515.0,893.0>-<466.0,827.0>-<378.0,827.0>> = 8.891615459344234
+
+	* Ubreve (U+016C): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Ucircumflex (U+00DB): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Ucircumflex (U+00DB): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Udieresis (U+00DC): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Udieresis (U+00DC): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Ugrave (U+00D9): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Ugrave (U+00D9): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Uhungarumlaut (U+0170): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Uhungarumlaut (U+0170): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Umacron (U+016A): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Umacron (U+016A): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Uogonek (U+0172): B<<369.5,-78.0>-<388.0,-53.0>-<430.0,-21.0>>/B<<430.0,-21.0>-<376.0,-52.0>-<352.0,-79.5>> = 7.444932113060306
+
+	* Uogonek (U+0172): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Uogonek (U+0172): B<<444.5,-196.0>-<463.0,-189.0>-<472.0,-180.0>>/B<<472.0,-180.0>-<447.0,-195.0>-<419.0,-195.0>> = 14.036243467926457
+
+	* Uogonek (U+0172): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* Uring (U+016E): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
+
+	* Uring (U+016E): B<<446.5,897.5>-<433.0,912.0>-<411.0,918.0>>/B<<411.0,918.0>-<427.0,909.0>-<436.5,893.5>> = 14.102634839733502
+
+	* Uring (U+016E): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
+
+	* V (U+0056): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* W (U+0057): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
+
+	* W (U+0057): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* Wacute (U+1E82): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
+
+	* Wacute (U+1E82): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* Wcircumflex (U+0174): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
+
+	* Wcircumflex (U+0174): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* Wdieresis (U+1E84): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
+
+	* Wdieresis (U+1E84): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* Wgrave (U+1E80): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
+
+	* Wgrave (U+1E80): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
+
+	* X (U+0058): B<<156.5,92.5>-<163.0,107.0>-<179.0,132.0>>/L<<179.0,132.0>--<88.0,10.0>> = 4.100074686085338
+
+	* X (U+0058): B<<562.5,619.0>-<555.0,605.0>-<539.0,580.0>>/L<<539.0,580.0>--<633.0,700.0>> = 5.453538802797962
+
+	* X (U+0058): L<<633.0,700.0>--<484.0,700.0>>/B<<484.0,700.0>-<531.0,694.0>-<550.5,680.0>> = 7.275004957889232
+
+	* X (U+0058): L<<88.0,10.0>--<236.0,10.0>>/B<<236.0,10.0>-<189.0,15.0>-<169.5,28.5>> = 6.0724564072076905
+
+	* Y (U+0059): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* Yacute (U+00DD): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* Ycircumflex (U+0176): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* Ydieresis (U+0178): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* Ygrave (U+1EF2): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* Z (U+005A): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
+
+	* Z (U+005A): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
+
+	* Z (U+005A): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
+
+	* Z (U+005A): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
+
+	* Zacute (U+0179): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
+
+	* Zacute (U+0179): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
+
+	* Zacute (U+0179): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
+
+	* Zacute (U+0179): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
+
+	* Zcaron (U+017D): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
+
+	* Zcaron (U+017D): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
+
+	* Zcaron (U+017D): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
+
+	* Zcaron (U+017D): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
+
+	* Zdotaccent (U+017B): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
+
+	* Zdotaccent (U+017B): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
+
+	* Zdotaccent (U+017B): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
+
+	* Zdotaccent (U+017B): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
+
+	* a (U+0061): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* a (U+0061): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* a (U+0061): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* aacute (U+00E1): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* aacute (U+00E1): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* aacute (U+00E1): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* abreve (U+0103): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* abreve (U+0103): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* abreve (U+0103): B<<299.0,619.0>-<212.0,619.0>-<162.0,685.0>>/B<<162.0,685.0>-<183.0,645.0>-<218.5,623.0>> = 9.447213889966706
+
+	* abreve (U+0103): B<<379.5,623.0>-<415.0,645.0>-<436.0,685.0>>/B<<436.0,685.0>-<387.0,619.0>-<299.0,619.0>> = 8.891615459344234
+
+	* abreve (U+0103): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* acircumflex (U+00E2): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* acircumflex (U+00E2): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* acircumflex (U+00E2): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* adieresis (U+00E4): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* adieresis (U+00E4): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* adieresis (U+00E4): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* ae (U+00E6): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<197.0,239.0>-<131.5,198.5>> = 1.2049461792685676
+
+	* ae (U+00E6): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* ae (U+00E6): B<<429.0,466.0>-<395.0,496.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 4.382245780753234
+
+	* ae (U+00E6): B<<529.5,390.5>-<555.0,449.0>-<601.0,479.0>>/B<<601.0,479.0>-<513.0,435.0>-<485.0,328.0>> = 6.546290783293942
+
+	* ae (U+00E6): B<<696.0,-7.0>-<770.0,-7.0>-<815.0,18.0>>/B<<815.0,18.0>-<781.0,2.0>-<718.0,2.0>> = 3.853480453601986
+
+	* agrave (U+00E0): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* agrave (U+00E0): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* agrave (U+00E0): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* amacron (U+0101): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* amacron (U+0101): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* amacron (U+0101): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* ampersand (U+0026): B<<123.5,261.0>-<147.0,299.0>-<198.0,337.0>>/B<<198.0,337.0>-<131.0,298.0>-<97.5,255.5>> = 6.486485077533067
+
+	* ampersand (U+0026): B<<264.0,663.5>-<276.0,686.0>-<297.0,699.0>>/B<<297.0,699.0>-<257.0,686.0>-<234.5,657.0>> = 13.755318478899405
+
+	* ampersand (U+0026): B<<337.5,15.0>-<378.0,37.0>-<414.0,82.0>>/B<<414.0,82.0>-<380.0,47.0>-<347.0,32.0>> = 5.509876259651847
+
+	* ampersand (U+0026): B<<495.0,602.0>-<495.0,534.0>-<416.0,461.0>>/B<<416.0,461.0>-<516.0,530.0>-<516.0,604.0>> = 8.133822537220214
+
+	* ampersand (U+0026): B<<498.5,661.0>-<481.0,685.0>-<450.0,699.0>>/B<<450.0,699.0>-<471.0,684.0>-<483.0,659.5>> = 11.233128526037659
+
+	* ampersand (U+0026): B<<744.5,14.0>-<761.0,35.0>-<760.0,73.0>>/B<<760.0,73.0>-<758.0,50.0>-<745.0,36.5>> = 6.477176486885279
+
+	* aogonek (U+0105): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* aogonek (U+0105): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* aogonek (U+0105): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* aogonek (U+0105): B<<468.5,-78.0>-<487.0,-53.0>-<529.0,-21.0>>/B<<529.0,-21.0>-<475.0,-52.0>-<451.0,-79.5>> = 7.444932113060306
+
+	* aogonek (U+0105): B<<543.5,-196.0>-<562.0,-189.0>-<571.0,-180.0>>/B<<571.0,-180.0>-<546.0,-195.0>-<518.0,-195.0>> = 14.036243467926457
+
+	* approxequal (U+2248): B<<148.0,275.0>-<86.0,275.0>-<53.0,205.0>>/B<<53.0,205.0>-<81.0,256.0>-<135.0,256.0>> = 3.5271200740569393
+
+	* approxequal (U+2248): B<<148.0,443.0>-<86.0,443.0>-<53.0,373.0>>/B<<53.0,373.0>-<81.0,424.0>-<135.0,424.0>> = 3.5271200740569393
+
+	* approxequal (U+2248): B<<374.5,188.0>-<393.0,202.0>-<408.0,236.0>>/B<<408.0,236.0>-<396.0,214.0>-<380.5,204.0>> = 4.804516147507417
+
+	* approxequal (U+2248): B<<374.5,356.0>-<393.0,370.0>-<408.0,404.0>>/B<<408.0,404.0>-<396.0,382.0>-<380.5,372.0>> = 4.804516147507417
+
+	* aring (U+00E5): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* aring (U+00E5): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* aring (U+00E5): B<<367.5,689.5>-<354.0,704.0>-<332.0,710.0>>/B<<332.0,710.0>-<348.0,701.0>-<357.5,685.5>> = 14.102634839733502
+
+	* aring (U+00E5): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* asciitilde (U+007E): B<<148.0,358.0>-<86.0,358.0>-<53.0,288.0>>/B<<53.0,288.0>-<81.0,339.0>-<135.0,339.0>> = 3.5271200740569393
+
+	* asciitilde (U+007E): B<<374.5,271.0>-<393.0,285.0>-<408.0,319.0>>/B<<408.0,319.0>-<396.0,297.0>-<380.5,287.0>> = 4.804516147507417
+
+	* at (U+0040): B<<129.0,36.0>-<194.0,-47.0>-<306.0,-76.0>>/B<<306.0,-76.0>-<212.0,-43.0>-<154.0,40.0>> = 4.827629313266492
+
+	* at (U+0040): B<<222.5,515.0>-<283.0,565.0>-<366.0,586.0>>/B<<366.0,586.0>-<273.0,569.0>-<205.5,522.0>> = 3.8395015357793985
+
+	* at (U+0040): B<<723.5,526.0>-<664.0,569.0>-<580.0,586.0>>/B<<580.0,586.0>-<653.0,565.0>-<705.5,520.5>> = 4.607960923765689
+
+	* at (U+0040): B<<791.0,143.0>-<768.0,90.0>-<730.0,72.0>>/B<<730.0,72.0>-<791.0,91.0>-<818.5,146.5>> = 8.04564875000167
+
+	* atilde (U+00E3): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* atilde (U+00E3): B<<174.0,684.5>-<152.0,668.0>-<139.0,638.0>>/B<<139.0,638.0>-<150.0,661.0>-<166.5,673.0>> = 2.1312723630784163
+
+	* atilde (U+00E3): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* atilde (U+00E3): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* atilde (U+00E3): B<<429.5,610.5>-<446.0,621.0>-<458.0,647.0>>/B<<458.0,647.0>-<443.0,617.0>-<409.0,617.0>> = 1.7899106082458724
+
+	* b (U+0062): B<<198.0,55.0>-<220.0,35.0>-<250.0,21.0>>/B<<250.0,21.0>-<173.0,77.0>-<168.0,167.0>> = 11.010479907003596
+
+	* b (U+0062): B<<329.0,495.0>-<302.0,484.0>-<278.0,465.0>>/B<<278.0,465.0>-<299.0,479.0>-<322.0,486.0>> = 4.677417858881669
+
+	* b (U+0062): B<<501.5,98.5>-<473.0,35.0>-<418.0,7.0>>/B<<418.0,7.0>-<492.0,25.0>-<533.5,92.0>> = 13.308923586027015
+
+	* b (U+0062): L<<124.0,727.0>--<124.0,25.0>>/L<<124.0,25.0>--<139.0,98.0>> = 11.611486423888481
+
+	* braceleft (U+007B): B<<246.5,377.0>-<220.0,355.0>-<174.0,348.0>>/B<<174.0,348.0>-<234.0,349.0>-<270.0,376.0>> = 7.6977005372424845
+
+	* braceleft (U+007B): B<<271.5,304.0>-<236.0,332.0>-<174.0,332.0>>/B<<174.0,332.0>-<221.0,324.0>-<247.5,301.0>> = 9.65989307844234
+
+	* braceleft (U+007B): B<<323.0,-132.0>-<370.0,-132.0>-<411.0,-116.0>>/B<<411.0,-116.0>-<393.0,-121.0>-<376.5,-122.0>> = 5.793801278707303
+
+	* braceleft (U+007B): B<<379.5,797.0>-<394.0,795.0>-<409.0,792.0>>/B<<409.0,792.0>-<375.0,808.0>-<329.0,808.0>> = 13.891191171454816
+
+	* braceright (U+007D): B<<173.0,-122.0>-<157.0,-121.0>-<139.0,-116.0>>/B<<139.0,-116.0>-<180.0,-132.0>-<226.0,-132.0>> = 5.793801278707303
+
+	* braceright (U+007D): B<<220.0,808.0>-<175.0,808.0>-<140.0,792.0>>/B<<140.0,792.0>-<155.0,795.0>-<170.0,797.0>> = 13.257238846581073
+
+	* braceright (U+007D): B<<279.5,375.0>-<316.0,348.0>-<375.0,348.0>>/B<<375.0,348.0>-<330.0,355.0>-<303.5,377.0>> = 8.84181456019167
+
+	* braceright (U+007D): B<<302.0,301.0>-<328.0,324.0>-<376.0,332.0>>/B<<376.0,332.0>-<313.0,331.0>-<277.5,303.0>> = 8.552941758826456
+
+	* breve (U+02D8): B<<198.0,619.0>-<111.0,619.0>-<61.0,685.0>>/B<<61.0,685.0>-<82.0,645.0>-<117.5,623.0>> = 9.447213889966706
+
+	* breve (U+02D8): B<<278.5,623.0>-<314.0,645.0>-<335.0,685.0>>/B<<335.0,685.0>-<286.0,619.0>-<198.0,619.0>> = 8.891615459344234
+
+	* c (U+0063): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
+
+	* c (U+0063): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
+
+	* cacute (U+0107): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
+
+	* cacute (U+0107): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
+
+	* ccaron (U+010D): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
+
+	* ccaron (U+010D): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
+
+	* ccedilla (U+00E7): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
+
+	* ccedilla (U+00E7): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
+
+	* ccedilla (U+00E7): B<<408.0,-131.0>-<408.0,-81.0>-<356.0,-63.0>>/B<<356.0,-63.0>-<396.0,-83.0>-<396.0,-127.0>> = 7.471559176592336
+
+	* cdotaccent (U+010B): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
+
+	* cdotaccent (U+010B): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
+
+	* cedilla (U+00B8): B<<219.0,-131.0>-<219.0,-81.0>-<167.0,-63.0>>/B<<167.0,-63.0>-<207.0,-83.0>-<207.0,-127.0>> = 7.471559176592336
+
+	* cent (U+00A2): B<<145.5,444.0>-<183.0,508.0>-<247.0,535.0>>/B<<247.0,535.0>-<162.0,513.0>-<113.0,447.5>> = 8.362605690457608
+
+	* cent (U+00A2): B<<377.0,41.0>-<402.0,47.0>-<422.0,58.0>>/B<<422.0,58.0>-<387.0,42.0>-<325.0,42.0>> = 4.243622422371594
+
+	* copyright (U+00A9): B<<211.0,334.5>-<234.0,373.0>-<274.0,388.0>>/B<<274.0,388.0>-<223.0,377.0>-<193.0,338.5>> = 8.384587010995974
+
+	* copyright (U+00A9): B<<274.0,110.0>-<291.0,106.0>-<311.0,107.0>>/B<<311.0,107.0>-<261.0,109.0>-<224.5,146.0>> = 5.153015268750183
+
+	* d (U+0064): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
+
+	* d (U+0064): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
+
+	* dagger (U+2020): B<<219.5,344.0>-<223.0,281.0>-<225.0,217.0>>/B<<225.0,217.0>-<227.0,281.0>-<231.0,344.0>> = 3.5798212164921406
+
+	* daggerdbl (U+2021): B<<220.0,353.5>-<223.0,330.0>-<225.0,306.0>>/B<<225.0,306.0>-<227.0,330.0>-<230.5,353.5>> = 9.527283381452328
+
+	* daggerdbl (U+2021): B<<230.5,446.5>-<227.0,470.0>-<225.0,494.0>>/B<<225.0,494.0>-<223.0,470.0>-<220.0,446.5>> = 9.527283381452328
+
+	* dcaron (U+010F): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
+
+	* dcaron (U+010F): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
+
+	* dcroat (U+0111): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
+
+	* dcroat (U+0111): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
+
+	* dollar (U+0024): B<<166.0,40.5>-<202.0,25.0>-<236.0,16.0>>/B<<236.0,16.0>-<186.0,38.0>-<158.0,74.0>> = 8.923014522511027
+
+	* dollar (U+0024): B<<167.0,648.5>-<191.0,678.0>-<231.0,695.0>>/B<<231.0,695.0>-<171.0,676.0>-<140.0,638.0>> = 5.454233230205554
+
+	* dollar (U+0024): B<<544.5,671.5>-<509.0,688.0>-<469.0,697.0>>/B<<469.0,697.0>-<517.0,676.0>-<545.0,636.0>> = 10.948994238836962
+
+	* dollar (U+0024): B<<555.5,62.0>-<529.0,29.0>-<482.0,11.0>>/B<<482.0,11.0>-<548.0,29.0>-<586.0,69.0>> = 5.7006580275743195
+
+	* dollar (U+0024): L<<127.0,157.0>--<115.0,273.0>>/L<<115.0,273.0>--<96.0,77.0>> = 11.4430234762542
+
+	* dollar (U+0024): L<<580.0,533.0>--<585.0,454.0>>/L<<585.0,454.0>--<609.0,633.0>> = 11.258056919606155
+
+	* e (U+0065): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* e (U+0065): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* eacute (U+00E9): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* eacute (U+00E9): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* ecaron (U+011B): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* ecaron (U+011B): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* ecircumflex (U+00EA): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* ecircumflex (U+00EA): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* edieresis (U+00EB): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* edieresis (U+00EB): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* edotaccent (U+0117): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* edotaccent (U+0117): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* egrave (U+00E8): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* egrave (U+00E8): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* eight (U+0038): B<<115.5,71.5>-<148.0,29.0>-<209.0,10.0>>/B<<209.0,10.0>-<114.0,57.0>-<114.0,181.0>> = 9.022771075864862
+
+	* eight (U+0038): B<<155.5,648.5>-<175.0,679.0>-<210.0,697.0>>/B<<210.0,697.0>-<161.0,678.0>-<133.5,642.0>> = 6.022055075765101
+
+	* eight (U+0038): B<<444.0,487.5>-<413.0,446.0>-<350.0,409.0>>/B<<350.0,409.0>-<420.0,440.0>-<460.0,479.5>> = 6.539283880326476
+
+	* eight (U+0038): B<<465.5,70.5>-<443.0,31.0>-<402.0,12.0>>/B<<402.0,12.0>-<519.0,53.0>-<519.0,185.0>> = 5.55184000739916
+
+	* eight (U+0038): B<<473.5,647.0>-<447.0,680.0>-<397.0,698.0>>/B<<397.0,698.0>-<435.0,679.0>-<455.0,646.0>> = 6.766174822553013
+
+	* emacron (U+0113): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* emacron (U+0113): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* eng (U+014B): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* eogonek (U+0119): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
+
+	* eogonek (U+0119): B<<297.5,-78.0>-<316.0,-53.0>-<358.0,-21.0>>/B<<358.0,-21.0>-<304.0,-52.0>-<280.0,-79.5>> = 7.444932113060306
+
+	* eogonek (U+0119): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
+
+	* eogonek (U+0119): B<<372.5,-196.0>-<391.0,-189.0>-<400.0,-180.0>>/B<<400.0,-180.0>-<375.0,-195.0>-<347.0,-195.0>> = 14.036243467926457
+
+	* eth (U+00F0): B<<102.0,92.0>-<140.0,30.0>-<207.0,10.0>>/B<<207.0,10.0>-<160.0,38.0>-<134.5,99.5>> = 14.163389612434397
+
+	* eth (U+00F0): B<<134.0,397.0>-<159.0,461.0>-<207.0,490.0>>/B<<207.0,490.0>-<139.0,469.0>-<101.5,404.5>> = 13.977053634113503
+
+	* eth (U+00F0): B<<293.0,671.0>-<236.0,709.0>-<168.0,733.0>>/B<<168.0,733.0>-<229.0,705.0>-<281.0,663.0>> = 5.215863915905449
+
+	* eth (U+00F0): B<<440.0,99.5>-<414.0,38.0>-<365.0,10.0>>/B<<365.0,10.0>-<433.0,30.0>-<472.0,94.0>> = 13.355340962907436
+
+	* exclam (U+0021): B<<166.0,528.0>-<170.0,472.0>-<172.0,416.0>>/B<<172.0,416.0>-<174.0,472.0>-<178.5,528.0>> = 4.0908169777744545
+
+	* exclamdown (U+00A1): B<<178.5,72.0>-<174.0,128.0>-<172.0,184.0>>/B<<172.0,184.0>-<170.0,128.0>-<166.0,72.0>> = 4.0908169777744545
+
+	* five (U+0035): B<<344.5,392.0>-<330.0,392.0>-<315.0,389.0>>/B<<315.0,389.0>-<406.0,387.0>-<460.5,337.5>> = 12.568977681195433
+
+	* five (U+0035): B<<473.5,69.0>-<432.0,17.0>-<359.0,1.0>>/B<<359.0,1.0>-<364.0,1.0>-<367.5,1.0>> = 12.36249241571429
+
+	* five (U+0035): B<<480.0,676.0>-<519.0,660.0>-<536.0,623.0>>/B<<536.0,623.0>-<523.0,668.0>-<488.0,692.0>> = 8.56344493724773
+
+	* four (U+0034): B<<194.5,333.5>-<170.0,302.0>-<144.0,278.0>>/B<<144.0,278.0>-<176.0,303.0>-<202.0,332.5>> = 4.710657514856803
+
+	* g (U+0067): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
+
+	* g (U+0067): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
+
+	* g (U+0067): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
+
+	* g (U+0067): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
+
+	* g (U+0067): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
+
+	* g (U+0067): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
+
+	* gbreve (U+011F): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
+
+	* gbreve (U+011F): B<<277.0,619.0>-<190.0,619.0>-<140.0,685.0>>/B<<140.0,685.0>-<161.0,645.0>-<196.5,623.0>> = 9.447213889966706
+
+	* gbreve (U+011F): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
+
+	* gbreve (U+011F): B<<357.5,623.0>-<393.0,645.0>-<414.0,685.0>>/B<<414.0,685.0>-<365.0,619.0>-<277.0,619.0>> = 8.891615459344234
+
+	* gbreve (U+011F): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
+
+	* gbreve (U+011F): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
+
+	* gbreve (U+011F): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
+
+	* gbreve (U+011F): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
+
+	* gdotaccent (U+0121): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
+
+	* gdotaccent (U+0121): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
+
+	* gdotaccent (U+0121): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
+
+	* gdotaccent (U+0121): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
+
+	* gdotaccent (U+0121): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
+
+	* gdotaccent (U+0121): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
+
+	* germandbls (U+00DF): B<<343.5,55.0>-<362.0,28.0>-<406.0,14.0>>/B<<406.0,14.0>-<377.0,28.0>-<377.0,38.0>> = 8.119203404408543
+
+	* germandbls (U+00DF): B<<492.0,677.0>-<467.0,704.0>-<423.0,719.0>>/B<<423.0,719.0>-<449.0,706.0>-<464.5,683.0>> = 7.740341158837903
+
+	* germandbls (U+00DF): B<<680.5,51.5>-<663.0,26.0>-<632.0,11.0>>/B<<632.0,11.0>-<678.0,27.0>-<703.5,58.0>> = 6.64198394837846
+
+	* guillemotleft (U+00AB): L<<116.0,318.0>--<257.0,432.0>>/L<<257.0,432.0>--<91.0,318.0>> = 4.476692151633259
+
+	* guillemotleft (U+00AB): L<<291.0,302.0>--<457.0,188.0>>/L<<457.0,188.0>--<316.0,302.0>> = 4.476692151633259
+
+	* guillemotleft (U+00AB): L<<316.0,318.0>--<457.0,432.0>>/L<<457.0,432.0>--<291.0,318.0>> = 4.476692151633259
+
+	* guillemotleft (U+00AB): L<<91.0,302.0>--<257.0,188.0>>/L<<257.0,188.0>--<116.0,302.0>> = 4.476692151633259
+
+	* guillemotright (U+00BB): L<<276.0,302.0>--<135.0,188.0>>/L<<135.0,188.0>--<301.0,302.0>> = 4.476692151633259
+
+	* guillemotright (U+00BB): L<<301.0,318.0>--<135.0,432.0>>/L<<135.0,432.0>--<276.0,318.0>> = 4.476692151633259
+
+	* guillemotright (U+00BB): L<<476.0,302.0>--<335.0,188.0>>/L<<335.0,188.0>--<501.0,302.0>> = 4.476692151633259
+
+	* guillemotright (U+00BB): L<<501.0,318.0>--<335.0,432.0>>/L<<335.0,432.0>--<476.0,318.0>> = 4.476692151633259
+
+	* guilsinglleft (U+2039): L<<116.0,318.0>--<257.0,432.0>>/L<<257.0,432.0>--<91.0,318.0>> = 4.476692151633259
+
+	* guilsinglleft (U+2039): L<<91.0,302.0>--<257.0,188.0>>/L<<257.0,188.0>--<116.0,302.0>> = 4.476692151633259
+
+	* guilsinglright (U+203A): L<<276.0,302.0>--<135.0,188.0>>/L<<135.0,188.0>--<301.0,302.0>> = 4.476692151633259
+
+	* guilsinglright (U+203A): L<<301.0,318.0>--<135.0,432.0>>/L<<135.0,432.0>--<276.0,318.0>> = 4.476692151633259
+
+	* h (U+0068): B<<335.5,486.5>-<293.0,466.0>-<251.0,422.0>>/B<<251.0,422.0>-<289.0,460.0>-<327.5,477.5>> = 1.3322198538691452
+
+	* hbar (U+0127): B<<335.5,486.5>-<293.0,466.0>-<251.0,422.0>>/B<<251.0,422.0>-<289.0,460.0>-<327.5,477.5>> = 1.3322198538691452
+
+	* iogonek (U+012F): B<<118.5,-78.0>-<137.0,-53.0>-<179.0,-21.0>>/B<<179.0,-21.0>-<125.0,-52.0>-<101.0,-79.5>> = 7.444932113060306
+
+	* iogonek (U+012F): B<<193.5,-196.0>-<212.0,-189.0>-<221.0,-180.0>>/B<<221.0,-180.0>-<196.0,-195.0>-<168.0,-195.0>> = 14.036243467926457
+
+	* m (U+006D): B<<326.5,486.5>-<288.0,466.0>-<247.0,422.0>>/B<<247.0,422.0>-<321.0,495.0>-<387.0,495.0>> = 2.4111261356739786
+
+	* m (U+006D): B<<694.5,486.5>-<656.0,466.0>-<615.0,422.0>>/B<<615.0,422.0>-<689.0,495.0>-<755.0,495.0>> = 2.4111261356739786
+
+	* minute (U+2032): L<<149.0,700.0>--<75.0,513.0>>/L<<75.0,513.0>--<179.0,700.0>> = 7.490820480168342
+
+	* n (U+006E): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* nacute (U+0144): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* ncaron (U+0148): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* nine (U+0039): B<<211.0,286.0>-<244.0,280.0>-<272.0,286.0>>/B<<272.0,286.0>-<206.0,286.0>-<161.5,339.0>> = 12.094757077012089
+
+	* nine (U+0039): B<<416.0,63.0>-<367.0,0.0>-<284.0,-5.0>>/B<<284.0,-5.0>-<411.0,-2.0>-<467.0,96.0>> = 2.094194898085436
+
+	* ntilde (U+00F1): B<<214.0,684.5>-<192.0,668.0>-<179.0,638.0>>/B<<179.0,638.0>-<190.0,661.0>-<206.5,673.0>> = 2.1312723630784163
+
+	* ntilde (U+00F1): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* ntilde (U+00F1): B<<469.5,610.5>-<486.0,621.0>-<498.0,647.0>>/B<<498.0,647.0>-<483.0,617.0>-<449.0,617.0>> = 1.7899106082458724
+
+	* oe (U+0153): B<<471.5,114.5>-<450.0,57.0>-<412.0,25.0>>/B<<412.0,25.0>-<450.0,45.0>-<477.0,84.0>> = 12.342366945152207
+
+	* oe (U+0153): B<<477.0,416.5>-<448.0,458.0>-<409.0,478.0>>/B<<409.0,478.0>-<449.0,446.0>-<471.0,385.5>> = 11.510126556306892
+
+	* oe (U+0153): B<<563.5,390.5>-<589.0,449.0>-<634.0,479.0>>/B<<634.0,479.0>-<590.0,457.0>-<558.5,414.5>> = 7.125016348901757
+
+	* oe (U+0153): B<<730.0,-7.0>-<804.0,-7.0>-<849.0,18.0>>/B<<849.0,18.0>-<815.0,2.0>-<752.0,2.0>> = 3.853480453601986
+
+	* ogonek (U+02DB): B<<167.5,-200.0>-<186.0,-193.0>-<195.0,-184.0>>/B<<195.0,-184.0>-<170.0,-199.0>-<142.0,-199.0>> = 14.036243467926457
+
+	* ogonek (U+02DB): B<<92.5,-82.0>-<111.0,-57.0>-<153.0,-25.0>>/B<<153.0,-25.0>-<99.0,-56.0>-<75.0,-83.5>> = 7.444932113060306
+
+	* onehalf (U+00BD): B<<457.0,178.0>-<438.0,153.0>-<391.0,118.0>>/B<<391.0,118.0>-<448.0,147.0>-<470.0,171.0>> = 9.708635236703016
+
+	* onehalf (U+00BD): B<<492.0,228.0>-<492.0,270.0>-<443.0,282.0>>/B<<443.0,282.0>-<476.0,267.0>-<476.0,232.0>> = 10.683169668625252
+
+	* onequarter (U+00BC): B<<344.0,160.0>-<337.0,142.0>-<326.0,129.0>>/B<<326.0,129.0>-<344.0,148.0>-<352.0,172.5>> = 3.2154839917481746
+
+	* ordfeminine (U+00AA): B<<104.0,567.0>-<123.0,585.0>-<154.0,598.0>>/B<<154.0,598.0>-<115.0,588.0>-<92.5,569.0>> = 8.369581751696952
+
+	* ordfeminine (U+00AA): B<<119.5,480.0>-<126.0,480.0>-<132.0,481.0>>/B<<132.0,481.0>-<110.0,482.0>-<97.5,494.0>> = 12.064884410525389
+
+	* ordmasculine (U+00BA): B<<109.0,664.5>-<124.0,694.0>-<142.0,706.0>>/B<<142.0,706.0>-<111.0,694.0>-<92.5,665.0>> = 12.528807709151492
+
+	* ordmasculine (U+00BA): B<<92.0,526.0>-<110.0,498.0>-<142.0,486.0>>/B<<142.0,486.0>-<124.0,498.0>-<109.0,526.0>> = 13.134022306396298
+
+	* otilde (U+00F5): B<<175.0,684.5>-<153.0,668.0>-<140.0,638.0>>/B<<140.0,638.0>-<151.0,661.0>-<167.5,673.0>> = 2.1312723630784163
+
+	* otilde (U+00F5): B<<430.5,610.5>-<447.0,621.0>-<459.0,647.0>>/B<<459.0,647.0>-<444.0,617.0>-<410.0,617.0>> = 1.7899106082458724
+
+	* p (U+0070): B<<325.5,496.0>-<299.0,485.0>-<277.0,468.0>>/B<<277.0,468.0>-<319.0,496.0>-<367.0,496.0>> = 4.004172940709389
+
+	* p (U+0070): B<<347.0,1.0>-<320.0,1.0>-<301.0,5.0>>/B<<301.0,5.0>-<327.0,-5.0>-<360.0,-5.0>> = 9.148852985793804
+
+	* parenleft (U+0028): B<<180.5,78.0>-<253.0,-36.0>-<387.0,-73.0>>/B<<387.0,-73.0>-<275.0,-32.0>-<215.5,80.5>> = 4.670372910892535
+
+	* parenleft (U+0028): B<<215.0,650.0>-<274.0,760.0>-<385.0,801.0>>/B<<385.0,801.0>-<252.0,765.0>-<180.0,654.5>> = 5.126979468879653
+
+	* parenright (U+0029): B<<254.5,80.5>-<195.0,-32.0>-<83.0,-73.0>>/B<<83.0,-73.0>-<217.0,-36.0>-<289.5,78.0>> = 4.670372910892535
+
+	* parenright (U+0029): B<<290.0,654.5>-<218.0,765.0>-<85.0,801.0>>/B<<85.0,801.0>-<195.0,760.0>-<254.5,650.0>> = 5.296090413986353
+
+	* percent (U+0025): B<<147.0,661.5>-<173.0,695.0>-<211.0,710.0>>/B<<211.0,710.0>-<166.0,702.0>-<135.0,675.5>> = 11.460377930996103
+
+	* percent (U+0025): B<<286.0,456.0>-<261.0,423.0>-<225.0,407.0>>/B<<225.0,407.0>-<270.0,415.0>-<299.5,442.5>> = 13.881890987035817
+
+	* percent (U+0025): B<<338.5,664.5>-<319.0,699.0>-<276.0,710.0>>/B<<276.0,710.0>-<307.0,696.0>-<321.5,667.0>> = 9.955217222989589
+
+	* percent (U+0025): B<<447.5,44.0>-<469.0,9.0>-<514.0,-2.0>>/B<<514.0,-2.0>-<480.0,11.0>-<464.0,40.0>> = 7.188233439298553
+
+	* percent (U+0025): B<<501.0,251.5>-<527.0,285.0>-<565.0,300.0>>/B<<565.0,300.0>-<520.0,292.0>-<489.0,265.5>> = 11.460377930996103
+
+	* percent (U+0025): B<<640.0,46.0>-<615.0,13.0>-<579.0,-3.0>>/B<<579.0,-3.0>-<624.0,5.0>-<653.5,32.5>> = 13.881890987035817
+
+	* percent (U+0025): B<<692.5,254.5>-<673.0,289.0>-<630.0,300.0>>/B<<630.0,300.0>-<661.0,286.0>-<675.5,257.0>> = 9.955217222989589
+
+	* percent (U+0025): B<<93.5,454.0>-<115.0,419.0>-<160.0,408.0>>/B<<160.0,408.0>-<126.0,421.0>-<110.0,450.0>> = 7.188233439298553
+
+	* perthousand (U+2030): B<<1040.5,254.5>-<1021.0,289.0>-<978.0,300.0>>/B<<978.0,300.0>-<1009.0,286.0>-<1023.5,257.0>> = 9.955217222989589
+
+	* perthousand (U+2030): B<<147.0,661.5>-<173.0,695.0>-<211.0,710.0>>/B<<211.0,710.0>-<166.0,702.0>-<135.0,675.5>> = 11.460377930996103
+
+	* perthousand (U+2030): B<<286.0,456.0>-<261.0,423.0>-<225.0,407.0>>/B<<225.0,407.0>-<270.0,415.0>-<299.5,442.5>> = 13.881890987035817
+
+	* perthousand (U+2030): B<<338.5,664.5>-<319.0,699.0>-<276.0,710.0>>/B<<276.0,710.0>-<307.0,696.0>-<321.5,667.0>> = 9.955217222989589
+
+	* perthousand (U+2030): B<<447.5,44.0>-<469.0,9.0>-<514.0,-2.0>>/B<<514.0,-2.0>-<480.0,11.0>-<464.0,40.0>> = 7.188233439298553
+
+	* perthousand (U+2030): B<<501.0,251.5>-<527.0,285.0>-<565.0,300.0>>/B<<565.0,300.0>-<520.0,292.0>-<489.0,265.5>> = 11.460377930996103
+
+	* perthousand (U+2030): B<<640.0,46.0>-<615.0,13.0>-<579.0,-3.0>>/B<<579.0,-3.0>-<624.0,5.0>-<653.5,32.5>> = 13.881890987035817
+
+	* perthousand (U+2030): B<<692.5,254.5>-<673.0,289.0>-<630.0,300.0>>/B<<630.0,300.0>-<661.0,286.0>-<675.5,257.0>> = 9.955217222989589
+
+	* perthousand (U+2030): B<<795.5,44.0>-<817.0,9.0>-<862.0,-2.0>>/B<<862.0,-2.0>-<828.0,11.0>-<812.0,40.0>> = 7.188233439298553
+
+	* perthousand (U+2030): B<<849.0,251.5>-<875.0,285.0>-<913.0,300.0>>/B<<913.0,300.0>-<868.0,292.0>-<837.0,265.5>> = 11.460377930996103
+
+	* perthousand (U+2030): B<<93.5,454.0>-<115.0,419.0>-<160.0,408.0>>/B<<160.0,408.0>-<126.0,421.0>-<110.0,450.0>> = 7.188233439298553
+
+	* perthousand (U+2030): B<<988.0,46.0>-<963.0,13.0>-<927.0,-3.0>>/B<<927.0,-3.0>-<972.0,5.0>-<1001.5,32.5>> = 13.881890987035817
+
+	* q (U+0071): B<<137.5,401.5>-<166.0,465.0>-<221.0,493.0>>/B<<221.0,493.0>-<150.0,475.0>-<107.0,410.0>> = 12.754266819471042
+
+	* q (U+0071): B<<309.5,5.0>-<337.0,16.0>-<361.0,35.0>>/B<<361.0,35.0>-<340.0,21.0>-<317.0,14.0>> = 4.677417858881669
+
+	* q (U+0071): B<<441.0,444.5>-<419.0,465.0>-<389.0,479.0>>/B<<389.0,479.0>-<466.0,423.0>-<471.0,332.0>> = 11.010479907003596
+
+	* q (U+0071): L<<515.0,-192.0>--<515.0,477.0>>/L<<515.0,477.0>--<500.0,401.0>> = 11.164880177548593
+
+	* question (U+003F): B<<450.0,715.5>-<425.0,758.0>-<378.0,781.0>>/B<<378.0,781.0>-<410.0,758.0>-<428.0,720.0>> = 9.63133581665413
+
+	* question (U+003F): L<<35.0,716.0>--<69.0,546.0>>/L<<69.0,546.0>--<71.0,623.0>> = 12.797800002847948
+
+	* questiondown (U+00BF): B<<70.0,-115.5>-<95.0,-158.0>-<142.0,-181.0>>/B<<142.0,-181.0>-<110.0,-158.0>-<92.0,-120.0>> = 9.63133581665413
+
+	* questiondown (U+00BF): L<<485.0,-116.0>--<451.0,54.0>>/L<<451.0,54.0>--<449.0,-23.0>> = 12.797800002847977
+
+	* quotedbl (U+0022): L<<185.0,700.0>--<198.0,507.0>>/L<<198.0,507.0>--<209.0,700.0>> = 7.115513930998828
+
+	* quotedbl (U+0022): L<<69.0,700.0>--<82.0,507.0>>/L<<82.0,507.0>--<93.0,700.0>> = 7.115513930998828
+
+	* quotesingle (U+0027): L<<69.0,700.0>--<82.0,507.0>>/L<<82.0,507.0>--<93.0,700.0>> = 7.115513930998828
+
+	* registered (U+00AE): B<<375.0,490.5>-<362.0,476.0>-<341.0,469.0>>/B<<341.0,469.0>-<370.0,473.0>-<387.0,488.5>> = 10.58163552094374
+
+	* ring (U+02DA): B<<204.5,689.5>-<191.0,704.0>-<169.0,710.0>>/B<<169.0,710.0>-<185.0,701.0>-<194.5,685.5>> = 14.102634839733502
+
+	* s (U+0073): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
+
+	* s (U+0073): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
+
+	* s (U+0073): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
+
+	* s (U+0073): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
+
+	* sacute (U+015B): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
+
+	* sacute (U+015B): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
+
+	* sacute (U+015B): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
+
+	* sacute (U+015B): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
+
+	* scaron (U+0161): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
+
+	* scaron (U+0161): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
+
+	* scaron (U+0161): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
+
+	* scaron (U+0161): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
+
+	* scedilla (U+015F): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
+
+	* scedilla (U+015F): B<<372.0,-131.0>-<372.0,-81.0>-<320.0,-63.0>>/B<<320.0,-63.0>-<360.0,-83.0>-<360.0,-127.0>> = 7.471559176592336
+
+	* scedilla (U+015F): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
+
+	* scedilla (U+015F): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
+
+	* scedilla (U+015F): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
+
+	* second (U+2033): L<<149.0,700.0>--<75.0,513.0>>/L<<75.0,513.0>--<179.0,700.0>> = 7.490820480168342
+
+	* second (U+2033): L<<270.0,700.0>--<196.0,513.0>>/L<<196.0,513.0>--<300.0,700.0>> = 7.490820480168342
+
+	* section (U+00A7): B<<111.0,602.0>-<111.0,667.0>-<176.0,697.0>>/B<<176.0,697.0>-<132.0,683.0>-<108.0,655.0>> = 7.125016348901757
+
+	* section (U+00A7): B<<450.0,113.0>-<450.0,46.0>-<388.0,14.0>>/B<<388.0,14.0>-<433.0,29.0>-<457.0,58.0>> = 8.864623388410797
+
+	* section (U+00A7): B<<451.5,653.0>-<434.0,680.0>-<391.0,695.0>>/B<<391.0,695.0>-<419.0,680.0>-<419.0,670.0>> = 8.947917734297867
+
+	* section (U+00A7): B<<95.5,55.0>-<114.0,28.0>-<158.0,14.0>>/B<<158.0,14.0>-<129.0,28.0>-<129.0,38.0>> = 8.119203404408543
+
+	* seven (U+0037): B<<140.5,693.0>-<110.0,671.0>-<96.0,622.0>>/B<<96.0,622.0>-<109.0,649.0>-<122.5,661.5>> = 9.764557879888383
+
+	* seven (U+0037): B<<310.0,-7.0>-<382.0,-7.0>-<423.0,32.0>>/B<<423.0,32.0>-<382.0,6.0>-<336.0,6.0>> = 11.187226109266119
+
+	* seven (U+0037): B<<473.5,465.5>-<520.0,512.0>-<536.0,546.0>>/B<<536.0,546.0>-<506.0,506.0>-<459.0,467.0>> = 11.66877400036892
+
+	* seven (U+0037): L<<77.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 11.458752345877198
+
+	* six (U+0036): B<<179.0,645.0>-<228.0,708.0>-<310.0,713.0>>/B<<310.0,713.0>-<184.0,710.0>-<128.0,612.0>> = 2.125397374193499
+
+	* six (U+0036): B<<384.0,422.0>-<351.0,428.0>-<323.0,422.0>>/B<<323.0,422.0>-<389.0,422.0>-<433.5,369.0>> = 12.094757077012089
+
+	* sterling (U+00A3): B<<162.0,505.0>-<162.0,641.0>-<258.0,694.0>>/B<<258.0,694.0>-<186.0,669.0>-<152.5,611.0>> = 9.754219578262193
+
+	* sterling (U+00A3): B<<554.0,32.0>-<588.0,71.0>-<600.0,142.0>>/B<<600.0,142.0>-<587.0,86.0>-<559.0,56.0>> = 3.4761836335517313
+
+	* sterling (U+00A3): B<<577.0,592.0>-<577.0,648.0>-<520.0,680.0>>/B<<520.0,680.0>-<531.0,670.0>-<531.0,661.0>> = 12.963681935177604
+
+	* t (U+0074): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
+
+	* tcaron (U+0165): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
+
+	* thorn (U+00FE): B<<325.5,496.0>-<299.0,485.0>-<277.0,468.0>>/B<<277.0,468.0>-<319.0,496.0>-<367.0,496.0>> = 4.004172940709389
+
+	* thorn (U+00FE): B<<347.0,1.0>-<320.0,1.0>-<301.0,5.0>>/B<<301.0,5.0>-<327.0,-5.0>-<360.0,-5.0>> = 9.148852985793804
+
+	* three (U+0033): B<<467.0,81.5>-<443.0,41.0>-<399.0,17.0>>/B<<399.0,17.0>-<465.0,34.0>-<500.5,74.5>> = 14.166423941472967
+
+	* three (U+0033): B<<490.5,642.5>-<453.0,683.0>-<385.0,698.0>>/B<<385.0,698.0>-<430.0,677.0>-<456.0,637.0>> = 12.577331459253468
+
+	* threequarters (U+00BE): B<<225.0,451.5>-<213.0,435.0>-<192.0,426.0>>/B<<192.0,426.0>-<253.0,439.0>-<253.0,494.0>> = 11.167994417110311
+
+	* threequarters (U+00BE): B<<253.0,655.0>-<253.0,698.0>-<199.0,708.0>>/B<<199.0,708.0>-<216.0,701.0>-<226.5,687.0>> = 11.888658039627968
+
+	* threequarters (U+00BE): B<<447.0,160.0>-<440.0,142.0>-<429.0,129.0>>/B<<429.0,129.0>-<447.0,148.0>-<455.0,172.5>> = 3.2154839917481746
+
+	* tilde (U+02DC): B<<132.0,684.5>-<110.0,668.0>-<97.0,638.0>>/B<<97.0,638.0>-<108.0,661.0>-<124.5,673.0>> = 2.1312723630784163
+
+	* tilde (U+02DC): B<<387.5,610.5>-<404.0,621.0>-<416.0,647.0>>/B<<416.0,647.0>-<401.0,617.0>-<367.0,617.0>> = 1.7899106082458724
+
+	* tildecomb (U+0303): B<<-125.0,684.5>-<-147.0,668.0>-<-160.0,638.0>>/B<<-160.0,638.0>-<-149.0,661.0>-<-132.5,673.0>> = 2.1312723630784163
+
+	* tildecomb (U+0303): B<<130.5,610.5>-<147.0,621.0>-<159.0,647.0>>/B<<159.0,647.0>-<144.0,617.0>-<110.0,617.0>> = 1.7899106082458724
+
+	* trademark (U+2122): B<<381.0,441.5>-<367.0,457.0>-<366.0,493.0>>/L<<366.0,493.0>--<366.0,424.0>> = 1.5911402711945815
+
+	* trademark (U+2122): B<<69.0,686.5>-<84.0,699.0>-<117.0,700.0>>/L<<117.0,700.0>--<44.0,700.0>> = 1.735704588928346
+
+	* trademark (U+2122): L<<284.0,651.0>--<283.0,620.0>>/L<<283.0,620.0>--<292.0,700.0>> = 4.571176464244108
+
+	* trademark (U+2122): L<<292.0,700.0>--<219.0,700.0>>/B<<219.0,700.0>-<254.0,699.0>-<269.0,687.0>> = 1.6365770416166923
+
+	* trademark (U+2122): L<<366.0,424.0>--<429.0,424.0>>/B<<429.0,424.0>-<395.0,426.0>-<381.0,441.5>> = 3.3664606634298315
+
+	* trademark (U+2122): L<<44.0,700.0>--<53.0,620.0>>/L<<53.0,620.0>--<53.0,650.0>> = 6.418786730238772
+
+	* two (U+0032): B<<277.5,282.5>-<257.0,268.0>-<240.0,251.0>>/B<<240.0,251.0>-<259.0,264.0>-<285.5,276.5>> = 10.619655276155106
+
+	* two (U+0032): B<<510.5,14.5>-<543.0,36.0>-<558.0,86.0>>/B<<558.0,86.0>-<547.0,62.0>-<530.0,48.0>> = 7.924320552169981
+
+	* u (U+0075): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* uacute (U+00FA): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* ubreve (U+016D): B<<321.0,619.0>-<234.0,619.0>-<184.0,685.0>>/B<<184.0,685.0>-<205.0,645.0>-<240.5,623.0>> = 9.447213889966706
+
+	* ubreve (U+016D): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* ubreve (U+016D): B<<401.5,623.0>-<437.0,645.0>-<458.0,685.0>>/B<<458.0,685.0>-<409.0,619.0>-<321.0,619.0>> = 8.891615459344234
+
+	* ucircumflex (U+00FB): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* udieresis (U+00FC): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* ugrave (U+00F9): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* uhungarumlaut (U+0171): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* umacron (U+016B): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* uni00B2 (U+00B2): B<<205.0,604.0>-<186.0,579.0>-<139.0,544.0>>/B<<139.0,544.0>-<196.0,573.0>-<218.0,597.0>> = 9.708635236703016
+
+	* uni00B2 (U+00B2): B<<240.0,654.0>-<240.0,696.0>-<191.0,708.0>>/B<<191.0,708.0>-<224.0,693.0>-<224.0,658.0>> = 10.683169668625252
+
+	* uni00B3 (U+00B3): B<<213.0,451.5>-<201.0,435.0>-<180.0,426.0>>/B<<180.0,426.0>-<241.0,439.0>-<241.0,494.0>> = 11.167994417110311
+
+	* uni00B3 (U+00B3): B<<241.0,655.0>-<241.0,698.0>-<187.0,708.0>>/B<<187.0,708.0>-<204.0,701.0>-<214.5,687.0>> = 11.888658039627968
+
+	* uni00B5 (U+00B5): B<<112.0,90.5>-<137.0,145.0>-<168.0,196.0>>/B<<168.0,196.0>-<127.0,142.0>-<95.0,87.5>> = 5.9148829258613285
+
+	* uni00B5 (U+00B5): B<<178.0,-177.5>-<158.0,-201.0>-<142.0,-205.0>>/B<<142.0,-205.0>-<178.0,-205.0>-<208.5,-192.5>> = 14.036243467926484
+
+	* uni00B5 (U+00B5): B<<211.0,82.0>-<196.0,116.0>-<194.0,178.0>>/B<<194.0,178.0>-<185.0,84.0>-<214.5,38.5>> = 7.316705236106494
+
+	* uni00B5 (U+00B5): B<<389.5,39.0>-<438.0,85.0>-<477.0,177.0>>/B<<477.0,177.0>-<427.0,87.0>-<380.0,54.5>> = 6.081882768248428
+
+	* uni00B5 (U+00B5): B<<49.5,-180.0>-<73.0,-205.0>-<117.0,-205.0>>/B<<117.0,-205.0>-<87.0,-202.0>-<71.0,-176.5>> = 5.710593137499633
+
+	* uni00B5 (U+00B5): B<<522.5,78.0>-<509.0,111.0>-<509.0,175.0>>/B<<509.0,175.0>-<500.0,81.0>-<525.0,37.0>> = 5.469094970111876
+
+	* uni00B5 (U+00B5): B<<677.0,33.0>-<722.0,73.0>-<747.0,155.0>>/B<<747.0,155.0>-<727.0,106.0>-<699.5,76.5>> = 5.248165480032165
+
+	* uni0122 (U+0122): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
+
+	* uni0122 (U+0122): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
+
+	* uni0122 (U+0122): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
+
+	* uni0122 (U+0122): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
+
+	* uni0123 (U+0123): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
+
+	* uni0123 (U+0123): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
+
+	* uni0123 (U+0123): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
+
+	* uni0123 (U+0123): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
+
+	* uni0123 (U+0123): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
+
+	* uni0123 (U+0123): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
+
+	* uni0136 (U+0136): B<<456.0,479.0>-<396.0,393.0>-<320.0,364.0>>/B<<320.0,364.0>-<362.0,375.0>-<404.0,404.5>> = 6.209408323242995
+
+	* uni0136 (U+0136): B<<623.0,-7.0>-<651.0,-7.0>-<664.0,3.0>>/B<<664.0,3.0>-<662.0,2.0>-<658.0,2.0>> = 11.003540851749474
+
+	* uni0136 (U+0136): L<<565.0,700.0>--<478.0,700.0>>/B<<478.0,700.0>-<498.0,697.0>-<509.5,682.5>> = 8.530765609948139
+
+	* uni013B (U+013B): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
+
+	* uni013B (U+013B): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
+
+	* uni0145 (U+0145): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+
+	* uni0145 (U+0145): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+
+	* uni0146 (U+0146): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
+
+	* uni0156 (U+0156): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
+
+	* uni0156 (U+0156): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
+
+	* uni0156 (U+0156): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
+
+	* uni01CD (U+01CD): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+
+	* uni01CE (U+01CE): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
+
+	* uni01CE (U+01CE): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
+
+	* uni01CE (U+01CE): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
+
+	* uni0218 (U+0218): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
+
+	* uni0218 (U+0218): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
+
+	* uni0218 (U+0218): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
+
+	* uni0218 (U+0218): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
+
+	* uni0218 (U+0218): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
+
+	* uni0218 (U+0218): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
+
+	* uni0219 (U+0219): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
+
+	* uni0219 (U+0219): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
+
+	* uni0219 (U+0219): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
+
+	* uni0219 (U+0219): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
+
+	* uni021A (U+021A): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
+
+	* uni021A (U+021A): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
+
+	* uni021A (U+021A): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
+
+	* uni021A (U+021A): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
+
+	* uni021B (U+021B): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
+
+	* uni0306 (U+0306): B<<0.0,619.0>-<-87.0,619.0>-<-137.0,685.0>>/B<<-137.0,685.0>-<-116.0,645.0>-<-80.5,623.0>> = 9.447213889966706
+
+	* uni0306 (U+0306): B<<80.5,623.0>-<116.0,645.0>-<137.0,685.0>>/B<<137.0,685.0>-<88.0,619.0>-<0.0,619.0>> = 8.891615459344234
+
+	* uni030A (U+030A): B<<68.5,689.5>-<55.0,704.0>-<33.0,710.0>>/B<<33.0,710.0>-<49.0,701.0>-<58.5,685.5>> = 14.102634839733502
+
+	* uni0327 (U+0327): B<<98.0,-131.0>-<98.0,-81.0>-<46.0,-63.0>>/B<<46.0,-63.0>-<86.0,-83.0>-<86.0,-127.0>> = 7.471559176592336
+
+	* uni0328 (U+0328): B<<-110.5,-82.0>-<-92.0,-57.0>-<-50.0,-25.0>>/B<<-50.0,-25.0>-<-104.0,-56.0>-<-128.0,-83.5>> = 7.444932113060306
+
+	* uni0328 (U+0328): B<<-35.5,-200.0>-<-17.0,-193.0>-<-8.0,-184.0>>/B<<-8.0,-184.0>-<-33.0,-199.0>-<-61.0,-199.0>> = 14.036243467926457
+
+	* uni03BC (U+03BC): B<<112.0,90.5>-<137.0,145.0>-<168.0,196.0>>/B<<168.0,196.0>-<127.0,142.0>-<95.0,87.5>> = 5.9148829258613285
+
+	* uni03BC (U+03BC): B<<178.0,-177.5>-<158.0,-201.0>-<142.0,-205.0>>/B<<142.0,-205.0>-<178.0,-205.0>-<208.5,-192.5>> = 14.036243467926484
+
+	* uni03BC (U+03BC): B<<211.0,82.0>-<196.0,116.0>-<194.0,178.0>>/B<<194.0,178.0>-<185.0,84.0>-<214.5,38.5>> = 7.316705236106494
+
+	* uni03BC (U+03BC): B<<389.5,39.0>-<438.0,85.0>-<477.0,177.0>>/B<<477.0,177.0>-<427.0,87.0>-<380.0,54.5>> = 6.081882768248428
+
+	* uni03BC (U+03BC): B<<49.5,-180.0>-<73.0,-205.0>-<117.0,-205.0>>/B<<117.0,-205.0>-<87.0,-202.0>-<71.0,-176.5>> = 5.710593137499633
+
+	* uni03BC (U+03BC): B<<522.5,78.0>-<509.0,111.0>-<509.0,175.0>>/B<<509.0,175.0>-<500.0,81.0>-<525.0,37.0>> = 5.469094970111876
+
+	* uni03BC (U+03BC): B<<677.0,33.0>-<722.0,73.0>-<747.0,155.0>>/B<<747.0,155.0>-<727.0,106.0>-<699.5,76.5>> = 5.248165480032165
+
+	* uni1E9E (U+1E9E): L<<141.0,150.0>--<145.0,11.0>>/L<<145.0,11.0>--<187.0,558.0>> = 6.039039825061501
+
+	* uni1E9E (U+1E9E): L<<187.0,558.0>--<184.0,697.0>>/L<<184.0,697.0>--<141.0,150.0>> = 5.731219850404762
+
+	* uni2074 (U+2074): B<<111.0,581.0>-<104.0,563.0>-<93.0,550.0>>/B<<93.0,550.0>-<111.0,569.0>-<119.0,593.5>> = 3.2154839917481746
+
+	* uogonek (U+0173): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* uogonek (U+0173): B<<435.5,-78.0>-<454.0,-53.0>-<496.0,-21.0>>/B<<496.0,-21.0>-<442.0,-52.0>-<418.0,-79.5>> = 7.444932113060306
+
+	* uogonek (U+0173): B<<510.5,-196.0>-<529.0,-189.0>-<538.0,-180.0>>/B<<538.0,-180.0>-<513.0,-195.0>-<485.0,-195.0>> = 14.036243467926457
+
+	* uring (U+016F): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
+
+	* uring (U+016F): B<<389.5,689.5>-<376.0,704.0>-<354.0,710.0>>/B<<354.0,710.0>-<370.0,701.0>-<379.5,685.5>> = 14.102634839733502
+
+	* v (U+0076): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* w (U+0077): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* w (U+0077): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
+
+	* wacute (U+1E83): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* wacute (U+1E83): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
+
+	* wcircumflex (U+0175): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* wcircumflex (U+0175): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
+
+	* wdieresis (U+1E85): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* wdieresis (U+1E85): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
+
+	* wgrave (U+1E81): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* wgrave (U+1E81): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
+
+	* y (U+0079): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
+
+	* y (U+0079): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* yacute (U+00FD): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
+
+	* yacute (U+00FD): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* ycircumflex (U+0177): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
+
+	* ycircumflex (U+0177): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* ydieresis (U+00FF): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
+
+	* ydieresis (U+00FF): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* yen (U+00A5): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
+
+	* ygrave (U+1EF3): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
+
+	* ygrave (U+1EF3): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
+
+	* z (U+007A): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
+
+	* z (U+007A): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
+
+	* zacute (U+017A): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
+
+	* zacute (U+017A): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
+
+	* zcaron (U+017E): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
+
+	* zcaron (U+017E): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
+
+	* zdotaccent (U+017C): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
+
+	* zdotaccent (U+017C): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
+
+	* zero (U+0030): B<<109.0,144.5>-<146.0,61.0>-<214.0,26.0>>/B<<214.0,26.0>-<166.0,65.0>-<143.0,143.0>> = 11.858712186926939
+
+	* zero (U+0030): B<<142.5,572.0>-<165.0,644.0>-<212.0,682.0>>/B<<212.0,682.0>-<145.0,648.0>-<108.5,568.0>> = 12.04981438182205
+
+	* zero (U+0030): B<<517.5,142.0>-<495.0,65.0>-<448.0,26.0>>/B<<448.0,26.0>-<517.0,61.0>-<553.0,144.5>> = 12.789217364561857 
+
+	* zero (U+0030): B<<553.0,567.5>-<517.0,650.0>-<450.0,682.0>>/B<<450.0,682.0>-<495.0,647.0>-<517.5,572.0>> = 12.345285660565148 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[10] KalniaGlaze-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4703,7 +7481,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6557,10 +9335,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<118.0,396.0>--<120.0,15.0>> 
 
 	* uni1E9E (U+1E9E): L<<237.0,312.0>--<235.0,693.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] KalniaGlaze-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6584,6 +9362,13 @@ The following glyphs do not have the recommended number of contours:
 	- j + k 
 
 	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Kalnia Glaze SemiBold' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
 
 
@@ -6756,9 +9541,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: z	Contours detected: 4	Expected: 1
 
-	- Glyph name: braceleft	Contours detected: 4	Expected: 1
+	- Glyph name: braceleft	Contours detected: 2	Expected: 1
 
-	- Glyph name: braceright	Contours detected: 4	Expected: 1
+	- Glyph name: braceright	Contours detected: 2	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
 
@@ -6860,7 +9645,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: multiply	Contours detected: 2	Expected: 1
 
-	- Glyph name: Oslash	Contours detected: 8	Expected: 2 or 3
+	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
 
 	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
 
@@ -6922,7 +9707,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: odieresis	Contours detected: 8	Expected: 4
 
-	- Glyph name: oslash	Contours detected: 10	Expected: 3
+	- Glyph name: oslash	Contours detected: 12	Expected: 3
 
 	- Glyph name: ugrave	Contours detected: 5	Expected: 2
 
@@ -7406,7 +10191,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Omacron	Contours detected: 6	Expected: 3
 
-	- Glyph name: Oslash	Contours detected: 8	Expected: 2 or 3
+	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
 
 	- Glyph name: Otilde	Contours detected: 6	Expected: 3
 
@@ -7524,9 +10309,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: b	Contours detected: 4	Expected: 2
 
-	- Glyph name: braceleft	Contours detected: 4	Expected: 1
+	- Glyph name: braceleft	Contours detected: 2	Expected: 1
 
-	- Glyph name: braceright	Contours detected: 4	Expected: 1
+	- Glyph name: braceright	Contours detected: 2	Expected: 1
 
 	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
 
@@ -7716,7 +10501,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
 
-	- Glyph name: oslash	Contours detected: 10	Expected: 3
+	- Glyph name: oslash	Contours detected: 12	Expected: 3
 
 	- Glyph name: otilde	Contours detected: 6	Expected: 3
 
@@ -7933,5275 +10718,273 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* uni1E9E (U+1E9E): L<<145.0,11.0>--<187.0,558.0>> -> L<<187.0,558.0>--<184.0,697.0>> [code: found-colinear-vectors]
+	* Acircumflex (U+00C2): L<<339.0,882.0>--<526.0,813.0>> -> L<<526.0,813.0>--<529.0,812.0>>
+
+	* Ecircumflex (U+00CA): L<<292.0,882.0>--<479.0,813.0>> -> L<<479.0,813.0>--<482.0,812.0>>
+
+	* Euro (U+20AC): L<<660.0,522.0>--<693.0,409.0>> -> L<<693.0,409.0>--<695.0,404.0>>
+
+	* Icircumflex (U+00CE): L<<126.0,882.0>--<313.0,813.0>> -> L<<313.0,813.0>--<316.0,812.0>>
+
+	* Ocircumflex (U+00D4): L<<336.0,882.0>--<523.0,813.0>> -> L<<523.0,813.0>--<526.0,812.0>>
+
+	* Ucircumflex (U+00DB): L<<325.0,882.0>--<512.0,813.0>> -> L<<512.0,813.0>--<515.0,812.0>>
+
+	* Wcircumflex (U+0174): L<<548.0,882.0>--<735.0,813.0>> -> L<<735.0,813.0>--<738.0,812.0>>
+
+	* Y (U+0059): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Yacute (U+00DD): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ycircumflex (U+0176): L<<331.0,882.0>--<518.0,813.0>> -> L<<518.0,813.0>--<521.0,812.0>>
+
+	* Ycircumflex (U+0176): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ydieresis (U+0178): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* Ygrave (U+1EF2): L<<459.0,17.0>--<459.0,283.0>> -> L<<459.0,283.0>--<461.0,335.0>>
+
+	* acircumflex (U+00E2): L<<249.0,674.0>--<436.0,605.0>> -> L<<436.0,605.0>--<439.0,604.0>>
+
+	* at (U+0040): L<<596.0,426.0>--<583.0,374.0>> -> L<<583.0,374.0>--<581.0,367.0>>
+
+	* circumflex (U+02C6): L<<132.0,674.0>--<319.0,605.0>> -> L<<319.0,605.0>--<322.0,604.0>>
+
+	* ecircumflex (U+00EA): L<<248.0,674.0>--<435.0,605.0>> -> L<<435.0,605.0>--<438.0,604.0>>
+
+	* g (U+0067): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* gbreve (U+011F): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* gdotaccent (U+0121): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* icircumflex (U+00EE): L<<100.0,674.0>--<287.0,605.0>> -> L<<287.0,605.0>--<290.0,604.0>>
+
+	* ocircumflex (U+00F4): L<<252.0,674.0>--<439.0,605.0>> -> L<<439.0,605.0>--<442.0,604.0>>
+
+	* ucircumflex (U+00FB): L<<280.0,674.0>--<467.0,605.0>> -> L<<467.0,605.0>--<470.0,604.0>>
+
+	* uni0123 (U+0123): L<<175.0,110.0>--<135.0,81.0>> -> L<<135.0,81.0>--<123.0,71.0>>
+
+	* uni0302 (U+0302): L<<-60.0,674.0>--<127.0,605.0>> -> L<<127.0,605.0>--<130.0,604.0>>
+
+	* wcircumflex (U+0175): L<<409.0,674.0>--<596.0,605.0>> -> L<<596.0,605.0>--<599.0,604.0>>
+
+	* ycircumflex (U+0177): L<<252.0,674.0>--<439.0,605.0>> -> L<<439.0,605.0>--<442.0,604.0>> 
+
+	* yen (U+00A5): L<<459.0,271.0>--<459.0,283.0>> -> L<<459.0,283.0>--<460.0,317.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* A (U+0041): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* A (U+0041): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* AE (U+00C6): B<<849.5,32.5>-<835.0,13.0>-<800.0,10.0>>/L<<800.0,10.0>--<887.0,10.0>> = 4.899092453787774
+	* Aacute (U+00C1): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* AE (U+00C6): L<<852.0,629.0>--<856.0,489.0>>/L<<856.0,489.0>--<887.0,698.0>> = 10.073481173022614
+	* Abreve (U+0102): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* AE (U+00C6): L<<887.0,10.0>--<855.0,233.0>>/L<<855.0,233.0>--<863.0,93.0>> = 4.895581645025753
+	* Acircumflex (U+00C2): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* AE (U+00C6): L<<887.0,698.0>--<785.0,698.0>>/B<<785.0,698.0>-<821.0,695.0>-<836.5,679.5>> = 4.763641690726143
+	* Adieresis (U+00C4): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Aacute (U+00C1): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Agrave (U+00C0): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Abreve (U+0102): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Amacron (U+0100): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Abreve (U+0102): B<<366.0,827.0>-<279.0,827.0>-<229.0,893.0>>/B<<229.0,893.0>-<250.0,853.0>-<285.5,831.0>> = 9.447213889966706
+	* Aogonek (U+0104): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Abreve (U+0102): B<<446.5,831.0>-<482.0,853.0>-<503.0,893.0>>/B<<503.0,893.0>-<454.0,827.0>-<366.0,827.0>> = 8.891615459344234
+	* Aring (U+00C5): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Acircumflex (U+00C2): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Atilde (U+00C3): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Adieresis (U+00C4): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Atilde (U+00C3): B<<279.0,904.5>-<249.0,887.0>-<227.0,859.0>>/B<<227.0,859.0>-<244.0,874.0>-<268.0,874.0>> = 10.419107787628292
 
-	* Agrave (U+00C0): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Atilde (U+00C3): B<<535.0,819.5>-<559.0,833.0>-<580.0,869.0>>/B<<580.0,869.0>-<570.0,856.0>-<551.0,856.0>> = 7.312154865298252
 
-	* Amacron (U+0100): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Ntilde (U+00D1): B<<266.0,904.5>-<236.0,887.0>-<214.0,859.0>>/B<<214.0,859.0>-<231.0,874.0>-<255.0,874.0>> = 10.419107787628292
 
-	* Aogonek (U+0104): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* Ntilde (U+00D1): B<<522.0,819.5>-<546.0,833.0>-<567.0,869.0>>/B<<567.0,869.0>-<557.0,856.0>-<538.0,856.0>> = 7.312154865298252
 
-	* Aogonek (U+0104): B<<600.5,-78.0>-<619.0,-53.0>-<661.0,-21.0>>/B<<661.0,-21.0>-<607.0,-52.0>-<583.0,-79.5>> = 7.444932113060306
+	* Otilde (U+00D5): B<<276.0,904.5>-<246.0,887.0>-<224.0,859.0>>/B<<224.0,859.0>-<241.0,874.0>-<265.0,874.0>> = 10.419107787628292
 
-	* Aogonek (U+0104): B<<675.5,-196.0>-<694.0,-189.0>-<703.0,-180.0>>/B<<703.0,-180.0>-<678.0,-195.0>-<650.0,-195.0>> = 14.036243467926457
+	* Otilde (U+00D5): B<<532.0,819.5>-<556.0,833.0>-<577.0,869.0>>/B<<577.0,869.0>-<567.0,856.0>-<548.0,856.0>> = 7.312154865298252
 
-	* Aring (U+00C5): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* a (U+0061): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Aring (U+00C5): B<<434.5,897.5>-<421.0,912.0>-<399.0,918.0>>/B<<399.0,918.0>-<415.0,909.0>-<424.5,893.5>> = 14.102634839733502
+	* aacute (U+00E1): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Atilde (U+00C3): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
+	* abreve (U+0103): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Atilde (U+00C3): B<<241.0,892.5>-<219.0,876.0>-<206.0,846.0>>/B<<206.0,846.0>-<217.0,869.0>-<233.5,881.0>> = 2.1312723630784163
+	* acircumflex (U+00E2): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Atilde (U+00C3): B<<496.5,818.5>-<513.0,829.0>-<525.0,855.0>>/B<<525.0,855.0>-<510.0,825.0>-<476.0,825.0>> = 1.7899106082458724
+	* adieresis (U+00E4): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* B (U+0042): B<<525.0,450.0>-<502.0,408.0>-<453.0,387.0>>/B<<453.0,387.0>-<488.0,394.0>-<519.0,413.5>> = 11.888658039627968
+	* ae (U+00E6): B<<207.5,200.5>-<238.0,238.0>-<284.0,256.0>>/B<<284.0,256.0>-<41.0,224.0>-<41.0,99.0>> = 13.868665440844241
 
-	* B (U+0042): B<<551.5,75.5>-<517.0,33.0>-<451.0,16.0>>/B<<451.0,16.0>-<629.0,38.0>-<629.0,188.0>> = 7.398266599624752
+	* ae (U+00E6): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* B (U+0042): B<<552.5,642.5>-<517.0,680.0>-<442.0,691.0>>/B<<442.0,691.0>-<493.0,676.0>-<520.5,638.5>> = 8.04564875000167
+	* ae (U+00E6): B<<726.0,9.5>-<758.0,17.0>-<788.0,35.0>>/B<<788.0,35.0>-<762.0,25.0>-<731.0,25.0>> = 9.926245506651668
 
-	* B (U+0042): B<<581.0,307.5>-<533.0,348.0>-<462.0,357.0>>/B<<462.0,357.0>-<586.0,324.0>-<586.0,191.0>> = 7.678338544985706
+	* agrave (U+00E0): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* C (U+0043): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
+	* amacron (U+0101): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* C (U+0043): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
+	* ampersand (U+0026): B<<307.5,30.0>-<353.0,58.0>-<391.0,100.0>>/B<<391.0,100.0>-<362.0,80.0>-<327.0,80.0>> = 13.270116538601751
 
-	* C (U+0043): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
+	* aogonek (U+0105): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Cacute (U+0106): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
+	* aring (U+00E5): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Cacute (U+0106): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
+	* at (U+0040): B<<253.0,492.0>-<298.0,543.0>-<362.0,573.0>>/B<<362.0,573.0>-<266.0,554.0>-<195.0,510.0>> = 13.919723459844576
 
-	* Cacute (U+0106): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
+	* atilde (U+00E3): B<<189.0,696.5>-<159.0,679.0>-<137.0,651.0>>/B<<137.0,651.0>-<154.0,666.0>-<178.0,666.0>> = 10.419107787628292
 
-	* Ccaron (U+010C): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
+	* atilde (U+00E3): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Ccaron (U+010C): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
+	* atilde (U+00E3): B<<445.0,611.5>-<469.0,625.0>-<490.0,661.0>>/B<<490.0,661.0>-<480.0,648.0>-<461.0,648.0>> = 7.312154865298252
 
-	* Ccaron (U+010C): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
+	* b (U+0062): B<<404.5,488.0>-<378.0,478.0>-<350.0,449.0>>/B<<350.0,449.0>-<358.0,454.0>-<366.0,456.0>> = 13.999702797170679
 
-	* Ccedilla (U+00C7): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
+	* c (U+0063): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
 
-	* Ccedilla (U+00C7): B<<478.0,-131.0>-<478.0,-81.0>-<426.0,-63.0>>/B<<426.0,-63.0>-<466.0,-83.0>-<466.0,-127.0>> = 7.471559176592336
+	* cacute (U+0107): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
 
-	* Ccedilla (U+00C7): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
+	* ccaron (U+010D): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
 
-	* Ccedilla (U+00C7): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
+	* ccedilla (U+00E7): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
 
-	* Cdotaccent (U+010A): B<<168.0,572.5>-<213.0,661.0>-<292.0,697.0>>/B<<292.0,697.0>-<192.0,663.0>-<135.0,570.5>> = 5.72054096898815
+	* cdotaccent (U+010B): B<<371.0,7.0>-<410.0,12.0>-<446.0,34.0>>/B<<446.0,34.0>-<419.0,25.0>-<390.0,25.0>> = 12.994616791916455
 
-	* Cdotaccent (U+010A): B<<489.0,10.5>-<539.0,27.0>-<577.0,59.0>>/B<<577.0,59.0>-<506.0,11.0>-<415.0,11.0>> = 6.0399987294044255
+	* cent (U+00A2): B<<388.0,50.5>-<418.0,57.0>-<446.0,74.0>>/B<<446.0,74.0>-<419.0,65.0>-<390.0,65.0>> = 12.828782871455394
 
-	* Cdotaccent (U+010A): B<<646.0,621.0>-<598.0,668.0>-<526.0,690.0>>/B<<526.0,690.0>-<609.0,645.0>-<604.0,524.0>> = 11.474338850668653
+	* dagger (U+2020): B<<222.0,324.0>-<235.0,257.0>-<243.0,186.0>>/B<<243.0,186.0>-<251.0,257.0>-<264.0,324.5>> = 12.857495497659666
 
-	* D (U+0044): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
+	* e (U+0065): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* D (U+0044): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
+	* eacute (U+00E9): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* Dcaron (U+010E): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
+	* ecaron (U+011B): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* Dcaron (U+010E): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
+	* ecircumflex (U+00EA): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* Dcroat (U+0110): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
+	* edieresis (U+00EB): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* Dcroat (U+0110): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
+	* edotaccent (U+0117): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* E (U+0045): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* egrave (U+00E8): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* E (U+0045): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* emacron (U+0113): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* E (U+0045): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* eng (U+014B): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* E (U+0045): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* eogonek (U+0119): B<<378.0,9.5>-<410.0,17.0>-<440.0,35.0>>/B<<440.0,35.0>-<413.0,25.0>-<382.0,25.0>> = 10.64061970241057
 
-	* Eacute (U+00C9): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* exclam (U+0021): B<<158.0,530.0>-<175.0,469.0>-<182.0,394.0>>/B<<182.0,394.0>-<188.0,469.0>-<205.0,530.0>> = 9.906080141560388
 
-	* Eacute (U+00C9): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* exclamdown (U+00A1): B<<205.0,70.0>-<188.0,131.0>-<182.0,206.0>>/B<<182.0,206.0>-<175.0,131.0>-<158.0,70.0>> = 9.906080141560388
 
-	* Eacute (U+00C9): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* h (U+0068): B<<470.0,498.0>-<403.0,498.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<400.0,462.0>> = 9.109491175555853
 
-	* Eacute (U+00C9): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* hbar (U+0127): B<<470.0,498.0>-<403.0,498.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<400.0,462.0>> = 9.109491175555853
 
-	* Ecaron (U+011A): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* m (U+006D): B<<406.0,485.5>-<378.0,473.0>-<354.0,448.0>>/B<<354.0,448.0>-<377.0,465.0>-<397.0,462.0>> = 9.699904937855514
 
-	* Ecaron (U+011A): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* m (U+006D): B<<757.0,485.5>-<729.0,473.0>-<705.0,448.0>>/B<<705.0,448.0>-<728.0,465.0>-<748.0,462.0>> = 9.699904937855514
 
-	* Ecaron (U+011A): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* n (U+006E): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* Ecaron (U+011A): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* nacute (U+0144): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* Ecircumflex (U+00CA): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* ncaron (U+0148): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* Ecircumflex (U+00CA): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* nine (U+0039): B<<455.0,177.0>-<451.0,38.0>-<348.0,5.0>>/B<<348.0,5.0>-<485.0,17.0>-<551.0,104.5>> = 12.759020747746385
 
-	* Ecircumflex (U+00CA): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* ntilde (U+00F1): B<<229.0,696.5>-<199.0,679.0>-<177.0,651.0>>/B<<177.0,651.0>-<194.0,666.0>-<218.0,666.0>> = 10.419107787628292
 
-	* Ecircumflex (U+00CA): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* ntilde (U+00F1): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* Edieresis (U+00CB): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* ntilde (U+00F1): B<<485.0,611.5>-<509.0,625.0>-<530.0,661.0>>/B<<530.0,661.0>-<520.0,648.0>-<501.0,648.0>> = 7.312154865298252
 
-	* Edieresis (U+00CB): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* oe (U+0153): B<<748.0,9.5>-<780.0,17.0>-<810.0,35.0>>/B<<810.0,35.0>-<784.0,25.0>-<753.0,25.0>> = 9.926245506651668
 
-	* Edieresis (U+00CB): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* onequarter (U+00BC): B<<381.0,156.0>-<381.0,145.0>-<374.0,134.0>>/B<<374.0,134.0>-<387.0,149.0>-<392.5,168.5>> = 8.443190929176685
 
-	* Edieresis (U+00CB): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* otilde (U+00F5): B<<192.0,696.5>-<162.0,679.0>-<140.0,651.0>>/B<<140.0,651.0>-<157.0,666.0>-<181.0,666.0>> = 10.419107787628292
 
-	* Edotaccent (U+0116): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* otilde (U+00F5): B<<448.0,611.5>-<472.0,625.0>-<493.0,661.0>>/B<<493.0,661.0>-<483.0,648.0>-<464.0,648.0>> = 7.312154865298252
 
-	* Edotaccent (U+0116): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* q (U+0071): B<<262.0,12.0>-<289.0,22.0>-<316.0,51.0>>/B<<316.0,51.0>-<309.0,46.0>-<300.5,44.0>> = 11.507730696912791
 
-	* Edotaccent (U+0116): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* seven (U+0037): B<<312.0,2.0>-<412.0,2.0>-<471.0,51.0>>/B<<471.0,51.0>-<441.0,36.0>-<410.0,36.0>> = 13.144867617550734
 
-	* Edotaccent (U+0116): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* seven (U+0037): L<<57.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 13.77501831967461
 
-	* Egrave (U+00C8): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* six (U+0036): B<<224.0,531.0>-<229.0,670.0>-<332.0,703.0>>/B<<332.0,703.0>-<195.0,691.0>-<129.0,603.5>> = 12.759020747746385
 
-	* Egrave (U+00C8): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* threequarters (U+00BE): B<<464.0,156.0>-<464.0,145.0>-<457.0,134.0>>/B<<457.0,134.0>-<470.0,149.0>-<475.5,168.5>> = 8.443190929176685
 
-	* Egrave (U+00C8): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* tilde (U+02DC): B<<155.0,696.5>-<125.0,679.0>-<103.0,651.0>>/B<<103.0,651.0>-<120.0,666.0>-<144.0,666.0>> = 10.419107787628292
 
-	* Egrave (U+00C8): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* tilde (U+02DC): B<<411.0,611.5>-<435.0,625.0>-<456.0,661.0>>/B<<456.0,661.0>-<446.0,648.0>-<427.0,648.0>> = 7.312154865298252
 
-	* Emacron (U+0112): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* tildecomb (U+0303): B<<-120.0,696.5>-<-150.0,679.0>-<-172.0,651.0>>/B<<-172.0,651.0>-<-155.0,666.0>-<-131.0,666.0>> = 10.419107787628292
 
-	* Emacron (U+0112): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* tildecomb (U+0303): B<<136.0,611.5>-<160.0,625.0>-<181.0,661.0>>/B<<181.0,661.0>-<171.0,648.0>-<152.0,648.0>> = 7.312154865298252
 
-	* Emacron (U+0112): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* trademark (U+2122): B<<423.0,433.0>-<395.0,449.0>-<386.0,493.0>>/L<<386.0,493.0>--<386.0,433.0>> = 11.56013079421777
 
-	* Emacron (U+0112): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* trademark (U+2122): L<<289.0,647.0>--<290.0,636.0>>/L<<290.0,636.0>--<298.0,691.0>> = 13.470321734810023
 
-	* Eng (U+014A): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
+	* two (U+0032): B<<320.0,706.0>-<309.0,705.0>-<299.0,704.0>>/B<<299.0,704.0>-<309.0,703.0>-<317.5,702.0>> = 11.42118627499929
 
-	* Eng (U+014A): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
+	* u (U+0075): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): B<<488.5,-78.0>-<507.0,-53.0>-<549.0,-21.0>>/B<<549.0,-21.0>-<495.0,-52.0>-<471.0,-79.5>> = 7.444932113060306
+	* uacute (U+00FA): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): B<<555.5,32.5>-<541.0,13.0>-<506.0,10.0>>/L<<506.0,10.0>--<593.0,10.0>> = 4.899092453787774
+	* ubreve (U+016D): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): B<<563.5,-196.0>-<582.0,-189.0>-<591.0,-180.0>>/B<<591.0,-180.0>-<566.0,-195.0>-<538.0,-195.0>> = 14.036243467926457
+	* ucircumflex (U+00FB): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* udieresis (U+00FC): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): L<<593.0,10.0>--<562.0,233.0>>/L<<562.0,233.0>--<569.0,93.0>> = 5.051759282935797
+	* ugrave (U+00F9): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eogonek (U+0118): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* uhungarumlaut (U+0171): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eth (U+00D0): B<<625.0,568.5>-<575.0,649.0>-<484.0,679.0>>/B<<484.0,679.0>-<627.0,605.0>-<627.0,361.0>> = 9.114920202238979
+	* umacron (U+016B): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* Eth (U+00D0): B<<627.0,361.0>-<627.0,102.0>-<482.0,29.0>>/B<<482.0,29.0>-<575.0,58.0>-<625.0,140.5>> = 9.403951959265138
+	* uni0146 (U+0146): B<<471.0,498.0>-<405.0,498.0>-<355.0,448.0>>/B<<355.0,448.0>-<379.0,465.0>-<401.0,462.0>> = 9.68878656036675
 
-	* Euro (U+20AC): B<<246.0,585.5>-<290.0,664.0>-<363.0,697.0>>/B<<363.0,697.0>-<274.0,666.0>-<218.5,588.0>> = 5.121601733626017
+	* uni01CD (U+01CD): B<<176.0,187.0>-<176.0,226.0>-<186.0,276.0>>/L<<186.0,276.0>--<79.0,17.0>> = 11.136928999068989
 
-	* Euro (U+20AC): B<<560.5,10.5>-<611.0,27.0>-<649.0,59.0>>/B<<649.0,59.0>-<577.0,11.0>-<486.0,11.0>> = 6.410840020232458
+	* uni01CE (U+01CE): B<<222.5,16.0>-<255.0,29.0>-<283.0,50.0>>/B<<283.0,50.0>-<259.0,38.0>-<235.0,38.0>> = 10.304846468766009
 
-	* Euro (U+20AC): B<<717.0,621.0>-<669.0,668.0>-<597.0,690.0>>/B<<597.0,690.0>-<680.0,645.0>-<676.0,524.0>> = 11.474338850668653
+	* uni2074 (U+2074): B<<114.0,577.0>-<114.0,566.0>-<107.0,555.0>>/B<<107.0,555.0>-<120.0,570.0>-<125.5,589.5>> = 8.443190929176685
 
-	* F (U+0046): L<<559.0,629.0>--<562.0,489.0>>/L<<562.0,489.0>--<593.0,698.0>> = 9.66448296354043
+	* uogonek (U+0173): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* F (U+0046): L<<593.0,698.0>--<492.0,698.0>>/B<<492.0,698.0>-<528.0,695.0>-<543.0,679.5>> = 4.763641690726143
+	* uring (U+016F): B<<213.0,3.0>-<280.0,3.0>-<330.0,53.0>>/B<<330.0,53.0>-<308.0,34.0>-<283.0,39.0>> = 4.184916125118406
 
-	* G (U+0047): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
+	* z (U+007A): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365
 
-	* G (U+0047): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
+	* zacute (U+017A): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365
 
-	* G (U+0047): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
+	* zcaron (U+017E): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365 
 
-	* G (U+0047): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
-
-	* Gbreve (U+011E): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
-
-	* Gbreve (U+011E): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
-
-	* Gbreve (U+011E): B<<382.0,827.0>-<295.0,827.0>-<245.0,893.0>>/B<<245.0,893.0>-<266.0,853.0>-<301.5,831.0>> = 9.447213889966706
-
-	* Gbreve (U+011E): B<<462.5,831.0>-<498.0,853.0>-<519.0,893.0>>/B<<519.0,893.0>-<470.0,827.0>-<382.0,827.0>> = 8.891615459344234
-
-	* Gbreve (U+011E): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
-
-	* Gbreve (U+011E): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
-
-	* Gdotaccent (U+0120): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
-
-	* Gdotaccent (U+0120): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
-
-	* Gdotaccent (U+0120): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
-
-	* Gdotaccent (U+0120): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
-
-	* Iogonek (U+012E): B<<146.5,-78.0>-<165.0,-53.0>-<207.0,-21.0>>/B<<207.0,-21.0>-<153.0,-52.0>-<129.0,-79.5>> = 7.444932113060306
-
-	* Iogonek (U+012E): B<<221.5,-196.0>-<240.0,-189.0>-<249.0,-180.0>>/B<<249.0,-180.0>-<224.0,-195.0>-<196.0,-195.0>> = 14.036243467926457
-
-	* K (U+004B): B<<456.0,479.0>-<396.0,393.0>-<320.0,364.0>>/B<<320.0,364.0>-<362.0,375.0>-<404.0,404.5>> = 6.209408323242995
-
-	* K (U+004B): B<<623.0,-7.0>-<651.0,-7.0>-<664.0,3.0>>/B<<664.0,3.0>-<662.0,2.0>-<658.0,2.0>> = 11.003540851749474
-
-	* K (U+004B): L<<565.0,700.0>--<478.0,700.0>>/B<<478.0,700.0>-<498.0,697.0>-<509.5,682.5>> = 8.530765609948139
-
-	* L (U+004C): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* L (U+004C): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* Lacute (U+0139): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* Lacute (U+0139): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* Lcaron (U+013D): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* Lcaron (U+013D): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* Ldot (U+013F): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* Ldot (U+013F): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* Lslash (U+0141): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* Lslash (U+0141): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* M (U+004D): L<<145.0,10.0>--<248.0,10.0>>/B<<248.0,10.0>-<199.0,18.0>-<175.5,51.5>> = 9.272601777200284
-
-	* M (U+004D): L<<502.0,58.0>--<499.0,54.0>>/L<<499.0,54.0>--<501.0,58.0>> = 10.304846468766009
-
-	* N (U+004E): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
-
-	* N (U+004E): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
-
-	* Nacute (U+0143): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
-
-	* Nacute (U+0143): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
-
-	* Ncaron (U+0147): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
-
-	* Ncaron (U+0147): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
-
-	* Ntilde (U+00D1): B<<283.0,892.5>-<261.0,876.0>-<248.0,846.0>>/B<<248.0,846.0>-<259.0,869.0>-<275.5,881.0>> = 2.1312723630784163
-
-	* Ntilde (U+00D1): B<<538.5,818.5>-<555.0,829.0>-<567.0,855.0>>/B<<567.0,855.0>-<552.0,825.0>-<518.0,825.0>> = 1.7899106082458724
-
-	* Ntilde (U+00D1): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
-
-	* Ntilde (U+00D1): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
-
-	* O (U+004F): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* O (U+004F): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* O (U+004F): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* O (U+004F): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* OE (U+0152): B<<122.0,149.5>-<166.0,67.0>-<247.0,30.0>>/B<<247.0,30.0>-<188.0,71.0>-<157.0,154.0>> = 10.245573889060855
-
-	* OE (U+0152): B<<157.5,557.5>-<189.0,638.0>-<244.0,678.0>>/B<<244.0,678.0>-<166.0,641.0>-<122.0,560.0>> = 10.64962952375447
-
-	* OE (U+0152): B<<926.5,32.5>-<912.0,13.0>-<877.0,10.0>>/L<<877.0,10.0>--<964.0,10.0>> = 4.899092453787774
-
-	* OE (U+0152): L<<929.0,629.0>--<933.0,489.0>>/L<<933.0,489.0>--<964.0,698.0>> = 10.073481173022614
-
-	* OE (U+0152): L<<964.0,10.0>--<933.0,233.0>>/L<<933.0,233.0>--<940.0,93.0>> = 5.051759282935797
-
-	* OE (U+0152): L<<964.0,698.0>--<862.0,698.0>>/B<<862.0,698.0>-<899.0,695.0>-<914.0,679.5>> = 4.635463426902617
-
-	* Oacute (U+00D3): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Oacute (U+00D3): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Oacute (U+00D3): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Oacute (U+00D3): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Ocircumflex (U+00D4): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Ocircumflex (U+00D4): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Ocircumflex (U+00D4): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Ocircumflex (U+00D4): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Odieresis (U+00D6): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Odieresis (U+00D6): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Odieresis (U+00D6): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Odieresis (U+00D6): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Ograve (U+00D2): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Ograve (U+00D2): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Ograve (U+00D2): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Ograve (U+00D2): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Ohungarumlaut (U+0150): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Ohungarumlaut (U+0150): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Ohungarumlaut (U+0150): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Ohungarumlaut (U+0150): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Omacron (U+014C): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Omacron (U+014C): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Omacron (U+014C): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Omacron (U+014C): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* Oslash (U+00D8): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Oslash (U+00D8): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Otilde (U+00D5): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Otilde (U+00D5): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Otilde (U+00D5): B<<252.0,892.5>-<230.0,876.0>-<217.0,846.0>>/B<<217.0,846.0>-<228.0,869.0>-<244.5,881.0>> = 2.1312723630784163
-
-	* Otilde (U+00D5): B<<507.5,818.5>-<524.0,829.0>-<536.0,855.0>>/B<<536.0,855.0>-<521.0,825.0>-<487.0,825.0>> = 1.7899106082458724
-
-	* Otilde (U+00D5): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Otilde (U+00D5): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* P (U+0050): B<<518.0,396.0>-<482.0,349.0>-<418.0,331.0>>/B<<418.0,331.0>-<508.0,344.0>-<554.5,392.5>> = 7.489428580116645
-
-	* P (U+0050): B<<556.5,635.5>-<512.0,681.0>-<429.0,692.0>>/B<<429.0,692.0>-<486.0,674.0>-<520.0,629.5>> = 9.976146605459554
-
-	* Q (U+0051): B<<122.0,148.5>-<166.0,65.0>-<247.0,27.0>>/B<<247.0,27.0>-<126.0,113.0>-<126.0,359.0>> = 10.270120588939902
-
-	* Q (U+0051): B<<157.5,558.5>-<189.0,640.0>-<244.0,680.0>>/B<<244.0,680.0>-<166.0,643.0>-<122.0,561.0>> = 10.64962952375447
-
-	* Q (U+0051): B<<549.0,-153.0>-<469.0,-153.0>-<422.0,-89.0>>/B<<422.0,-89.0>-<467.0,-167.0>-<549.0,-167.0>> = 6.310990359630263
-
-	* Q (U+0051): B<<595.5,152.5>-<564.0,68.0>-<508.0,27.0>>/B<<508.0,27.0>-<586.0,64.0>-<630.0,147.5>> = 10.831712955836874
-
-	* Q (U+0051): B<<630.0,563.0>-<586.0,644.0>-<510.0,681.0>>/B<<510.0,681.0>-<564.0,640.0>-<595.5,558.5>> = 11.249152660220924
-
-	* R (U+0052): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
-
-	* R (U+0052): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
-
-	* R (U+0052): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
-
-	* Racute (U+0154): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
-
-	* Racute (U+0154): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
-
-	* Racute (U+0154): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
-
-	* Rcaron (U+0158): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
-
-	* Rcaron (U+0158): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
-
-	* Rcaron (U+0158): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
-
-	* S (U+0053): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
-
-	* S (U+0053): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
-
-	* S (U+0053): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
-
-	* S (U+0053): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
-
-	* S (U+0053): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
-
-	* S (U+0053): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
-
-	* Sacute (U+015A): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
-
-	* Sacute (U+015A): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
-
-	* Sacute (U+015A): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
-
-	* Sacute (U+015A): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
-
-	* Sacute (U+015A): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
-
-	* Sacute (U+015A): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
-
-	* Scaron (U+0160): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
-
-	* Scaron (U+0160): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
-
-	* Scaron (U+0160): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
-
-	* Scaron (U+0160): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
-
-	* Scaron (U+0160): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
-
-	* Scaron (U+0160): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
-
-	* Scedilla (U+015E): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
-
-	* Scedilla (U+015E): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
-
-	* Scedilla (U+015E): B<<453.0,-131.0>-<453.0,-81.0>-<401.0,-63.0>>/B<<401.0,-63.0>-<441.0,-83.0>-<441.0,-127.0>> = 7.471559176592336
-
-	* Scedilla (U+015E): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
-
-	* Scedilla (U+015E): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
-
-	* Scedilla (U+015E): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
-
-	* Scedilla (U+015E): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
-
-	* T (U+0054): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
-
-	* T (U+0054): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
-
-	* T (U+0054): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
-
-	* T (U+0054): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
-
-	* Tcaron (U+0164): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
-
-	* Tcaron (U+0164): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
-
-	* Tcaron (U+0164): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
-
-	* Tcaron (U+0164): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
-
-	* Thorn (U+00DE): B<<518.0,266.0>-<482.0,219.0>-<418.0,201.0>>/B<<418.0,201.0>-<505.0,213.0>-<553.0,262.5>> = 7.85532452703748
-
-	* Thorn (U+00DE): B<<556.5,503.5>-<512.0,547.0>-<429.0,559.0>>/B<<429.0,559.0>-<486.0,541.0>-<520.0,498.0>> = 9.298845909614686
-
-	* U (U+0055): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* U (U+0055): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Uacute (U+00DA): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Uacute (U+00DA): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Ubreve (U+016C): B<<378.0,827.0>-<291.0,827.0>-<241.0,893.0>>/B<<241.0,893.0>-<262.0,853.0>-<297.5,831.0>> = 9.447213889966706
-
-	* Ubreve (U+016C): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Ubreve (U+016C): B<<458.5,831.0>-<494.0,853.0>-<515.0,893.0>>/B<<515.0,893.0>-<466.0,827.0>-<378.0,827.0>> = 8.891615459344234
-
-	* Ubreve (U+016C): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Ucircumflex (U+00DB): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Ucircumflex (U+00DB): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Udieresis (U+00DC): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Udieresis (U+00DC): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Ugrave (U+00D9): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Ugrave (U+00D9): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Uhungarumlaut (U+0170): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Uhungarumlaut (U+0170): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Umacron (U+016A): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Umacron (U+016A): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Uogonek (U+0172): B<<369.5,-78.0>-<388.0,-53.0>-<430.0,-21.0>>/B<<430.0,-21.0>-<376.0,-52.0>-<352.0,-79.5>> = 7.444932113060306
-
-	* Uogonek (U+0172): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Uogonek (U+0172): B<<444.5,-196.0>-<463.0,-189.0>-<472.0,-180.0>>/B<<472.0,-180.0>-<447.0,-195.0>-<419.0,-195.0>> = 14.036243467926457
-
-	* Uogonek (U+0172): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* Uring (U+016E): B<<390.0,-4.0>-<480.0,-4.0>-<538.0,41.0>>/B<<538.0,41.0>-<486.0,9.0>-<409.0,9.0>> = 6.199027698455514
-
-	* Uring (U+016E): B<<446.5,897.5>-<433.0,912.0>-<411.0,918.0>>/B<<411.0,918.0>-<427.0,909.0>-<436.5,893.5>> = 14.102634839733502
-
-	* Uring (U+016E): L<<631.0,698.0>--<519.0,698.0>>/B<<519.0,698.0>-<564.0,688.0>-<588.5,655.5>> = 12.528807709151522
-
-	* V (U+0056): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* W (U+0057): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
-
-	* W (U+0057): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* Wacute (U+1E82): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
-
-	* Wacute (U+1E82): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* Wcircumflex (U+0174): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
-
-	* Wcircumflex (U+0174): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* Wdieresis (U+1E84): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
-
-	* Wdieresis (U+1E84): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* Wgrave (U+1E80): B<<1008.0,610.0>-<1008.0,594.0>-<996.0,551.0>>/L<<996.0,551.0>--<1054.0,698.0>> = 5.939290168390003
-
-	* Wgrave (U+1E80): B<<590.0,610.0>-<590.0,594.0>-<578.0,551.0>>/L<<578.0,551.0>--<635.0,698.0>> = 5.601245542275885
-
-	* X (U+0058): B<<156.5,92.5>-<163.0,107.0>-<179.0,132.0>>/L<<179.0,132.0>--<88.0,10.0>> = 4.100074686085338
-
-	* X (U+0058): B<<562.5,619.0>-<555.0,605.0>-<539.0,580.0>>/L<<539.0,580.0>--<633.0,700.0>> = 5.453538802797962
-
-	* X (U+0058): L<<633.0,700.0>--<484.0,700.0>>/B<<484.0,700.0>-<531.0,694.0>-<550.5,680.0>> = 7.275004957889232
-
-	* X (U+0058): L<<88.0,10.0>--<236.0,10.0>>/B<<236.0,10.0>-<189.0,15.0>-<169.5,28.5>> = 6.0724564072076905
-
-	* Y (U+0059): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* Yacute (U+00DD): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* Ycircumflex (U+0176): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* Ydieresis (U+0178): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* Ygrave (U+1EF2): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* Z (U+005A): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
-
-	* Z (U+005A): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
-
-	* Z (U+005A): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
-
-	* Z (U+005A): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
-
-	* Zacute (U+0179): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
-
-	* Zacute (U+0179): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
-
-	* Zacute (U+0179): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
-
-	* Zacute (U+0179): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
-
-	* Zcaron (U+017D): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
-
-	* Zcaron (U+017D): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
-
-	* Zcaron (U+017D): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
-
-	* Zcaron (U+017D): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
-
-	* Zdotaccent (U+017B): B<<135.5,665.5>-<150.0,696.0>-<180.0,700.0>>/L<<180.0,700.0>--<83.0,700.0>> = 7.594643368591447
-
-	* Zdotaccent (U+017B): B<<559.5,49.5>-<546.0,13.0>-<508.0,8.0>>/L<<508.0,8.0>--<606.0,8.0>> = 7.495857639729836
-
-	* Zdotaccent (U+017B): L<<606.0,8.0>--<577.0,257.0>>/L<<577.0,257.0>--<575.0,164.0>> = 7.875051505220886
-
-	* Zdotaccent (U+017B): L<<83.0,700.0>--<109.0,463.0>>/L<<109.0,463.0>--<117.0,573.0>> = 10.420219760830177
-
-	* a (U+0061): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* a (U+0061): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* a (U+0061): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* aacute (U+00E1): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* aacute (U+00E1): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* aacute (U+00E1): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* abreve (U+0103): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* abreve (U+0103): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* abreve (U+0103): B<<299.0,619.0>-<212.0,619.0>-<162.0,685.0>>/B<<162.0,685.0>-<183.0,645.0>-<218.5,623.0>> = 9.447213889966706
-
-	* abreve (U+0103): B<<379.5,623.0>-<415.0,645.0>-<436.0,685.0>>/B<<436.0,685.0>-<387.0,619.0>-<299.0,619.0>> = 8.891615459344234
-
-	* abreve (U+0103): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* acircumflex (U+00E2): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* acircumflex (U+00E2): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* acircumflex (U+00E2): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* adieresis (U+00E4): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* adieresis (U+00E4): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* adieresis (U+00E4): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* ae (U+00E6): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<197.0,239.0>-<131.5,198.5>> = 1.2049461792685676
-
-	* ae (U+00E6): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* ae (U+00E6): B<<429.0,466.0>-<395.0,496.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 4.382245780753234
-
-	* ae (U+00E6): B<<529.5,390.5>-<555.0,449.0>-<601.0,479.0>>/B<<601.0,479.0>-<513.0,435.0>-<485.0,328.0>> = 6.546290783293942
-
-	* ae (U+00E6): B<<696.0,-7.0>-<770.0,-7.0>-<815.0,18.0>>/B<<815.0,18.0>-<781.0,2.0>-<718.0,2.0>> = 3.853480453601986
-
-	* agrave (U+00E0): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* agrave (U+00E0): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* agrave (U+00E0): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* amacron (U+0101): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* amacron (U+0101): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* amacron (U+0101): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* ampersand (U+0026): B<<123.5,261.0>-<147.0,299.0>-<198.0,337.0>>/B<<198.0,337.0>-<131.0,298.0>-<97.5,255.5>> = 6.486485077533067
-
-	* ampersand (U+0026): B<<264.0,663.5>-<276.0,686.0>-<297.0,699.0>>/B<<297.0,699.0>-<257.0,686.0>-<234.5,657.0>> = 13.755318478899405
-
-	* ampersand (U+0026): B<<337.5,15.0>-<378.0,37.0>-<414.0,82.0>>/B<<414.0,82.0>-<380.0,47.0>-<347.0,32.0>> = 5.509876259651847
-
-	* ampersand (U+0026): B<<495.0,602.0>-<495.0,534.0>-<416.0,461.0>>/B<<416.0,461.0>-<516.0,530.0>-<516.0,604.0>> = 8.133822537220214
-
-	* ampersand (U+0026): B<<498.5,661.0>-<481.0,685.0>-<450.0,699.0>>/B<<450.0,699.0>-<471.0,684.0>-<483.0,659.5>> = 11.233128526037659
-
-	* ampersand (U+0026): B<<744.5,14.0>-<761.0,35.0>-<760.0,73.0>>/B<<760.0,73.0>-<758.0,50.0>-<745.0,36.5>> = 6.477176486885279
-
-	* aogonek (U+0105): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* aogonek (U+0105): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* aogonek (U+0105): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* aogonek (U+0105): B<<468.5,-78.0>-<487.0,-53.0>-<529.0,-21.0>>/B<<529.0,-21.0>-<475.0,-52.0>-<451.0,-79.5>> = 7.444932113060306
-
-	* aogonek (U+0105): B<<543.5,-196.0>-<562.0,-189.0>-<571.0,-180.0>>/B<<571.0,-180.0>-<546.0,-195.0>-<518.0,-195.0>> = 14.036243467926457
-
-	* approxequal (U+2248): B<<148.0,275.0>-<86.0,275.0>-<53.0,205.0>>/B<<53.0,205.0>-<81.0,256.0>-<135.0,256.0>> = 3.5271200740569393
-
-	* approxequal (U+2248): B<<148.0,443.0>-<86.0,443.0>-<53.0,373.0>>/B<<53.0,373.0>-<81.0,424.0>-<135.0,424.0>> = 3.5271200740569393
-
-	* approxequal (U+2248): B<<374.5,188.0>-<393.0,202.0>-<408.0,236.0>>/B<<408.0,236.0>-<396.0,214.0>-<380.5,204.0>> = 4.804516147507417
-
-	* approxequal (U+2248): B<<374.5,356.0>-<393.0,370.0>-<408.0,404.0>>/B<<408.0,404.0>-<396.0,382.0>-<380.5,372.0>> = 4.804516147507417
-
-	* aring (U+00E5): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* aring (U+00E5): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* aring (U+00E5): B<<367.5,689.5>-<354.0,704.0>-<332.0,710.0>>/B<<332.0,710.0>-<348.0,701.0>-<357.5,685.5>> = 14.102634839733502
-
-	* aring (U+00E5): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* asciitilde (U+007E): B<<148.0,358.0>-<86.0,358.0>-<53.0,288.0>>/B<<53.0,288.0>-<81.0,339.0>-<135.0,339.0>> = 3.5271200740569393
-
-	* asciitilde (U+007E): B<<374.5,271.0>-<393.0,285.0>-<408.0,319.0>>/B<<408.0,319.0>-<396.0,297.0>-<380.5,287.0>> = 4.804516147507417
-
-	* at (U+0040): B<<129.0,36.0>-<194.0,-47.0>-<306.0,-76.0>>/B<<306.0,-76.0>-<212.0,-43.0>-<154.0,40.0>> = 4.827629313266492
-
-	* at (U+0040): B<<222.5,515.0>-<283.0,565.0>-<366.0,586.0>>/B<<366.0,586.0>-<273.0,569.0>-<205.5,522.0>> = 3.8395015357793985
-
-	* at (U+0040): B<<723.5,526.0>-<664.0,569.0>-<580.0,586.0>>/B<<580.0,586.0>-<653.0,565.0>-<705.5,520.5>> = 4.607960923765689
-
-	* at (U+0040): B<<791.0,143.0>-<768.0,90.0>-<730.0,72.0>>/B<<730.0,72.0>-<791.0,91.0>-<818.5,146.5>> = 8.04564875000167
-
-	* atilde (U+00E3): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* atilde (U+00E3): B<<174.0,684.5>-<152.0,668.0>-<139.0,638.0>>/B<<139.0,638.0>-<150.0,661.0>-<166.5,673.0>> = 2.1312723630784163
-
-	* atilde (U+00E3): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* atilde (U+00E3): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* atilde (U+00E3): B<<429.5,610.5>-<446.0,621.0>-<458.0,647.0>>/B<<458.0,647.0>-<443.0,617.0>-<409.0,617.0>> = 1.7899106082458724
-
-	* b (U+0062): B<<198.0,55.0>-<220.0,35.0>-<250.0,21.0>>/B<<250.0,21.0>-<173.0,77.0>-<168.0,167.0>> = 11.010479907003596
-
-	* b (U+0062): B<<329.0,495.0>-<302.0,484.0>-<278.0,465.0>>/B<<278.0,465.0>-<299.0,479.0>-<322.0,486.0>> = 4.677417858881669
-
-	* b (U+0062): B<<501.5,98.5>-<473.0,35.0>-<418.0,7.0>>/B<<418.0,7.0>-<492.0,25.0>-<533.5,92.0>> = 13.308923586027015
-
-	* b (U+0062): L<<124.0,727.0>--<124.0,25.0>>/L<<124.0,25.0>--<139.0,98.0>> = 11.611486423888481
-
-	* braceleft (U+007B): B<<246.5,377.0>-<220.0,355.0>-<174.0,348.0>>/B<<174.0,348.0>-<234.0,349.0>-<270.0,376.0>> = 7.6977005372424845
-
-	* braceleft (U+007B): B<<271.5,304.0>-<236.0,332.0>-<174.0,332.0>>/B<<174.0,332.0>-<221.0,324.0>-<247.5,301.0>> = 9.65989307844234
-
-	* braceleft (U+007B): B<<323.0,-132.0>-<370.0,-132.0>-<411.0,-116.0>>/B<<411.0,-116.0>-<393.0,-121.0>-<376.5,-122.0>> = 5.793801278707303
-
-	* braceleft (U+007B): B<<379.5,797.0>-<394.0,795.0>-<409.0,792.0>>/B<<409.0,792.0>-<375.0,808.0>-<329.0,808.0>> = 13.891191171454816
-
-	* braceright (U+007D): B<<173.0,-122.0>-<157.0,-121.0>-<139.0,-116.0>>/B<<139.0,-116.0>-<180.0,-132.0>-<226.0,-132.0>> = 5.793801278707303
-
-	* braceright (U+007D): B<<220.0,808.0>-<175.0,808.0>-<140.0,792.0>>/B<<140.0,792.0>-<155.0,795.0>-<170.0,797.0>> = 13.257238846581073
-
-	* braceright (U+007D): B<<279.5,375.0>-<316.0,348.0>-<375.0,348.0>>/B<<375.0,348.0>-<330.0,355.0>-<303.5,377.0>> = 8.84181456019167
-
-	* braceright (U+007D): B<<302.0,301.0>-<328.0,324.0>-<376.0,332.0>>/B<<376.0,332.0>-<313.0,331.0>-<277.5,303.0>> = 8.552941758826456
-
-	* breve (U+02D8): B<<198.0,619.0>-<111.0,619.0>-<61.0,685.0>>/B<<61.0,685.0>-<82.0,645.0>-<117.5,623.0>> = 9.447213889966706
-
-	* breve (U+02D8): B<<278.5,623.0>-<314.0,645.0>-<335.0,685.0>>/B<<335.0,685.0>-<286.0,619.0>-<198.0,619.0>> = 8.891615459344234
-
-	* c (U+0063): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
-
-	* c (U+0063): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
-
-	* cacute (U+0107): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
-
-	* cacute (U+0107): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
-
-	* ccaron (U+010D): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
-
-	* ccaron (U+010D): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
-
-	* ccedilla (U+00E7): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
-
-	* ccedilla (U+00E7): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
-
-	* ccedilla (U+00E7): B<<408.0,-131.0>-<408.0,-81.0>-<356.0,-63.0>>/B<<356.0,-63.0>-<396.0,-83.0>-<396.0,-127.0>> = 7.471559176592336
-
-	* cdotaccent (U+010B): B<<145.5,404.0>-<183.0,468.0>-<247.0,495.0>>/B<<247.0,495.0>-<162.0,473.0>-<113.0,407.5>> = 8.362605690457608
-
-	* cdotaccent (U+010B): B<<365.5,-1.5>-<397.0,4.0>-<422.0,18.0>>/B<<422.0,18.0>-<387.0,2.0>-<325.0,2.0>> = 4.681655015945577
-
-	* cedilla (U+00B8): B<<219.0,-131.0>-<219.0,-81.0>-<167.0,-63.0>>/B<<167.0,-63.0>-<207.0,-83.0>-<207.0,-127.0>> = 7.471559176592336
-
-	* cent (U+00A2): B<<145.5,444.0>-<183.0,508.0>-<247.0,535.0>>/B<<247.0,535.0>-<162.0,513.0>-<113.0,447.5>> = 8.362605690457608
-
-	* cent (U+00A2): B<<377.0,41.0>-<402.0,47.0>-<422.0,58.0>>/B<<422.0,58.0>-<387.0,42.0>-<325.0,42.0>> = 4.243622422371594
-
-	* copyright (U+00A9): B<<211.0,334.5>-<234.0,373.0>-<274.0,388.0>>/B<<274.0,388.0>-<223.0,377.0>-<193.0,338.5>> = 8.384587010995974
-
-	* copyright (U+00A9): B<<274.0,110.0>-<291.0,106.0>-<311.0,107.0>>/B<<311.0,107.0>-<261.0,109.0>-<224.5,146.0>> = 5.153015268750183
-
-	* d (U+0064): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
-
-	* d (U+0064): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
-
-	* dagger (U+2020): B<<219.5,344.0>-<223.0,281.0>-<225.0,217.0>>/B<<225.0,217.0>-<227.0,281.0>-<231.0,344.0>> = 3.5798212164921406
-
-	* daggerdbl (U+2021): B<<220.0,353.5>-<223.0,330.0>-<225.0,306.0>>/B<<225.0,306.0>-<227.0,330.0>-<230.5,353.5>> = 9.527283381452328
-
-	* daggerdbl (U+2021): B<<230.5,446.5>-<227.0,470.0>-<225.0,494.0>>/B<<225.0,494.0>-<223.0,470.0>-<220.0,446.5>> = 9.527283381452328
-
-	* dcaron (U+010F): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
-
-	* dcaron (U+010F): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
-
-	* dcroat (U+0111): B<<295.0,500.0>-<321.0,500.0>-<340.0,495.0>>/B<<340.0,495.0>-<315.0,505.0>-<282.0,505.0>> = 7.057846649881054
-
-	* dcroat (U+0111): B<<318.0,4.0>-<345.0,15.0>-<366.0,32.0>>/B<<366.0,32.0>-<324.0,4.0>-<276.0,4.0>> = 5.300926516525644
-
-	* dollar (U+0024): B<<166.0,40.5>-<202.0,25.0>-<236.0,16.0>>/B<<236.0,16.0>-<186.0,38.0>-<158.0,74.0>> = 8.923014522511027
-
-	* dollar (U+0024): B<<167.0,648.5>-<191.0,678.0>-<231.0,695.0>>/B<<231.0,695.0>-<171.0,676.0>-<140.0,638.0>> = 5.454233230205554
-
-	* dollar (U+0024): B<<544.5,671.5>-<509.0,688.0>-<469.0,697.0>>/B<<469.0,697.0>-<517.0,676.0>-<545.0,636.0>> = 10.948994238836962
-
-	* dollar (U+0024): B<<555.5,62.0>-<529.0,29.0>-<482.0,11.0>>/B<<482.0,11.0>-<548.0,29.0>-<586.0,69.0>> = 5.7006580275743195
-
-	* dollar (U+0024): L<<127.0,157.0>--<115.0,273.0>>/L<<115.0,273.0>--<96.0,77.0>> = 11.4430234762542
-
-	* dollar (U+0024): L<<580.0,533.0>--<585.0,454.0>>/L<<585.0,454.0>--<609.0,633.0>> = 11.258056919606155
-
-	* e (U+0065): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* e (U+0065): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* eacute (U+00E9): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* eacute (U+00E9): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* ecaron (U+011B): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* ecaron (U+011B): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* ecircumflex (U+00EA): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* ecircumflex (U+00EA): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* edieresis (U+00EB): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* edieresis (U+00EB): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* edotaccent (U+0117): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* edotaccent (U+0117): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* egrave (U+00E8): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* egrave (U+00E8): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* eight (U+0038): B<<115.5,71.5>-<148.0,29.0>-<209.0,10.0>>/B<<209.0,10.0>-<114.0,57.0>-<114.0,181.0>> = 9.022771075864862
-
-	* eight (U+0038): B<<155.5,648.5>-<175.0,679.0>-<210.0,697.0>>/B<<210.0,697.0>-<161.0,678.0>-<133.5,642.0>> = 6.022055075765101
-
-	* eight (U+0038): B<<444.0,487.5>-<413.0,446.0>-<350.0,409.0>>/B<<350.0,409.0>-<420.0,440.0>-<460.0,479.5>> = 6.539283880326476
-
-	* eight (U+0038): B<<465.5,70.5>-<443.0,31.0>-<402.0,12.0>>/B<<402.0,12.0>-<519.0,53.0>-<519.0,185.0>> = 5.55184000739916
-
-	* eight (U+0038): B<<473.5,647.0>-<447.0,680.0>-<397.0,698.0>>/B<<397.0,698.0>-<435.0,679.0>-<455.0,646.0>> = 6.766174822553013
-
-	* emacron (U+0113): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* emacron (U+0113): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* eng (U+014B): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* eogonek (U+0119): B<<133.5,390.5>-<159.0,449.0>-<205.0,479.0>>/B<<205.0,479.0>-<140.0,451.0>-<102.0,390.5>> = 9.806451421168896
-
-	* eogonek (U+0119): B<<297.5,-78.0>-<316.0,-53.0>-<358.0,-21.0>>/B<<358.0,-21.0>-<304.0,-52.0>-<280.0,-79.5>> = 7.444932113060306
-
-	* eogonek (U+0119): B<<301.0,-7.0>-<375.0,-7.0>-<420.0,18.0>>/B<<420.0,18.0>-<385.0,2.0>-<323.0,2.0>> = 4.487432778475722
-
-	* eogonek (U+0119): B<<372.5,-196.0>-<391.0,-189.0>-<400.0,-180.0>>/B<<400.0,-180.0>-<375.0,-195.0>-<347.0,-195.0>> = 14.036243467926457
-
-	* eth (U+00F0): B<<102.0,92.0>-<140.0,30.0>-<207.0,10.0>>/B<<207.0,10.0>-<160.0,38.0>-<134.5,99.5>> = 14.163389612434397
-
-	* eth (U+00F0): B<<134.0,397.0>-<159.0,461.0>-<207.0,490.0>>/B<<207.0,490.0>-<139.0,469.0>-<101.5,404.5>> = 13.977053634113503
-
-	* eth (U+00F0): B<<293.0,671.0>-<236.0,709.0>-<168.0,733.0>>/B<<168.0,733.0>-<229.0,705.0>-<281.0,663.0>> = 5.215863915905449
-
-	* eth (U+00F0): B<<440.0,99.5>-<414.0,38.0>-<365.0,10.0>>/B<<365.0,10.0>-<433.0,30.0>-<472.0,94.0>> = 13.355340962907436
-
-	* exclam (U+0021): B<<166.0,528.0>-<170.0,472.0>-<172.0,416.0>>/B<<172.0,416.0>-<174.0,472.0>-<178.5,528.0>> = 4.0908169777744545
-
-	* exclamdown (U+00A1): B<<178.5,72.0>-<174.0,128.0>-<172.0,184.0>>/B<<172.0,184.0>-<170.0,128.0>-<166.0,72.0>> = 4.0908169777744545
-
-	* five (U+0035): B<<344.5,392.0>-<330.0,392.0>-<315.0,389.0>>/B<<315.0,389.0>-<406.0,387.0>-<460.5,337.5>> = 12.568977681195433
-
-	* five (U+0035): B<<473.5,69.0>-<432.0,17.0>-<359.0,1.0>>/B<<359.0,1.0>-<364.0,1.0>-<367.5,1.0>> = 12.36249241571429
-
-	* five (U+0035): B<<480.0,676.0>-<519.0,660.0>-<536.0,623.0>>/B<<536.0,623.0>-<523.0,668.0>-<488.0,692.0>> = 8.56344493724773
-
-	* four (U+0034): B<<194.5,333.5>-<170.0,302.0>-<144.0,278.0>>/B<<144.0,278.0>-<176.0,303.0>-<202.0,332.5>> = 4.710657514856803
-
-	* g (U+0067): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
-
-	* g (U+0067): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
-
-	* g (U+0067): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
-
-	* g (U+0067): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
-
-	* g (U+0067): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
-
-	* g (U+0067): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
-
-	* gbreve (U+011F): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
-
-	* gbreve (U+011F): B<<277.0,619.0>-<190.0,619.0>-<140.0,685.0>>/B<<140.0,685.0>-<161.0,645.0>-<196.5,623.0>> = 9.447213889966706
-
-	* gbreve (U+011F): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
-
-	* gbreve (U+011F): B<<357.5,623.0>-<393.0,645.0>-<414.0,685.0>>/B<<414.0,685.0>-<365.0,619.0>-<277.0,619.0>> = 8.891615459344234
-
-	* gbreve (U+011F): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
-
-	* gbreve (U+011F): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
-
-	* gbreve (U+011F): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
-
-	* gbreve (U+011F): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
-
-	* gdotaccent (U+0121): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
-
-	* gdotaccent (U+0121): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
-
-	* gdotaccent (U+0121): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
-
-	* gdotaccent (U+0121): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
-
-	* gdotaccent (U+0121): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
-
-	* gdotaccent (U+0121): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
-
-	* germandbls (U+00DF): B<<343.5,55.0>-<362.0,28.0>-<406.0,14.0>>/B<<406.0,14.0>-<377.0,28.0>-<377.0,38.0>> = 8.119203404408543
-
-	* germandbls (U+00DF): B<<492.0,677.0>-<467.0,704.0>-<423.0,719.0>>/B<<423.0,719.0>-<449.0,706.0>-<464.5,683.0>> = 7.740341158837903
-
-	* germandbls (U+00DF): B<<680.5,51.5>-<663.0,26.0>-<632.0,11.0>>/B<<632.0,11.0>-<678.0,27.0>-<703.5,58.0>> = 6.64198394837846
-
-	* guillemotleft (U+00AB): L<<116.0,318.0>--<257.0,432.0>>/L<<257.0,432.0>--<91.0,318.0>> = 4.476692151633259
-
-	* guillemotleft (U+00AB): L<<291.0,302.0>--<457.0,188.0>>/L<<457.0,188.0>--<316.0,302.0>> = 4.476692151633259
-
-	* guillemotleft (U+00AB): L<<316.0,318.0>--<457.0,432.0>>/L<<457.0,432.0>--<291.0,318.0>> = 4.476692151633259
-
-	* guillemotleft (U+00AB): L<<91.0,302.0>--<257.0,188.0>>/L<<257.0,188.0>--<116.0,302.0>> = 4.476692151633259
-
-	* guillemotright (U+00BB): L<<276.0,302.0>--<135.0,188.0>>/L<<135.0,188.0>--<301.0,302.0>> = 4.476692151633259
-
-	* guillemotright (U+00BB): L<<301.0,318.0>--<135.0,432.0>>/L<<135.0,432.0>--<276.0,318.0>> = 4.476692151633259
-
-	* guillemotright (U+00BB): L<<476.0,302.0>--<335.0,188.0>>/L<<335.0,188.0>--<501.0,302.0>> = 4.476692151633259
-
-	* guillemotright (U+00BB): L<<501.0,318.0>--<335.0,432.0>>/L<<335.0,432.0>--<476.0,318.0>> = 4.476692151633259
-
-	* guilsinglleft (U+2039): L<<116.0,318.0>--<257.0,432.0>>/L<<257.0,432.0>--<91.0,318.0>> = 4.476692151633259
-
-	* guilsinglleft (U+2039): L<<91.0,302.0>--<257.0,188.0>>/L<<257.0,188.0>--<116.0,302.0>> = 4.476692151633259
-
-	* guilsinglright (U+203A): L<<276.0,302.0>--<135.0,188.0>>/L<<135.0,188.0>--<301.0,302.0>> = 4.476692151633259
-
-	* guilsinglright (U+203A): L<<301.0,318.0>--<135.0,432.0>>/L<<135.0,432.0>--<276.0,318.0>> = 4.476692151633259
-
-	* h (U+0068): B<<335.5,486.5>-<293.0,466.0>-<251.0,422.0>>/B<<251.0,422.0>-<289.0,460.0>-<327.5,477.5>> = 1.3322198538691452
-
-	* hbar (U+0127): B<<335.5,486.5>-<293.0,466.0>-<251.0,422.0>>/B<<251.0,422.0>-<289.0,460.0>-<327.5,477.5>> = 1.3322198538691452
-
-	* iogonek (U+012F): B<<118.5,-78.0>-<137.0,-53.0>-<179.0,-21.0>>/B<<179.0,-21.0>-<125.0,-52.0>-<101.0,-79.5>> = 7.444932113060306
-
-	* iogonek (U+012F): B<<193.5,-196.0>-<212.0,-189.0>-<221.0,-180.0>>/B<<221.0,-180.0>-<196.0,-195.0>-<168.0,-195.0>> = 14.036243467926457
-
-	* m (U+006D): B<<326.5,486.5>-<288.0,466.0>-<247.0,422.0>>/B<<247.0,422.0>-<321.0,495.0>-<387.0,495.0>> = 2.4111261356739786
-
-	* m (U+006D): B<<694.5,486.5>-<656.0,466.0>-<615.0,422.0>>/B<<615.0,422.0>-<689.0,495.0>-<755.0,495.0>> = 2.4111261356739786
-
-	* minute (U+2032): L<<149.0,700.0>--<75.0,513.0>>/L<<75.0,513.0>--<179.0,700.0>> = 7.490820480168342
-
-	* n (U+006E): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* nacute (U+0144): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* ncaron (U+0148): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* nine (U+0039): B<<211.0,286.0>-<244.0,280.0>-<272.0,286.0>>/B<<272.0,286.0>-<206.0,286.0>-<161.5,339.0>> = 12.094757077012089
-
-	* nine (U+0039): B<<416.0,63.0>-<367.0,0.0>-<284.0,-5.0>>/B<<284.0,-5.0>-<411.0,-2.0>-<467.0,96.0>> = 2.094194898085436
-
-	* ntilde (U+00F1): B<<214.0,684.5>-<192.0,668.0>-<179.0,638.0>>/B<<179.0,638.0>-<190.0,661.0>-<206.5,673.0>> = 2.1312723630784163
-
-	* ntilde (U+00F1): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* ntilde (U+00F1): B<<469.5,610.5>-<486.0,621.0>-<498.0,647.0>>/B<<498.0,647.0>-<483.0,617.0>-<449.0,617.0>> = 1.7899106082458724
-
-	* oe (U+0153): B<<471.5,114.5>-<450.0,57.0>-<412.0,25.0>>/B<<412.0,25.0>-<450.0,45.0>-<477.0,84.0>> = 12.342366945152207
-
-	* oe (U+0153): B<<477.0,416.5>-<448.0,458.0>-<409.0,478.0>>/B<<409.0,478.0>-<449.0,446.0>-<471.0,385.5>> = 11.510126556306892
-
-	* oe (U+0153): B<<563.5,390.5>-<589.0,449.0>-<634.0,479.0>>/B<<634.0,479.0>-<590.0,457.0>-<558.5,414.5>> = 7.125016348901757
-
-	* oe (U+0153): B<<730.0,-7.0>-<804.0,-7.0>-<849.0,18.0>>/B<<849.0,18.0>-<815.0,2.0>-<752.0,2.0>> = 3.853480453601986
-
-	* ogonek (U+02DB): B<<167.5,-200.0>-<186.0,-193.0>-<195.0,-184.0>>/B<<195.0,-184.0>-<170.0,-199.0>-<142.0,-199.0>> = 14.036243467926457
-
-	* ogonek (U+02DB): B<<92.5,-82.0>-<111.0,-57.0>-<153.0,-25.0>>/B<<153.0,-25.0>-<99.0,-56.0>-<75.0,-83.5>> = 7.444932113060306
-
-	* onehalf (U+00BD): B<<457.0,178.0>-<438.0,153.0>-<391.0,118.0>>/B<<391.0,118.0>-<448.0,147.0>-<470.0,171.0>> = 9.708635236703016
-
-	* onehalf (U+00BD): B<<492.0,228.0>-<492.0,270.0>-<443.0,282.0>>/B<<443.0,282.0>-<476.0,267.0>-<476.0,232.0>> = 10.683169668625252
-
-	* onequarter (U+00BC): B<<344.0,160.0>-<337.0,142.0>-<326.0,129.0>>/B<<326.0,129.0>-<344.0,148.0>-<352.0,172.5>> = 3.2154839917481746
-
-	* ordfeminine (U+00AA): B<<104.0,567.0>-<123.0,585.0>-<154.0,598.0>>/B<<154.0,598.0>-<115.0,588.0>-<92.5,569.0>> = 8.369581751696952
-
-	* ordfeminine (U+00AA): B<<119.5,480.0>-<126.0,480.0>-<132.0,481.0>>/B<<132.0,481.0>-<110.0,482.0>-<97.5,494.0>> = 12.064884410525389
-
-	* ordmasculine (U+00BA): B<<109.0,664.5>-<124.0,694.0>-<142.0,706.0>>/B<<142.0,706.0>-<111.0,694.0>-<92.5,665.0>> = 12.528807709151492
-
-	* ordmasculine (U+00BA): B<<92.0,526.0>-<110.0,498.0>-<142.0,486.0>>/B<<142.0,486.0>-<124.0,498.0>-<109.0,526.0>> = 13.134022306396298
-
-	* otilde (U+00F5): B<<175.0,684.5>-<153.0,668.0>-<140.0,638.0>>/B<<140.0,638.0>-<151.0,661.0>-<167.5,673.0>> = 2.1312723630784163
-
-	* otilde (U+00F5): B<<430.5,610.5>-<447.0,621.0>-<459.0,647.0>>/B<<459.0,647.0>-<444.0,617.0>-<410.0,617.0>> = 1.7899106082458724
-
-	* p (U+0070): B<<325.5,496.0>-<299.0,485.0>-<277.0,468.0>>/B<<277.0,468.0>-<319.0,496.0>-<367.0,496.0>> = 4.004172940709389
-
-	* p (U+0070): B<<347.0,1.0>-<320.0,1.0>-<301.0,5.0>>/B<<301.0,5.0>-<327.0,-5.0>-<360.0,-5.0>> = 9.148852985793804
-
-	* parenleft (U+0028): B<<180.5,78.0>-<253.0,-36.0>-<387.0,-73.0>>/B<<387.0,-73.0>-<275.0,-32.0>-<215.5,80.5>> = 4.670372910892535
-
-	* parenleft (U+0028): B<<215.0,650.0>-<274.0,760.0>-<385.0,801.0>>/B<<385.0,801.0>-<252.0,765.0>-<180.0,654.5>> = 5.126979468879653
-
-	* parenright (U+0029): B<<254.5,80.5>-<195.0,-32.0>-<83.0,-73.0>>/B<<83.0,-73.0>-<217.0,-36.0>-<289.5,78.0>> = 4.670372910892535
-
-	* parenright (U+0029): B<<290.0,654.5>-<218.0,765.0>-<85.0,801.0>>/B<<85.0,801.0>-<195.0,760.0>-<254.5,650.0>> = 5.296090413986353
-
-	* percent (U+0025): B<<147.0,661.5>-<173.0,695.0>-<211.0,710.0>>/B<<211.0,710.0>-<166.0,702.0>-<135.0,675.5>> = 11.460377930996103
-
-	* percent (U+0025): B<<286.0,456.0>-<261.0,423.0>-<225.0,407.0>>/B<<225.0,407.0>-<270.0,415.0>-<299.5,442.5>> = 13.881890987035817
-
-	* percent (U+0025): B<<338.5,664.5>-<319.0,699.0>-<276.0,710.0>>/B<<276.0,710.0>-<307.0,696.0>-<321.5,667.0>> = 9.955217222989589
-
-	* percent (U+0025): B<<447.5,44.0>-<469.0,9.0>-<514.0,-2.0>>/B<<514.0,-2.0>-<480.0,11.0>-<464.0,40.0>> = 7.188233439298553
-
-	* percent (U+0025): B<<501.0,251.5>-<527.0,285.0>-<565.0,300.0>>/B<<565.0,300.0>-<520.0,292.0>-<489.0,265.5>> = 11.460377930996103
-
-	* percent (U+0025): B<<640.0,46.0>-<615.0,13.0>-<579.0,-3.0>>/B<<579.0,-3.0>-<624.0,5.0>-<653.5,32.5>> = 13.881890987035817
-
-	* percent (U+0025): B<<692.5,254.5>-<673.0,289.0>-<630.0,300.0>>/B<<630.0,300.0>-<661.0,286.0>-<675.5,257.0>> = 9.955217222989589
-
-	* percent (U+0025): B<<93.5,454.0>-<115.0,419.0>-<160.0,408.0>>/B<<160.0,408.0>-<126.0,421.0>-<110.0,450.0>> = 7.188233439298553
-
-	* perthousand (U+2030): B<<1040.5,254.5>-<1021.0,289.0>-<978.0,300.0>>/B<<978.0,300.0>-<1009.0,286.0>-<1023.5,257.0>> = 9.955217222989589
-
-	* perthousand (U+2030): B<<147.0,661.5>-<173.0,695.0>-<211.0,710.0>>/B<<211.0,710.0>-<166.0,702.0>-<135.0,675.5>> = 11.460377930996103
-
-	* perthousand (U+2030): B<<286.0,456.0>-<261.0,423.0>-<225.0,407.0>>/B<<225.0,407.0>-<270.0,415.0>-<299.5,442.5>> = 13.881890987035817
-
-	* perthousand (U+2030): B<<338.5,664.5>-<319.0,699.0>-<276.0,710.0>>/B<<276.0,710.0>-<307.0,696.0>-<321.5,667.0>> = 9.955217222989589
-
-	* perthousand (U+2030): B<<447.5,44.0>-<469.0,9.0>-<514.0,-2.0>>/B<<514.0,-2.0>-<480.0,11.0>-<464.0,40.0>> = 7.188233439298553
-
-	* perthousand (U+2030): B<<501.0,251.5>-<527.0,285.0>-<565.0,300.0>>/B<<565.0,300.0>-<520.0,292.0>-<489.0,265.5>> = 11.460377930996103
-
-	* perthousand (U+2030): B<<640.0,46.0>-<615.0,13.0>-<579.0,-3.0>>/B<<579.0,-3.0>-<624.0,5.0>-<653.5,32.5>> = 13.881890987035817
-
-	* perthousand (U+2030): B<<692.5,254.5>-<673.0,289.0>-<630.0,300.0>>/B<<630.0,300.0>-<661.0,286.0>-<675.5,257.0>> = 9.955217222989589
-
-	* perthousand (U+2030): B<<795.5,44.0>-<817.0,9.0>-<862.0,-2.0>>/B<<862.0,-2.0>-<828.0,11.0>-<812.0,40.0>> = 7.188233439298553
-
-	* perthousand (U+2030): B<<849.0,251.5>-<875.0,285.0>-<913.0,300.0>>/B<<913.0,300.0>-<868.0,292.0>-<837.0,265.5>> = 11.460377930996103
-
-	* perthousand (U+2030): B<<93.5,454.0>-<115.0,419.0>-<160.0,408.0>>/B<<160.0,408.0>-<126.0,421.0>-<110.0,450.0>> = 7.188233439298553
-
-	* perthousand (U+2030): B<<988.0,46.0>-<963.0,13.0>-<927.0,-3.0>>/B<<927.0,-3.0>-<972.0,5.0>-<1001.5,32.5>> = 13.881890987035817
-
-	* q (U+0071): B<<137.5,401.5>-<166.0,465.0>-<221.0,493.0>>/B<<221.0,493.0>-<150.0,475.0>-<107.0,410.0>> = 12.754266819471042
-
-	* q (U+0071): B<<309.5,5.0>-<337.0,16.0>-<361.0,35.0>>/B<<361.0,35.0>-<340.0,21.0>-<317.0,14.0>> = 4.677417858881669
-
-	* q (U+0071): B<<441.0,444.5>-<419.0,465.0>-<389.0,479.0>>/B<<389.0,479.0>-<466.0,423.0>-<471.0,332.0>> = 11.010479907003596
-
-	* q (U+0071): L<<515.0,-192.0>--<515.0,477.0>>/L<<515.0,477.0>--<500.0,401.0>> = 11.164880177548593
-
-	* question (U+003F): B<<450.0,715.5>-<425.0,758.0>-<378.0,781.0>>/B<<378.0,781.0>-<410.0,758.0>-<428.0,720.0>> = 9.63133581665413
-
-	* question (U+003F): L<<35.0,716.0>--<69.0,546.0>>/L<<69.0,546.0>--<71.0,623.0>> = 12.797800002847948
-
-	* questiondown (U+00BF): B<<70.0,-115.5>-<95.0,-158.0>-<142.0,-181.0>>/B<<142.0,-181.0>-<110.0,-158.0>-<92.0,-120.0>> = 9.63133581665413
-
-	* questiondown (U+00BF): L<<485.0,-116.0>--<451.0,54.0>>/L<<451.0,54.0>--<449.0,-23.0>> = 12.797800002847977
-
-	* quotedbl (U+0022): L<<185.0,700.0>--<198.0,507.0>>/L<<198.0,507.0>--<209.0,700.0>> = 7.115513930998828
-
-	* quotedbl (U+0022): L<<69.0,700.0>--<82.0,507.0>>/L<<82.0,507.0>--<93.0,700.0>> = 7.115513930998828
-
-	* quotesingle (U+0027): L<<69.0,700.0>--<82.0,507.0>>/L<<82.0,507.0>--<93.0,700.0>> = 7.115513930998828
-
-	* registered (U+00AE): B<<375.0,490.5>-<362.0,476.0>-<341.0,469.0>>/B<<341.0,469.0>-<370.0,473.0>-<387.0,488.5>> = 10.58163552094374
-
-	* ring (U+02DA): B<<204.5,689.5>-<191.0,704.0>-<169.0,710.0>>/B<<169.0,710.0>-<185.0,701.0>-<194.5,685.5>> = 14.102634839733502
-
-	* s (U+0073): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
-
-	* s (U+0073): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
-
-	* s (U+0073): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
-
-	* s (U+0073): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
-
-	* sacute (U+015B): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
-
-	* sacute (U+015B): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
-
-	* sacute (U+015B): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
-
-	* sacute (U+015B): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
-
-	* scaron (U+0161): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
-
-	* scaron (U+0161): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
-
-	* scaron (U+0161): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
-
-	* scaron (U+0161): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
-
-	* scedilla (U+015F): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
-
-	* scedilla (U+015F): B<<372.0,-131.0>-<372.0,-81.0>-<320.0,-63.0>>/B<<320.0,-63.0>-<360.0,-83.0>-<360.0,-127.0>> = 7.471559176592336
-
-	* scedilla (U+015F): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
-
-	* scedilla (U+015F): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
-
-	* scedilla (U+015F): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
-
-	* second (U+2033): L<<149.0,700.0>--<75.0,513.0>>/L<<75.0,513.0>--<179.0,700.0>> = 7.490820480168342
-
-	* second (U+2033): L<<270.0,700.0>--<196.0,513.0>>/L<<196.0,513.0>--<300.0,700.0>> = 7.490820480168342
-
-	* section (U+00A7): B<<111.0,602.0>-<111.0,667.0>-<176.0,697.0>>/B<<176.0,697.0>-<132.0,683.0>-<108.0,655.0>> = 7.125016348901757
-
-	* section (U+00A7): B<<450.0,113.0>-<450.0,46.0>-<388.0,14.0>>/B<<388.0,14.0>-<433.0,29.0>-<457.0,58.0>> = 8.864623388410797
-
-	* section (U+00A7): B<<451.5,653.0>-<434.0,680.0>-<391.0,695.0>>/B<<391.0,695.0>-<419.0,680.0>-<419.0,670.0>> = 8.947917734297867
-
-	* section (U+00A7): B<<95.5,55.0>-<114.0,28.0>-<158.0,14.0>>/B<<158.0,14.0>-<129.0,28.0>-<129.0,38.0>> = 8.119203404408543
-
-	* seven (U+0037): B<<140.5,693.0>-<110.0,671.0>-<96.0,622.0>>/B<<96.0,622.0>-<109.0,649.0>-<122.5,661.5>> = 9.764557879888383
-
-	* seven (U+0037): B<<310.0,-7.0>-<382.0,-7.0>-<423.0,32.0>>/B<<423.0,32.0>-<382.0,6.0>-<336.0,6.0>> = 11.187226109266119
-
-	* seven (U+0037): B<<473.5,465.5>-<520.0,512.0>-<536.0,546.0>>/B<<536.0,546.0>-<506.0,506.0>-<459.0,467.0>> = 11.66877400036892
-
-	* seven (U+0037): L<<77.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 11.458752345877198
-
-	* six (U+0036): B<<179.0,645.0>-<228.0,708.0>-<310.0,713.0>>/B<<310.0,713.0>-<184.0,710.0>-<128.0,612.0>> = 2.125397374193499
-
-	* six (U+0036): B<<384.0,422.0>-<351.0,428.0>-<323.0,422.0>>/B<<323.0,422.0>-<389.0,422.0>-<433.5,369.0>> = 12.094757077012089
-
-	* sterling (U+00A3): B<<162.0,505.0>-<162.0,641.0>-<258.0,694.0>>/B<<258.0,694.0>-<186.0,669.0>-<152.5,611.0>> = 9.754219578262193
-
-	* sterling (U+00A3): B<<554.0,32.0>-<588.0,71.0>-<600.0,142.0>>/B<<600.0,142.0>-<587.0,86.0>-<559.0,56.0>> = 3.4761836335517313
-
-	* sterling (U+00A3): B<<577.0,592.0>-<577.0,648.0>-<520.0,680.0>>/B<<520.0,680.0>-<531.0,670.0>-<531.0,661.0>> = 12.963681935177604
-
-	* t (U+0074): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
-
-	* tcaron (U+0165): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
-
-	* thorn (U+00FE): B<<325.5,496.0>-<299.0,485.0>-<277.0,468.0>>/B<<277.0,468.0>-<319.0,496.0>-<367.0,496.0>> = 4.004172940709389
-
-	* thorn (U+00FE): B<<347.0,1.0>-<320.0,1.0>-<301.0,5.0>>/B<<301.0,5.0>-<327.0,-5.0>-<360.0,-5.0>> = 9.148852985793804
-
-	* three (U+0033): B<<467.0,81.5>-<443.0,41.0>-<399.0,17.0>>/B<<399.0,17.0>-<465.0,34.0>-<500.5,74.5>> = 14.166423941472967
-
-	* three (U+0033): B<<490.5,642.5>-<453.0,683.0>-<385.0,698.0>>/B<<385.0,698.0>-<430.0,677.0>-<456.0,637.0>> = 12.577331459253468
-
-	* threequarters (U+00BE): B<<225.0,451.5>-<213.0,435.0>-<192.0,426.0>>/B<<192.0,426.0>-<253.0,439.0>-<253.0,494.0>> = 11.167994417110311
-
-	* threequarters (U+00BE): B<<253.0,655.0>-<253.0,698.0>-<199.0,708.0>>/B<<199.0,708.0>-<216.0,701.0>-<226.5,687.0>> = 11.888658039627968
-
-	* threequarters (U+00BE): B<<447.0,160.0>-<440.0,142.0>-<429.0,129.0>>/B<<429.0,129.0>-<447.0,148.0>-<455.0,172.5>> = 3.2154839917481746
-
-	* tilde (U+02DC): B<<132.0,684.5>-<110.0,668.0>-<97.0,638.0>>/B<<97.0,638.0>-<108.0,661.0>-<124.5,673.0>> = 2.1312723630784163
-
-	* tilde (U+02DC): B<<387.5,610.5>-<404.0,621.0>-<416.0,647.0>>/B<<416.0,647.0>-<401.0,617.0>-<367.0,617.0>> = 1.7899106082458724
-
-	* tildecomb (U+0303): B<<-125.0,684.5>-<-147.0,668.0>-<-160.0,638.0>>/B<<-160.0,638.0>-<-149.0,661.0>-<-132.5,673.0>> = 2.1312723630784163
-
-	* tildecomb (U+0303): B<<130.5,610.5>-<147.0,621.0>-<159.0,647.0>>/B<<159.0,647.0>-<144.0,617.0>-<110.0,617.0>> = 1.7899106082458724
-
-	* trademark (U+2122): B<<381.0,441.5>-<367.0,457.0>-<366.0,493.0>>/L<<366.0,493.0>--<366.0,424.0>> = 1.5911402711945815
-
-	* trademark (U+2122): B<<69.0,686.5>-<84.0,699.0>-<117.0,700.0>>/L<<117.0,700.0>--<44.0,700.0>> = 1.735704588928346
-
-	* trademark (U+2122): L<<284.0,651.0>--<283.0,620.0>>/L<<283.0,620.0>--<292.0,700.0>> = 4.571176464244108
-
-	* trademark (U+2122): L<<292.0,700.0>--<219.0,700.0>>/B<<219.0,700.0>-<254.0,699.0>-<269.0,687.0>> = 1.6365770416166923
-
-	* trademark (U+2122): L<<366.0,424.0>--<429.0,424.0>>/B<<429.0,424.0>-<395.0,426.0>-<381.0,441.5>> = 3.3664606634298315
-
-	* trademark (U+2122): L<<44.0,700.0>--<53.0,620.0>>/L<<53.0,620.0>--<53.0,650.0>> = 6.418786730238772
-
-	* two (U+0032): B<<277.5,282.5>-<257.0,268.0>-<240.0,251.0>>/B<<240.0,251.0>-<259.0,264.0>-<285.5,276.5>> = 10.619655276155106
-
-	* two (U+0032): B<<510.5,14.5>-<543.0,36.0>-<558.0,86.0>>/B<<558.0,86.0>-<547.0,62.0>-<530.0,48.0>> = 7.924320552169981
-
-	* u (U+0075): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* uacute (U+00FA): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* ubreve (U+016D): B<<321.0,619.0>-<234.0,619.0>-<184.0,685.0>>/B<<184.0,685.0>-<205.0,645.0>-<240.5,623.0>> = 9.447213889966706
-
-	* ubreve (U+016D): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* ubreve (U+016D): B<<401.5,623.0>-<437.0,645.0>-<458.0,685.0>>/B<<458.0,685.0>-<409.0,619.0>-<321.0,619.0>> = 8.891615459344234
-
-	* ucircumflex (U+00FB): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* udieresis (U+00FC): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* ugrave (U+00F9): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* uhungarumlaut (U+0171): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* umacron (U+016B): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* uni00B2 (U+00B2): B<<205.0,604.0>-<186.0,579.0>-<139.0,544.0>>/B<<139.0,544.0>-<196.0,573.0>-<218.0,597.0>> = 9.708635236703016
-
-	* uni00B2 (U+00B2): B<<240.0,654.0>-<240.0,696.0>-<191.0,708.0>>/B<<191.0,708.0>-<224.0,693.0>-<224.0,658.0>> = 10.683169668625252
-
-	* uni00B3 (U+00B3): B<<213.0,451.5>-<201.0,435.0>-<180.0,426.0>>/B<<180.0,426.0>-<241.0,439.0>-<241.0,494.0>> = 11.167994417110311
-
-	* uni00B3 (U+00B3): B<<241.0,655.0>-<241.0,698.0>-<187.0,708.0>>/B<<187.0,708.0>-<204.0,701.0>-<214.5,687.0>> = 11.888658039627968
-
-	* uni00B5 (U+00B5): B<<112.0,90.5>-<137.0,145.0>-<168.0,196.0>>/B<<168.0,196.0>-<127.0,142.0>-<95.0,87.5>> = 5.9148829258613285
-
-	* uni00B5 (U+00B5): B<<178.0,-177.5>-<158.0,-201.0>-<142.0,-205.0>>/B<<142.0,-205.0>-<178.0,-205.0>-<208.5,-192.5>> = 14.036243467926484
-
-	* uni00B5 (U+00B5): B<<211.0,82.0>-<196.0,116.0>-<194.0,178.0>>/B<<194.0,178.0>-<185.0,84.0>-<214.5,38.5>> = 7.316705236106494
-
-	* uni00B5 (U+00B5): B<<389.5,39.0>-<438.0,85.0>-<477.0,177.0>>/B<<477.0,177.0>-<427.0,87.0>-<380.0,54.5>> = 6.081882768248428
-
-	* uni00B5 (U+00B5): B<<49.5,-180.0>-<73.0,-205.0>-<117.0,-205.0>>/B<<117.0,-205.0>-<87.0,-202.0>-<71.0,-176.5>> = 5.710593137499633
-
-	* uni00B5 (U+00B5): B<<522.5,78.0>-<509.0,111.0>-<509.0,175.0>>/B<<509.0,175.0>-<500.0,81.0>-<525.0,37.0>> = 5.469094970111876
-
-	* uni00B5 (U+00B5): B<<677.0,33.0>-<722.0,73.0>-<747.0,155.0>>/B<<747.0,155.0>-<727.0,106.0>-<699.5,76.5>> = 5.248165480032165
-
-	* uni0122 (U+0122): B<<146.0,116.0>-<214.0,22.0>-<332.0,2.0>>/B<<332.0,2.0>-<235.0,31.0>-<179.5,131.0>> = 7.025310414977122
-
-	* uni0122 (U+0122): B<<160.5,567.0>-<197.0,648.0>-<260.0,685.0>>/B<<260.0,685.0>-<175.0,649.0>-<126.5,565.5>> = 7.471697264332735
-
-	* uni0122 (U+0122): B<<578.0,669.0>-<537.0,689.0>-<491.0,700.0>>/B<<491.0,700.0>-<552.0,679.0>-<584.5,627.5>> = 5.548039103802077
-
-	* uni0122 (U+0122): L<<614.0,504.0>--<608.0,398.0>>/L<<608.0,398.0>--<653.0,621.0>> = 8.169017906779658
-
-	* uni0123 (U+0123): B<<125.0,428.0>-<153.0,476.0>-<210.0,499.0>>/B<<210.0,499.0>-<134.0,481.0>-<93.0,434.0>> = 8.649976729581153
-
-	* uni0123 (U+0123): B<<354.0,495.0>-<353.0,495.0>-<346.0,497.0>>/B<<346.0,497.0>-<402.0,474.0>-<428.5,427.0>> = 6.383260477096249
-
-	* uni0123 (U+0123): B<<429.0,242.5>-<403.0,206.0>-<356.0,187.0>>/B<<356.0,187.0>-<421.0,201.0>-<460.5,239.5>> = 9.856341500697123
-
-	* uni0123 (U+0123): B<<434.0,-144.5>-<404.0,-177.0>-<354.0,-194.0>>/B<<354.0,-194.0>-<426.0,-181.0>-<467.0,-146.5>> = 8.543230459022302
-
-	* uni0123 (U+0123): B<<444.5,523.5>-<414.0,518.0>-<379.0,514.0>>/L<<379.0,514.0>--<506.0,514.0>> = 6.5198017516569164
-
-	* uni0123 (U+0123): B<<91.5,239.0>-<131.0,200.0>-<194.0,187.0>>/B<<194.0,187.0>-<149.0,205.0>-<123.0,242.0>> = 10.142116832828838
-
-	* uni0136 (U+0136): B<<456.0,479.0>-<396.0,393.0>-<320.0,364.0>>/B<<320.0,364.0>-<362.0,375.0>-<404.0,404.5>> = 6.209408323242995
-
-	* uni0136 (U+0136): B<<623.0,-7.0>-<651.0,-7.0>-<664.0,3.0>>/B<<664.0,3.0>-<662.0,2.0>-<658.0,2.0>> = 11.003540851749474
-
-	* uni0136 (U+0136): L<<565.0,700.0>--<478.0,700.0>>/B<<478.0,700.0>-<498.0,697.0>-<509.5,682.5>> = 8.530765609948139
-
-	* uni013B (U+013B): B<<510.5,42.5>-<493.0,15.0>-<464.0,10.0>>/L<<464.0,10.0>--<557.0,10.0>> = 9.782407031807285
-
-	* uni013B (U+013B): L<<557.0,10.0>--<534.0,240.0>>/L<<534.0,240.0>--<531.0,127.0>> = 7.231362798643377
-
-	* uni0145 (U+0145): L<<143.0,10.0>--<260.0,10.0>>/B<<260.0,10.0>-<204.0,24.0>-<177.0,58.0>> = 14.036243467926484
-
-	* uni0145 (U+0145): L<<679.0,698.0>--<571.0,698.0>>/B<<571.0,698.0>-<664.0,676.0>-<674.0,577.0>> = 13.309178695400474
-
-	* uni0146 (U+0146): B<<335.5,486.5>-<293.0,466.0>-<252.0,422.0>>/B<<252.0,422.0>-<290.0,460.0>-<328.5,477.5>> = 2.021364940355827
-
-	* uni0156 (U+0156): B<<515.5,432.0>-<478.0,391.0>-<428.0,373.0>>/B<<428.0,373.0>-<476.0,382.0>-<514.0,404.0>> = 9.17922107836982
-
-	* uni0156 (U+0156): B<<555.0,643.0>-<513.0,681.0>-<433.0,694.0>>/B<<433.0,694.0>-<487.0,678.0>-<520.0,639.0>> = 7.274475138027295
-
-	* uni0156 (U+0156): B<<629.0,-6.0>-<652.0,-6.0>-<667.0,3.0>>/B<<667.0,3.0>-<661.0,1.0>-<651.0,3.0>> = 12.528807709151463
-
-	* uni01CD (U+01CD): B<<129.0,86.0>-<129.0,111.0>-<142.0,148.0>>/L<<142.0,148.0>--<87.0,8.0>> = 2.088742151410688
-
-	* uni01CE (U+01CE): B<<162.5,199.0>-<220.0,239.0>-<323.0,251.0>>/B<<323.0,251.0>-<199.0,240.0>-<132.5,199.0>> = 1.5758580776614455
-
-	* uni01CE (U+01CE): B<<268.0,5.5>-<306.0,18.0>-<338.0,40.0>>/B<<338.0,40.0>-<307.0,22.0>-<274.0,13.5>> = 4.36713743559307
-
-	* uni01CE (U+01CE): B<<395.5,490.5>-<369.0,500.0>-<341.0,503.0>>/B<<341.0,503.0>-<365.0,498.0>-<384.5,486.5>> = 5.652785365735216
-
-	* uni0218 (U+0218): B<<142.5,40.5>-<178.0,25.0>-<212.0,16.0>>/B<<212.0,16.0>-<162.0,38.0>-<134.0,74.0>> = 8.923014522511027
-
-	* uni0218 (U+0218): B<<143.0,648.5>-<167.0,678.0>-<208.0,695.0>>/B<<208.0,695.0>-<148.0,676.0>-<117.0,638.0>> = 4.94930682457439
-
-	* uni0218 (U+0218): B<<520.5,671.5>-<485.0,688.0>-<445.0,697.0>>/B<<445.0,697.0>-<494.0,676.0>-<522.0,636.0>> = 10.518207021828314
-
-	* uni0218 (U+0218): B<<532.0,62.0>-<505.0,29.0>-<458.0,11.0>>/B<<458.0,11.0>-<524.0,29.0>-<562.5,69.0>> = 5.7006580275743195
-
-	* uni0218 (U+0218): L<<104.0,157.0>--<92.0,273.0>>/L<<92.0,273.0>--<72.0,77.0>> = 11.732483143326268
-
-	* uni0218 (U+0218): L<<556.0,533.0>--<561.0,454.0>>/L<<561.0,454.0>--<585.0,633.0>> = 11.258056919606155
-
-	* uni0219 (U+0219): B<<111.0,451.5>-<127.0,474.0>-<159.0,489.0>>/B<<159.0,489.0>-<114.0,475.0>-<91.0,447.5>> = 7.833336514327945
-
-	* uni0219 (U+0219): B<<434.0,112.0>-<434.0,46.0>-<374.0,15.0>>/B<<374.0,15.0>-<416.0,30.0>-<440.5,59.5>> = 7.670067243293244
-
-	* uni0219 (U+0219): B<<435.5,444.5>-<418.0,471.0>-<375.0,486.0>>/B<<375.0,486.0>-<403.0,472.0>-<403.0,461.0>> = 7.334378801416657
-
-	* uni0219 (U+0219): B<<82.5,49.0>-<104.0,27.0>-<142.0,14.0>>/B<<142.0,14.0>-<113.0,28.0>-<113.0,38.0>> = 6.883240254629344
-
-	* uni021A (U+021A): B<<104.5,665.0>-<121.0,691.0>-<160.0,698.0>>/L<<160.0,698.0>--<60.0,698.0>> = 10.175510843043194
-
-	* uni021A (U+021A): L<<60.0,698.0>--<83.0,468.0>>/L<<83.0,468.0>--<87.0,584.0>> = 7.685527148381594
-
-	* uni021A (U+021A): L<<625.0,578.0>--<628.0,468.0>>/L<<628.0,468.0>--<651.0,698.0>> = 7.272818054342026
-
-	* uni021A (U+021A): L<<651.0,698.0>--<551.0,698.0>>/B<<551.0,698.0>-<591.0,691.0>-<608.0,663.5>> = 9.926245506651705
-
-	* uni021B (U+021B): B<<167.0,-3.5>-<176.0,-3.0>-<185.0,-2.0>>/B<<185.0,-2.0>-<164.0,0.0>-<156.0,17.0>> = 11.780523776915402
-
-	* uni0306 (U+0306): B<<0.0,619.0>-<-87.0,619.0>-<-137.0,685.0>>/B<<-137.0,685.0>-<-116.0,645.0>-<-80.5,623.0>> = 9.447213889966706
-
-	* uni0306 (U+0306): B<<80.5,623.0>-<116.0,645.0>-<137.0,685.0>>/B<<137.0,685.0>-<88.0,619.0>-<0.0,619.0>> = 8.891615459344234
-
-	* uni030A (U+030A): B<<68.5,689.5>-<55.0,704.0>-<33.0,710.0>>/B<<33.0,710.0>-<49.0,701.0>-<58.5,685.5>> = 14.102634839733502
-
-	* uni0327 (U+0327): B<<98.0,-131.0>-<98.0,-81.0>-<46.0,-63.0>>/B<<46.0,-63.0>-<86.0,-83.0>-<86.0,-127.0>> = 7.471559176592336
-
-	* uni0328 (U+0328): B<<-110.5,-82.0>-<-92.0,-57.0>-<-50.0,-25.0>>/B<<-50.0,-25.0>-<-104.0,-56.0>-<-128.0,-83.5>> = 7.444932113060306
-
-	* uni0328 (U+0328): B<<-35.5,-200.0>-<-17.0,-193.0>-<-8.0,-184.0>>/B<<-8.0,-184.0>-<-33.0,-199.0>-<-61.0,-199.0>> = 14.036243467926457
-
-	* uni03BC (U+03BC): B<<112.0,90.5>-<137.0,145.0>-<168.0,196.0>>/B<<168.0,196.0>-<127.0,142.0>-<95.0,87.5>> = 5.9148829258613285
-
-	* uni03BC (U+03BC): B<<178.0,-177.5>-<158.0,-201.0>-<142.0,-205.0>>/B<<142.0,-205.0>-<178.0,-205.0>-<208.5,-192.5>> = 14.036243467926484
-
-	* uni03BC (U+03BC): B<<211.0,82.0>-<196.0,116.0>-<194.0,178.0>>/B<<194.0,178.0>-<185.0,84.0>-<214.5,38.5>> = 7.316705236106494
-
-	* uni03BC (U+03BC): B<<389.5,39.0>-<438.0,85.0>-<477.0,177.0>>/B<<477.0,177.0>-<427.0,87.0>-<380.0,54.5>> = 6.081882768248428
-
-	* uni03BC (U+03BC): B<<49.5,-180.0>-<73.0,-205.0>-<117.0,-205.0>>/B<<117.0,-205.0>-<87.0,-202.0>-<71.0,-176.5>> = 5.710593137499633
-
-	* uni03BC (U+03BC): B<<522.5,78.0>-<509.0,111.0>-<509.0,175.0>>/B<<509.0,175.0>-<500.0,81.0>-<525.0,37.0>> = 5.469094970111876
-
-	* uni03BC (U+03BC): B<<677.0,33.0>-<722.0,73.0>-<747.0,155.0>>/B<<747.0,155.0>-<727.0,106.0>-<699.5,76.5>> = 5.248165480032165
-
-	* uni1E9E (U+1E9E): L<<141.0,150.0>--<145.0,11.0>>/L<<145.0,11.0>--<187.0,558.0>> = 6.039039825061501
-
-	* uni1E9E (U+1E9E): L<<187.0,558.0>--<184.0,697.0>>/L<<184.0,697.0>--<141.0,150.0>> = 5.731219850404762
-
-	* uni2074 (U+2074): B<<111.0,581.0>-<104.0,563.0>-<93.0,550.0>>/B<<93.0,550.0>-<111.0,569.0>-<119.0,593.5>> = 3.2154839917481746
-
-	* uogonek (U+0173): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* uogonek (U+0173): B<<435.5,-78.0>-<454.0,-53.0>-<496.0,-21.0>>/B<<496.0,-21.0>-<442.0,-52.0>-<418.0,-79.5>> = 7.444932113060306
-
-	* uogonek (U+0173): B<<510.5,-196.0>-<529.0,-189.0>-<538.0,-180.0>>/B<<538.0,-180.0>-<513.0,-195.0>-<485.0,-195.0>> = 14.036243467926457
-
-	* uring (U+016F): B<<322.5,14.0>-<365.0,34.0>-<407.0,78.0>>/B<<407.0,78.0>-<369.0,40.0>-<330.5,23.0>> = 1.3322198538691452
-
-	* uring (U+016F): B<<389.5,689.5>-<376.0,704.0>-<354.0,710.0>>/B<<354.0,710.0>-<370.0,701.0>-<379.5,685.5>> = 14.102634839733502
-
-	* v (U+0076): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* w (U+0077): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* w (U+0077): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
-
-	* wacute (U+1E83): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* wacute (U+1E83): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
-
-	* wcircumflex (U+0175): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* wcircumflex (U+0175): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
-
-	* wdieresis (U+1E85): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* wdieresis (U+1E85): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
-
-	* wgrave (U+1E81): B<<450.5,411.5>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* wgrave (U+1E81): B<<746.5,411.5>-<745.0,405.0>-<742.0,397.0>>/L<<742.0,397.0>--<779.0,492.0>> = 0.7235592081120716
-
-	* y (U+0079): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
-
-	* y (U+0079): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* yacute (U+00FD): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
-
-	* yacute (U+00FD): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* ycircumflex (U+0177): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
-
-	* ycircumflex (U+0177): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* ydieresis (U+00FF): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
-
-	* ydieresis (U+00FF): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* yen (U+00A5): L<<582.0,700.0>--<448.0,700.0>>/B<<448.0,700.0>-<494.0,692.0>-<515.0,677.5>> = 9.865806943084365
-
-	* ygrave (U+1EF3): B<<146.0,-206.5>-<152.0,-207.0>-<159.0,-206.0>>/B<<159.0,-206.0>-<128.0,-204.0>-<128.0,-192.0>> = 11.821488340607257
-
-	* ygrave (U+1EF3): B<<450.5,412.0>-<449.0,405.0>-<446.0,397.0>>/L<<446.0,397.0>--<483.0,492.0>> = 0.7235592081120716
-
-	* z (U+007A): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
-
-	* z (U+007A): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
-
-	* zacute (U+017A): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
-
-	* zacute (U+017A): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
-
-	* zcaron (U+017E): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
-
-	* zcaron (U+017E): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
-
-	* zdotaccent (U+017C): L<<483.0,8.0>--<442.0,163.0>>/L<<442.0,163.0>--<446.0,110.0>> = 10.500291822912015
-
-	* zdotaccent (U+017C): L<<78.0,492.0>--<117.0,333.0>>/L<<117.0,333.0>--<108.0,394.0>> = 5.388672048261071
-
-	* zero (U+0030): B<<109.0,144.5>-<146.0,61.0>-<214.0,26.0>>/B<<214.0,26.0>-<166.0,65.0>-<143.0,143.0>> = 11.858712186926939
-
-	* zero (U+0030): B<<142.5,572.0>-<165.0,644.0>-<212.0,682.0>>/B<<212.0,682.0>-<145.0,648.0>-<108.5,568.0>> = 12.04981438182205
-
-	* zero (U+0030): B<<517.5,142.0>-<495.0,65.0>-<448.0,26.0>>/B<<448.0,26.0>-<517.0,61.0>-<553.0,144.5>> = 12.789217364561857 
-
-	* zero (U+0030): B<<553.0,567.5>-<517.0,650.0>-<450.0,682.0>>/B<<450.0,682.0>-<495.0,647.0>-<517.5,572.0>> = 12.345285660565148 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + b
-
-	- b + f
-
-	- f + h
-
-	- h + i
-
-	- i + j
-
-	- j + k 
-
-	- k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: period	Contours detected: 2	Expected: 1
-
-	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: two	Contours detected: 5	Expected: 1
-
-	- Glyph name: three	Contours detected: 5	Expected: 1
-
-	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: five	Contours detected: 5	Expected: 1
-
-	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: seven	Contours detected: 4	Expected: 1
-
-	- Glyph name: eight	Contours detected: 6	Expected: 3
-
-	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: colon	Contours detected: 4	Expected: 2
-
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
-
-	- Glyph name: question	Contours detected: 5	Expected: 2
-
-	- Glyph name: at	Contours detected: 6	Expected: 2
-
-	- Glyph name: A	Contours detected: 5	Expected: 2
-
-	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: C	Contours detected: 3	Expected: 1
-
-	- Glyph name: D	Contours detected: 4	Expected: 2
-
-	- Glyph name: E	Contours detected: 5	Expected: 1
-
-	- Glyph name: F	Contours detected: 4	Expected: 1
-
-	- Glyph name: G	Contours detected: 4	Expected: 1
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: I	Contours detected: 2	Expected: 1
-
-	- Glyph name: J	Contours detected: 3	Expected: 1
-
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: L	Contours detected: 3	Expected: 1
-
-	- Glyph name: M	Contours detected: 4	Expected: 1
-
-	- Glyph name: N	Contours detected: 4	Expected: 1
-
-	- Glyph name: O	Contours detected: 4	Expected: 2
-
-	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: Q	Contours detected: 5	Expected: 2
-
-	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: S	Contours detected: 4	Expected: 1
-
-	- Glyph name: T	Contours detected: 4	Expected: 1
-
-	- Glyph name: U	Contours detected: 3	Expected: 1
-
-	- Glyph name: V	Contours detected: 3	Expected: 1
-
-	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: X	Contours detected: 4	Expected: 1
-
-	- Glyph name: Y	Contours detected: 3	Expected: 1
-
-	- Glyph name: Z	Contours detected: 4	Expected: 1
-
-	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketright	Contours detected: 2	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: a	Contours detected: 5	Expected: 2
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: c	Contours detected: 3	Expected: 1
-
-	- Glyph name: d	Contours detected: 4	Expected: 2
-
-	- Glyph name: e	Contours detected: 4	Expected: 2
-
-	- Glyph name: f	Contours detected: 3	Expected: 1
-
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: h	Contours detected: 3	Expected: 1
-
-	- Glyph name: i	Contours detected: 4	Expected: 2
-
-	- Glyph name: j	Contours detected: 5	Expected: 2
-
-	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: m	Contours detected: 4	Expected: 1
-
-	- Glyph name: n	Contours detected: 3	Expected: 1
-
-	- Glyph name: o	Contours detected: 4	Expected: 2
-
-	- Glyph name: p	Contours detected: 4	Expected: 2
-
-	- Glyph name: q	Contours detected: 4	Expected: 2
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: s	Contours detected: 4	Expected: 1
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: u	Contours detected: 3	Expected: 1
-
-	- Glyph name: v	Contours detected: 3	Expected: 1
-
-	- Glyph name: w	Contours detected: 5	Expected: 1
-
-	- Glyph name: x	Contours detected: 4	Expected: 1
-
-	- Glyph name: y	Contours detected: 4	Expected: 1
-
-	- Glyph name: z	Contours detected: 4	Expected: 1
-
-	- Glyph name: braceleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: braceright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: section	Contours detected: 6	Expected: 2
-
-	- Glyph name: dieresis	Contours detected: 4	Expected: 2
-
-	- Glyph name: copyright	Contours detected: 5	Expected: 3
-
-	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B2	Contours detected: 5	Expected: 1
-
-	- Glyph name: uni00B3	Contours detected: 5	Expected: 1
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
-
-	- Glyph name: cedilla	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
-
-	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
-
-	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
-
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 8	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 5	Expected: 2
-
-	- Glyph name: Agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: Atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: Aring	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: AE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Egrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Eacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: Eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: Oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: multiply	Contours detected: 2	Expected: 1
-
-	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
-
-	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Yacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 5	Expected: 1
-
-	- Glyph name: agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: aring	Contours detected: 9	Expected: 4
-
-	- Glyph name: ae	Contours detected: 7	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: egrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: eacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 5	Expected: 2
-
-	- Glyph name: ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: oslash	Contours detected: 12	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: yacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 4	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 7	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 8	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 7	Expected: 2
-
-	- Glyph name: emacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
-
-	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
-
-	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
-
-	- Glyph name: ecaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
-
-	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0122	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: Hbar	Contours detected: 11	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 7	Expected: 1
-
-	- Glyph name: Imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
-
-	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
-
-	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni013B	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 5	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 7	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 6	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: nacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 5	Expected: 1
-
-	- Glyph name: eng	Contours detected: 4	Expected: 1
-
-	- Glyph name: Omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: OE	Contours detected: 7	Expected: 2
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 7	Expected: 3
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Scedilla	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: Scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: tcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: florin	Contours detected: 4	Expected: 1
-
-	- Glyph name: uni01CD	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: breve	Contours detected: 2	Expected: 1
-
-	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
-
-	- Glyph name: ring	Contours detected: 4	Expected: 2
-
-	- Glyph name: ogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: tilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
-
-	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: tildecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0307	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0308	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0327	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0328	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
-
-	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
-
-	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 6	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
-
-	- Glyph name: bullet	Contours detected: 2	Expected: 1
-
-	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
-
-	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 2	Expected: 1
-
-	- Glyph name: second	Contours detected: 4	Expected: 2
-
-	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: trademark	Contours detected: 8	Expected: 2
-
-	- Glyph name: arrowup	Contours detected: 2	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 4	Expected: 2
-
-	- Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: fl	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: A	Contours detected: 5	Expected: 2
-
-	- Glyph name: AE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: Agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: Aring	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: Atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: C	Contours detected: 3	Expected: 1
-
-	- Glyph name: Cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: D	Contours detected: 4	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
-
-	- Glyph name: E	Contours detected: 5	Expected: 1
-
-	- Glyph name: Eacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 7	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 5	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: F	Contours detected: 4	Expected: 1
-
-	- Glyph name: G	Contours detected: 4	Expected: 1
-
-	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: Hbar	Contours detected: 11	Expected: 2
-
-	- Glyph name: I	Contours detected: 2	Expected: 1
-
-	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
-
-	- Glyph name: Igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: J	Contours detected: 3	Expected: 1
-
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: L	Contours detected: 3	Expected: 1
-
-	- Glyph name: Lacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 5	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 7	Expected: 1
-
-	- Glyph name: M	Contours detected: 4	Expected: 1
-
-	- Glyph name: N	Contours detected: 4	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
-
-	- Glyph name: O	Contours detected: 4	Expected: 2
-
-	- Glyph name: OE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: Ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
-
-	- Glyph name: Otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: Q	Contours detected: 5	Expected: 2
-
-	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Racute	Contours detected: 7	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
-
-	- Glyph name: S	Contours detected: 4	Expected: 1
-
-	- Glyph name: Sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: T	Contours detected: 4	Expected: 1
-
-	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: U	Contours detected: 3	Expected: 1
-
-	- Glyph name: Uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: Umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: V	Contours detected: 3	Expected: 1
-
-	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: X	Contours detected: 4	Expected: 1
-
-	- Glyph name: Y	Contours detected: 3	Expected: 1
-
-	- Glyph name: Yacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Z	Contours detected: 4	Expected: 1
-
-	- Glyph name: Zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: a	Contours detected: 5	Expected: 2
-
-	- Glyph name: aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: ae	Contours detected: 7	Expected: 3
-
-	- Glyph name: agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 7	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 4	Expected: 2
-
-	- Glyph name: aring	Contours detected: 9	Expected: 4
-
-	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 2	Expected: 1
-
-	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
-
-	- Glyph name: at	Contours detected: 6	Expected: 2
-
-	- Glyph name: atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: braceleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: braceright	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketright	Contours detected: 2	Expected: 1
-
-	- Glyph name: breve	Contours detected: 2	Expected: 1
-
-	- Glyph name: bullet	Contours detected: 2	Expected: 1
-
-	- Glyph name: c	Contours detected: 3	Expected: 1
-
-	- Glyph name: cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: cedilla	Contours detected: 2	Expected: 1
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: colon	Contours detected: 4	Expected: 2
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: copyright	Contours detected: 5	Expected: 3
-
-	- Glyph name: d	Contours detected: 4	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
-
-	- Glyph name: dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 8	Expected: 2
-
-	- Glyph name: dieresis	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
-
-	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
-
-	- Glyph name: e	Contours detected: 4	Expected: 2
-
-	- Glyph name: eacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: eight	Contours detected: 6	Expected: 3
-
-	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
-
-	- Glyph name: emacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: eng	Contours detected: 4	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 6	Expected: 2
-
-	- Glyph name: eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
-
-	- Glyph name: f	Contours detected: 3	Expected: 1
-
-	- Glyph name: fi	Contours detected: 4	Expected: 3
-
-	- Glyph name: five	Contours detected: 5	Expected: 1
-
-	- Glyph name: fl	Contours detected: 3	Expected: 2
-
-	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: germandbls	Contours detected: 5	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
-
-	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
-
-	- Glyph name: h	Contours detected: 3	Expected: 1
-
-	- Glyph name: hbar	Contours detected: 7	Expected: 1
-
-	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
-
-	- Glyph name: i	Contours detected: 4	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: j	Contours detected: 5	Expected: 2
-
-	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 4	Expected: 2
-
-	- Glyph name: lslash	Contours detected: 6	Expected: 1
-
-	- Glyph name: m	Contours detected: 4	Expected: 1
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
-
-	- Glyph name: multiply	Contours detected: 2	Expected: 1
-
-	- Glyph name: n	Contours detected: 3	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ntilde	Contours detected: 5	Expected: 2
-
-	- Glyph name: o	Contours detected: 4	Expected: 2
-
-	- Glyph name: oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: ogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 8	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
-
-	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
-
-	- Glyph name: oslash	Contours detected: 12	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: p	Contours detected: 4	Expected: 2
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: period	Contours detected: 2	Expected: 1
-
-	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
-
-	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
-
-	- Glyph name: q	Contours detected: 4	Expected: 2
-
-	- Glyph name: question	Contours detected: 5	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 5	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: ring	Contours detected: 4	Expected: 2
-
-	- Glyph name: s	Contours detected: 4	Expected: 1
-
-	- Glyph name: sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: section	Contours detected: 6	Expected: 2
-
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
-
-	- Glyph name: seven	Contours detected: 4	Expected: 1
-
-	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: tcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 4	Expected: 2
-
-	- Glyph name: three	Contours detected: 5	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: tilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: trademark	Contours detected: 8	Expected: 2
-
-	- Glyph name: two	Contours detected: 5	Expected: 1
-
-	- Glyph name: u	Contours detected: 3	Expected: 1
-
-	- Glyph name: uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
-
-	- Glyph name: uni0122	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni01CD	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0307	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0308	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0327	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0328	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: v	Contours detected: 3	Expected: 1
-
-	- Glyph name: w	Contours detected: 5	Expected: 1
-
-	- Glyph name: wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: x	Contours detected: 4	Expected: 1
-
-	- Glyph name: y	Contours detected: 4	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
-
-	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ygrave	Contours detected: 6	Expected: 2
-
-	- Glyph name: z	Contours detected: 4	Expected: 1
-
-	- Glyph name: zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2 
-
-	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̦̀ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* comma (U+002C): X=207.0,Y=1.5 (should be at baseline 0?)
-
-	* five (U+0035): X=96.0,Y=710.0 (should be at cap-height 708?)
-
-	* semicolon (U+003B): X=208.0,Y=1.5 (should be at baseline 0?)
-
-	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
-
-	* G (U+0047): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* G (U+0047): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
-
-	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
-
-	* a (U+0061): X=387.0,Y=498.0 (should be at x-height 500?)
-
-	* a (U+0061): X=311.0,Y=501.0 (should be at x-height 500?)
-
-	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
-
-	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
-
-	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
-
-	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?)
-
-	* c (U+0063): X=428.5,Y=498.5 (should be at x-height 500?)
-
-	* d (U+0064): X=325.0,Y=498.5 (should be at x-height 500?)
-
-	* f (U+0066): X=386.0,Y=707.5 (should be at cap-height 708?)
-
-	* i (U+0069): X=260.0,Y=706.0 (should be at cap-height 708?)
-
-	* i (U+0069): X=90.5,Y=706.0 (should be at cap-height 708?)
-
-	* j (U+006A): X=267.0,Y=706.0 (should be at cap-height 708?)
-
-	* j (U+006A): X=97.5,Y=706.0 (should be at cap-height 708?)
-
-	* k (U+006B): X=610.0,Y=502.0 (should be at x-height 500?)
-
-	* k (U+006B): X=590.0,Y=502.0 (should be at x-height 500?)
-
-	* k (U+006B): X=531.0,Y=1.0 (should be at baseline 0?)
-
-	* p (U+0070): X=368.5,Y=1.5 (should be at baseline 0?)
-
-	* q (U+0071): X=256.5,Y=-2.0 (should be at baseline 0?)
-
-	* q (U+0071): X=206.0,Y=500.5 (should be at x-height 500?)
-
-	* q (U+0071): X=411.0,Y=498.0 (should be at x-height 500?)
-
-	* s (U+0073): X=212.0,Y=1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=308.5,Y=-0.5 (should be at baseline 0?)
-
-	* s (U+0073): X=244.0,Y=501.5 (should be at x-height 500?)
-
-	* t (U+0074): X=224.0,Y=2.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=151.0,Y=1.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=171.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=446.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=426.0,Y=1.0 (should be at baseline 0?)
-
-	* sterling (U+00A3): X=84.0,Y=2.0 (should be at baseline 0?)
-
-	* section (U+00A7): X=405.0,Y=707.5 (should be at cap-height 708?)
-
-	* uni00B2 (U+00B2): X=125.0,Y=707.0 (should be at cap-height 708?)
-
-	* uni00B3 (U+00B3): X=112.0,Y=706.0 (should be at cap-height 708?)
-
-	* onehalf (U+00BD): X=425.5,Y=-1.5 (should be at baseline 0?)
-
-	* onehalf (U+00BD): X=366.0,Y=1.0 (should be at baseline 0?)
-
-	* onehalf (U+00BD): X=345.0,Y=-2.0 (should be at baseline 0?)
-
-	* threequarters (U+00BE): X=132.0,Y=706.0 (should be at cap-height 708?)
-
-	* germandbls (U+00DF): X=534.5,Y=1.0 (should be at baseline 0?)
-
-	* germandbls (U+00DF): X=192.5,Y=709.5 (should be at cap-height 708?)
-
-	* thorn (U+00FE): X=368.5,Y=1.5 (should be at baseline 0?)
-
-	* ccaron (U+010D): X=184.0,Y=707.0 (should be at cap-height 708?)
-
-	* ecaron (U+011B): X=187.0,Y=707.0 (should be at cap-height 708?)
-
-	* Gbreve (U+011E): X=516.5,Y=-1.5 (should be at baseline 0?)
-
-	* Gbreve (U+011E): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* Gbreve (U+011E): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=516.5,Y=-1.5 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* Gdotaccent (U+0120): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0122 (U+0122): X=516.5,Y=-1.5 (should be at baseline 0?)
-
-	* uni0122 (U+0122): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0122 (U+0122): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* iogonek (U+012F): X=260.0,Y=706.0 (should be at cap-height 708?)
-
-	* iogonek (U+012F): X=90.5,Y=706.0 (should be at cap-height 708?)
-
-	* ij (U+0133): X=260.0,Y=706.0 (should be at cap-height 708?)
-
-	* ij (U+0133): X=90.5,Y=706.0 (should be at cap-height 708?)
-
-	* ij (U+0133): X=622.0,Y=706.0 (should be at cap-height 708?)
-
-	* ij (U+0133): X=452.5,Y=706.0 (should be at cap-height 708?)
-
-	* uni0137 (U+0137): X=531.0,Y=1.0 (should be at baseline 0?)
-
-	* ncaron (U+0148): X=228.0,Y=707.0 (should be at cap-height 708?)
-
-	* rcaron (U+0159): X=178.0,Y=707.0 (should be at cap-height 708?)
-
-	* sacute (U+015B): X=212.0,Y=1.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=308.5,Y=-0.5 (should be at baseline 0?)
-
-	* scedilla (U+015F): X=212.0,Y=1.0 (should be at baseline 0?)
-
-	* scedilla (U+015F): X=308.5,Y=-0.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=212.0,Y=1.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=308.5,Y=-0.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=143.0,Y=707.0 (should be at cap-height 708?)
-
-	* tcaron (U+0165): X=224.0,Y=2.0 (should be at baseline 0?)
-
-	* zcaron (U+017E): X=180.0,Y=707.0 (should be at cap-height 708?)
-
-	* florin (U+0192): X=487.0,Y=707.5 (should be at cap-height 708?)
-
-	* uni01CE (U+01CE): X=188.0,Y=707.0 (should be at cap-height 708?)
-
-	* uni0219 (U+0219): X=212.0,Y=1.0 (should be at baseline 0?)
-
-	* uni0219 (U+0219): X=308.5,Y=-0.5 (should be at baseline 0?)
-
-	* uni021B (U+021B): X=224.0,Y=2.0 (should be at baseline 0?)
-
-	* uni02BB (U+02BB): X=230.0,Y=709.0 (should be at cap-height 708?)
-
-	* caron (U+02C7): X=66.0,Y=707.0 (should be at cap-height 708?)
-
-	* uni030C (U+030C): X=-124.0,Y=707.0 (should be at cap-height 708?)
-
-	* quoteleft (U+2018): X=230.0,Y=709.0 (should be at cap-height 708?)
-
-	* quotesinglbase (U+201A): X=207.0,Y=1.5 (should be at baseline 0?)
-
-	* quotedblleft (U+201C): X=465.0,Y=709.0 (should be at cap-height 708?)
-
-	* quotedblleft (U+201C): X=230.0,Y=709.0 (should be at cap-height 708?)
-
-	* quotedblbase (U+201E): X=207.0,Y=1.5 (should be at baseline 0?)
-
-	* quotedblbase (U+201E): X=423.0,Y=1.5 (should be at baseline 0?)
-
-	* uni25CC (U+25CC): X=285.0,Y=706.0 (should be at cap-height 708?)
-
-	* uni25CC (U+25CC): X=548.0,Y=1.0 (should be at baseline 0?)
-
-	* uni25CC (U+25CC): X=286.0,Y=1.0 (should be at baseline 0?) 
-
-	* fl (U+FB02): X=472.0,Y=710.0 (should be at cap-height 708?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Aacute (U+00C1): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Abreve (U+0102): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Acircumflex (U+00C2): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Adieresis (U+00C4): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Agrave (U+00C0): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Amacron (U+0100): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Aogonek (U+0104): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Aring (U+00C5): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* Atilde (U+00C3): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457
-
-	* a (U+0061): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* aacute (U+00E1): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* abreve (U+0103): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* acircumflex (U+00E2): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* adieresis (U+00E4): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* ae (U+00E6): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* ae (U+00E6): B<<713.5,13.0>-<746.0,21.0>-<779.0,41.0>>/B<<779.0,41.0>-<755.0,33.0>-<735.0,33.0>> = 12.783453941424346
-
-	* agrave (U+00E0): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* amacron (U+0101): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* aogonek (U+0105): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* aring (U+00E5): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* atilde (U+00E3): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259
-
-	* b (U+0062): B<<430.5,485.5>-<404.0,476.0>-<375.0,444.0>>/B<<375.0,444.0>-<378.0,446.0>-<381.5,446.0>> = 14.125489158231446
-
-	* e (U+0065): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* eacute (U+00E9): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* ecaron (U+011B): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* ecircumflex (U+00EA): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* edieresis (U+00EB): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* edotaccent (U+0117): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* egrave (U+00E8): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* emacron (U+0113): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* eogonek (U+0119): B<<381.5,13.0>-<414.0,21.0>-<447.0,41.0>>/B<<447.0,41.0>-<423.0,33.0>-<403.0,33.0>> = 12.783453941424346
-
-	* exclam (U+0021): B<<165.5,488.5>-<179.0,443.0>-<185.0,386.0>>/B<<185.0,386.0>-<191.0,443.0>-<204.5,488.5>> = 12.018011914988996
-
-	* exclamdown (U+00A1): B<<204.5,111.5>-<191.0,157.0>-<185.0,214.0>>/B<<185.0,214.0>-<179.0,157.0>-<165.5,111.5>> = 12.018011914988996
-
-	* oe (U+0153): B<<731.5,13.0>-<764.0,21.0>-<797.0,41.0>>/B<<797.0,41.0>-<773.0,33.0>-<753.0,33.0>> = 12.783453941424346
-
-	* uni01CD (U+01CD): B<<198.0,297.0>-<199.0,308.0>-<201.0,320.0>>/L<<201.0,320.0>--<191.0,297.0>> = 14.036243467926457 
-
-	* uni01CE (U+01CE): B<<207.0,20.0>-<238.0,33.0>-<264.0,54.0>>/B<<264.0,54.0>-<258.0,51.0>-<253.0,50.0>> = 12.362492415714259 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + b
-
-	- b + f
-
-	- f + h
-
-	- h + i
-
-	- i + j
-
-	- j + k 
-
-	- k + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: period	Contours detected: 2	Expected: 1
-
-	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: two	Contours detected: 5	Expected: 1
-
-	- Glyph name: three	Contours detected: 5	Expected: 1
-
-	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: five	Contours detected: 5	Expected: 1
-
-	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: seven	Contours detected: 4	Expected: 1
-
-	- Glyph name: eight	Contours detected: 6	Expected: 3
-
-	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: colon	Contours detected: 4	Expected: 2
-
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
-
-	- Glyph name: question	Contours detected: 5	Expected: 2
-
-	- Glyph name: at	Contours detected: 6	Expected: 2
-
-	- Glyph name: A	Contours detected: 4	Expected: 2
-
-	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: C	Contours detected: 3	Expected: 1
-
-	- Glyph name: D	Contours detected: 4	Expected: 2
-
-	- Glyph name: E	Contours detected: 5	Expected: 1
-
-	- Glyph name: F	Contours detected: 4	Expected: 1
-
-	- Glyph name: G	Contours detected: 4	Expected: 1
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: I	Contours detected: 2	Expected: 1
-
-	- Glyph name: J	Contours detected: 3	Expected: 1
-
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: L	Contours detected: 3	Expected: 1
-
-	- Glyph name: M	Contours detected: 4	Expected: 1
-
-	- Glyph name: N	Contours detected: 4	Expected: 1
-
-	- Glyph name: O	Contours detected: 4	Expected: 2
-
-	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: Q	Contours detected: 5	Expected: 2
-
-	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: S	Contours detected: 4	Expected: 1
-
-	- Glyph name: T	Contours detected: 4	Expected: 1
-
-	- Glyph name: U	Contours detected: 3	Expected: 1
-
-	- Glyph name: V	Contours detected: 3	Expected: 1
-
-	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: X	Contours detected: 4	Expected: 1
-
-	- Glyph name: Y	Contours detected: 3	Expected: 1
-
-	- Glyph name: Z	Contours detected: 4	Expected: 1
-
-	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketright	Contours detected: 2	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: a	Contours detected: 5	Expected: 2
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: c	Contours detected: 3	Expected: 1
-
-	- Glyph name: d	Contours detected: 4	Expected: 2
-
-	- Glyph name: e	Contours detected: 4	Expected: 2
-
-	- Glyph name: f	Contours detected: 3	Expected: 1
-
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: h	Contours detected: 3	Expected: 1
-
-	- Glyph name: i	Contours detected: 4	Expected: 2
-
-	- Glyph name: j	Contours detected: 5	Expected: 2
-
-	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: m	Contours detected: 4	Expected: 1
-
-	- Glyph name: n	Contours detected: 3	Expected: 1
-
-	- Glyph name: o	Contours detected: 4	Expected: 2
-
-	- Glyph name: p	Contours detected: 4	Expected: 2
-
-	- Glyph name: q	Contours detected: 4	Expected: 2
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: s	Contours detected: 4	Expected: 1
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: u	Contours detected: 3	Expected: 1
-
-	- Glyph name: v	Contours detected: 3	Expected: 1
-
-	- Glyph name: w	Contours detected: 5	Expected: 1
-
-	- Glyph name: x	Contours detected: 4	Expected: 1
-
-	- Glyph name: y	Contours detected: 4	Expected: 1
-
-	- Glyph name: z	Contours detected: 4	Expected: 1
-
-	- Glyph name: braceleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: braceright	Contours detected: 2	Expected: 1
-
-	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: section	Contours detected: 6	Expected: 2
-
-	- Glyph name: dieresis	Contours detected: 4	Expected: 2
-
-	- Glyph name: copyright	Contours detected: 5	Expected: 3
-
-	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B2	Contours detected: 5	Expected: 1
-
-	- Glyph name: uni00B3	Contours detected: 5	Expected: 1
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
-
-	- Glyph name: cedilla	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
-
-	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
-
-	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
-
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 8	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 5	Expected: 2
-
-	- Glyph name: Agrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Atilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
-
-	- Glyph name: AE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Egrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Eacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: Eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: Oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: multiply	Contours detected: 2	Expected: 1
-
-	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
-
-	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Yacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 5	Expected: 1
-
-	- Glyph name: agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: aring	Contours detected: 9	Expected: 4
-
-	- Glyph name: ae	Contours detected: 7	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: egrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: eacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 5	Expected: 2
-
-	- Glyph name: ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: oslash	Contours detected: 12	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: yacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 4	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 6	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 7	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 8	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 7	Expected: 2
-
-	- Glyph name: emacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
-
-	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
-
-	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
-
-	- Glyph name: ecaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
-
-	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0122	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: Hbar	Contours detected: 11	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 7	Expected: 1
-
-	- Glyph name: Imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
-
-	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
-
-	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni013B	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 5	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 7	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 6	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: nacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 5	Expected: 1
-
-	- Glyph name: eng	Contours detected: 4	Expected: 1
-
-	- Glyph name: Omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: OE	Contours detected: 7	Expected: 2
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 7	Expected: 3
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Scedilla	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: Scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: tcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: florin	Contours detected: 4	Expected: 1
-
-	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
-
-	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: breve	Contours detected: 2	Expected: 1
-
-	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
-
-	- Glyph name: ring	Contours detected: 4	Expected: 2
-
-	- Glyph name: ogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: tilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
-
-	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: tildecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0307	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0308	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0327	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0328	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
-
-	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
-
-	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 6	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
-
-	- Glyph name: bullet	Contours detected: 2	Expected: 1
-
-	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
-
-	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 2	Expected: 1
-
-	- Glyph name: second	Contours detected: 4	Expected: 2
-
-	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: trademark	Contours detected: 8	Expected: 2
-
-	- Glyph name: arrowup	Contours detected: 2	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 4	Expected: 2
-
-	- Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: fl	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: A	Contours detected: 4	Expected: 2
-
-	- Glyph name: AE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Aacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 6	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: Agrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
-
-	- Glyph name: Atilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: C	Contours detected: 3	Expected: 1
-
-	- Glyph name: Cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: D	Contours detected: 4	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
-
-	- Glyph name: E	Contours detected: 5	Expected: 1
-
-	- Glyph name: Eacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 7	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 5	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: F	Contours detected: 4	Expected: 1
-
-	- Glyph name: G	Contours detected: 4	Expected: 1
-
-	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: Hbar	Contours detected: 11	Expected: 2
-
-	- Glyph name: I	Contours detected: 2	Expected: 1
-
-	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
-
-	- Glyph name: Igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: J	Contours detected: 3	Expected: 1
-
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: L	Contours detected: 3	Expected: 1
-
-	- Glyph name: Lacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 5	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 7	Expected: 1
-
-	- Glyph name: M	Contours detected: 4	Expected: 1
-
-	- Glyph name: N	Contours detected: 4	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
-
-	- Glyph name: O	Contours detected: 4	Expected: 2
-
-	- Glyph name: OE	Contours detected: 7	Expected: 2
-
-	- Glyph name: Oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: Ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
-
-	- Glyph name: Otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: Q	Contours detected: 5	Expected: 2
-
-	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Racute	Contours detected: 7	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
-
-	- Glyph name: S	Contours detected: 4	Expected: 1
-
-	- Glyph name: Sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: T	Contours detected: 4	Expected: 1
-
-	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: U	Contours detected: 3	Expected: 1
-
-	- Glyph name: Uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: Umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: V	Contours detected: 3	Expected: 1
-
-	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: Wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: X	Contours detected: 4	Expected: 1
-
-	- Glyph name: Y	Contours detected: 3	Expected: 1
-
-	- Glyph name: Yacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Z	Contours detected: 4	Expected: 1
-
-	- Glyph name: Zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
-
-	- Glyph name: a	Contours detected: 5	Expected: 2
-
-	- Glyph name: aacute	Contours detected: 7	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 7	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: adieresis	Contours detected: 9	Expected: 4
-
-	- Glyph name: ae	Contours detected: 7	Expected: 3
-
-	- Glyph name: agrave	Contours detected: 7	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 7	Expected: 3
-
-	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 7	Expected: 2
-
-	- Glyph name: approxequal	Contours detected: 4	Expected: 2
-
-	- Glyph name: aring	Contours detected: 9	Expected: 4
-
-	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 2	Expected: 1
-
-	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
-
-	- Glyph name: at	Contours detected: 6	Expected: 2
-
-	- Glyph name: atilde	Contours detected: 7	Expected: 3
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: braceleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: braceright	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: bracketright	Contours detected: 2	Expected: 1
-
-	- Glyph name: breve	Contours detected: 2	Expected: 1
-
-	- Glyph name: bullet	Contours detected: 2	Expected: 1
-
-	- Glyph name: c	Contours detected: 3	Expected: 1
-
-	- Glyph name: cacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: ccaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
-
-	- Glyph name: cedilla	Contours detected: 2	Expected: 1
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: colon	Contours detected: 4	Expected: 2
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: copyright	Contours detected: 5	Expected: 3
-
-	- Glyph name: d	Contours detected: 4	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
-
-	- Glyph name: dcaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 8	Expected: 2
-
-	- Glyph name: dieresis	Contours detected: 4	Expected: 2
-
-	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
-
-	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
-
-	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
-
-	- Glyph name: e	Contours detected: 4	Expected: 2
-
-	- Glyph name: eacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecaron	Contours detected: 6	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 6	Expected: 3
-
-	- Glyph name: eight	Contours detected: 6	Expected: 3
-
-	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
-
-	- Glyph name: emacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: eng	Contours detected: 4	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 6	Expected: 2
-
-	- Glyph name: eth	Contours detected: 8	Expected: 2
-
-	- Glyph name: exclam	Contours detected: 4	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
-
-	- Glyph name: f	Contours detected: 3	Expected: 1
-
-	- Glyph name: fi	Contours detected: 4	Expected: 3
-
-	- Glyph name: five	Contours detected: 5	Expected: 1
-
-	- Glyph name: fl	Contours detected: 3	Expected: 2
-
-	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: germandbls	Contours detected: 5	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
-
-	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
-
-	- Glyph name: h	Contours detected: 3	Expected: 1
-
-	- Glyph name: hbar	Contours detected: 7	Expected: 1
-
-	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
-
-	- Glyph name: i	Contours detected: 4	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 6	Expected: 3
-
-	- Glyph name: igrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: imacron	Contours detected: 4	Expected: 2
-
-	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: j	Contours detected: 5	Expected: 2
-
-	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 4	Expected: 2
-
-	- Glyph name: lslash	Contours detected: 6	Expected: 1
-
-	- Glyph name: m	Contours detected: 4	Expected: 1
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
-
-	- Glyph name: multiply	Contours detected: 2	Expected: 1
-
-	- Glyph name: n	Contours detected: 3	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ntilde	Contours detected: 5	Expected: 2
-
-	- Glyph name: o	Contours detected: 4	Expected: 2
-
-	- Glyph name: oacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
-
-	- Glyph name: odieresis	Contours detected: 8	Expected: 4
-
-	- Glyph name: oe	Contours detected: 6	Expected: 3
-
-	- Glyph name: ogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ograve	Contours detected: 6	Expected: 3
-
-	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
-
-	- Glyph name: omacron	Contours detected: 6	Expected: 3
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 8	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
-
-	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
-
-	- Glyph name: oslash	Contours detected: 12	Expected: 3
-
-	- Glyph name: otilde	Contours detected: 6	Expected: 3
-
-	- Glyph name: p	Contours detected: 4	Expected: 2
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: parenleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: parenright	Contours detected: 2	Expected: 1
-
-	- Glyph name: percent	Contours detected: 9	Expected: 5
-
-	- Glyph name: period	Contours detected: 2	Expected: 1
-
-	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
-
-	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
-
-	- Glyph name: q	Contours detected: 4	Expected: 2
-
-	- Glyph name: question	Contours detected: 5	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 5	Expected: 2
-
-	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: ring	Contours detected: 4	Expected: 2
-
-	- Glyph name: s	Contours detected: 4	Expected: 1
-
-	- Glyph name: sacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: section	Contours detected: 6	Expected: 2
-
-	- Glyph name: semicolon	Contours detected: 4	Expected: 2
-
-	- Glyph name: seven	Contours detected: 4	Expected: 1
-
-	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: tcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 4	Expected: 2
-
-	- Glyph name: three	Contours detected: 5	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: tilde	Contours detected: 2	Expected: 1
-
-	- Glyph name: trademark	Contours detected: 8	Expected: 2
-
-	- Glyph name: two	Contours detected: 5	Expected: 1
-
-	- Glyph name: u	Contours detected: 3	Expected: 1
-
-	- Glyph name: uacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 5	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: udieresis	Contours detected: 7	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
-
-	- Glyph name: umacron	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
-
-	- Glyph name: uni0122	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
-
-	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 6	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0307	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0308	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0327	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0328	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 5	Expected: 1
-
-	- Glyph name: uring	Contours detected: 7	Expected: 3
-
-	- Glyph name: v	Contours detected: 3	Expected: 1
-
-	- Glyph name: w	Contours detected: 5	Expected: 1
-
-	- Glyph name: wacute	Contours detected: 7	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
-
-	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
-
-	- Glyph name: wgrave	Contours detected: 7	Expected: 2
-
-	- Glyph name: x	Contours detected: 4	Expected: 1
-
-	- Glyph name: y	Contours detected: 4	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
-
-	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
-
-	- Glyph name: ygrave	Contours detected: 6	Expected: 2
-
-	- Glyph name: z	Contours detected: 4	Expected: 1
-
-	- Glyph name: zacute	Contours detected: 6	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 6	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2 
-
-	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̦̀ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* A (U+0041): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* AE (U+00C6): B<<860.0,41.5>-<844.0,20.0>-<812.0,13.0>>/L<<812.0,13.0>--<918.0,13.0>> = 12.33908727832618
-
-	* AE (U+00C6): L<<918.0,13.0>--<888.0,230.0>>/L<<888.0,230.0>--<881.0,104.0>> = 11.051012056695225
-
-	* AE (U+00C6): L<<918.0,695.0>--<799.0,695.0>>/B<<799.0,695.0>-<830.0,689.0>-<845.5,673.0>> = 10.954062643398332
-
-	* Aacute (U+00C1): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Abreve (U+0102): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Acircumflex (U+00C2): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Adieresis (U+00C4): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Agrave (U+00C0): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Amacron (U+0100): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Aogonek (U+0104): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Aogonek (U+0104): B<<636.5,-71.5>-<653.0,-48.0>-<692.0,-19.0>>/B<<692.0,-19.0>-<578.0,-77.0>-<578.0,-136.0>> = 9.668399443097272
-
-	* Aogonek (U+0104): B<<701.0,-192.5>-<720.0,-186.0>-<729.0,-178.0>>/B<<729.0,-178.0>-<710.0,-189.0>-<688.0,-189.0>> = 11.56495651470776
-
-	* Aring (U+00C5): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Atilde (U+00C3): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* Atilde (U+00C3): B<<256.0,897.0>-<231.0,880.0>-<214.0,849.0>>/B<<214.0,849.0>-<234.0,886.0>-<272.0,886.0>> = 0.34677587030477774
-
-	* Atilde (U+00C3): B<<511.0,818.5>-<530.0,830.0>-<545.0,859.0>>/B<<545.0,859.0>-<532.0,837.0>-<505.0,837.0>> = 3.2293510924191127
-
-	* C (U+0043): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
-
-	* C (U+0043): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
-
-	* Cacute (U+0106): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
-
-	* Cacute (U+0106): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
-
-	* Ccaron (U+010C): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
-
-	* Ccaron (U+010C): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
-
-	* Ccedilla (U+00C7): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
-
-	* Ccedilla (U+00C7): B<<482.0,-131.0>-<482.0,-81.0>-<429.0,-64.0>>/B<<429.0,-64.0>-<462.0,-84.0>-<462.0,-123.0>> = 13.434514321653843
-
-	* Ccedilla (U+00C7): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
-
-	* Cdotaccent (U+010A): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
-
-	* Cdotaccent (U+010A): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
-
-	* E (U+0045): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* E (U+0045): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* E (U+0045): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Eacute (U+00C9): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Eacute (U+00C9): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Eacute (U+00C9): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Ecaron (U+011A): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Ecaron (U+011A): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Ecaron (U+011A): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Ecircumflex (U+00CA): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Ecircumflex (U+00CA): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Ecircumflex (U+00CA): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Edieresis (U+00CB): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Edieresis (U+00CB): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Edieresis (U+00CB): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Edotaccent (U+0116): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Edotaccent (U+0116): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Edotaccent (U+0116): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Egrave (U+00C8): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Egrave (U+00C8): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Egrave (U+00C8): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Emacron (U+0112): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Emacron (U+0112): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Emacron (U+0112): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Eogonek (U+0118): B<<509.5,-71.5>-<526.0,-48.0>-<565.0,-19.0>>/B<<565.0,-19.0>-<451.0,-77.0>-<451.0,-136.0>> = 9.668399443097272
-
-	* Eogonek (U+0118): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
-
-	* Eogonek (U+0118): B<<574.0,-192.5>-<593.0,-186.0>-<602.0,-178.0>>/B<<602.0,-178.0>-<583.0,-189.0>-<561.0,-189.0>> = 11.56495651470776
-
-	* Eogonek (U+0118): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
-
-	* Eogonek (U+0118): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* Euro (U+20AC): B<<272.0,584.5>-<308.0,662.0>-<369.0,695.0>>/B<<369.0,695.0>-<273.0,666.0>-<215.0,589.5>> = 11.60396981686572
-
-	* Euro (U+20AC): B<<570.0,14.0>-<622.0,31.0>-<664.0,65.0>>/B<<664.0,65.0>-<602.0,28.0>-<527.0,28.0>> = 8.163331742637432
-
-	* F (U+0046): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
-
-	* G (U+0047): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
-
-	* G (U+0047): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
-
-	* G (U+0047): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
-
-	* Gbreve (U+011E): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
-
-	* Gbreve (U+011E): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
-
-	* Gbreve (U+011E): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
-
-	* Gdotaccent (U+0120): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
-
-	* Gdotaccent (U+0120): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
-
-	* Gdotaccent (U+0120): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
-
-	* Iogonek (U+012E): B<<182.5,-71.5>-<199.0,-48.0>-<238.0,-19.0>>/B<<238.0,-19.0>-<124.0,-77.0>-<124.0,-136.0>> = 9.668399443097272
-
-	* Iogonek (U+012E): B<<247.0,-192.5>-<266.0,-186.0>-<275.0,-178.0>>/B<<275.0,-178.0>-<256.0,-189.0>-<234.0,-189.0>> = 11.56495651470776
-
-	* K (U+004B): B<<457.0,476.0>-<407.0,399.0>-<343.0,369.0>>/B<<343.0,369.0>-<383.0,380.0>-<427.0,408.5>> = 9.738583637318376
-
-	* L (U+004C): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* Lacute (U+0139): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* Lcaron (U+013D): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* Ldot (U+013F): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* Lslash (U+0141): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* Ntilde (U+00D1): B<<276.0,897.0>-<251.0,880.0>-<234.0,849.0>>/B<<234.0,849.0>-<254.0,886.0>-<292.0,886.0>> = 0.34677587030477774
-
-	* Ntilde (U+00D1): B<<531.0,818.5>-<550.0,830.0>-<565.0,859.0>>/B<<565.0,859.0>-<552.0,837.0>-<525.0,837.0>> = 3.2293510924191127
-
-	* OE (U+0152): B<<924.0,41.5>-<908.0,20.0>-<876.0,13.0>>/L<<876.0,13.0>--<982.0,13.0>> = 12.33908727832618
-
-	* OE (U+0152): L<<982.0,13.0>--<953.0,230.0>>/L<<953.0,230.0>--<945.0,104.0>> = 11.244888336203081
-
-	* OE (U+0152): L<<982.0,695.0>--<864.0,695.0>>/B<<864.0,695.0>-<896.0,689.0>-<910.5,673.0>> = 10.61965527615514
-
-	* Otilde (U+00D5): B<<261.0,897.0>-<236.0,880.0>-<219.0,849.0>>/B<<219.0,849.0>-<239.0,886.0>-<277.0,886.0>> = 0.34677587030477774
-
-	* Otilde (U+00D5): B<<516.0,818.5>-<535.0,830.0>-<550.0,859.0>>/B<<550.0,859.0>-<537.0,837.0>-<510.0,837.0>> = 3.2293510924191127
-
-	* P (U+0050): B<<510.0,397.0>-<477.0,350.0>-<418.0,330.0>>/B<<418.0,330.0>-<525.0,342.0>-<581.0,391.0>> = 12.326831217903635
-
-	* Q (U+0051): B<<476.5,-136.0>-<445.0,-122.0>-<421.0,-94.0>>/B<<421.0,-94.0>-<465.0,-174.0>-<543.0,-174.0>> = 11.790500902031386
-
-	* R (U+0052): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
-
-	* Racute (U+0154): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
-
-	* Rcaron (U+0158): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
-
-	* S (U+0053): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
-
-	* S (U+0053): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
-
-	* Sacute (U+015A): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
-
-	* Sacute (U+015A): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
-
-	* Scaron (U+0160): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
-
-	* Scaron (U+0160): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
-
-	* Scedilla (U+015E): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
-
-	* Scedilla (U+015E): B<<449.0,-131.0>-<449.0,-81.0>-<396.0,-64.0>>/B<<396.0,-64.0>-<429.0,-84.0>-<429.0,-123.0>> = 13.434514321653843
-
-	* Scedilla (U+015E): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
-
-	* T (U+0054): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
-
-	* T (U+0054): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
-
-	* Tcaron (U+0164): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
-
-	* Tcaron (U+0164): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
-
-	* Thorn (U+00DE): B<<510.0,267.5>-<477.0,221.0>-<418.0,201.0>>/B<<418.0,201.0>-<519.0,210.0>-<578.0,260.5>> = 13.63367272077358
-
-	* U (U+0055): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Uacute (U+00DA): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Ubreve (U+016C): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Ucircumflex (U+00DB): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Udieresis (U+00DC): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Ugrave (U+00D9): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Uhungarumlaut (U+0170): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Umacron (U+016A): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Uogonek (U+0172): B<<363.5,-71.5>-<380.0,-48.0>-<419.0,-19.0>>/B<<419.0,-19.0>-<305.0,-77.0>-<305.0,-136.0>> = 9.668399443097272
-
-	* Uogonek (U+0172): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* Uogonek (U+0172): B<<428.0,-192.5>-<447.0,-186.0>-<456.0,-178.0>>/B<<456.0,-178.0>-<437.0,-189.0>-<415.0,-189.0>> = 11.56495651470776
-
-	* Uring (U+016E): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
-
-	* V (U+0056): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* W (U+0057): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
-
-	* W (U+0057): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* Wacute (U+1E82): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
-
-	* Wacute (U+1E82): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* Wcircumflex (U+0174): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
-
-	* Wcircumflex (U+0174): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* Wdieresis (U+1E84): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
-
-	* Wdieresis (U+1E84): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* Wgrave (U+1E80): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
-
-	* Wgrave (U+1E80): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
-
-	* X (U+0058): B<<175.0,95.0>-<175.0,114.0>-<198.0,154.0>>/L<<198.0,154.0>--<91.0,13.0>> = 7.294697332149613
-
-	* X (U+0058): B<<580.0,616.0>-<580.0,600.0>-<556.0,559.0>>/L<<556.0,559.0>--<670.0,696.0>> = 9.42116145396201
-
-	* X (U+0058): L<<91.0,13.0>--<258.0,13.0>>/B<<258.0,13.0>-<175.0,32.0>-<175.0,95.0>> = 12.893744044882132
-
-	* Z (U+005A): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
-
-	* Z (U+005A): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
-
-	* Zacute (U+0179): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
-
-	* Zacute (U+0179): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
-
-	* Zcaron (U+017D): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
-
-	* Zcaron (U+017D): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
-
-	* Zdotaccent (U+017B): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
-
-	* Zdotaccent (U+017B): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
-
-	* a (U+0061): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* a (U+0061): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* a (U+0061): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* aacute (U+00E1): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* aacute (U+00E1): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* aacute (U+00E1): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* abreve (U+0103): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* abreve (U+0103): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* abreve (U+0103): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* acircumflex (U+00E2): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* acircumflex (U+00E2): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* acircumflex (U+00E2): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* adieresis (U+00E4): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* adieresis (U+00E4): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* adieresis (U+00E4): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* ae (U+00E6): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<184.0,239.0>-<120.0,199.0>> = 3.247186461031658
-
-	* ae (U+00E6): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* ae (U+00E6): B<<423.0,473.0>-<388.0,498.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 9.220554725845359
-
-	* ae (U+00E6): B<<677.0,-3.0>-<756.0,-3.0>-<805.0,25.0>>/B<<805.0,25.0>-<774.0,11.0>-<723.0,11.0>> = 5.4403320310054815
-
-	* agrave (U+00E0): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* agrave (U+00E0): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* agrave (U+00E0): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* amacron (U+0101): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* amacron (U+0101): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* amacron (U+0101): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* ampersand (U+0026): B<<144.5,275.5>-<161.0,310.0>-<198.0,344.0>>/B<<198.0,344.0>-<130.0,305.0>-<93.5,261.5>> = 12.744951683082094
-
-	* ampersand (U+0026): B<<326.0,21.0>-<369.0,45.0>-<405.0,89.0>>/B<<405.0,89.0>-<378.0,63.0>-<352.0,52.0>> = 6.791517324160308
-
-	* ampersand (U+0026): B<<760.5,23.5>-<781.0,50.0>-<781.0,96.0>>/B<<781.0,96.0>-<773.0,53.0>-<730.0,53.0>> = 10.539183728628242
-
-	* aogonek (U+0105): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* aogonek (U+0105): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* aogonek (U+0105): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* aogonek (U+0105): B<<483.5,-71.5>-<500.0,-48.0>-<539.0,-19.0>>/B<<539.0,-19.0>-<425.0,-77.0>-<425.0,-136.0>> = 9.668399443097272
-
-	* aogonek (U+0105): B<<548.0,-192.5>-<567.0,-186.0>-<576.0,-178.0>>/B<<576.0,-178.0>-<557.0,-189.0>-<535.0,-189.0>> = 11.56495651470776
-
-	* approxequal (U+2248): B<<102.5,257.0>-<79.0,240.0>-<59.0,201.0>>/B<<59.0,201.0>-<86.0,239.0>-<131.0,239.0>> = 8.245114147203854
-
-	* approxequal (U+2248): B<<102.5,435.0>-<79.0,418.0>-<59.0,379.0>>/B<<59.0,379.0>-<86.0,417.0>-<131.0,417.0>> = 8.245114147203854
-
-	* approxequal (U+2248): B<<366.0,183.0>-<384.0,198.0>-<402.0,234.0>>/B<<402.0,234.0>-<382.0,204.0>-<349.0,204.0>> = 7.125016348901757
-
-	* approxequal (U+2248): B<<366.0,361.0>-<384.0,376.0>-<402.0,412.0>>/B<<402.0,412.0>-<382.0,382.0>-<349.0,382.0>> = 7.125016348901757
-
-	* aring (U+00E5): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* aring (U+00E5): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* aring (U+00E5): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* asciitilde (U+007E): B<<102.5,345.0>-<79.0,328.0>-<59.0,289.0>>/B<<59.0,289.0>-<86.0,327.0>-<131.0,327.0>> = 8.245114147203854
-
-	* asciitilde (U+007E): B<<366.0,271.0>-<384.0,286.0>-<402.0,322.0>>/B<<402.0,322.0>-<382.0,292.0>-<349.0,292.0>> = 7.125016348901757
-
-	* at (U+0040): B<<125.0,34.5>-<193.0,-47.0>-<314.0,-74.0>>/B<<314.0,-74.0>-<226.0,-39.0>-<173.5,43.0>> = 9.110129727122688
-
-	* at (U+0040): B<<234.0,506.0>-<289.0,556.0>-<364.0,581.0>>/B<<364.0,581.0>-<271.0,563.0>-<201.5,517.0>> = 7.480886179523617
-
-	* at (U+0040): B<<825.5,473.0>-<757.0,553.0>-<626.0,581.0>>/B<<626.0,581.0>-<725.0,545.0>-<778.0,463.5>> = 7.918222111374554
-
-	* atilde (U+00E3): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* atilde (U+00E3): B<<180.0,689.0>-<155.0,672.0>-<138.0,641.0>>/B<<138.0,641.0>-<158.0,678.0>-<196.0,678.0>> = 0.34677587030477774
-
-	* atilde (U+00E3): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* atilde (U+00E3): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* atilde (U+00E3): B<<435.0,610.5>-<454.0,622.0>-<469.0,651.0>>/B<<469.0,651.0>-<456.0,629.0>-<429.0,629.0>> = 3.2293510924191127
-
-	* b (U+0062): B<<416.0,503.0>-<354.0,503.0>-<305.0,459.0>>/B<<305.0,459.0>-<322.0,470.0>-<339.0,474.5>> = 9.017301677587701
-
-	* braceleft (U+007B): B<<328.0,-128.0>-<380.0,-128.0>-<422.0,-112.0>>/B<<422.0,-112.0>-<408.0,-115.0>-<395.5,-115.5>> = 8.759700962566184
-
-	* braceleft (U+007B): B<<375.0,792.0>-<395.0,793.0>-<420.0,788.0>>/B<<420.0,788.0>-<379.0,806.0>-<329.0,806.0>> = 12.392713476946016
-
-	* braceright (U+007D): B<<167.5,-115.5>-<155.0,-115.0>-<141.0,-112.0>>/B<<141.0,-112.0>-<183.0,-128.0>-<235.0,-128.0>> = 8.759700962566184
-
-	* braceright (U+007D): B<<234.0,806.0>-<184.0,806.0>-<144.0,788.0>>/B<<144.0,788.0>-<168.0,793.0>-<188.0,792.0>> = 12.459456385933523
-
-	* c (U+0063): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
-
-	* cacute (U+0107): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
-
-	* ccaron (U+010D): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
-
-	* ccedilla (U+00E7): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
-
-	* ccedilla (U+00E7): B<<409.0,-131.0>-<409.0,-81.0>-<356.0,-64.0>>/B<<356.0,-64.0>-<389.0,-84.0>-<389.0,-123.0>> = 13.434514321653843
-
-	* cdotaccent (U+010B): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
-
-	* cedilla (U+00B8): B<<214.0,-131.0>-<214.0,-81.0>-<161.0,-64.0>>/B<<161.0,-64.0>-<194.0,-84.0>-<194.0,-123.0>> = 13.434514321653843
-
-	* cent (U+00A2): B<<381.0,45.0>-<408.0,51.0>-<431.0,64.0>>/B<<431.0,64.0>-<399.0,51.0>-<350.0,51.0>> = 7.366440659494058
-
-	* copyright (U+00A9): B<<282.0,112.0>-<302.0,109.0>-<320.0,111.0>>/B<<320.0,111.0>-<273.0,115.0>-<241.0,152.0>> = 11.204706183670405
-
-	* d (U+0064): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
-
-	* d (U+0064): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
-
-	* dagger (U+2020): B<<220.0,336.5>-<227.0,272.0>-<232.0,205.0>>/B<<232.0,205.0>-<237.0,272.0>-<244.0,336.5>> = 8.535786600581602
-
-	* dcaron (U+010F): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
-
-	* dcaron (U+010F): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
-
-	* dcroat (U+0111): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
-
-	* dcroat (U+0111): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
-
-	* dollar (U+0024): B<<175.0,652.5>-<193.0,677.0>-<224.0,692.0>>/B<<224.0,692.0>-<160.0,671.0>-<126.0,630.5>> = 7.65503544496371
-
-	* dollar (U+0024): B<<524.0,54.0>-<504.0,28.0>-<468.0,11.0>>/B<<468.0,11.0>-<537.0,28.0>-<581.5,68.5>> = 11.437026743897281
-
-	* e (U+0065): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* eacute (U+00E9): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* ecaron (U+011B): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* ecircumflex (U+00EA): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* edieresis (U+00EB): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* edotaccent (U+0117): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* egrave (U+00E8): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* eight (U+0038): B<<155.0,588.0>-<155.0,659.0>-<215.0,694.0>>/B<<215.0,694.0>-<160.0,675.0>-<129.5,636.0>> = 11.198732653400914
-
-	* eight (U+0038): B<<446.5,503.5>-<423.0,464.0>-<371.0,428.0>>/B<<371.0,428.0>-<433.0,452.0>-<475.5,487.5>> = 13.53389371440569
-
-	* eight (U+0038): B<<479.0,150.0>-<479.0,54.0>-<409.0,13.0>>/B<<409.0,13.0>-<537.0,55.0>-<537.0,191.0>> = 12.19215892954109
-
-	* emacron (U+0113): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* eng (U+014B): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* eogonek (U+0119): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
-
-	* eogonek (U+0119): B<<305.5,-71.5>-<322.0,-48.0>-<361.0,-19.0>>/B<<361.0,-19.0>-<247.0,-77.0>-<247.0,-136.0>> = 9.668399443097272
-
-	* eogonek (U+0119): B<<370.0,-192.5>-<389.0,-186.0>-<398.0,-178.0>>/B<<398.0,-178.0>-<379.0,-189.0>-<357.0,-189.0>> = 11.56495651470776
-
-	* eth (U+00F0): B<<301.0,675.0>-<245.0,709.0>-<180.0,729.0>>/B<<180.0,729.0>-<235.0,700.0>-<280.0,661.0>> = 10.698729810881721
-
-	* exclam (U+0021): B<<161.5,551.0>-<172.0,483.0>-<176.0,407.0>>/B<<176.0,407.0>-<180.0,483.0>-<190.5,551.0>> = 6.025575008366673
-
-	* exclamdown (U+00A1): B<<190.5,49.0>-<180.0,117.0>-<176.0,193.0>>/B<<176.0,193.0>-<172.0,117.0>-<161.5,49.0>> = 6.025575008366673
-
-	* five (U+0035): B<<336.0,387.5>-<317.0,386.0>-<297.0,382.0>>/B<<297.0,382.0>-<381.0,378.0>-<434.0,329.0>> = 14.036243467926457
-
-	* five (U+0035): B<<448.5,67.0>-<410.0,19.0>-<345.0,3.0>>/B<<345.0,3.0>-<351.0,3.0>-<356.5,2.5>> = 13.828650972280153
-
-	* five (U+0035): B<<515.0,645.0>-<548.0,634.0>-<563.0,606.0>>/B<<563.0,606.0>-<548.0,660.0>-<509.5,686.0>> = 12.654479113204882
-
-	* four (U+0034): B<<202.5,341.0>-<172.0,292.0>-<131.0,259.0>>/B<<131.0,259.0>-<205.0,302.0>-<241.0,371.0>> = 8.669764066883229
-
-	* g (U+0067): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
-
-	* g (U+0067): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
-
-	* gbreve (U+011F): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
-
-	* gbreve (U+011F): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
-
-	* gdotaccent (U+0121): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
-
-	* gdotaccent (U+0121): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
-
-	* germandbls (U+00DF): B<<534.5,675.0>-<502.0,702.0>-<450.0,717.0>>/B<<450.0,717.0>-<470.0,707.0>-<482.0,688.0>> = 10.474234828225772
-
-	* germandbls (U+00DF): B<<686.5,47.5>-<673.0,26.0>-<649.0,13.0>>/B<<649.0,13.0>-<699.0,29.0>-<729.5,61.0>> = 10.698256999306391
-
-	* guillemotleft (U+00AB): L<<139.0,318.0>--<256.0,430.0>>/L<<256.0,430.0>--<91.0,317.0>> = 9.34396489757172
-
-	* guillemotleft (U+00AB): L<<291.0,303.0>--<456.0,190.0>>/L<<456.0,190.0>--<339.0,302.0>> = 9.34396489757172
-
-	* guillemotleft (U+00AB): L<<339.0,318.0>--<456.0,430.0>>/L<<456.0,430.0>--<291.0,317.0>> = 9.34396489757172
-
-	* guillemotleft (U+00AB): L<<91.0,303.0>--<256.0,190.0>>/L<<256.0,190.0>--<139.0,302.0>> = 9.34396489757172
-
-	* guillemotright (U+00BB): L<<244.0,302.0>--<127.0,190.0>>/L<<127.0,190.0>--<291.0,303.0>> = 9.181409831827157
-
-	* guillemotright (U+00BB): L<<291.0,317.0>--<127.0,430.0>>/L<<127.0,430.0>--<244.0,318.0>> = 9.181409831827237
-
-	* guillemotright (U+00BB): L<<444.0,302.0>--<327.0,190.0>>/L<<327.0,190.0>--<491.0,303.0>> = 9.181409831827157
-
-	* guillemotright (U+00BB): L<<491.0,317.0>--<327.0,430.0>>/L<<327.0,430.0>--<444.0,318.0>> = 9.181409831827237
-
-	* guilsinglleft (U+2039): L<<139.0,318.0>--<256.0,430.0>>/L<<256.0,430.0>--<91.0,317.0>> = 9.34396489757172
-
-	* guilsinglleft (U+2039): L<<91.0,303.0>--<256.0,190.0>>/L<<256.0,190.0>--<139.0,302.0>> = 9.34396489757172
-
-	* guilsinglright (U+203A): L<<244.0,302.0>--<127.0,190.0>>/L<<127.0,190.0>--<291.0,303.0>> = 9.181409831827157
-
-	* guilsinglright (U+203A): L<<291.0,317.0>--<127.0,430.0>>/L<<127.0,430.0>--<244.0,318.0>> = 9.181409831827237
-
-	* h (U+0068): B<<362.5,486.0>-<325.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.0,471.0>> = 3.4611358926661904
-
-	* hbar (U+0127): B<<362.5,486.0>-<325.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.0,471.0>> = 3.4611358926661904
-
-	* iogonek (U+012F): B<<157.5,-71.5>-<174.0,-48.0>-<213.0,-19.0>>/B<<213.0,-19.0>-<99.0,-77.0>-<99.0,-136.0>> = 9.668399443097272
-
-	* iogonek (U+012F): B<<222.0,-192.5>-<241.0,-186.0>-<250.0,-178.0>>/B<<250.0,-178.0>-<231.0,-189.0>-<209.0,-189.0>> = 11.56495651470776
-
-	* m (U+006D): B<<429.0,503.0>-<356.0,503.0>-<288.0,432.0>>/B<<288.0,432.0>-<342.0,483.0>-<391.0,482.0>> = 2.872984644472753
-
-	* m (U+006D): B<<790.0,503.0>-<717.0,503.0>-<649.0,432.0>>/B<<649.0,432.0>-<704.0,483.0>-<752.0,482.0>> = 3.397487091082521
-
-	* minute (U+2032): L<<128.0,696.0>--<68.0,516.0>>/L<<68.0,516.0>--<179.0,696.0>> = 13.225802273714592
-
-	* n (U+006E): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* nacute (U+0144): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* ncaron (U+0148): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* nine (U+0039): B<<420.0,63.5>-<379.0,8.0>-<309.0,-1.0>>/B<<309.0,-1.0>-<439.0,5.0>-<499.0,99.0>> = 4.68386136610477
-
-	* ntilde (U+00F1): B<<219.0,689.0>-<194.0,672.0>-<177.0,641.0>>/B<<177.0,641.0>-<197.0,678.0>-<235.0,678.0>> = 0.34677587030477774
-
-	* ntilde (U+00F1): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* ntilde (U+00F1): B<<474.0,610.5>-<493.0,622.0>-<508.0,651.0>>/B<<508.0,651.0>-<495.0,629.0>-<468.0,629.0>> = 3.2293510924191127
-
-	* oe (U+0153): B<<572.5,397.5>-<592.0,455.0>-<628.0,483.0>>/B<<628.0,483.0>-<590.0,466.0>-<557.0,431.5>> = 13.772749149937065
-
-	* oe (U+0153): B<<706.0,-3.0>-<785.0,-3.0>-<834.0,25.0>>/B<<834.0,25.0>-<803.0,11.0>-<752.0,11.0>> = 5.4403320310054815
-
-	* ogonek (U+02DB): B<<106.5,-75.5>-<123.0,-52.0>-<162.0,-23.0>>/B<<162.0,-23.0>-<48.0,-81.0>-<48.0,-140.0>> = 9.668399443097272
-
-	* ogonek (U+02DB): B<<171.0,-196.5>-<190.0,-190.0>-<199.0,-182.0>>/B<<199.0,-182.0>-<180.0,-193.0>-<158.0,-193.0>> = 11.56495651470776
-
-	* onehalf (U+00BD): B<<452.0,-3.0>-<492.0,-3.0>-<504.0,31.0>>/B<<504.0,31.0>-<502.0,28.0>-<500.5,25.5>> = 14.25003269780357
-
-	* onehalf (U+00BD): B<<461.5,180.5>-<443.0,155.0>-<396.0,122.0>>/B<<396.0,122.0>-<461.0,147.0>-<486.0,170.0>> = 14.03624346792643
-
-	* onequarter (U+00BC): B<<357.5,153.5>-<352.0,140.0>-<344.0,131.0>>/B<<344.0,131.0>-<375.0,164.0>-<375.0,224.0>> = 1.5765500551837375
-
-	* ordfeminine (U+00AA): B<<113.5,566.0>-<128.0,583.0>-<154.0,595.0>>/B<<154.0,595.0>-<114.0,586.0>-<92.0,568.0>> = 12.094757077012058
-
-	* otilde (U+00F5): B<<182.0,689.0>-<157.0,672.0>-<140.0,641.0>>/B<<140.0,641.0>-<160.0,678.0>-<198.0,678.0>> = 0.34677587030477774
-
-	* otilde (U+00F5): B<<437.0,610.5>-<456.0,622.0>-<471.0,651.0>>/B<<471.0,651.0>-<458.0,629.0>-<431.0,629.0>> = 3.2293510924191127
-
-	* p (U+0070): B<<356.0,492.5>-<331.0,482.0>-<310.0,464.0>>/B<<310.0,464.0>-<342.0,484.0>-<376.0,484.0>> = 8.595911436920954
-
-	* p (U+0070): B<<361.0,7.0>-<341.0,6.0>-<325.0,9.0>>/B<<325.0,9.0>-<352.0,-2.0>-<388.0,-2.0>> = 11.546690545927312
-
-	* parenleft (U+0028): B<<188.5,83.0>-<265.0,-30.0>-<407.0,-68.0>>/B<<407.0,-68.0>-<308.0,-24.0>-<257.0,85.0>> = 8.98085640218723
-
-	* parenleft (U+0028): B<<256.5,645.0>-<307.0,753.0>-<402.0,795.0>>/B<<402.0,795.0>-<263.0,759.0>-<187.5,649.0>> = 9.33032488953987
-
-	* parenright (U+0029): B<<246.0,85.0>-<195.0,-24.0>-<96.0,-68.0>>/B<<96.0,-68.0>-<239.0,-30.0>-<315.5,83.0>> = 9.080959271437633
-
-	* parenright (U+0029): B<<316.5,649.0>-<241.0,759.0>-<101.0,795.0>>/B<<101.0,795.0>-<196.0,753.0>-<246.5,645.0>> = 9.429700780565923
-
-	* percent (U+0025): B<<346.0,663.5>-<326.0,696.0>-<283.0,707.0>>/B<<283.0,707.0>-<305.0,695.0>-<315.5,673.0>> = 14.2611276230181
-
-	* percent (U+0025): B<<460.5,45.5>-<481.0,12.0>-<527.0,2.0>>/B<<527.0,2.0>-<502.0,13.0>-<490.5,35.5>> = 11.484720764974313
-
-	* percent (U+0025): B<<717.0,250.5>-<697.0,283.0>-<654.0,294.0>>/B<<654.0,294.0>-<676.0,282.0>-<686.5,260.0>> = 14.2611276230181
-
-	* percent (U+0025): B<<89.5,458.5>-<110.0,425.0>-<156.0,415.0>>/B<<156.0,415.0>-<131.0,426.0>-<119.5,448.5>> = 11.484720764974313
-
-	* perthousand (U+2030): B<<1081.0,250.5>-<1061.0,283.0>-<1018.0,294.0>>/B<<1018.0,294.0>-<1040.0,282.0>-<1050.5,260.0>> = 14.2611276230181
-
-	* perthousand (U+2030): B<<346.0,663.5>-<326.0,696.0>-<283.0,707.0>>/B<<283.0,707.0>-<305.0,695.0>-<315.5,673.0>> = 14.2611276230181
-
-	* perthousand (U+2030): B<<460.5,45.5>-<481.0,12.0>-<527.0,2.0>>/B<<527.0,2.0>-<502.0,13.0>-<490.5,35.5>> = 11.484720764974313
-
-	* perthousand (U+2030): B<<717.0,250.5>-<697.0,283.0>-<654.0,294.0>>/B<<654.0,294.0>-<676.0,282.0>-<686.5,260.0>> = 14.2611276230181
-
-	* perthousand (U+2030): B<<824.5,45.5>-<845.0,12.0>-<891.0,2.0>>/B<<891.0,2.0>-<866.0,13.0>-<854.5,35.5>> = 11.484720764974313
-
-	* perthousand (U+2030): B<<89.5,458.5>-<110.0,425.0>-<156.0,415.0>>/B<<156.0,415.0>-<131.0,426.0>-<119.5,448.5>> = 11.484720764974313
-
-	* q (U+0071): B<<233.0,-3.0>-<295.0,-3.0>-<344.0,41.0>>/B<<344.0,41.0>-<328.0,30.0>-<310.5,25.5>> = 7.414021612907244
-
-	* quotedbl (U+0022): L<<193.0,696.0>--<215.0,511.0>>/L<<215.0,511.0>--<236.0,696.0>> = 13.257828074819754
-
-	* quotedbl (U+0022): L<<63.0,696.0>--<85.0,511.0>>/L<<85.0,511.0>--<106.0,696.0>> = 13.257828074819754
-
-	* quotesingle (U+0027): L<<63.0,696.0>--<85.0,511.0>>/L<<85.0,511.0>--<106.0,696.0>> = 13.257828074819754
-
-	* s (U+0073): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
-
-	* s (U+0073): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
-
-	* s (U+0073): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
-
-	* s (U+0073): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
-
-	* sacute (U+015B): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
-
-	* sacute (U+015B): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
-
-	* sacute (U+015B): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
-
-	* sacute (U+015B): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
-
-	* scaron (U+0161): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
-
-	* scaron (U+0161): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
-
-	* scaron (U+0161): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
-
-	* scaron (U+0161): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
-
-	* scedilla (U+015F): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
-
-	* scedilla (U+015F): B<<375.0,-131.0>-<375.0,-81.0>-<322.0,-64.0>>/B<<322.0,-64.0>-<355.0,-84.0>-<355.0,-123.0>> = 13.434514321653843
-
-	* scedilla (U+015F): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
-
-	* scedilla (U+015F): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
-
-	* scedilla (U+015F): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
-
-	* second (U+2033): L<<128.0,696.0>--<68.0,516.0>>/L<<68.0,516.0>--<179.0,696.0>> = 13.225802273714592
-
-	* second (U+2033): L<<271.0,696.0>--<211.0,516.0>>/L<<211.0,516.0>--<322.0,696.0>> = 13.225802273714592
-
-	* section (U+00A7): B<<125.0,614.0>-<125.0,669.0>-<177.0,696.0>>/B<<177.0,696.0>-<127.0,683.0>-<100.0,655.0>> = 12.86551175016053
-
-	* section (U+00A7): B<<432.0,100.0>-<432.0,43.0>-<382.0,14.0>>/B<<382.0,14.0>-<434.0,29.0>-<462.5,58.5>> = 14.022916802130252
-
-	* section (U+00A7): B<<457.5,654.5>-<435.0,681.0>-<387.0,695.0>>/B<<387.0,695.0>-<408.0,685.0>-<408.0,677.0>> = 9.203140353559636
-
-	* section (U+00A7): B<<91.5,53.5>-<116.0,27.0>-<164.0,14.0>>/B<<164.0,14.0>-<144.0,24.0>-<144.0,32.0>> = 11.410983126765371
-
-	* seven (U+0037): B<<141.0,685.5>-<105.0,660.0>-<89.0,605.0>>/B<<89.0,605.0>-<99.0,625.0>-<110.5,634.5>> = 10.344857481475165
-
-	* seven (U+0037): B<<311.0,-3.0>-<393.0,-3.0>-<441.0,39.0>>/B<<441.0,39.0>-<405.0,18.0>-<365.0,18.0>> = 10.92948800218042
-
-	* seven (U+0037): L<<69.0,708.0>--<69.0,579.0>>/B<<69.0,579.0>-<86.0,654.0>-<127.0,688.5>> = 12.771242564901412
-
-	* six (U+0036): B<<207.5,644.5>-<248.0,700.0>-<319.0,709.0>>/B<<319.0,709.0>-<188.0,703.0>-<128.0,609.0>> = 4.6019142335041625
-
-	* sterling (U+00A3): B<<557.5,37.0>-<593.0,77.0>-<605.0,147.0>>/B<<605.0,147.0>-<580.0,60.0>-<512.0,60.0>> = 6.3047608025343225
-
-	* thorn (U+00FE): B<<356.0,492.5>-<331.0,482.0>-<310.0,464.0>>/B<<310.0,464.0>-<342.0,484.0>-<376.0,484.0>> = 8.595911436920954
-
-	* thorn (U+00FE): B<<361.0,7.0>-<341.0,6.0>-<325.0,9.0>>/B<<325.0,9.0>-<352.0,-2.0>-<388.0,-2.0>> = 11.546690545927312
-
-	* threequarters (U+00BE): B<<452.5,153.5>-<447.0,140.0>-<439.0,131.0>>/B<<439.0,131.0>-<470.0,164.0>-<470.0,224.0>> = 1.5765500551837375
-
-	* tilde (U+02DC): B<<141.0,689.0>-<116.0,672.0>-<99.0,641.0>>/B<<99.0,641.0>-<119.0,678.0>-<157.0,678.0>> = 0.34677587030477774
-
-	* tilde (U+02DC): B<<396.0,610.5>-<415.0,622.0>-<430.0,651.0>>/B<<430.0,651.0>-<417.0,629.0>-<390.0,629.0>> = 3.2293510924191127
-
-	* tildecomb (U+0303): B<<-123.0,689.0>-<-148.0,672.0>-<-165.0,641.0>>/B<<-165.0,641.0>-<-145.0,678.0>-<-107.0,678.0>> = 0.34677587030477774
-
-	* tildecomb (U+0303): B<<132.0,610.5>-<151.0,622.0>-<166.0,651.0>>/B<<166.0,651.0>-<153.0,629.0>-<126.0,629.0>> = 3.2293510924191127
-
-	* trademark (U+2122): B<<388.0,447.5>-<376.0,463.0>-<374.0,493.0>>/L<<374.0,493.0>--<374.0,428.0>> = 3.8140748342903783
-
-	* trademark (U+2122): B<<66.0,682.5>-<78.0,694.0>-<104.0,696.0>>/L<<104.0,696.0>--<43.0,696.0>> = 4.398705354995508
-
-	* trademark (U+2122): L<<286.0,649.0>--<286.0,626.0>>/L<<286.0,626.0>--<294.0,696.0>> = 6.519801751656973
-
-	* trademark (U+2122): L<<294.0,696.0>--<234.0,696.0>>/B<<234.0,696.0>-<260.0,694.0>-<272.0,682.5>> = 4.398705354995508
-
-	* trademark (U+2122): L<<374.0,428.0>--<427.0,428.0>>/B<<427.0,428.0>-<400.0,432.0>-<388.0,447.5>> = 8.426969021480636
-
-	* trademark (U+2122): L<<43.0,696.0>--<51.0,626.0>>/L<<51.0,626.0>--<52.0,649.0>> = 9.009354673656116
-
-	* two (U+0032): B<<296.0,710.0>-<279.0,708.0>-<268.0,705.0>>/B<<268.0,705.0>-<286.0,707.0>-<299.0,707.0>> = 8.914926957147863
-
-	* two (U+0032): B<<527.5,22.5>-<561.0,48.0>-<577.0,103.0>>/B<<577.0,103.0>-<568.0,85.0>-<554.0,75.0>> = 10.344857481475165
-
-	* u (U+0075): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* uacute (U+00FA): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* ubreve (U+016D): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* ucircumflex (U+00FB): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* udieresis (U+00FC): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* ugrave (U+00F9): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* uhungarumlaut (U+0171): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* umacron (U+016B): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* uni00B2 (U+00B2): B<<190.0,423.0>-<230.0,423.0>-<242.0,457.0>>/B<<242.0,457.0>-<240.0,454.0>-<238.5,451.5>> = 14.25003269780357
-
-	* uni00B2 (U+00B2): B<<199.5,606.5>-<181.0,581.0>-<134.0,548.0>>/B<<134.0,548.0>-<199.0,573.0>-<224.0,596.0>> = 14.03624346792643
-
-	* uni00B5 (U+00B5): B<<113.0,38.5>-<138.0,116.0>-<172.0,188.0>>/B<<172.0,188.0>-<108.0,110.0>-<67.5,33.5>> = 14.091595006811783
-
-	* uni00B5 (U+00B5): B<<227.5,99.5>-<211.0,127.0>-<206.0,177.0>>/B<<206.0,177.0>-<197.0,87.0>-<225.0,42.0>> = 11.42118627499929
-
-	* uni00B5 (U+00B5): B<<398.5,41.0>-<446.0,85.0>-<483.0,174.0>>/B<<483.0,174.0>-<435.0,102.0>-<389.5,76.5>> = 11.11592944733156
-
-	* uni00B5 (U+00B5): B<<53.5,-175.0>-<80.0,-201.0>-<128.0,-201.0>>/B<<128.0,-201.0>-<81.0,-190.0>-<84.0,-100.0>> = 13.172553423326871
-
-	* uni00B5 (U+00B5): B<<537.5,94.5>-<524.0,121.0>-<521.0,170.0>>/B<<521.0,170.0>-<510.0,80.0>-<534.0,38.5>> = 10.471788386163
-
-	* uni00B5 (U+00B5): B<<683.0,35.5>-<727.0,74.0>-<752.0,158.0>>/B<<752.0,158.0>-<730.0,117.0>-<703.5,93.0>> = 11.643348097820311
-
-	* uni0122 (U+0122): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
-
-	* uni0122 (U+0122): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
-
-	* uni0122 (U+0122): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
-
-	* uni0123 (U+0123): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
-
-	* uni0123 (U+0123): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
-
-	* uni0136 (U+0136): B<<457.0,476.0>-<407.0,399.0>-<343.0,369.0>>/B<<343.0,369.0>-<383.0,380.0>-<427.0,408.5>> = 9.738583637318376
-
-	* uni013B (U+013B): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
-
-	* uni0146 (U+0146): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
-
-	* uni0156 (U+0156): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
-
-	* uni01CD (U+01CD): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
-
-	* uni01CE (U+01CE): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
-
-	* uni01CE (U+01CE): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
-
-	* uni01CE (U+01CE): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
-
-	* uni0218 (U+0218): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
-
-	* uni0218 (U+0218): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
-
-	* uni0219 (U+0219): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
-
-	* uni0219 (U+0219): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
-
-	* uni0219 (U+0219): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
-
-	* uni0219 (U+0219): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
-
-	* uni021A (U+021A): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
-
-	* uni021A (U+021A): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
-
-	* uni0327 (U+0327): B<<100.0,-131.0>-<100.0,-81.0>-<47.0,-64.0>>/B<<47.0,-64.0>-<80.0,-84.0>-<80.0,-123.0>> = 13.434514321653843
-
-	* uni0328 (U+0328): B<<-103.5,-75.5>-<-87.0,-52.0>-<-48.0,-23.0>>/B<<-48.0,-23.0>-<-162.0,-81.0>-<-162.0,-140.0>> = 9.668399443097272
-
-	* uni0328 (U+0328): B<<-39.0,-196.5>-<-20.0,-190.0>-<-11.0,-182.0>>/B<<-11.0,-182.0>-<-30.0,-193.0>-<-52.0,-193.0>> = 11.56495651470776
-
-	* uni03BC (U+03BC): B<<113.0,38.5>-<138.0,116.0>-<172.0,188.0>>/B<<172.0,188.0>-<108.0,110.0>-<67.5,33.5>> = 14.091595006811783
-
-	* uni03BC (U+03BC): B<<227.5,99.5>-<211.0,127.0>-<206.0,177.0>>/B<<206.0,177.0>-<197.0,87.0>-<225.0,42.0>> = 11.42118627499929
-
-	* uni03BC (U+03BC): B<<398.5,41.0>-<446.0,85.0>-<483.0,174.0>>/B<<483.0,174.0>-<435.0,102.0>-<389.5,76.5>> = 11.11592944733156
-
-	* uni03BC (U+03BC): B<<53.5,-175.0>-<80.0,-201.0>-<128.0,-201.0>>/B<<128.0,-201.0>-<81.0,-190.0>-<84.0,-100.0>> = 13.172553423326871
-
-	* uni03BC (U+03BC): B<<537.5,94.5>-<524.0,121.0>-<521.0,170.0>>/B<<521.0,170.0>-<510.0,80.0>-<534.0,38.5>> = 10.471788386163
-
-	* uni03BC (U+03BC): B<<683.0,35.5>-<727.0,74.0>-<752.0,158.0>>/B<<752.0,158.0>-<730.0,117.0>-<703.5,93.0>> = 11.643348097820311
-
-	* uni1E9E (U+1E9E): L<<127.0,304.0>--<129.0,14.0>>/L<<129.0,14.0>--<218.0,404.0>> = 13.250191597107305
-
-	* uni1E9E (U+1E9E): L<<218.0,404.0>--<216.0,694.0>>/L<<216.0,694.0>--<127.0,304.0>> = 13.250191597107305
-
-	* uni2074 (U+2074): B<<111.5,574.5>-<106.0,561.0>-<98.0,552.0>>/B<<98.0,552.0>-<129.0,585.0>-<129.0,645.0>> = 1.5765500551837375
-
-	* uogonek (U+0173): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* uogonek (U+0173): B<<435.5,-71.5>-<452.0,-48.0>-<491.0,-19.0>>/B<<491.0,-19.0>-<377.0,-77.0>-<377.0,-136.0>> = 9.668399443097272
-
-	* uogonek (U+0173): B<<500.0,-192.5>-<519.0,-186.0>-<528.0,-178.0>>/B<<528.0,-178.0>-<509.0,-189.0>-<487.0,-189.0>> = 11.56495651470776
-
-	* uring (U+016F): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
-
-	* v (U+0076): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* w (U+0077): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* w (U+0077): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
-
-	* wacute (U+1E83): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* wacute (U+1E83): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
-
-	* wcircumflex (U+0175): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* wcircumflex (U+0175): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
-
-	* wdieresis (U+1E85): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* wdieresis (U+1E85): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
-
-	* wgrave (U+1E81): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* wgrave (U+1E81): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
-
-	* y (U+0079): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
-
-	* y (U+0079): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* yacute (U+00FD): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
-
-	* yacute (U+00FD): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* ycircumflex (U+0177): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
-
-	* ycircumflex (U+0177): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* ydieresis (U+00FF): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
-
-	* ydieresis (U+00FF): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* ygrave (U+1EF3): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
-
-	* ygrave (U+1EF3): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
-
-	* z (U+007A): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859
-
-	* zacute (U+017A): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859
-
-	* zcaron (U+017E): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859 
-
-	* zdotaccent (U+017C): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859 [code: found-jaggy-segments]
+	* zdotaccent (U+017C): L<<47.0,483.0>--<71.0,340.0>>/L<<71.0,340.0>--<71.0,364.0>> = 9.527283381452365 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* uni1E9E (U+1E9E): L<<127.0,304.0>--<129.0,14.0>> 
+	* uni1E9E (U+1E9E): L<<103.0,550.0>--<104.0,18.0>> 
 
-	* uni1E9E (U+1E9E): L<<218.0,404.0>--<216.0,694.0>> [code: found-semi-vertical]
+	* uni1E9E (U+1E9E): L<<267.0,158.0>--<266.0,690.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -16301,6 +14084,2223 @@ The following glyphs do not have the recommended number of contours:
 	* zero (U+0030): B<<75.0,360.0>-<75.0,110.0>-<188.0,31.0>>/B<<188.0,31.0>-<81.0,110.0>-<81.0,355.0>> = 1.4811340643646358 
 
 	* zero (U+0030): B<<81.0,378.0>-<81.0,601.0>-<185.0,677.0>>/B<<185.0,677.0>-<75.0,601.0>-<75.0,360.0>> = 1.5172379278919368 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k 
+
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1 [code: legacy-long-names]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: period	Contours detected: 2	Expected: 1
+
+	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: two	Contours detected: 5	Expected: 1
+
+	- Glyph name: three	Contours detected: 5	Expected: 1
+
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: five	Contours detected: 5	Expected: 1
+
+	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: seven	Contours detected: 4	Expected: 1
+
+	- Glyph name: eight	Contours detected: 6	Expected: 3
+
+	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: colon	Contours detected: 4	Expected: 2
+
+	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+
+	- Glyph name: question	Contours detected: 5	Expected: 2
+
+	- Glyph name: at	Contours detected: 6	Expected: 2
+
+	- Glyph name: A	Contours detected: 4	Expected: 2
+
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: C	Contours detected: 3	Expected: 1
+
+	- Glyph name: D	Contours detected: 4	Expected: 2
+
+	- Glyph name: E	Contours detected: 5	Expected: 1
+
+	- Glyph name: F	Contours detected: 4	Expected: 1
+
+	- Glyph name: G	Contours detected: 4	Expected: 1
+
+	- Glyph name: H	Contours detected: 3	Expected: 1
+
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: J	Contours detected: 3	Expected: 1
+
+	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: L	Contours detected: 3	Expected: 1
+
+	- Glyph name: M	Contours detected: 4	Expected: 1
+
+	- Glyph name: N	Contours detected: 4	Expected: 1
+
+	- Glyph name: O	Contours detected: 4	Expected: 2
+
+	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: Q	Contours detected: 5	Expected: 2
+
+	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: S	Contours detected: 4	Expected: 1
+
+	- Glyph name: T	Contours detected: 4	Expected: 1
+
+	- Glyph name: U	Contours detected: 3	Expected: 1
+
+	- Glyph name: V	Contours detected: 3	Expected: 1
+
+	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: X	Contours detected: 4	Expected: 1
+
+	- Glyph name: Y	Contours detected: 3	Expected: 1
+
+	- Glyph name: Z	Contours detected: 4	Expected: 1
+
+	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 2	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: a	Contours detected: 5	Expected: 2
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: c	Contours detected: 3	Expected: 1
+
+	- Glyph name: d	Contours detected: 4	Expected: 2
+
+	- Glyph name: e	Contours detected: 4	Expected: 2
+
+	- Glyph name: f	Contours detected: 3	Expected: 1
+
+	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
+
+	- Glyph name: h	Contours detected: 3	Expected: 1
+
+	- Glyph name: i	Contours detected: 4	Expected: 2
+
+	- Glyph name: j	Contours detected: 5	Expected: 2
+
+	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: m	Contours detected: 4	Expected: 1
+
+	- Glyph name: n	Contours detected: 3	Expected: 1
+
+	- Glyph name: o	Contours detected: 4	Expected: 2
+
+	- Glyph name: p	Contours detected: 4	Expected: 2
+
+	- Glyph name: q	Contours detected: 4	Expected: 2
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: s	Contours detected: 4	Expected: 1
+
+	- Glyph name: t	Contours detected: 2	Expected: 1
+
+	- Glyph name: u	Contours detected: 3	Expected: 1
+
+	- Glyph name: v	Contours detected: 3	Expected: 1
+
+	- Glyph name: w	Contours detected: 5	Expected: 1
+
+	- Glyph name: x	Contours detected: 4	Expected: 1
+
+	- Glyph name: y	Contours detected: 4	Expected: 1
+
+	- Glyph name: z	Contours detected: 4	Expected: 1
+
+	- Glyph name: braceleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 2	Expected: 1
+
+	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
+
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: section	Contours detected: 6	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 4	Expected: 2
+
+	- Glyph name: copyright	Contours detected: 5	Expected: 3
+
+	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
+
+	- Glyph name: macron	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B2	Contours detected: 5	Expected: 1
+
+	- Glyph name: uni00B3	Contours detected: 5	Expected: 1
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
+
+	- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
+
+	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
+
+	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
+
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
+
+	- Glyph name: onehalf	Contours detected: 8	Expected: 3
+
+	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: questiondown	Contours detected: 5	Expected: 2
+
+	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+
+	- Glyph name: AE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Egrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Eacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: Eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
+
+	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Yacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: germandbls	Contours detected: 5	Expected: 1
+
+	- Glyph name: agrave	Contours detected: 7	Expected: 3
+
+	- Glyph name: aacute	Contours detected: 7	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
+
+	- Glyph name: atilde	Contours detected: 7	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 9	Expected: 4
+
+	- Glyph name: aring	Contours detected: 9	Expected: 4
+
+	- Glyph name: ae	Contours detected: 7	Expected: 3
+
+	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: egrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: eacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: ntilde	Contours detected: 5	Expected: 2
+
+	- Glyph name: ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: oslash	Contours detected: 12	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: yacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 4	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 7	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 7	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 7	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 8	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 7	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 11	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 7	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
+
+	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 5	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 7	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 6	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 5	Expected: 1
+
+	- Glyph name: eng	Contours detected: 4	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: OE	Contours detected: 7	Expected: 2
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 7	Expected: 3
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: florin	Contours detected: 4	Expected: 1
+
+	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: breve	Contours detected: 2	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+	- Glyph name: ring	Contours detected: 4	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
+
+	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 6	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
+
+	- Glyph name: bullet	Contours detected: 2	Expected: 1
+
+	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
+
+	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
+
+	- Glyph name: minute	Contours detected: 2	Expected: 1
+
+	- Glyph name: second	Contours detected: 4	Expected: 2
+
+	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: trademark	Contours detected: 8	Expected: 2
+
+	- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+	- Glyph name: approxequal	Contours detected: 4	Expected: 2
+
+	- Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: fl	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: A	Contours detected: 4	Expected: 2
+
+	- Glyph name: AE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Aacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Agrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: Aring	Contours detected: 8	Expected: 3 or 4
+
+	- Glyph name: Atilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: B	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: C	Contours detected: 3	Expected: 1
+
+	- Glyph name: Cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: D	Contours detected: 4	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 6	Expected: 2
+
+	- Glyph name: E	Contours detected: 5	Expected: 1
+
+	- Glyph name: Eacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 7	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 7	Expected: 2
+
+	- Glyph name: Egrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 7	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 5	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 7	Expected: 1 or 2
+
+	- Glyph name: Eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: F	Contours detected: 4	Expected: 1
+
+	- Glyph name: G	Contours detected: 4	Expected: 1
+
+	- Glyph name: Gbreve	Contours detected: 6	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: H	Contours detected: 3	Expected: 1
+
+	- Glyph name: Hbar	Contours detected: 11	Expected: 2
+
+	- Glyph name: I	Contours detected: 2	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: Idotaccent	Contours detected: 4	Expected: 2
+
+	- Glyph name: Igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: J	Contours detected: 3	Expected: 1
+
+	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: L	Contours detected: 3	Expected: 1
+
+	- Glyph name: Lacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 5	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 7	Expected: 1
+
+	- Glyph name: M	Contours detected: 4	Expected: 1
+
+	- Glyph name: N	Contours detected: 4	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 6	Expected: 2
+
+	- Glyph name: O	Contours detected: 4	Expected: 2
+
+	- Glyph name: OE	Contours detected: 7	Expected: 2
+
+	- Glyph name: Oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: Ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: Oslash	Contours detected: 10	Expected: 2 or 3
+
+	- Glyph name: Otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: P	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: Q	Contours detected: 5	Expected: 2
+
+	- Glyph name: R	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Racute	Contours detected: 7	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 7	Expected: 3
+
+	- Glyph name: S	Contours detected: 4	Expected: 1
+
+	- Glyph name: Sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: T	Contours detected: 4	Expected: 1
+
+	- Glyph name: Tcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: U	Contours detected: 3	Expected: 1
+
+	- Glyph name: Uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: V	Contours detected: 3	Expected: 1
+
+	- Glyph name: W	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: Wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: X	Contours detected: 4	Expected: 1
+
+	- Glyph name: Y	Contours detected: 3	Expected: 1
+
+	- Glyph name: Yacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Z	Contours detected: 4	Expected: 1
+
+	- Glyph name: Zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 6	Expected: 2
+
+	- Glyph name: a	Contours detected: 5	Expected: 2
+
+	- Glyph name: aacute	Contours detected: 7	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 7	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 7	Expected: 3
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: adieresis	Contours detected: 9	Expected: 4
+
+	- Glyph name: ae	Contours detected: 7	Expected: 3
+
+	- Glyph name: agrave	Contours detected: 7	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 7	Expected: 3
+
+	- Glyph name: ampersand	Contours detected: 7	Expected: 1, 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 7	Expected: 2
+
+	- Glyph name: approxequal	Contours detected: 4	Expected: 2
+
+	- Glyph name: aring	Contours detected: 9	Expected: 4
+
+	- Glyph name: arrowdown	Contours detected: 2	Expected: 1
+
+	- Glyph name: arrowup	Contours detected: 2	Expected: 1
+
+	- Glyph name: asciitilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 7	Expected: 1 or 4
+
+	- Glyph name: at	Contours detected: 6	Expected: 2
+
+	- Glyph name: atilde	Contours detected: 7	Expected: 3
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: braceleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 2	Expected: 1
+
+	- Glyph name: bracketleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 2	Expected: 1
+
+	- Glyph name: breve	Contours detected: 2	Expected: 1
+
+	- Glyph name: bullet	Contours detected: 2	Expected: 1
+
+	- Glyph name: c	Contours detected: 3	Expected: 1
+
+	- Glyph name: cacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: ccaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: ccedilla	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: cdotaccent	Contours detected: 5	Expected: 2
+
+	- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: colon	Contours detected: 4	Expected: 2
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: copyright	Contours detected: 5	Expected: 3
+
+	- Glyph name: d	Contours detected: 4	Expected: 2
+
+	- Glyph name: dagger	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: daggerdbl	Contours detected: 8	Expected: 1 or 3
+
+	- Glyph name: dcaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 8	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 4	Expected: 2
+
+	- Glyph name: dollar	Contours detected: 4	Expected: 1, 3 or 5
+
+	- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+	- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+	- Glyph name: e	Contours detected: 4	Expected: 2
+
+	- Glyph name: eacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecaron	Contours detected: 6	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: edotaccent	Contours detected: 6	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 6	Expected: 3
+
+	- Glyph name: eight	Contours detected: 6	Expected: 3
+
+	- Glyph name: ellipsis	Contours detected: 6	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: eng	Contours detected: 4	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 6	Expected: 2
+
+	- Glyph name: eth	Contours detected: 8	Expected: 2
+
+	- Glyph name: exclam	Contours detected: 4	Expected: 2
+
+	- Glyph name: exclamdown	Contours detected: 4	Expected: 2
+
+	- Glyph name: f	Contours detected: 3	Expected: 1
+
+	- Glyph name: fi	Contours detected: 4	Expected: 3
+
+	- Glyph name: five	Contours detected: 5	Expected: 1
+
+	- Glyph name: fl	Contours detected: 3	Expected: 2
+
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
+
+	- Glyph name: gbreve	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: germandbls	Contours detected: 5	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: guillemotleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
+
+	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
+
+	- Glyph name: h	Contours detected: 3	Expected: 1
+
+	- Glyph name: hbar	Contours detected: 7	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
+
+	- Glyph name: i	Contours detected: 4	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 6	Expected: 3
+
+	- Glyph name: igrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: ij	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 4	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: j	Contours detected: 5	Expected: 2
+
+	- Glyph name: k	Contours detected: 4	Expected: 1 or 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 4	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 6	Expected: 1
+
+	- Glyph name: m	Contours detected: 4	Expected: 1
+
+	- Glyph name: macron	Contours detected: 2	Expected: 1
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: n	Contours detected: 3	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: nine	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ntilde	Contours detected: 5	Expected: 2
+
+	- Glyph name: o	Contours detected: 4	Expected: 2
+
+	- Glyph name: oacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 6	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 8	Expected: 4
+
+	- Glyph name: oe	Contours detected: 6	Expected: 3
+
+	- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ograve	Contours detected: 6	Expected: 3
+
+	- Glyph name: ohungarumlaut	Contours detected: 8	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 6	Expected: 3
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: onehalf	Contours detected: 8	Expected: 3
+
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
+
+	- Glyph name: ordfeminine	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: ordmasculine	Contours detected: 5	Expected: 2 or 3
+
+	- Glyph name: oslash	Contours detected: 12	Expected: 3
+
+	- Glyph name: otilde	Contours detected: 6	Expected: 3
+
+	- Glyph name: p	Contours detected: 4	Expected: 2
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: parenleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 2	Expected: 1
+
+	- Glyph name: percent	Contours detected: 9	Expected: 5
+
+	- Glyph name: period	Contours detected: 2	Expected: 1
+
+	- Glyph name: periodcentered	Contours detected: 2	Expected: 1
+
+	- Glyph name: perthousand	Contours detected: 13	Expected: 6 or 7
+
+	- Glyph name: q	Contours detected: 4	Expected: 2
+
+	- Glyph name: question	Contours detected: 5	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 5	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesingle	Contours detected: 2	Expected: 1
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: registered	Contours detected: 7	Expected: 3 or 4
+
+	- Glyph name: ring	Contours detected: 4	Expected: 2
+
+	- Glyph name: s	Contours detected: 4	Expected: 1
+
+	- Glyph name: sacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: section	Contours detected: 6	Expected: 2
+
+	- Glyph name: semicolon	Contours detected: 4	Expected: 2
+
+	- Glyph name: seven	Contours detected: 4	Expected: 1
+
+	- Glyph name: six	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
+
+	- Glyph name: t	Contours detected: 2	Expected: 1
+
+	- Glyph name: tcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 4	Expected: 2
+
+	- Glyph name: three	Contours detected: 5	Expected: 1
+
+	- Glyph name: threequarters	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 8	Expected: 2
+
+	- Glyph name: two	Contours detected: 5	Expected: 1
+
+	- Glyph name: u	Contours detected: 3	Expected: 1
+
+	- Glyph name: uacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 5	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 7	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 7	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni00B5	Contours detected: 7	Expected: 1
+
+	- Glyph name: uni0122	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 9	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 6	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 7	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni02BB	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni02BC	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni03BC	Contours detected: 7	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 4	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 5	Expected: 1
+
+	- Glyph name: uring	Contours detected: 7	Expected: 3
+
+	- Glyph name: v	Contours detected: 3	Expected: 1
+
+	- Glyph name: w	Contours detected: 5	Expected: 1
+
+	- Glyph name: wacute	Contours detected: 7	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 7	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 9	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 7	Expected: 2
+
+	- Glyph name: x	Contours detected: 4	Expected: 1
+
+	- Glyph name: y	Contours detected: 4	Expected: 1
+
+	- Glyph name: yacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 6	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 8	Expected: 3
+
+	- Glyph name: yen	Contours detected: 5	Expected: 1 or 2
+
+	- Glyph name: ygrave	Contours detected: 6	Expected: 2
+
+	- Glyph name: z	Contours detected: 4	Expected: 1
+
+	- Glyph name: zacute	Contours detected: 6	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 6	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 6	Expected: 2 
+
+	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̦̀ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* A (U+0041): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* AE (U+00C6): B<<860.0,41.5>-<844.0,20.0>-<812.0,13.0>>/L<<812.0,13.0>--<918.0,13.0>> = 12.33908727832618
+
+	* AE (U+00C6): L<<918.0,13.0>--<888.0,230.0>>/L<<888.0,230.0>--<881.0,104.0>> = 11.051012056695225
+
+	* AE (U+00C6): L<<918.0,695.0>--<799.0,695.0>>/B<<799.0,695.0>-<830.0,689.0>-<845.5,673.0>> = 10.954062643398332
+
+	* Aacute (U+00C1): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Abreve (U+0102): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Acircumflex (U+00C2): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Adieresis (U+00C4): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Agrave (U+00C0): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Amacron (U+0100): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Aogonek (U+0104): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Aogonek (U+0104): B<<636.5,-71.5>-<653.0,-48.0>-<692.0,-19.0>>/B<<692.0,-19.0>-<578.0,-77.0>-<578.0,-136.0>> = 9.668399443097272
+
+	* Aogonek (U+0104): B<<701.0,-192.5>-<720.0,-186.0>-<729.0,-178.0>>/B<<729.0,-178.0>-<710.0,-189.0>-<688.0,-189.0>> = 11.56495651470776
+
+	* Aring (U+00C5): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Atilde (U+00C3): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* Atilde (U+00C3): B<<256.0,897.0>-<231.0,880.0>-<214.0,849.0>>/B<<214.0,849.0>-<234.0,886.0>-<272.0,886.0>> = 0.34677587030477774
+
+	* Atilde (U+00C3): B<<511.0,818.5>-<530.0,830.0>-<545.0,859.0>>/B<<545.0,859.0>-<532.0,837.0>-<505.0,837.0>> = 3.2293510924191127
+
+	* C (U+0043): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
+
+	* C (U+0043): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
+
+	* Cacute (U+0106): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
+
+	* Cacute (U+0106): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
+
+	* Ccaron (U+010C): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
+
+	* Ccaron (U+010C): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
+
+	* Ccedilla (U+00C7): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
+
+	* Ccedilla (U+00C7): B<<482.0,-131.0>-<482.0,-81.0>-<429.0,-64.0>>/B<<429.0,-64.0>-<462.0,-84.0>-<462.0,-123.0>> = 13.434514321653843
+
+	* Ccedilla (U+00C7): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
+
+	* Cdotaccent (U+010A): B<<196.0,578.0>-<232.0,661.0>-<296.0,695.0>>/B<<296.0,695.0>-<189.0,663.0>-<130.0,572.0>> = 11.329368889877067
+
+	* Cdotaccent (U+010A): B<<497.0,14.0>-<549.0,31.0>-<591.0,65.0>>/B<<591.0,65.0>-<529.0,28.0>-<454.0,28.0>> = 8.163331742637432
+
+	* E (U+0045): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* E (U+0045): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* E (U+0045): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Eacute (U+00C9): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Eacute (U+00C9): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Eacute (U+00C9): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Ecaron (U+011A): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Ecaron (U+011A): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Ecaron (U+011A): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Ecircumflex (U+00CA): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Ecircumflex (U+00CA): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Ecircumflex (U+00CA): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Edieresis (U+00CB): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Edieresis (U+00CB): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Edieresis (U+00CB): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Edotaccent (U+0116): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Edotaccent (U+0116): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Edotaccent (U+0116): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Egrave (U+00C8): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Egrave (U+00C8): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Egrave (U+00C8): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Emacron (U+0112): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Emacron (U+0112): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Emacron (U+0112): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Eogonek (U+0118): B<<509.5,-71.5>-<526.0,-48.0>-<565.0,-19.0>>/B<<565.0,-19.0>-<451.0,-77.0>-<451.0,-136.0>> = 9.668399443097272
+
+	* Eogonek (U+0118): B<<545.0,41.5>-<529.0,20.0>-<497.0,13.0>>/L<<497.0,13.0>--<603.0,13.0>> = 12.33908727832618
+
+	* Eogonek (U+0118): B<<574.0,-192.5>-<593.0,-186.0>-<602.0,-178.0>>/B<<602.0,-178.0>-<583.0,-189.0>-<561.0,-189.0>> = 11.56495651470776
+
+	* Eogonek (U+0118): L<<603.0,13.0>--<574.0,230.0>>/L<<574.0,230.0>--<566.0,104.0>> = 11.244888336203081
+
+	* Eogonek (U+0118): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* Euro (U+20AC): B<<272.0,584.5>-<308.0,662.0>-<369.0,695.0>>/B<<369.0,695.0>-<273.0,666.0>-<215.0,589.5>> = 11.60396981686572
+
+	* Euro (U+20AC): B<<570.0,14.0>-<622.0,31.0>-<664.0,65.0>>/B<<664.0,65.0>-<602.0,28.0>-<527.0,28.0>> = 8.163331742637432
+
+	* F (U+0046): L<<603.0,695.0>--<485.0,695.0>>/B<<485.0,695.0>-<516.0,689.0>-<531.0,673.0>> = 10.954062643398332
+
+	* G (U+0047): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
+
+	* G (U+0047): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
+
+	* G (U+0047): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
+
+	* Gbreve (U+011E): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
+
+	* Gbreve (U+011E): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
+
+	* Gbreve (U+011E): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
+
+	* Gdotaccent (U+0120): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
+
+	* Gdotaccent (U+0120): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
+
+	* Gdotaccent (U+0120): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
+
+	* Iogonek (U+012E): B<<182.5,-71.5>-<199.0,-48.0>-<238.0,-19.0>>/B<<238.0,-19.0>-<124.0,-77.0>-<124.0,-136.0>> = 9.668399443097272
+
+	* Iogonek (U+012E): B<<247.0,-192.5>-<266.0,-186.0>-<275.0,-178.0>>/B<<275.0,-178.0>-<256.0,-189.0>-<234.0,-189.0>> = 11.56495651470776
+
+	* K (U+004B): B<<457.0,476.0>-<407.0,399.0>-<343.0,369.0>>/B<<343.0,369.0>-<383.0,380.0>-<427.0,408.5>> = 9.738583637318376
+
+	* L (U+004C): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* Lacute (U+0139): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* Lcaron (U+013D): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* Ldot (U+013F): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* Lslash (U+0141): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* Ntilde (U+00D1): B<<276.0,897.0>-<251.0,880.0>-<234.0,849.0>>/B<<234.0,849.0>-<254.0,886.0>-<292.0,886.0>> = 0.34677587030477774
+
+	* Ntilde (U+00D1): B<<531.0,818.5>-<550.0,830.0>-<565.0,859.0>>/B<<565.0,859.0>-<552.0,837.0>-<525.0,837.0>> = 3.2293510924191127
+
+	* OE (U+0152): B<<924.0,41.5>-<908.0,20.0>-<876.0,13.0>>/L<<876.0,13.0>--<982.0,13.0>> = 12.33908727832618
+
+	* OE (U+0152): L<<982.0,13.0>--<953.0,230.0>>/L<<953.0,230.0>--<945.0,104.0>> = 11.244888336203081
+
+	* OE (U+0152): L<<982.0,695.0>--<864.0,695.0>>/B<<864.0,695.0>-<896.0,689.0>-<910.5,673.0>> = 10.61965527615514
+
+	* Otilde (U+00D5): B<<261.0,897.0>-<236.0,880.0>-<219.0,849.0>>/B<<219.0,849.0>-<239.0,886.0>-<277.0,886.0>> = 0.34677587030477774
+
+	* Otilde (U+00D5): B<<516.0,818.5>-<535.0,830.0>-<550.0,859.0>>/B<<550.0,859.0>-<537.0,837.0>-<510.0,837.0>> = 3.2293510924191127
+
+	* P (U+0050): B<<510.0,397.0>-<477.0,350.0>-<418.0,330.0>>/B<<418.0,330.0>-<525.0,342.0>-<581.0,391.0>> = 12.326831217903635
+
+	* Q (U+0051): B<<476.5,-136.0>-<445.0,-122.0>-<421.0,-94.0>>/B<<421.0,-94.0>-<465.0,-174.0>-<543.0,-174.0>> = 11.790500902031386
+
+	* R (U+0052): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
+
+	* Racute (U+0154): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
+
+	* Rcaron (U+0158): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
+
+	* S (U+0053): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
+
+	* S (U+0053): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
+
+	* Sacute (U+015A): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
+
+	* Sacute (U+015A): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
+
+	* Scaron (U+0160): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
+
+	* Scaron (U+0160): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
+
+	* Scedilla (U+015E): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
+
+	* Scedilla (U+015E): B<<449.0,-131.0>-<449.0,-81.0>-<396.0,-64.0>>/B<<396.0,-64.0>-<429.0,-84.0>-<429.0,-123.0>> = 13.434514321653843
+
+	* Scedilla (U+015E): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
+
+	* T (U+0054): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
+
+	* T (U+0054): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
+
+	* Tcaron (U+0164): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
+
+	* Tcaron (U+0164): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
+
+	* Thorn (U+00DE): B<<510.0,267.5>-<477.0,221.0>-<418.0,201.0>>/B<<418.0,201.0>-<519.0,210.0>-<578.0,260.5>> = 13.63367272077358
+
+	* U (U+0055): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Uacute (U+00DA): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Ubreve (U+016C): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Ucircumflex (U+00DB): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Udieresis (U+00DC): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Ugrave (U+00D9): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Uhungarumlaut (U+0170): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Umacron (U+016A): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Uogonek (U+0172): B<<363.5,-71.5>-<380.0,-48.0>-<419.0,-19.0>>/B<<419.0,-19.0>-<305.0,-77.0>-<305.0,-136.0>> = 9.668399443097272
+
+	* Uogonek (U+0172): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* Uogonek (U+0172): B<<428.0,-192.5>-<447.0,-186.0>-<456.0,-178.0>>/B<<456.0,-178.0>-<437.0,-189.0>-<415.0,-189.0>> = 11.56495651470776
+
+	* Uring (U+016E): B<<389.0,3.0>-<485.0,3.0>-<543.0,52.0>>/B<<543.0,52.0>-<497.0,24.0>-<429.0,24.0>> = 8.863353169165341
+
+	* V (U+0056): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* W (U+0057): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
+
+	* W (U+0057): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* Wacute (U+1E82): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
+
+	* Wacute (U+1E82): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* Wcircumflex (U+0174): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
+
+	* Wcircumflex (U+0174): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* Wdieresis (U+1E84): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
+
+	* Wdieresis (U+1E84): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* Wgrave (U+1E80): B<<1008.5,536.0>-<1006.0,521.0>-<1002.0,501.0>>/L<<1002.0,501.0>--<1079.0,695.0>> = 10.338552697047735
+
+	* Wgrave (U+1E80): B<<593.5,536.0>-<591.0,521.0>-<587.0,501.0>>/L<<587.0,501.0>--<664.0,695.0>> = 10.338552697047735
+
+	* X (U+0058): B<<175.0,95.0>-<175.0,114.0>-<198.0,154.0>>/L<<198.0,154.0>--<91.0,13.0>> = 7.294697332149613
+
+	* X (U+0058): B<<580.0,616.0>-<580.0,600.0>-<556.0,559.0>>/L<<556.0,559.0>--<670.0,696.0>> = 9.42116145396201
+
+	* X (U+0058): L<<91.0,13.0>--<258.0,13.0>>/B<<258.0,13.0>-<175.0,32.0>-<175.0,95.0>> = 12.893744044882132
+
+	* Z (U+005A): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
+
+	* Z (U+005A): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
+
+	* Zacute (U+0179): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
+
+	* Zacute (U+0179): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
+
+	* Zcaron (U+017D): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
+
+	* Zcaron (U+017D): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
+
+	* Zdotaccent (U+017B): B<<549.0,59.0>-<531.0,21.0>-<495.0,12.0>>/L<<495.0,12.0>--<616.0,12.0>> = 14.036243467926484
+
+	* Zdotaccent (U+017B): L<<616.0,12.0>--<588.0,259.0>>/L<<588.0,259.0>--<576.0,170.0>> = 14.146422735160213
+
+	* a (U+0061): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* a (U+0061): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* a (U+0061): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* aacute (U+00E1): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* aacute (U+00E1): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* aacute (U+00E1): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* abreve (U+0103): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* abreve (U+0103): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* abreve (U+0103): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* acircumflex (U+00E2): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* acircumflex (U+00E2): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* acircumflex (U+00E2): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* adieresis (U+00E4): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* adieresis (U+00E4): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* adieresis (U+00E4): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* ae (U+00E6): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<184.0,239.0>-<120.0,199.0>> = 3.247186461031658
+
+	* ae (U+00E6): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* ae (U+00E6): B<<423.0,473.0>-<388.0,498.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 9.220554725845359
+
+	* ae (U+00E6): B<<677.0,-3.0>-<756.0,-3.0>-<805.0,25.0>>/B<<805.0,25.0>-<774.0,11.0>-<723.0,11.0>> = 5.4403320310054815
+
+	* agrave (U+00E0): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* agrave (U+00E0): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* agrave (U+00E0): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* amacron (U+0101): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* amacron (U+0101): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* amacron (U+0101): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* ampersand (U+0026): B<<144.5,275.5>-<161.0,310.0>-<198.0,344.0>>/B<<198.0,344.0>-<130.0,305.0>-<93.5,261.5>> = 12.744951683082094
+
+	* ampersand (U+0026): B<<326.0,21.0>-<369.0,45.0>-<405.0,89.0>>/B<<405.0,89.0>-<378.0,63.0>-<352.0,52.0>> = 6.791517324160308
+
+	* ampersand (U+0026): B<<760.5,23.5>-<781.0,50.0>-<781.0,96.0>>/B<<781.0,96.0>-<773.0,53.0>-<730.0,53.0>> = 10.539183728628242
+
+	* aogonek (U+0105): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* aogonek (U+0105): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* aogonek (U+0105): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* aogonek (U+0105): B<<483.5,-71.5>-<500.0,-48.0>-<539.0,-19.0>>/B<<539.0,-19.0>-<425.0,-77.0>-<425.0,-136.0>> = 9.668399443097272
+
+	* aogonek (U+0105): B<<548.0,-192.5>-<567.0,-186.0>-<576.0,-178.0>>/B<<576.0,-178.0>-<557.0,-189.0>-<535.0,-189.0>> = 11.56495651470776
+
+	* approxequal (U+2248): B<<102.5,257.0>-<79.0,240.0>-<59.0,201.0>>/B<<59.0,201.0>-<86.0,239.0>-<131.0,239.0>> = 8.245114147203854
+
+	* approxequal (U+2248): B<<102.5,435.0>-<79.0,418.0>-<59.0,379.0>>/B<<59.0,379.0>-<86.0,417.0>-<131.0,417.0>> = 8.245114147203854
+
+	* approxequal (U+2248): B<<366.0,183.0>-<384.0,198.0>-<402.0,234.0>>/B<<402.0,234.0>-<382.0,204.0>-<349.0,204.0>> = 7.125016348901757
+
+	* approxequal (U+2248): B<<366.0,361.0>-<384.0,376.0>-<402.0,412.0>>/B<<402.0,412.0>-<382.0,382.0>-<349.0,382.0>> = 7.125016348901757
+
+	* aring (U+00E5): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* aring (U+00E5): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* aring (U+00E5): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* asciitilde (U+007E): B<<102.5,345.0>-<79.0,328.0>-<59.0,289.0>>/B<<59.0,289.0>-<86.0,327.0>-<131.0,327.0>> = 8.245114147203854
+
+	* asciitilde (U+007E): B<<366.0,271.0>-<384.0,286.0>-<402.0,322.0>>/B<<402.0,322.0>-<382.0,292.0>-<349.0,292.0>> = 7.125016348901757
+
+	* at (U+0040): B<<125.0,34.5>-<193.0,-47.0>-<314.0,-74.0>>/B<<314.0,-74.0>-<226.0,-39.0>-<173.5,43.0>> = 9.110129727122688
+
+	* at (U+0040): B<<234.0,506.0>-<289.0,556.0>-<364.0,581.0>>/B<<364.0,581.0>-<271.0,563.0>-<201.5,517.0>> = 7.480886179523617
+
+	* at (U+0040): B<<825.5,473.0>-<757.0,553.0>-<626.0,581.0>>/B<<626.0,581.0>-<725.0,545.0>-<778.0,463.5>> = 7.918222111374554
+
+	* atilde (U+00E3): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* atilde (U+00E3): B<<180.0,689.0>-<155.0,672.0>-<138.0,641.0>>/B<<138.0,641.0>-<158.0,678.0>-<196.0,678.0>> = 0.34677587030477774
+
+	* atilde (U+00E3): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* atilde (U+00E3): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* atilde (U+00E3): B<<435.0,610.5>-<454.0,622.0>-<469.0,651.0>>/B<<469.0,651.0>-<456.0,629.0>-<429.0,629.0>> = 3.2293510924191127
+
+	* b (U+0062): B<<416.0,503.0>-<354.0,503.0>-<305.0,459.0>>/B<<305.0,459.0>-<322.0,470.0>-<339.0,474.5>> = 9.017301677587701
+
+	* braceleft (U+007B): B<<328.0,-128.0>-<380.0,-128.0>-<422.0,-112.0>>/B<<422.0,-112.0>-<408.0,-115.0>-<395.5,-115.5>> = 8.759700962566184
+
+	* braceleft (U+007B): B<<375.0,792.0>-<395.0,793.0>-<420.0,788.0>>/B<<420.0,788.0>-<379.0,806.0>-<329.0,806.0>> = 12.392713476946016
+
+	* braceright (U+007D): B<<167.5,-115.5>-<155.0,-115.0>-<141.0,-112.0>>/B<<141.0,-112.0>-<183.0,-128.0>-<235.0,-128.0>> = 8.759700962566184
+
+	* braceright (U+007D): B<<234.0,806.0>-<184.0,806.0>-<144.0,788.0>>/B<<144.0,788.0>-<168.0,793.0>-<188.0,792.0>> = 12.459456385933523
+
+	* c (U+0063): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
+
+	* cacute (U+0107): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
+
+	* ccaron (U+010D): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
+
+	* ccedilla (U+00E7): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
+
+	* ccedilla (U+00E7): B<<409.0,-131.0>-<409.0,-81.0>-<356.0,-64.0>>/B<<356.0,-64.0>-<389.0,-84.0>-<389.0,-123.0>> = 13.434514321653843
+
+	* cdotaccent (U+010B): B<<367.5,2.0>-<402.0,7.0>-<431.0,24.0>>/B<<431.0,24.0>-<399.0,11.0>-<350.0,11.0>> = 8.269677667616607
+
+	* cedilla (U+00B8): B<<214.0,-131.0>-<214.0,-81.0>-<161.0,-64.0>>/B<<161.0,-64.0>-<194.0,-84.0>-<194.0,-123.0>> = 13.434514321653843
+
+	* cent (U+00A2): B<<381.0,45.0>-<408.0,51.0>-<431.0,64.0>>/B<<431.0,64.0>-<399.0,51.0>-<350.0,51.0>> = 7.366440659494058
+
+	* copyright (U+00A9): B<<282.0,112.0>-<302.0,109.0>-<320.0,111.0>>/B<<320.0,111.0>-<273.0,115.0>-<241.0,152.0>> = 11.204706183670405
+
+	* d (U+0064): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
+
+	* d (U+0064): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
+
+	* dagger (U+2020): B<<220.0,336.5>-<227.0,272.0>-<232.0,205.0>>/B<<232.0,205.0>-<237.0,272.0>-<244.0,336.5>> = 8.535786600581602
+
+	* dcaron (U+010F): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
+
+	* dcaron (U+010F): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
+
+	* dcroat (U+0111): B<<297.0,495.0>-<314.0,495.0>-<330.0,492.0>>/B<<330.0,492.0>-<304.0,502.0>-<268.0,502.0>> = 10.41785574926667
+
+	* dcroat (U+0111): B<<303.5,7.5>-<329.0,18.0>-<348.0,36.0>>/B<<348.0,36.0>-<317.0,16.0>-<282.0,16.0>> = 10.623300509609482
+
+	* dollar (U+0024): B<<175.0,652.5>-<193.0,677.0>-<224.0,692.0>>/B<<224.0,692.0>-<160.0,671.0>-<126.0,630.5>> = 7.65503544496371
+
+	* dollar (U+0024): B<<524.0,54.0>-<504.0,28.0>-<468.0,11.0>>/B<<468.0,11.0>-<537.0,28.0>-<581.5,68.5>> = 11.437026743897281
+
+	* e (U+0065): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* eacute (U+00E9): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* ecaron (U+011B): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* ecircumflex (U+00EA): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* edieresis (U+00EB): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* edotaccent (U+0117): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* egrave (U+00E8): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* eight (U+0038): B<<155.0,588.0>-<155.0,659.0>-<215.0,694.0>>/B<<215.0,694.0>-<160.0,675.0>-<129.5,636.0>> = 11.198732653400914
+
+	* eight (U+0038): B<<446.5,503.5>-<423.0,464.0>-<371.0,428.0>>/B<<371.0,428.0>-<433.0,452.0>-<475.5,487.5>> = 13.53389371440569
+
+	* eight (U+0038): B<<479.0,150.0>-<479.0,54.0>-<409.0,13.0>>/B<<409.0,13.0>-<537.0,55.0>-<537.0,191.0>> = 12.19215892954109
+
+	* emacron (U+0113): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* eng (U+014B): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* eogonek (U+0119): B<<300.0,-3.0>-<379.0,-3.0>-<428.0,25.0>>/B<<428.0,25.0>-<396.0,11.0>-<346.0,11.0>> = 6.115503566285384
+
+	* eogonek (U+0119): B<<305.5,-71.5>-<322.0,-48.0>-<361.0,-19.0>>/B<<361.0,-19.0>-<247.0,-77.0>-<247.0,-136.0>> = 9.668399443097272
+
+	* eogonek (U+0119): B<<370.0,-192.5>-<389.0,-186.0>-<398.0,-178.0>>/B<<398.0,-178.0>-<379.0,-189.0>-<357.0,-189.0>> = 11.56495651470776
+
+	* eth (U+00F0): B<<301.0,675.0>-<245.0,709.0>-<180.0,729.0>>/B<<180.0,729.0>-<235.0,700.0>-<280.0,661.0>> = 10.698729810881721
+
+	* exclam (U+0021): B<<161.5,551.0>-<172.0,483.0>-<176.0,407.0>>/B<<176.0,407.0>-<180.0,483.0>-<190.5,551.0>> = 6.025575008366673
+
+	* exclamdown (U+00A1): B<<190.5,49.0>-<180.0,117.0>-<176.0,193.0>>/B<<176.0,193.0>-<172.0,117.0>-<161.5,49.0>> = 6.025575008366673
+
+	* five (U+0035): B<<336.0,387.5>-<317.0,386.0>-<297.0,382.0>>/B<<297.0,382.0>-<381.0,378.0>-<434.0,329.0>> = 14.036243467926457
+
+	* five (U+0035): B<<448.5,67.0>-<410.0,19.0>-<345.0,3.0>>/B<<345.0,3.0>-<351.0,3.0>-<356.5,2.5>> = 13.828650972280153
+
+	* five (U+0035): B<<515.0,645.0>-<548.0,634.0>-<563.0,606.0>>/B<<563.0,606.0>-<548.0,660.0>-<509.5,686.0>> = 12.654479113204882
+
+	* four (U+0034): B<<202.5,341.0>-<172.0,292.0>-<131.0,259.0>>/B<<131.0,259.0>-<205.0,302.0>-<241.0,371.0>> = 8.669764066883229
+
+	* g (U+0067): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
+
+	* g (U+0067): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
+
+	* gbreve (U+011F): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
+
+	* gbreve (U+011F): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
+
+	* gdotaccent (U+0121): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
+
+	* gdotaccent (U+0121): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
+
+	* germandbls (U+00DF): B<<534.5,675.0>-<502.0,702.0>-<450.0,717.0>>/B<<450.0,717.0>-<470.0,707.0>-<482.0,688.0>> = 10.474234828225772
+
+	* germandbls (U+00DF): B<<686.5,47.5>-<673.0,26.0>-<649.0,13.0>>/B<<649.0,13.0>-<699.0,29.0>-<729.5,61.0>> = 10.698256999306391
+
+	* guillemotleft (U+00AB): L<<139.0,318.0>--<256.0,430.0>>/L<<256.0,430.0>--<91.0,317.0>> = 9.34396489757172
+
+	* guillemotleft (U+00AB): L<<291.0,303.0>--<456.0,190.0>>/L<<456.0,190.0>--<339.0,302.0>> = 9.34396489757172
+
+	* guillemotleft (U+00AB): L<<339.0,318.0>--<456.0,430.0>>/L<<456.0,430.0>--<291.0,317.0>> = 9.34396489757172
+
+	* guillemotleft (U+00AB): L<<91.0,303.0>--<256.0,190.0>>/L<<256.0,190.0>--<139.0,302.0>> = 9.34396489757172
+
+	* guillemotright (U+00BB): L<<244.0,302.0>--<127.0,190.0>>/L<<127.0,190.0>--<291.0,303.0>> = 9.181409831827157
+
+	* guillemotright (U+00BB): L<<291.0,317.0>--<127.0,430.0>>/L<<127.0,430.0>--<244.0,318.0>> = 9.181409831827237
+
+	* guillemotright (U+00BB): L<<444.0,302.0>--<327.0,190.0>>/L<<327.0,190.0>--<491.0,303.0>> = 9.181409831827157
+
+	* guillemotright (U+00BB): L<<491.0,317.0>--<327.0,430.0>>/L<<327.0,430.0>--<444.0,318.0>> = 9.181409831827237
+
+	* guilsinglleft (U+2039): L<<139.0,318.0>--<256.0,430.0>>/L<<256.0,430.0>--<91.0,317.0>> = 9.34396489757172
+
+	* guilsinglleft (U+2039): L<<91.0,303.0>--<256.0,190.0>>/L<<256.0,190.0>--<139.0,302.0>> = 9.34396489757172
+
+	* guilsinglright (U+203A): L<<244.0,302.0>--<127.0,190.0>>/L<<127.0,190.0>--<291.0,303.0>> = 9.181409831827157
+
+	* guilsinglright (U+203A): L<<291.0,317.0>--<127.0,430.0>>/L<<127.0,430.0>--<244.0,318.0>> = 9.181409831827237
+
+	* h (U+0068): B<<362.5,486.0>-<325.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.0,471.0>> = 3.4611358926661904
+
+	* hbar (U+0127): B<<362.5,486.0>-<325.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.0,471.0>> = 3.4611358926661904
+
+	* iogonek (U+012F): B<<157.5,-71.5>-<174.0,-48.0>-<213.0,-19.0>>/B<<213.0,-19.0>-<99.0,-77.0>-<99.0,-136.0>> = 9.668399443097272
+
+	* iogonek (U+012F): B<<222.0,-192.5>-<241.0,-186.0>-<250.0,-178.0>>/B<<250.0,-178.0>-<231.0,-189.0>-<209.0,-189.0>> = 11.56495651470776
+
+	* m (U+006D): B<<429.0,503.0>-<356.0,503.0>-<288.0,432.0>>/B<<288.0,432.0>-<342.0,483.0>-<391.0,482.0>> = 2.872984644472753
+
+	* m (U+006D): B<<790.0,503.0>-<717.0,503.0>-<649.0,432.0>>/B<<649.0,432.0>-<704.0,483.0>-<752.0,482.0>> = 3.397487091082521
+
+	* minute (U+2032): L<<128.0,696.0>--<68.0,516.0>>/L<<68.0,516.0>--<179.0,696.0>> = 13.225802273714592
+
+	* n (U+006E): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* nacute (U+0144): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* ncaron (U+0148): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* nine (U+0039): B<<420.0,63.5>-<379.0,8.0>-<309.0,-1.0>>/B<<309.0,-1.0>-<439.0,5.0>-<499.0,99.0>> = 4.68386136610477
+
+	* ntilde (U+00F1): B<<219.0,689.0>-<194.0,672.0>-<177.0,641.0>>/B<<177.0,641.0>-<197.0,678.0>-<235.0,678.0>> = 0.34677587030477774
+
+	* ntilde (U+00F1): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* ntilde (U+00F1): B<<474.0,610.5>-<493.0,622.0>-<508.0,651.0>>/B<<508.0,651.0>-<495.0,629.0>-<468.0,629.0>> = 3.2293510924191127
+
+	* oe (U+0153): B<<572.5,397.5>-<592.0,455.0>-<628.0,483.0>>/B<<628.0,483.0>-<590.0,466.0>-<557.0,431.5>> = 13.772749149937065
+
+	* oe (U+0153): B<<706.0,-3.0>-<785.0,-3.0>-<834.0,25.0>>/B<<834.0,25.0>-<803.0,11.0>-<752.0,11.0>> = 5.4403320310054815
+
+	* ogonek (U+02DB): B<<106.5,-75.5>-<123.0,-52.0>-<162.0,-23.0>>/B<<162.0,-23.0>-<48.0,-81.0>-<48.0,-140.0>> = 9.668399443097272
+
+	* ogonek (U+02DB): B<<171.0,-196.5>-<190.0,-190.0>-<199.0,-182.0>>/B<<199.0,-182.0>-<180.0,-193.0>-<158.0,-193.0>> = 11.56495651470776
+
+	* onehalf (U+00BD): B<<452.0,-3.0>-<492.0,-3.0>-<504.0,31.0>>/B<<504.0,31.0>-<502.0,28.0>-<500.5,25.5>> = 14.25003269780357
+
+	* onehalf (U+00BD): B<<461.5,180.5>-<443.0,155.0>-<396.0,122.0>>/B<<396.0,122.0>-<461.0,147.0>-<486.0,170.0>> = 14.03624346792643
+
+	* onequarter (U+00BC): B<<357.5,153.5>-<352.0,140.0>-<344.0,131.0>>/B<<344.0,131.0>-<375.0,164.0>-<375.0,224.0>> = 1.5765500551837375
+
+	* ordfeminine (U+00AA): B<<113.5,566.0>-<128.0,583.0>-<154.0,595.0>>/B<<154.0,595.0>-<114.0,586.0>-<92.0,568.0>> = 12.094757077012058
+
+	* otilde (U+00F5): B<<182.0,689.0>-<157.0,672.0>-<140.0,641.0>>/B<<140.0,641.0>-<160.0,678.0>-<198.0,678.0>> = 0.34677587030477774
+
+	* otilde (U+00F5): B<<437.0,610.5>-<456.0,622.0>-<471.0,651.0>>/B<<471.0,651.0>-<458.0,629.0>-<431.0,629.0>> = 3.2293510924191127
+
+	* p (U+0070): B<<356.0,492.5>-<331.0,482.0>-<310.0,464.0>>/B<<310.0,464.0>-<342.0,484.0>-<376.0,484.0>> = 8.595911436920954
+
+	* p (U+0070): B<<361.0,7.0>-<341.0,6.0>-<325.0,9.0>>/B<<325.0,9.0>-<352.0,-2.0>-<388.0,-2.0>> = 11.546690545927312
+
+	* parenleft (U+0028): B<<188.5,83.0>-<265.0,-30.0>-<407.0,-68.0>>/B<<407.0,-68.0>-<308.0,-24.0>-<257.0,85.0>> = 8.98085640218723
+
+	* parenleft (U+0028): B<<256.5,645.0>-<307.0,753.0>-<402.0,795.0>>/B<<402.0,795.0>-<263.0,759.0>-<187.5,649.0>> = 9.33032488953987
+
+	* parenright (U+0029): B<<246.0,85.0>-<195.0,-24.0>-<96.0,-68.0>>/B<<96.0,-68.0>-<239.0,-30.0>-<315.5,83.0>> = 9.080959271437633
+
+	* parenright (U+0029): B<<316.5,649.0>-<241.0,759.0>-<101.0,795.0>>/B<<101.0,795.0>-<196.0,753.0>-<246.5,645.0>> = 9.429700780565923
+
+	* percent (U+0025): B<<346.0,663.5>-<326.0,696.0>-<283.0,707.0>>/B<<283.0,707.0>-<305.0,695.0>-<315.5,673.0>> = 14.2611276230181
+
+	* percent (U+0025): B<<460.5,45.5>-<481.0,12.0>-<527.0,2.0>>/B<<527.0,2.0>-<502.0,13.0>-<490.5,35.5>> = 11.484720764974313
+
+	* percent (U+0025): B<<717.0,250.5>-<697.0,283.0>-<654.0,294.0>>/B<<654.0,294.0>-<676.0,282.0>-<686.5,260.0>> = 14.2611276230181
+
+	* percent (U+0025): B<<89.5,458.5>-<110.0,425.0>-<156.0,415.0>>/B<<156.0,415.0>-<131.0,426.0>-<119.5,448.5>> = 11.484720764974313
+
+	* perthousand (U+2030): B<<1081.0,250.5>-<1061.0,283.0>-<1018.0,294.0>>/B<<1018.0,294.0>-<1040.0,282.0>-<1050.5,260.0>> = 14.2611276230181
+
+	* perthousand (U+2030): B<<346.0,663.5>-<326.0,696.0>-<283.0,707.0>>/B<<283.0,707.0>-<305.0,695.0>-<315.5,673.0>> = 14.2611276230181
+
+	* perthousand (U+2030): B<<460.5,45.5>-<481.0,12.0>-<527.0,2.0>>/B<<527.0,2.0>-<502.0,13.0>-<490.5,35.5>> = 11.484720764974313
+
+	* perthousand (U+2030): B<<717.0,250.5>-<697.0,283.0>-<654.0,294.0>>/B<<654.0,294.0>-<676.0,282.0>-<686.5,260.0>> = 14.2611276230181
+
+	* perthousand (U+2030): B<<824.5,45.5>-<845.0,12.0>-<891.0,2.0>>/B<<891.0,2.0>-<866.0,13.0>-<854.5,35.5>> = 11.484720764974313
+
+	* perthousand (U+2030): B<<89.5,458.5>-<110.0,425.0>-<156.0,415.0>>/B<<156.0,415.0>-<131.0,426.0>-<119.5,448.5>> = 11.484720764974313
+
+	* q (U+0071): B<<233.0,-3.0>-<295.0,-3.0>-<344.0,41.0>>/B<<344.0,41.0>-<328.0,30.0>-<310.5,25.5>> = 7.414021612907244
+
+	* quotedbl (U+0022): L<<193.0,696.0>--<215.0,511.0>>/L<<215.0,511.0>--<236.0,696.0>> = 13.257828074819754
+
+	* quotedbl (U+0022): L<<63.0,696.0>--<85.0,511.0>>/L<<85.0,511.0>--<106.0,696.0>> = 13.257828074819754
+
+	* quotesingle (U+0027): L<<63.0,696.0>--<85.0,511.0>>/L<<85.0,511.0>--<106.0,696.0>> = 13.257828074819754
+
+	* s (U+0073): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
+
+	* s (U+0073): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
+
+	* s (U+0073): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
+
+	* s (U+0073): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
+
+	* sacute (U+015B): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
+
+	* sacute (U+015B): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
+
+	* sacute (U+015B): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
+
+	* sacute (U+015B): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
+
+	* scaron (U+0161): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
+
+	* scaron (U+0161): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
+
+	* scaron (U+0161): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
+
+	* scaron (U+0161): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
+
+	* scedilla (U+015F): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
+
+	* scedilla (U+015F): B<<375.0,-131.0>-<375.0,-81.0>-<322.0,-64.0>>/B<<322.0,-64.0>-<355.0,-84.0>-<355.0,-123.0>> = 13.434514321653843
+
+	* scedilla (U+015F): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
+
+	* scedilla (U+015F): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
+
+	* scedilla (U+015F): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
+
+	* second (U+2033): L<<128.0,696.0>--<68.0,516.0>>/L<<68.0,516.0>--<179.0,696.0>> = 13.225802273714592
+
+	* second (U+2033): L<<271.0,696.0>--<211.0,516.0>>/L<<211.0,516.0>--<322.0,696.0>> = 13.225802273714592
+
+	* section (U+00A7): B<<125.0,614.0>-<125.0,669.0>-<177.0,696.0>>/B<<177.0,696.0>-<127.0,683.0>-<100.0,655.0>> = 12.86551175016053
+
+	* section (U+00A7): B<<432.0,100.0>-<432.0,43.0>-<382.0,14.0>>/B<<382.0,14.0>-<434.0,29.0>-<462.5,58.5>> = 14.022916802130252
+
+	* section (U+00A7): B<<457.5,654.5>-<435.0,681.0>-<387.0,695.0>>/B<<387.0,695.0>-<408.0,685.0>-<408.0,677.0>> = 9.203140353559636
+
+	* section (U+00A7): B<<91.5,53.5>-<116.0,27.0>-<164.0,14.0>>/B<<164.0,14.0>-<144.0,24.0>-<144.0,32.0>> = 11.410983126765371
+
+	* seven (U+0037): B<<141.0,685.5>-<105.0,660.0>-<89.0,605.0>>/B<<89.0,605.0>-<99.0,625.0>-<110.5,634.5>> = 10.344857481475165
+
+	* seven (U+0037): B<<311.0,-3.0>-<393.0,-3.0>-<441.0,39.0>>/B<<441.0,39.0>-<405.0,18.0>-<365.0,18.0>> = 10.92948800218042
+
+	* seven (U+0037): L<<69.0,708.0>--<69.0,579.0>>/B<<69.0,579.0>-<86.0,654.0>-<127.0,688.5>> = 12.771242564901412
+
+	* six (U+0036): B<<207.5,644.5>-<248.0,700.0>-<319.0,709.0>>/B<<319.0,709.0>-<188.0,703.0>-<128.0,609.0>> = 4.6019142335041625
+
+	* sterling (U+00A3): B<<557.5,37.0>-<593.0,77.0>-<605.0,147.0>>/B<<605.0,147.0>-<580.0,60.0>-<512.0,60.0>> = 6.3047608025343225
+
+	* thorn (U+00FE): B<<356.0,492.5>-<331.0,482.0>-<310.0,464.0>>/B<<310.0,464.0>-<342.0,484.0>-<376.0,484.0>> = 8.595911436920954
+
+	* thorn (U+00FE): B<<361.0,7.0>-<341.0,6.0>-<325.0,9.0>>/B<<325.0,9.0>-<352.0,-2.0>-<388.0,-2.0>> = 11.546690545927312
+
+	* threequarters (U+00BE): B<<452.5,153.5>-<447.0,140.0>-<439.0,131.0>>/B<<439.0,131.0>-<470.0,164.0>-<470.0,224.0>> = 1.5765500551837375
+
+	* tilde (U+02DC): B<<141.0,689.0>-<116.0,672.0>-<99.0,641.0>>/B<<99.0,641.0>-<119.0,678.0>-<157.0,678.0>> = 0.34677587030477774
+
+	* tilde (U+02DC): B<<396.0,610.5>-<415.0,622.0>-<430.0,651.0>>/B<<430.0,651.0>-<417.0,629.0>-<390.0,629.0>> = 3.2293510924191127
+
+	* tildecomb (U+0303): B<<-123.0,689.0>-<-148.0,672.0>-<-165.0,641.0>>/B<<-165.0,641.0>-<-145.0,678.0>-<-107.0,678.0>> = 0.34677587030477774
+
+	* tildecomb (U+0303): B<<132.0,610.5>-<151.0,622.0>-<166.0,651.0>>/B<<166.0,651.0>-<153.0,629.0>-<126.0,629.0>> = 3.2293510924191127
+
+	* trademark (U+2122): B<<388.0,447.5>-<376.0,463.0>-<374.0,493.0>>/L<<374.0,493.0>--<374.0,428.0>> = 3.8140748342903783
+
+	* trademark (U+2122): B<<66.0,682.5>-<78.0,694.0>-<104.0,696.0>>/L<<104.0,696.0>--<43.0,696.0>> = 4.398705354995508
+
+	* trademark (U+2122): L<<286.0,649.0>--<286.0,626.0>>/L<<286.0,626.0>--<294.0,696.0>> = 6.519801751656973
+
+	* trademark (U+2122): L<<294.0,696.0>--<234.0,696.0>>/B<<234.0,696.0>-<260.0,694.0>-<272.0,682.5>> = 4.398705354995508
+
+	* trademark (U+2122): L<<374.0,428.0>--<427.0,428.0>>/B<<427.0,428.0>-<400.0,432.0>-<388.0,447.5>> = 8.426969021480636
+
+	* trademark (U+2122): L<<43.0,696.0>--<51.0,626.0>>/L<<51.0,626.0>--<52.0,649.0>> = 9.009354673656116
+
+	* two (U+0032): B<<296.0,710.0>-<279.0,708.0>-<268.0,705.0>>/B<<268.0,705.0>-<286.0,707.0>-<299.0,707.0>> = 8.914926957147863
+
+	* two (U+0032): B<<527.5,22.5>-<561.0,48.0>-<577.0,103.0>>/B<<577.0,103.0>-<568.0,85.0>-<554.0,75.0>> = 10.344857481475165
+
+	* u (U+0075): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* uacute (U+00FA): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* ubreve (U+016D): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* ucircumflex (U+00FB): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* udieresis (U+00FC): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* ugrave (U+00F9): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* uhungarumlaut (U+0171): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* umacron (U+016B): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* uni00B2 (U+00B2): B<<190.0,423.0>-<230.0,423.0>-<242.0,457.0>>/B<<242.0,457.0>-<240.0,454.0>-<238.5,451.5>> = 14.25003269780357
+
+	* uni00B2 (U+00B2): B<<199.5,606.5>-<181.0,581.0>-<134.0,548.0>>/B<<134.0,548.0>-<199.0,573.0>-<224.0,596.0>> = 14.03624346792643
+
+	* uni00B5 (U+00B5): B<<113.0,38.5>-<138.0,116.0>-<172.0,188.0>>/B<<172.0,188.0>-<108.0,110.0>-<67.5,33.5>> = 14.091595006811783
+
+	* uni00B5 (U+00B5): B<<227.5,99.5>-<211.0,127.0>-<206.0,177.0>>/B<<206.0,177.0>-<197.0,87.0>-<225.0,42.0>> = 11.42118627499929
+
+	* uni00B5 (U+00B5): B<<398.5,41.0>-<446.0,85.0>-<483.0,174.0>>/B<<483.0,174.0>-<435.0,102.0>-<389.5,76.5>> = 11.11592944733156
+
+	* uni00B5 (U+00B5): B<<53.5,-175.0>-<80.0,-201.0>-<128.0,-201.0>>/B<<128.0,-201.0>-<81.0,-190.0>-<84.0,-100.0>> = 13.172553423326871
+
+	* uni00B5 (U+00B5): B<<537.5,94.5>-<524.0,121.0>-<521.0,170.0>>/B<<521.0,170.0>-<510.0,80.0>-<534.0,38.5>> = 10.471788386163
+
+	* uni00B5 (U+00B5): B<<683.0,35.5>-<727.0,74.0>-<752.0,158.0>>/B<<752.0,158.0>-<730.0,117.0>-<703.5,93.0>> = 11.643348097820311
+
+	* uni0122 (U+0122): B<<204.0,57.0>-<268.0,12.0>-<353.0,2.0>>/B<<353.0,2.0>-<294.0,23.0>-<250.5,77.5>> = 12.882445083294593
+
+	* uni0122 (U+0122): B<<213.5,620.5>-<239.0,664.0>-<274.0,686.0>>/B<<274.0,686.0>-<178.0,653.0>-<124.0,568.5>> = 13.181887332795784
+
+	* uni0122 (U+0122): B<<578.0,672.5>-<532.0,692.0>-<481.0,700.0>>/B<<481.0,700.0>-<532.0,682.0>-<565.5,628.0>> = 10.525107871028323
+
+	* uni0123 (U+0123): B<<417.5,-145.5>-<390.0,-178.0>-<344.0,-194.0>>/B<<344.0,-194.0>-<433.0,-185.0>-<482.5,-149.5>> = 13.404682123147436
+
+	* uni0123 (U+0123): B<<458.0,538.0>-<429.0,528.0>-<396.0,520.0>>/L<<396.0,520.0>--<523.0,520.0>> = 13.62699485989153
+
+	* uni0136 (U+0136): B<<457.0,476.0>-<407.0,399.0>-<343.0,369.0>>/B<<343.0,369.0>-<383.0,380.0>-<427.0,408.5>> = 9.738583637318376
+
+	* uni013B (U+013B): L<<571.0,13.0>--<547.0,244.0>>/L<<547.0,244.0>--<535.0,139.0>> = 12.451328676576718
+
+	* uni0146 (U+0146): B<<363.5,486.0>-<326.0,469.0>-<291.0,432.0>>/B<<291.0,432.0>-<319.0,459.0>-<347.5,471.0>> = 2.6327669472043143
+
+	* uni0156 (U+0156): B<<578.0,647.5>-<528.0,683.0>-<438.0,692.0>>/B<<438.0,692.0>-<485.0,675.0>-<512.5,636.0>> = 14.174571976355793
+
+	* uni01CD (U+01CD): B<<147.0,125.0>-<147.0,155.0>-<159.0,197.0>>/L<<159.0,197.0>--<84.0,12.0>> = 6.122503661487386
+
+	* uni01CE (U+01CE): B<<179.0,199.5>-<226.0,239.0>-<308.0,253.0>>/B<<308.0,253.0>-<188.0,242.0>-<122.0,200.5>> = 4.451310493554295
+
+	* uni01CE (U+01CE): B<<250.0,9.5>-<286.0,22.0>-<317.0,44.0>>/B<<317.0,44.0>-<268.0,17.0>-<220.0,17.0>> = 6.506800667352515
+
+	* uni01CE (U+01CE): B<<392.5,492.5>-<360.0,500.0>-<332.0,503.0>>/B<<332.0,503.0>-<379.0,491.0>-<403.0,453.0>> = 8.207216411918122
+
+	* uni0218 (U+0218): B<<158.0,652.5>-<176.0,677.0>-<207.0,692.0>>/B<<207.0,692.0>-<143.0,671.0>-<109.0,630.5>> = 7.65503544496371
+
+	* uni0218 (U+0218): B<<507.0,54.0>-<487.0,28.0>-<451.0,11.0>>/B<<451.0,11.0>-<520.0,28.0>-<564.5,68.5>> = 11.437026743897281
+
+	* uni0219 (U+0219): B<<126.0,455.5>-<138.0,474.0>-<163.0,487.0>>/B<<163.0,487.0>-<114.0,474.0>-<88.0,445.5>> = 12.615817178352474
+
+	* uni0219 (U+0219): B<<421.0,98.0>-<421.0,43.0>-<374.0,15.0>>/B<<374.0,15.0>-<421.0,31.0>-<450.5,61.5>> = 11.984261367673817
+
+	* uni0219 (U+0219): B<<446.0,447.0>-<423.0,473.0>-<376.0,486.0>>/B<<376.0,486.0>-<396.0,475.0>-<396.0,467.0>> = 13.349576002531109
+
+	* uni0219 (U+0219): B<<82.0,49.0>-<109.0,26.0>-<153.0,13.0>>/B<<153.0,13.0>-<132.0,25.0>-<132.0,32.0>> = 13.284866484902132
+
+	* uni021A (U+021A): L<<51.0,695.0>--<75.0,465.0>>/L<<75.0,465.0>--<90.0,578.0>> = 13.51855954237515
+
+	* uni021A (U+021A): L<<632.0,574.0>--<647.0,465.0>>/L<<647.0,465.0>--<670.0,695.0>> = 13.546118243988198
+
+	* uni0327 (U+0327): B<<100.0,-131.0>-<100.0,-81.0>-<47.0,-64.0>>/B<<47.0,-64.0>-<80.0,-84.0>-<80.0,-123.0>> = 13.434514321653843
+
+	* uni0328 (U+0328): B<<-103.5,-75.5>-<-87.0,-52.0>-<-48.0,-23.0>>/B<<-48.0,-23.0>-<-162.0,-81.0>-<-162.0,-140.0>> = 9.668399443097272
+
+	* uni0328 (U+0328): B<<-39.0,-196.5>-<-20.0,-190.0>-<-11.0,-182.0>>/B<<-11.0,-182.0>-<-30.0,-193.0>-<-52.0,-193.0>> = 11.56495651470776
+
+	* uni03BC (U+03BC): B<<113.0,38.5>-<138.0,116.0>-<172.0,188.0>>/B<<172.0,188.0>-<108.0,110.0>-<67.5,33.5>> = 14.091595006811783
+
+	* uni03BC (U+03BC): B<<227.5,99.5>-<211.0,127.0>-<206.0,177.0>>/B<<206.0,177.0>-<197.0,87.0>-<225.0,42.0>> = 11.42118627499929
+
+	* uni03BC (U+03BC): B<<398.5,41.0>-<446.0,85.0>-<483.0,174.0>>/B<<483.0,174.0>-<435.0,102.0>-<389.5,76.5>> = 11.11592944733156
+
+	* uni03BC (U+03BC): B<<53.5,-175.0>-<80.0,-201.0>-<128.0,-201.0>>/B<<128.0,-201.0>-<81.0,-190.0>-<84.0,-100.0>> = 13.172553423326871
+
+	* uni03BC (U+03BC): B<<537.5,94.5>-<524.0,121.0>-<521.0,170.0>>/B<<521.0,170.0>-<510.0,80.0>-<534.0,38.5>> = 10.471788386163
+
+	* uni03BC (U+03BC): B<<683.0,35.5>-<727.0,74.0>-<752.0,158.0>>/B<<752.0,158.0>-<730.0,117.0>-<703.5,93.0>> = 11.643348097820311
+
+	* uni1E9E (U+1E9E): L<<127.0,304.0>--<129.0,14.0>>/L<<129.0,14.0>--<218.0,404.0>> = 13.250191597107305
+
+	* uni1E9E (U+1E9E): L<<218.0,404.0>--<216.0,694.0>>/L<<216.0,694.0>--<127.0,304.0>> = 13.250191597107305
+
+	* uni2074 (U+2074): B<<111.5,574.5>-<106.0,561.0>-<98.0,552.0>>/B<<98.0,552.0>-<129.0,585.0>-<129.0,645.0>> = 1.5765500551837375
+
+	* uogonek (U+0173): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* uogonek (U+0173): B<<435.5,-71.5>-<452.0,-48.0>-<491.0,-19.0>>/B<<491.0,-19.0>-<377.0,-77.0>-<377.0,-136.0>> = 9.668399443097272
+
+	* uogonek (U+0173): B<<500.0,-192.5>-<519.0,-186.0>-<528.0,-178.0>>/B<<528.0,-178.0>-<509.0,-189.0>-<487.0,-189.0>> = 11.56495651470776
+
+	* uring (U+016F): B<<305.0,15.0>-<342.0,32.0>-<377.0,68.0>>/B<<377.0,68.0>-<350.0,41.0>-<321.5,29.5>> = 0.8069294551017175
+
+	* v (U+0076): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* w (U+0077): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* w (U+0077): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
+
+	* wacute (U+1E83): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* wacute (U+1E83): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
+
+	* wcircumflex (U+0175): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* wcircumflex (U+0175): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
+
+	* wdieresis (U+1E85): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* wdieresis (U+1E85): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
+
+	* wgrave (U+1E81): B<<455.0,384.5>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* wgrave (U+1E81): B<<746.5,384.5>-<745.0,379.0>-<744.0,372.0>>/L<<744.0,372.0>--<788.0,488.0>> = 12.642152327889798
+
+	* y (U+0079): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
+
+	* y (U+0079): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* yacute (U+00FD): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
+
+	* yacute (U+00FD): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* ycircumflex (U+0177): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
+
+	* ycircumflex (U+0177): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* ydieresis (U+00FF): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
+
+	* ydieresis (U+00FF): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* ygrave (U+1EF3): B<<157.0,-203.0>-<164.0,-203.0>-<172.0,-202.0>>/B<<172.0,-202.0>-<149.0,-200.0>-<149.0,-189.0>> = 12.094757077012089
+
+	* ygrave (U+1EF3): B<<455.0,385.0>-<454.0,379.0>-<452.0,372.0>>/L<<452.0,372.0>--<496.0,488.0>> = 4.826858781122896
+
+	* z (U+007A): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859
+
+	* zacute (U+017A): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859
+
+	* zcaron (U+017E): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859 
+
+	* zdotaccent (U+017C): L<<66.0,488.0>--<99.0,336.0>>/L<<99.0,336.0>--<94.0,382.0>> = 6.045675518063859 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* uni1E9E (U+1E9E): L<<127.0,304.0>--<129.0,14.0>> 
+
+	* uni1E9E (U+1E9E): L<<218.0,404.0>--<216.0,694.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
