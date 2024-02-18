@@ -17,4 +17,4 @@ recipe:
     - operation: buildVariable
     - operation: fix
     - operation: paintcompiler
-      args: -p ../paintcompiler-test/paints.py
+      args: -p /paintcompiler/paints.py
