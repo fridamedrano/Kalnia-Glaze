@@ -12,7 +12,7 @@ outputDir: "../fonts"
 familyName: 'Kalnia Glaze'
 recipeProvider: googlefonts
 recipe:
-  ../fonts/variable/Kalnia-Glaze[wdth,wght].ttf:
+  ../fonts/variable/KalniaGlaze[wdth,wght].ttf:
     - source: Kalnia-Glaze.glyphs
     - operation: buildVariable
     - operation: fix
