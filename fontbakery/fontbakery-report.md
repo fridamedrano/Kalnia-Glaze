@@ -5,7 +5,7 @@ Fontbakery version: 0.8.13
 <details><summary><b>[8] KalniaGlaze-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3108,7 +3108,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] KalniaGlaze-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4481,21 +4481,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Lamp01 (U+E005): L<<64.0,321.0>--<76.0,119.0>> -> L<<76.0,119.0>--<80.0,72.0>>
+	* Lamps (U+E014): L<<30.0,302.0>--<43.0,85.0>> -> L<<43.0,85.0>--<48.0,24.0>>
 
-	* Lamp01 (U+E005): L<<658.0,72.0>--<662.0,119.0>> -> L<<662.0,119.0>--<674.0,321.0>>
+	* Lamps (U+E014): L<<47.0,24.0>--<43.0,85.0>> -> L<<43.0,85.0>--<15.0,443.0>>
 
-	* Lamp01 (U+E005): L<<688.0,449.0>--<662.0,119.0>> -> L<<662.0,119.0>--<659.0,72.0>>
+	* Lamps (U+E014): L<<690.0,24.0>--<695.0,85.0>> -> L<<695.0,85.0>--<708.0,302.0>>
 
-	* Lamp01 (U+E005): L<<79.0,72.0>--<76.0,119.0>> -> L<<76.0,119.0>--<50.0,449.0>>
+	* Lamps (U+E014): L<<723.0,443.0>--<695.0,85.0>> -> L<<695.0,85.0>--<691.0,24.0>>
 
-	* Lamp02 (U+E015): L<<64.0,271.0>--<76.0,69.0>> -> L<<76.0,69.0>--<80.0,22.0>>
+	* Lamps01 (U+E004): L<<64.0,321.0>--<76.0,119.0>> -> L<<76.0,119.0>--<80.0,72.0>>
 
-	* Lamp02 (U+E015): L<<658.0,22.0>--<662.0,69.0>> -> L<<662.0,69.0>--<674.0,271.0>>
+	* Lamps01 (U+E004): L<<658.0,72.0>--<662.0,119.0>> -> L<<662.0,119.0>--<674.0,321.0>>
 
-	* Lamp02 (U+E015): L<<688.0,399.0>--<662.0,69.0>> -> L<<662.0,69.0>--<659.0,22.0>> 
+	* Lamps01 (U+E004): L<<688.0,449.0>--<662.0,119.0>> -> L<<662.0,119.0>--<659.0,72.0>> 
 
-	* Lamp02 (U+E015): L<<79.0,22.0>--<76.0,69.0>> -> L<<76.0,69.0>--<50.0,399.0>> [code: found-colinear-vectors]
+	* Lamps01 (U+E004): L<<79.0,72.0>--<76.0,119.0>> -> L<<76.0,119.0>--<50.0,449.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -5345,7 +5345,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[10] KalniaGlaze-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6733,21 +6733,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* Icircumflex (U+00CE): L<<126.0,882.0>--<313.0,813.0>> -> L<<313.0,813.0>--<316.0,812.0>>
 
-	* Lamp01 (U+E005): L<<103.0,81.0>--<98.0,124.0>> -> L<<98.0,124.0>--<50.0,476.0>>
+	* Lamps (U+E014): L<<43.0,287.0>--<66.0,102.0>> -> L<<66.0,102.0>--<75.0,34.0>>
 
-	* Lamp01 (U+E005): L<<634.0,81.0>--<640.0,124.0>> -> L<<640.0,124.0>--<663.0,306.0>>
+	* Lamps (U+E014): L<<663.0,34.0>--<672.0,102.0>> -> L<<672.0,102.0>--<695.0,287.0>>
 
-	* Lamp01 (U+E005): L<<688.0,476.0>--<640.0,124.0>> -> L<<640.0,124.0>--<635.0,81.0>>
+	* Lamps (U+E014): L<<723.0,473.0>--<672.0,102.0>> -> L<<672.0,102.0>--<664.0,34.0>>
 
-	* Lamp01 (U+E005): L<<75.0,306.0>--<98.0,124.0>> -> L<<98.0,124.0>--<104.0,81.0>>
+	* Lamps (U+E014): L<<74.0,34.0>--<66.0,102.0>> -> L<<66.0,102.0>--<15.0,473.0>>
 
-	* Lamp02 (U+E015): L<<103.0,31.0>--<98.0,74.0>> -> L<<98.0,74.0>--<50.0,426.0>>
+	* Lamps01 (U+E004): L<<103.0,81.0>--<98.0,124.0>> -> L<<98.0,124.0>--<50.0,476.0>>
 
-	* Lamp02 (U+E015): L<<634.0,31.0>--<640.0,74.0>> -> L<<640.0,74.0>--<663.0,256.0>>
+	* Lamps01 (U+E004): L<<634.0,81.0>--<640.0,124.0>> -> L<<640.0,124.0>--<663.0,306.0>>
 
-	* Lamp02 (U+E015): L<<688.0,426.0>--<640.0,74.0>> -> L<<640.0,74.0>--<635.0,31.0>>
+	* Lamps01 (U+E004): L<<688.0,476.0>--<640.0,124.0>> -> L<<640.0,124.0>--<635.0,81.0>>
 
-	* Lamp02 (U+E015): L<<75.0,256.0>--<98.0,74.0>> -> L<<98.0,74.0>--<104.0,31.0>>
+	* Lamps01 (U+E004): L<<75.0,306.0>--<98.0,124.0>> -> L<<98.0,124.0>--<104.0,81.0>>
 
 	* Ocircumflex (U+00D4): L<<336.0,882.0>--<523.0,813.0>> -> L<<523.0,813.0>--<526.0,812.0>>
 
@@ -7007,7 +7007,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[10] KalniaGlaze-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -8387,25 +8387,25 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Lamp01 (U+E005): L<<54.0,334.0>--<57.0,115.0>> -> L<<57.0,115.0>--<58.0,64.0>>
+	* Lamps (U+E014): L<<19.0,316.0>--<23.0,78.0>> -> L<<23.0,78.0>--<24.0,15.0>>
 
-	* Lamp01 (U+E005): L<<58.0,64.0>--<57.0,115.0>> -> L<<57.0,115.0>--<50.0,426.0>>
+	* Lamps (U+E014): L<<24.0,15.0>--<23.0,78.0>> -> L<<23.0,78.0>--<15.0,417.0>>
 
-	* Lamp01 (U+E005): L<<59.0,50.0>--<58.0,64.0>> -> L<<58.0,64.0>--<57.0,115.0>>
+	* Lamps (U+E014): L<<25.0,0.0>--<24.0,15.0>> -> L<<24.0,15.0>--<23.0,78.0>>
 
-	* Lamp01 (U+E005): L<<680.0,64.0>--<681.0,115.0>> -> L<<681.0,115.0>--<684.0,334.0>>
+	* Lamps (U+E014): L<<714.0,15.0>--<715.0,78.0>> -> L<<715.0,78.0>--<719.0,316.0>>
 
-	* Lamp01 (U+E005): L<<688.0,426.0>--<681.0,115.0>> -> L<<681.0,115.0>--<680.0,64.0>>
+	* Lamps (U+E014): L<<723.0,417.0>--<715.0,78.0>> -> L<<715.0,78.0>--<714.0,15.0>>
 
-	* Lamp02 (U+E015): L<<54.0,284.0>--<57.0,65.0>> -> L<<57.0,65.0>--<58.0,14.0>>
+	* Lamps01 (U+E004): L<<54.0,334.0>--<57.0,115.0>> -> L<<57.0,115.0>--<58.0,64.0>>
 
-	* Lamp02 (U+E015): L<<58.0,14.0>--<57.0,65.0>> -> L<<57.0,65.0>--<50.0,376.0>>
+	* Lamps01 (U+E004): L<<58.0,64.0>--<57.0,115.0>> -> L<<57.0,115.0>--<50.0,426.0>>
 
-	* Lamp02 (U+E015): L<<59.0,0.0>--<58.0,14.0>> -> L<<58.0,14.0>--<57.0,65.0>>
+	* Lamps01 (U+E004): L<<59.0,50.0>--<58.0,64.0>> -> L<<58.0,64.0>--<57.0,115.0>>
 
-	* Lamp02 (U+E015): L<<680.0,14.0>--<681.0,65.0>> -> L<<681.0,65.0>--<684.0,284.0>>
+	* Lamps01 (U+E004): L<<680.0,64.0>--<681.0,115.0>> -> L<<681.0,115.0>--<684.0,334.0>>
 
-	* Lamp02 (U+E015): L<<688.0,376.0>--<681.0,65.0>> -> L<<681.0,65.0>--<680.0,14.0>>
+	* Lamps01 (U+E004): L<<688.0,426.0>--<681.0,115.0>> -> L<<681.0,115.0>--<680.0,64.0>>
 
 	* uni1E9E (U+1E9E): L<<151.0,10.0>--<175.0,619.0>> -> L<<175.0,619.0>--<171.0,698.0>> 
 
@@ -10079,7 +10079,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -11452,21 +11452,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Lamp01 (U+E005): L<<57.0,330.0>--<63.0,116.0>> -> L<<63.0,116.0>--<65.0,66.0>>
+	* Lamps (U+E014): L<<22.0,312.0>--<29.0,79.0>> -> L<<29.0,79.0>--<31.0,18.0>>
 
-	* Lamp01 (U+E005): L<<64.0,66.0>--<63.0,116.0>> -> L<<63.0,116.0>--<50.0,432.0>>
+	* Lamps (U+E014): L<<30.0,18.0>--<29.0,79.0>> -> L<<29.0,79.0>--<15.0,424.0>>
 
-	* Lamp01 (U+E005): L<<673.0,66.0>--<675.0,116.0>> -> L<<675.0,116.0>--<681.0,330.0>>
+	* Lamps (U+E014): L<<707.0,18.0>--<709.0,79.0>> -> L<<709.0,79.0>--<716.0,312.0>>
 
-	* Lamp01 (U+E005): L<<688.0,432.0>--<675.0,116.0>> -> L<<675.0,116.0>--<674.0,66.0>>
+	* Lamps (U+E014): L<<723.0,424.0>--<709.0,79.0>> -> L<<709.0,79.0>--<708.0,18.0>>
 
-	* Lamp02 (U+E015): L<<57.0,280.0>--<63.0,66.0>> -> L<<63.0,66.0>--<65.0,16.0>>
+	* Lamps01 (U+E004): L<<57.0,330.0>--<63.0,116.0>> -> L<<63.0,116.0>--<65.0,66.0>>
 
-	* Lamp02 (U+E015): L<<64.0,16.0>--<63.0,66.0>> -> L<<63.0,66.0>--<50.0,382.0>>
+	* Lamps01 (U+E004): L<<64.0,66.0>--<63.0,116.0>> -> L<<63.0,116.0>--<50.0,432.0>>
 
-	* Lamp02 (U+E015): L<<673.0,16.0>--<675.0,66.0>> -> L<<675.0,66.0>--<681.0,280.0>>
+	* Lamps01 (U+E004): L<<673.0,66.0>--<675.0,116.0>> -> L<<675.0,116.0>--<681.0,330.0>>
 
-	* Lamp02 (U+E015): L<<688.0,382.0>--<675.0,66.0>> -> L<<675.0,66.0>--<674.0,16.0>> 
+	* Lamps01 (U+E004): L<<688.0,432.0>--<675.0,116.0>> -> L<<675.0,116.0>--<674.0,66.0>> 
 
 	* uni1E9E (U+1E9E): L<<145.0,11.0>--<187.0,558.0>> -> L<<187.0,558.0>--<184.0,697.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -12878,7 +12878,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] KalniaGlaze-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -14251,21 +14251,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Lamp01 (U+E005): L<<649.0,75.0>--<654.0,121.0>> -> L<<654.0,121.0>--<670.0,316.0>>
+	* Lamps (U+E014): L<<35.0,296.0>--<52.0,89.0>> -> L<<52.0,89.0>--<58.0,28.0>>
 
-	* Lamp01 (U+E005): L<<68.0,316.0>--<84.0,121.0>> -> L<<84.0,121.0>--<89.0,75.0>>
+	* Lamps (U+E014): L<<57.0,28.0>--<52.0,89.0>> -> L<<52.0,89.0>--<15.0,454.0>>
 
-	* Lamp01 (U+E005): L<<688.0,459.0>--<654.0,121.0>> -> L<<654.0,121.0>--<650.0,75.0>>
+	* Lamps (U+E014): L<<680.0,28.0>--<686.0,89.0>> -> L<<686.0,89.0>--<703.0,296.0>>
 
-	* Lamp01 (U+E005): L<<88.0,75.0>--<84.0,121.0>> -> L<<84.0,121.0>--<50.0,459.0>>
+	* Lamps (U+E014): L<<723.0,454.0>--<686.0,89.0>> -> L<<686.0,89.0>--<681.0,28.0>>
 
-	* Lamp02 (U+E015): L<<649.0,25.0>--<654.0,71.0>> -> L<<654.0,71.0>--<670.0,266.0>>
+	* Lamps01 (U+E004): L<<649.0,75.0>--<654.0,121.0>> -> L<<654.0,121.0>--<670.0,316.0>>
 
-	* Lamp02 (U+E015): L<<68.0,266.0>--<84.0,71.0>> -> L<<84.0,71.0>--<89.0,25.0>>
+	* Lamps01 (U+E004): L<<68.0,316.0>--<84.0,121.0>> -> L<<84.0,121.0>--<89.0,75.0>>
 
-	* Lamp02 (U+E015): L<<688.0,409.0>--<654.0,71.0>> -> L<<654.0,71.0>--<650.0,25.0>> 
+	* Lamps01 (U+E004): L<<688.0,459.0>--<654.0,121.0>> -> L<<654.0,121.0>--<650.0,75.0>> 
 
-	* Lamp02 (U+E015): L<<88.0,25.0>--<84.0,71.0>> -> L<<84.0,71.0>--<50.0,409.0>> [code: found-colinear-vectors]
+	* Lamps01 (U+E004): L<<88.0,75.0>--<84.0,121.0>> -> L<<84.0,121.0>--<50.0,459.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -14755,7 +14755,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[8] KalniaGlaze-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.11.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
