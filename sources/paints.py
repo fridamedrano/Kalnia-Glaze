@@ -66,11 +66,11 @@ for glyphname in base_glyphs:
     GRADIENT2 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine([
-        (SG01, ("#FFB5C2FF", ALPHA_AXIS_WGHT )),
-        (SG02, ("#EAD5D3FF", ALPHA_AXIS_WDTH )),
+        (SG01, ("#FFB5C2FF", ALPHA_AXIS_WDTH )),
+        (SG02, ("#EAD5D3FF", ALPHA_AXIS_WGHT )),
         (SG03, ("#F9C4BFFF", ALPHA_AXIS_NONE )),
-        (SG04, ("#FFB6A6FF", ALPHA_AXIS_WGHT )),
-        (SG05, ("#D6E4EEFF", ALPHA_AXIS_WDTH )),
+        (SG04, ("#FFB6A6FF", ALPHA_AXIS_WDTH )),
+        (SG05, ("#D6E4EEFF", ALPHA_AXIS_WGHT )),
         ])
     )
 
