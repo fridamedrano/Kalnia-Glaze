@@ -30,11 +30,10 @@ MG03 = { (("wght", 100),): 0.4, (("wght", 700),): 0.6 }
 MG04 = { (("wght", 100),): 0.6, (("wght", 700),): 0.8 }
 MG05 = { (("wght", 100),): 0.8, (("wght", 700),): 1.0 }
 
-SG01 = { (("wght", 100),): 0.0, (("wght", 700),): 0.1 }
-SG02 = { (("wght", 100),): 0.1, (("wght", 700),): 0.2 }
-SG03 = { (("wght", 100),): 0.3, (("wght", 700),): 0.4 }
-SG04 = { (("wght", 100),): 0.6, (("wght", 700),): 0.8 }
-SG05 = { (("wght", 100),): 0.9, (("wght", 700),): 1.0 }
+SG01 = { (("wght", 100),): 0.0, (("wght", 700),): 0.3 }
+SG02 = { (("wght", 100),): 0.3, (("wght", 700),): 0.5 }
+SG03 = { (("wght", 100),): 0.5, (("wght", 700),): 0.7 }
+SG04 = { (("wght", 100),): 0.7, (("wght", 700),): 1.0 }
 
 
 base_glyphs = []
@@ -77,9 +76,8 @@ for glyphname in base_glyphs:
     ColorLine([
         (SG01, ("#FFB5C2FF", ALPHA_AXIS_WGHT )),
         (SG02, ("#EAD5D3FF", ALPHA_AXIS_WDTH )),
-        (SG03, ("#F9C4BAFF", ALPHA_AXIS_NONE )),
-        (SG04, ("#FFB6A6FF", ALPHA_AXIS_WDTH )),
-        (SG05, ("#D6E4EEFF", ALPHA_AXIS_WGHT )),
+        (SG03, ("#FFB6A6FF", ALPHA_AXIS_WDTH )),
+        (SG04, ("#D6E4EEFF", ALPHA_AXIS_WGHT )),
         ])
     )
 
