@@ -10,7 +10,8 @@ ALPHA_AXIS_WDTH = {
 ALPHA_AXIS_WGHT = { 
     (("wght", 100),): 1.0,
     (("wght", 110),): 1.0,
-    (("wght", 700),): 0.0 }
+    (("wght", 600),): 0.0,
+    (("wght", 700),): 0.2 }
 ALPHA_AXIS_NONE = { (("wdth", 100),): 1.0, (("wdth", 125),): 1.0 }
 
 MG01 = { (("wght", 100),): 0.0, (("wght", 700),): 0.2 }
