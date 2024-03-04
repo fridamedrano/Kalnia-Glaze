@@ -2,26 +2,9 @@ from collections import defaultdict
 import re
 from fontTools.pens.boundsPen import BoundsPen
 
-ALPHA_AXIS_WDTH = { 
-    (("wdth", 102),): 1.0,
-    (("wdth", 114),): 0.0,
-    (("wdth", 116),): 0.0,
-    (("wdth", 123),): 1.0,
-    }
-
-ALPHA_AXIS_WGHT = { 
-    (("wght", 110),): 0.0,
-    (("wght", 300),): 1.0,
-    (("wght", 310),): 1.0,
-    (("wght", 500),): 0.0,
-    (("wght", 510),): 0.0,
-    (("wght", 690),): 1.0
-    }
-
-ALPHA_AXIS_NONE = { 
-    (("wdth", 100),): 1.0,
-    (("wdth", 125),): 1.0
-    }
+ALPHA_AXIS_WDTH = { (("wdth", 100),): 0.0, (("wdth", 115),): 1.0, (("wdth", 125),): 0.0 }
+ALPHA_AXIS_WGHT = { (("wght", 100),): 1.0, (("wght", 100),): 0.0, (("wght", 700),): 1.0 }
+ALPHA_AXIS_NONE = { (("wdth", 100),): 1.0, (("wdth", 125),): 1.0 }
 
 MG01 = { (("wght", 100),): 0.0, (("wght", 700),): 0.2 }
 MG02 = { (("wght", 100),): 0.2, (("wght", 700),): 0.4 }
@@ -62,10 +45,10 @@ for glyphname in base_glyphs:
     GRADIENT1 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine([
-        (MG01, "#FFB6A6FF"),
-        (MG02, ("#FFFFFFFF", ALPHA_AXIS_NONE )),
+        (MG01, "#F67F68FF"),
+        (MG02, ("#FDE7D8FF", ALPHA_AXIS_NONE )),
         (MG03, "#FF8B8BFF"),
-        (MG04, "#FFFFFFFF"),
+        (MG04, "#FDE7D8FF"),
         (MG05, "#7AA0FFFF")
         ])
     )
@@ -76,7 +59,7 @@ for glyphname in base_glyphs:
         (SG01, ("#FFB5C2FF", ALPHA_AXIS_WGHT )),
         (SG02, ("#EAD5D3FF", ALPHA_AXIS_WDTH )),
         (SG03, ("#FFB6A6FF", ALPHA_AXIS_WGHT )),
-        (SG04, ("#D6E4EEFF", ALPHA_AXIS_WDTH ))
+        (SG04, ("#D6E4EEFF", ALPHA_AXIS_WDTH )),
         ])
     )
 
