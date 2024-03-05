@@ -1,5 +1,4 @@
-# Kalnia Glaze
-### Step into the World of Color.
+# Kalnia Glaze: Step into the World of Color.
 
 A new gradient variable font by Frida Medrano.
 
@@ -19,26 +18,27 @@ Minisite: http://fridamedrano.com/kalnia
 
 Kalnia Glaze is a new typeface commissioned by Google Fonts, that experiments with the new color font technology in variable fonts, inviting you to step into a world of color and add vibrancy and depth to your projects.
 
-![Sample Image](documentation/KalniaGlaze-FridaMedrano-Cover-01.png)
+![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Cover-01.png)
 
 ## A Glaze of Possibilities.
 
 Kalnia Glaze is the result of an broad exploration of the latest COLRv1 format and it’s integration with the variable font technology. The objective was not only to create a complex layered design to explore the possibilities of the format but also to streamline and expedite the process, minimizing the need for manual adjustments through software and emphasizing the automation of processes using paintcompiler, a program by Simon Cozens.
 
-COLRv1 is the latest version of the color font format combining transparency, gradients, and variable font technology. This means that full complex color vectors can be in a compact font file. As one of the advantages of teh format, you can also tweak one color or change them all in code. CSS offers easy and powerful customization options with the “override-colors” property.
-The font also has 4 main icons with the option of using them solo or with in a frame. 
+![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Cards-02.png)
+
+COLRv1 is the latest version of the color font format combining transparency, gradients, and variable font technology. As one of the advantages of the format, it's possible to change the color palettes in code. CSS offers easy and powerful customization options using the “override-colors” property. Kalnia Glaze also has four main icons with the option of using them solo or with a frame. 
 
 
 ## About the Design
 
 Inspired by the Victorian era, Kalnia Glaze features high contrast and refined terminals. Much like the Victorian Sash windows that were meticulously glazed to capture a timeless charm, Kalnia Glaze takes the essence of this historical craftsmanship into its letterforms.  It incorporate their structural elegance, volume, and lighting nuances, to enhance the original structure of  Kalnia typeface with added complexity and decoration.
 
-Kalnia Glaze is the color font version of Kalnia Typeface, also available on Google Fonts.
+Kalnia Glaze is the color font version of [Kalnia Typeface](https://fonts.google.com/specimen/Kalnia) also available at Google Fonts.
 
 
 ## About Frida Medrano
 
-Frida Medrano is a Mexican type and interaction designer currently based in San Fransisco, California. She is interested in design automation and exploration projects where code and design converge. In recognition of her contributions, she was honored with the SOTA Catalyst Award in 2018. Frida has showcased her work at forums such as ATypI, TypeLab, TypeCon,  Design Matters, IxDA, Letrástica, and TMX.
+Frida Medrano is a Mexican type and product designer currently based in San Fransisco, California. She is interested in design automation and exploration projects where code and design converge. She won the SOTA Catalyst Award in 2018 and has presented her work in forums like ATypI, TypeLab, TypeCon, Design Matters, IxDA, Letrástica, and TMX.
 
 [fridamedrano.com](http://www.fridamedrano.com)
 [Instagram](https://www.instagram.com/fridaemg) [GitHub](https://github.com/fridamedrano) [Twitter](https://twitter.com/fridaemg)
@@ -49,12 +49,15 @@ This project was possible thanks to Google Fonts and the support of Viviana Mons
 
 ## Building
 
-This process of this project is divided in two:
-- Glyphs file: This file is located on the source folder and it contain the letterforms designs and the variable font parameters. This is constructed using two color palettes (letter’s inside and stroke).
-- Build script: This script has the paintcompiler program by Simon Cozens added to the build to replace the color palettes with the gradients and alphas directions.
+Kalnia is divided in two sections:
+- Kalnia-Glaze.glyphs: This file contain the letterforms design and the variable font parameters. It's constructed using two color palettes: the stroke and the fill. Note: The colors on this palette are random, they will be replace in the next step.
+- Paints.py file: This script is dependent from paintcompiler, a program by Simon Cozens. As a second step, paintcompiler (incorporated on the build) replace the color palettes in the Glyphs file with the gradients and alphas described on the paints.py file.
 
+These files are available in the sources folder.
+As a summary, the Glyphs file contain the letterform designs and interpolation settings and the paints.py file the color gradients.
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+
 
 If you want to build fonts manually on your own computer:
 
