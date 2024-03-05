@@ -1,4 +1,9 @@
 # Kalnia Glaze
+### Step into the World of Color.
+
+A new gradient variable font by Frida Medrano.
+
+Minisite: http://fridamedrano.com/kalnia 
 
 <!-- [![][Fontbakery]](https://fridamedrano.github.io/Kalnia-Typeface/fontbakery/fontbakery-report.html)
 [![][Universal]](https://fridamedrano.github.io/Kalnia-Typeface/fontbakery/fontbakery-report.html)
@@ -12,15 +17,23 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffridamedrano%2FKalnia-Typeface%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffridamedrano%2FKalnia-Typeface%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Kalnia Glaze is an innovative typeface that merges the new color gradient font technology, variable font capabilities and introduces a dynamic transparency variation as an extra layer.
+Kalnia Glaze is a new typeface commissioned by Google Fonts, that experiments with the new color font technology in variable fonts, inviting you to step into a world of color and add vibrancy and depth to your projects.
 
-Much like the Victorian Sash windows that were meticulously glazed to capture a timeless charm, 'Kalnia Glaze' incorporates the essence of this historical craftsmanship into its letterforms. Just like the structural elegance, volume, and lighting nuances of victorian windows, Kalnia Glaze adds new layers of complexity and decoration enhancing the original structure of Kalnia typeface.
+![Sample Image](documentation/KalniaGlaze-FridaMedrano-Cover-01.png)
 
-Kalnia Glaze is the result of an broad exploration of the latest COLRv1 format and it’s integration with the variable font technology. The objective was not only to create a complex layered design to explore the possibilities of the format but also to streamline and expedite the process, minimizing the need for manual adjustments through software and emphasizing the automation of processes using paintcompiler.
+## A Glaze of Possibilities.
 
-Minisite: http://fridamedrano.com/kalnia 
+Kalnia Glaze is the result of an broad exploration of the latest COLRv1 format and it’s integration with the variable font technology. The objective was not only to create a complex layered design to explore the possibilities of the format but also to streamline and expedite the process, minimizing the need for manual adjustments through software and emphasizing the automation of processes using paintcompiler, a program by Simon Cozens.
 
-![Sample Image](documentation/image1.png)
+COLRv1 is the latest version of the color font format combining transparency, gradients, and variable font technology. This means that full complex color vectors can be in a compact font file. As one of the advantages of teh format, you can also tweak one color or change them all in code. CSS offers easy and powerful customization options with the “override-colors” property.
+The font also has 4 main icons with the option of using them solo or with in a frame. 
+
+
+## About the Design
+
+Inspired by the Victorian era, Kalnia Glaze features high contrast and refined terminals. Much like the Victorian Sash windows that were meticulously glazed to capture a timeless charm, Kalnia Glaze takes the essence of this historical craftsmanship into its letterforms.  It incorporate their structural elegance, volume, and lighting nuances, to enhance the original structure of  Kalnia typeface with added complexity and decoration.
+
+Kalnia Glaze is the color font version of Kalnia Typeface, also available on Google Fonts.
 
 
 ## About Frida Medrano
@@ -30,6 +43,9 @@ Frida Medrano is a Mexican type and interaction designer currently based in San 
 [fridamedrano.com](http://www.fridamedrano.com)
 [Instagram](https://www.instagram.com/fridaemg) [GitHub](https://github.com/fridamedrano) [Twitter](https://twitter.com/fridaemg)
 
+## Adiitional Credits
+
+This project was possible thanks to Google Fonts and the support of Viviana Monsivais, Simon Cozens and Dave Crossland.
 
 ## Building
 
@@ -51,7 +67,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**3 January 2024. Version 1.00**
+**5 March 2024. Version 1.00**
 
 ## License
 
