@@ -42,6 +42,8 @@ Kalnia Glaze is the color font version of [Kalnia Typeface](https://fonts.google
 
 ![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Quote-05.png)
 
+![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Design-06.png)
+
 
 ## About Frida Medrano
 
