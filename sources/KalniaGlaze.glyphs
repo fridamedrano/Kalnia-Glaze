@@ -21,7 +21,9 @@ Lorem ipsum.",
 a,
 "n/.notdef/.notdef",
 "/Base01/Drinks01/Flowers01/Flowers/Base/Drinks",
-"H/Base/Drinks/Flowers/Lamps"
+"H/Base/Drinks/Flowers/Lamps",
+"/idotless_ogonekcomb",
+17JA
 );
 axes = (
 {
@@ -31066,9 +31068,15 @@ color = 4;
 glyphname = J;
 kernLeft = J;
 kernRight = JJ;
-lastChange = "2023-10-29 21:15:09 +0000";
+lastChange = "2024-03-12 23:22:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (399,708);
+}
+);
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 shapes = (
 {
@@ -31159,6 +31167,12 @@ com.hugojourdan.ColorFlow = {
 width = 597;
 },
 {
+anchors = (
+{
+name = top;
+pos = (775,708);
+}
+);
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 shapes = (
 {
@@ -31249,6 +31263,12 @@ com.hugojourdan.ColorFlow = {
 width = 1148;
 },
 {
+anchors = (
+{
+name = top;
+pos = (259,708);
+}
+);
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 shapes = (
 {
@@ -31339,6 +31359,12 @@ com.hugojourdan.ColorFlow = {
 width = 396;
 },
 {
+anchors = (
+{
+name = top;
+pos = (489,708);
+}
+);
 layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 shapes = (
 {
@@ -106861,9 +106887,15 @@ color = 4;
 glyphname = jdotless;
 kernLeft = ii;
 kernRight = j;
-lastChange = "2023-10-30 04:43:15 +0000";
+lastChange = "2024-03-12 23:43:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (310,500);
+}
+);
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
 shapes = (
 {
@@ -106967,6 +106999,12 @@ com.hugojourdan.ColorFlow = {
 width = 635;
 },
 {
+anchors = (
+{
+name = top;
+pos = (167,500);
+}
+);
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 shapes = (
 {
@@ -107070,6 +107108,12 @@ com.hugojourdan.ColorFlow = {
 width = 311;
 },
 {
+anchors = (
+{
+name = top;
+pos = (173,500);
+}
+);
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 shapes = (
 {
@@ -107173,6 +107217,12 @@ com.hugojourdan.ColorFlow = {
 width = 355;
 },
 {
+anchors = (
+{
+name = top;
+pos = (173,500);
+}
+);
 layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 shapes = (
 {
@@ -253444,7 +253494,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 88;
+width = 0;
 },
 {
 anchors = (
