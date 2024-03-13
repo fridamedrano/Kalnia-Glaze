@@ -15,6 +15,7 @@ recipe:
   ../fonts/variable/KalniaGlaze[wdth,wght].ttf:
     - source: KalniaGlaze.glyphs
     - operation: buildVariable
+      args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     - operation: fix
     - operation: buildStat
     - operation: paintcompiler
