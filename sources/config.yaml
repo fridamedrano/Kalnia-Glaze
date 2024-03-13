@@ -1,5 +1,5 @@
 sources:
-  - Kalnia-Glaze.glyphs
+  - KalniaGlaze.glyphs
 buildStatic: true
 buildVariable: true
 buildTTF: true
@@ -12,8 +12,8 @@ outputDir: "../fonts"
 familyName: 'Kalnia Glaze'
 recipeProvider: googlefonts
 recipe:
-  ../fonts/variable/Kalnia-Glaze[wdth,wght].ttf:
-    - source: Kalnia-Glaze.glyphs
+  ../fonts/variable/KalniaGlaze[wdth,wght].ttf:
+    - source: KalniaGlaze.glyphs
     - operation: buildVariable
     - operation: fix
     - operation: paintcompiler
