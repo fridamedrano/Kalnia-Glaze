@@ -16,5 +16,6 @@ recipe:
     - source: KalniaGlaze.glyphs
     - operation: buildVariable
     - operation: fix
+    - operation: buildStat
     - operation: paintcompiler
       args: -p paints.py
