@@ -2,7 +2,7 @@
 
 A new gradient variable font by Frida Medrano.
 
-Minisite: http://fridamedrano.com/kalnia 
+Minisite: https://www.fridamedrano.com/kalniaglaze
 
 <!-- [![][Fontbakery]](https://fridamedrano.github.io/Kalnia-Typeface/fontbakery/fontbakery-report.html)
 [![][Universal]](https://fridamedrano.github.io/Kalnia-Typeface/fontbakery/fontbakery-report.html)
