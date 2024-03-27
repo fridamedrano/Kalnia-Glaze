@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3236";
 .formatVersion = 3;
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWX
@@ -14028,8 +14028,7 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14079,8 +14078,7 @@ width = 815;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14130,8 +14128,7 @@ width = 1375;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14181,8 +14178,7 @@ width = 736;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14236,8 +14232,7 @@ colorPalette = 0;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14283,8 +14278,7 @@ colorPalette = 0;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14330,8 +14324,7 @@ colorPalette = 0;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14377,8 +14370,7 @@ colorPalette = 0;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14424,8 +14416,7 @@ colorPalette = 1;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14471,8 +14462,7 @@ colorPalette = 1;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14518,8 +14508,7 @@ colorPalette = 1;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -14565,8 +14554,7 @@ colorPalette = 1;
 hints = (
 {
 horizontal = 1;
-place = (366.355, 0);
-place = (366.355, 0);
+place = (366.355,0);
 type = Stem;
 }
 );
@@ -268693,6 +268681,10 @@ value = "Frida Medrano";
 {
 key = manufacturerURL;
 value = "https://www.google.com/fonts";
+},
+{
+key = vendorID;
+value = GOOG;
 }
 );
 stems = (
