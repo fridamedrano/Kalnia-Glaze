@@ -43,7 +43,7 @@ Kalnia Glaze is the color font version of [Kalnia Typeface](https://fonts.google
 
 ![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Quote-05.gif)
 
-![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Design-06.png)
+![Sample Image](documentation/Kalnia-Glaze-Statics-Small/Kalnia-Glaze-FridaMedrano-Design-06.png)
 
 
 ## About Frida Medrano
@@ -53,7 +53,7 @@ Frida Medrano is a Mexican type and product designer currently based in San Fran
 [fridamedrano.com](http://www.fridamedrano.com)
 [Instagram](https://www.instagram.com/fridaemg) [GitHub](https://github.com/fridamedrano) [Twitter](https://twitter.com/fridaemg)
 
-## Adiitional Credits
+## Aditional Credits
 
 This project was possible thanks to Google Fonts and the support of Viviana Monsivais, Simon Cozens and Dave Crossland.
 
