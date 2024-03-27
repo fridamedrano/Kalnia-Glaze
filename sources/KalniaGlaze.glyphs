@@ -268630,7 +268630,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Typeface.git)";
+value = "Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)";
 }
 );
 },
@@ -270487,5 +270487,5 @@ GSOffsetVertical = 0;
 };
 };
 versionMajor = 1;
-versionMinor = 105;
+versionMinor = 106;
 }
