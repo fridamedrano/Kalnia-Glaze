@@ -268630,7 +268630,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)";
+value = "Copyright 2022 The Kalnia Glaze Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)";
 }
 );
 },
