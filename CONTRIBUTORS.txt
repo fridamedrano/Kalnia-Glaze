@@ -11,3 +11,4 @@
 
 Frida Medrano <frida34estefania@gmail.com>
 Viviana Monsalve <viviana.monsalve.a@gmail.com>
+Simon Cozens <simon@simon-cozens.org>
