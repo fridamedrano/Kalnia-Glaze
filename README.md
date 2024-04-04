@@ -55,7 +55,7 @@ Frida Medrano is a Mexican type and product designer currently based in San Fran
 
 ## Aditional Credits
 
-This project was possible thanks to Google Fonts and the support of Viviana Monsivais, Simon Cozens and Dave Crossland.
+This project was possible thanks to Google Fonts and the support of Viviana Monsalve, Simon Cozens and Dave Crossland.
 
 ## Building
 
