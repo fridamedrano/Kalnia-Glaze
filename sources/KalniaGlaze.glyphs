@@ -1,5 +1,5 @@
 {
-.appVersion = "3252";
+.appVersion = "3257";
 .formatVersion = 3;
 DisplayStrings = (
 "h/f_h.liga/f_hbar.liga ħfħfhfħ"
@@ -62,7 +62,7 @@ value = (
 );
 }
 );
-date = "2024-03-12 22:58:22 +0000";
+date = "2024-04-10 22:25:51 +0000";
 familyName = "Kalnia Glaze";
 featurePrefixes = (
 {
@@ -270681,5 +270681,5 @@ GSOffsetVertical = 0;
 };
 };
 versionMajor = 1;
-versionMinor = 106;
+versionMinor = 107;
 }
