@@ -5,13 +5,13 @@ from fontTools.pens.boundsPen import BoundsPen
 ALPHA_AXIS_WDTH = { 
     (("wdth", 100),): 1.0,
     (("wdth", 105),): 1.0,
-    (("wdth", 125),): 0.0 }
+    (("wdth", 125),): 0.2 }
 
 ALPHA_AXIS_WGHT = { 
     (("wght", 100),): 1.0,
     (("wght", 110),): 1.0,
     (("wght", 600),): 0.0,
-    (("wght", 700),): 0.2 }
+    (("wght", 700),): 0.5 }
 ALPHA_AXIS_NONE = { (("wdth", 100),): 1.0, (("wdth", 125),): 1.0 }
 
 MG01 = { (("wght", 100),): 0.0, (("wght", 700),): 0.2 }
@@ -56,20 +56,20 @@ for glyphname in base_glyphs:
     ColorLine([
         (MG01, "#FFB6A6FF"),
         (MG02, ("#FDE7D8FF", ALPHA_AXIS_NONE )),
-        (MG03, "#FF8B8BFF"),
+        (MG03, "#FFB6A6FF"),
         (MG04, "#FDE7D8FF"),
-        (MG05, "#7AA0FFFF")
+        (MG05, "#7D6FFDFF")
         ])
     )
     
     GRADIENT2 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine([
-        (SG01, ("#FFB5C2FF", ALPHA_AXIS_WDTH )),
+        (SG01, ("#DCCDFFFF", ALPHA_AXIS_WDTH )),
         (SG02, ("#EAD5D3FF", ALPHA_AXIS_WGHT )),
         (SG03, ("#F9C4BFFF", ALPHA_AXIS_NONE )),
         (SG04, ("#FFB6A6FF", ALPHA_AXIS_WDTH )),
-        (SG05, ("#D6E4EEFF", ALPHA_AXIS_WGHT )),
+        (SG05, ("#DCCDFFFF", ALPHA_AXIS_WGHT )),
         ])
     )
 
