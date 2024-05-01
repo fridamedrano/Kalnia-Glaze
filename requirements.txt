@@ -160,6 +160,7 @@ fonttools[lxml,ufo,unicode,woff]==4.51.0
     #   kurbopy
     #   mutatormath
     #   nanoemoji
+    #   paintcompiler
     #   statmake
     #   ufo2ft
     #   ufolib2
@@ -275,6 +276,8 @@ packaging==24.0
     # via
     #   fontbakery
     #   gftools
+paintcompiler==0.3.4
+    # via -r requirements.in
 picosvg==0.22.1
     # via nanoemoji
 pillow==10.3.0
