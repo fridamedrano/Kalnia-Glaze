@@ -47,7 +47,7 @@ for glyphname in base_glyphs:
     GRADIENT1 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine({
-        0: EXT01_PALLETE,
+        0: EXT01_PALETTE,
         0.2: EXT02_PALETTE, 
         0.4: EXT03_PALETTE, 
         1.6: EXT04_PALETTE,
