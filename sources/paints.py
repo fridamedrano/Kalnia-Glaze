@@ -2,23 +2,23 @@ from collections import defaultdict
 import re
 from fontTools.pens.boundsPen import BoundsPen
 
-#ALPHAS
+#Alphas
 ALPHA_AXIS_WDTH = { (("wdth", 100),): 1.0, (("wdth", 105),): 1.0, (("wdth", 125),): 0.2 }
 ALPHA_AXIS_WGHT = { (("wght", 100),): 1.0, (("wght", 110),): 1.0, (("wght", 600),): 0.2, (("wght", 700),): 0.4 } 
 ALPHA_AXIS_NONE = { (("wdth", 100),): 1.0, (("wdth", 125),): 1.0 }
 
-#COLOR-PALLETES-EXTERIOR COLORS
-EXT01_PALLETE = ["#66357AFF", "#FF7979FF"]
-EXT02_PALLETE = ["#3B171FFF", "#FDE7D8FF"]
-EXT03_PALLETE = ["#B740AFFF", "#FF7979FF"]
-EXT04_PALLETE = ["#3B171FFF", "#FDE7D8FF"]
-EXT05_PALLETE = ["#FF306FFF", "#7AA0FFFF"]
-#COLOR-PALLETES-INTERIOR COLORS
-INT01_PALLETE = ["#A762FFFF", "#DCCDFFFF"]
-INT02_PALLETE = ["#9A8BC7FF", "#EAD5D3FF"]
-INT03_PALLETE = ["#FF29F2FF", "#F9C4BFFF"]
-INT04_PALLETE = ["#FF4DB2FF", "#FFB6A6FF"]
-INT05_PALLETE = ["#9A8BC7FF", "#DCCDFFFF"]
+#color palettes 
+EXT01_PALETTE = ["#66357AFF", "#FF7979FF"]
+EXT02_PALETTE = ["#3B171FFF", "#FDE7D8FF"]
+EXT03_PALETTE = ["#B740AFFF", "#FF7979FF"]
+EXT04_PALETTE = ["#3B171FFF", "#FDE7D8FF"]
+EXT05_PALETTE = ["#FF306FFF", "#7AA0FFFF"]
+
+INT01_PALETTE = ["#A762FFFF", "#DCCDFFFF"]
+INT02_PALETTE = ["#9A8BC7FF", "#EAD5D3FF"]
+INT03_PALETTE = ["#FF29F2FF", "#F9C4BFFF"]
+INT04_PALETTE = ["#FF4DB2FF", "#FFB6A6FF"]
+INT05_PALETTE = ["#9A8BC7FF", "#DCCDFFFF"]
 
 base_glyphs = []
 additional_layers = defaultdict(list)
@@ -43,7 +43,7 @@ for glyphname in base_glyphs:
         continue
     xMin, yMin, xMax, yMax = bp.bounds
 
-    #EXTERIOR COLORS
+    #Exterior colors (Outline)
     GRADIENT1 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine({
@@ -55,7 +55,7 @@ for glyphname in base_glyphs:
         })
     )
     
-    #INTERIOR COLORS
+    #Interior colors (Fill)
     GRADIENT2 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine({
