@@ -48,10 +48,10 @@ for glyphname in base_glyphs:
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine({
         0: EXT01_PALLETE,
-        0.2: EXT02_PALLETE, 
-        0.4: EXT03_PALLETE, 
-        1.6: EXT04_PALLETE,
-        0.8: EXT05_PALLETE,
+        0.2: EXT02_PALETTE, 
+        0.4: EXT03_PALETTE, 
+        1.6: EXT04_PALETTE,
+        0.8: EXT05_PALETTE,
         })
     )
     
@@ -59,11 +59,11 @@ for glyphname in base_glyphs:
     GRADIENT2 = PaintLinearGradient(
     (xMin, yMin), (xMax, yMax), (-90, 100),
     ColorLine({
-        0:   (INT01_PALLETE, ALPHA_AXIS_WDTH),
-        0.2: (INT02_PALLETE, ALPHA_AXIS_WGHT),
-        0.4: INT03_PALLETE, 
-        1.6: (INT04_PALLETE, ALPHA_AXIS_WDTH),
-        0.8: (INT05_PALLETE, ALPHA_AXIS_WGHT),
+        0:   (INT01_PALETTE, ALPHA_AXIS_WDTH),
+        0.2: (INT02_PALETTE, ALPHA_AXIS_WGHT),
+        0.4: INT03_PALETTE, 
+        1.6: (INT04_PALETTE, ALPHA_AXIS_WDTH),
+        0.8: (INT05_PALETTE, ALPHA_AXIS_WGHT),
         })
     )
 
