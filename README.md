@@ -29,10 +29,28 @@ Kalnia Glaze is the result of an broad exploration of the latest COLRv1 format a
 
 ![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Cards-02.gif)
 
-COLRv1 is the latest version of the color font format combining transparency, gradients, and variable font technology. As one of the advantages of the format, it's possible to change the color palettes in code. CSS offers easy and powerful customization options using the “override-colors” property. Kalnia Glaze also has four main icons with the option of using them solo or with a frame. 
+COLRv1 is the latest version of the color font format combining transparency, gradients, and variable font technology. As one of the advantages of the format, it's possible to change the color palettes in code. CSS serves as a powerfull tool to change palettes.
 
 ![Sample Image](documentation/Kalnia-Glaze-FridaMedrano-Cards-03.gif)
 
+## CSS Palettes
+Kalnia Glaze is designed for both light and dark modes, with easily accessible palettes through CSS.
+
+Light Mode (default color)
+```html
+h1 {
+  font-family: 'Kalnia Glaze';
+  font-palette: light; #light mode
+}
+```
+
+Dark Mode
+```html
+h1 {
+  font-family: 'Kalnia Glaze';
+  font-palette: dark; #dark mode
+}
+```
 
 ## About the Design
 
