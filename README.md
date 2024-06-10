@@ -36,7 +36,7 @@ COLRv1 is the latest version of the color font format combining transparency, gr
 ## CSS Palettes
 Kalnia Glaze is designed for both light and dark modes, with easily accessible palettes through CSS.
 
-Light Mode (default color)
+### Light Mode (default color)
 ```html
 h1 {
   font-family: 'Kalnia Glaze';
@@ -44,13 +44,16 @@ h1 {
 }
 ```
 
-Dark Mode
+### Dark Mode
 ```html
 h1 {
   font-family: 'Kalnia Glaze';
   font-palette: dark; #dark mode
 }
 ```
+
+### Custom Palettes
+You can customize colors in CSS or use tools like DJR's color font customizer (https://tools.djr.com/color-font-customizer) or Laurence Penney's Figma plugin (https://github.com/Lorp/figma-colrv1), both offering easy and powerful customization options.
 
 ## About the Design
 
