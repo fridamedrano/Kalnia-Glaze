@@ -1,12 +1,6 @@
 {
 .appVersion = "3309";
 .formatVersion = 3;
-DisplayStrings = (
-"Kalnia Glaze",
-"Kalnia Glaze.
-Ready for you.",
-"§"
-);
 axes = (
 {
 name = Weight;
@@ -215426,7 +215420,7 @@ unicode = 182;
 {
 color = 4;
 glyphname = section;
-lastChange = "2024-06-11 08:07:02 +0000";
+lastChange = "2024-06-11 08:33:38 +0000";
 layers = (
 {
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
@@ -215925,11 +215919,6 @@ com.hugojourdan.ColorFlow = {
 width = 1089;
 },
 {
-guides = (
-{
-pos = (131,462);
-}
-);
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 shapes = (
 {
@@ -267274,10 +267263,6 @@ width = 1561;
 }
 );
 instances = (
-{
-name = Regular;
-type = variable;
-},
 {
 axesValues = (
 14,
