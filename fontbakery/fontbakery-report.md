@@ -51,19 +51,57 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 3 in glyph 'eth': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+<pre><code>- Contour 0 point 34 in glyph 'Drinks.color0' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
 
-- Contour 3 in glyph 'f_k.liga': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+- Contour 3 in glyph 'zero': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
 
-- Contour order differs in glyph 'p': [0, 1, 2, 3] in wght=100,wdth=125, [0, 1, 3, 2] in wght=700,wdth=100.
+- Contour 1 in glyph 'zero.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 1 start point differs in glyph 'sterling.color1' between location wght=100,wdth=125 and location wght=700,wdth=100
+
+- Contour order differs in glyph 'q': [0, 1, 2, 3] in wght=100,wdth=125, [0, 1, 3, 2] in wght=700,wdth=100.
+
+- Contour 0 in glyph 'eth.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 1 in glyph 'AE': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
+
+- Contour 3 in glyph 'k': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
 
 - Contour order differs in glyph 'thorn': [0, 1, 2, 3] in wght=100,wdth=125, [0, 1, 3, 2] in wght=700,wdth=100.
-
-- Contour 0 in glyph 'section.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
 
 - Contour order differs in glyph 'd': [0, 1, 2, 3] in wght=100,wdth=125, [0, 2, 1, 3] in wght=700,wdth=100.
 
 - Contour 2 start point differs in glyph 'sterling' between location wght=100,wdth=125 and location wght=700,wdth=100
+
+- Contour order differs in glyph 'p': [0, 1, 2, 3] in wght=100,wdth=125, [0, 1, 3, 2] in wght=700,wdth=100.
+
+- Contour order differs in glyph 'paragraph': [0, 1, 2, 3] in wght=100,wdth=125, [0, 2, 1, 3] in wght=700,wdth=100.
+
+- Contour 3 in glyph 'f_k.liga': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 0 point 34 in glyph 'Drinks' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
+
+- Contour 3 in glyph 'eth': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 2 point 34 in glyph 'Drinks01' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
+
+- Contour order differs in glyph 'b': [0, 1, 2, 3] in wght=100,wdth=125, [0, 2, 1, 3] in wght=700,wdth=100.
+
+- Contour 1 in glyph 'k.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 4 in glyph 'section': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 4 start point differs in glyph 'section' between location wght=100,wdth=125 and location wght=700,wdth=100
+
+- Contour 5 point 38 in glyph 'section' has a kink between location wght=100,wdth=125 and location wght=700,wdth=100
+
+- Contour 0 in glyph 'section.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
+
+- Contour 1 in glyph 'AE.color0': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
+
+- Contour 2 in glyph 'X': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
+
+- Contour 4 in glyph 'X': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
 
 - Contour 1 in glyph 'X.color0': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
 
@@ -71,41 +109,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Contour 2 in glyph 'f_k.liga.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
 
-- Contour 0 point 34 in glyph 'Drinks.color0' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
-
-- Contour 0 point 34 in glyph 'Drinks' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
-
-- Contour 1 in glyph 'AE': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
-
-- Contour 1 in glyph 'AE.color0': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
-
-- Contour 1 in glyph 'k.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
-
-- Contour 2 point 34 in glyph 'Drinks01' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
-
-- Contour order differs in glyph 'b': [0, 1, 2, 3] in wght=100,wdth=125, [0, 2, 1, 3] in wght=700,wdth=100.
-
-- Contour 1 in glyph 'zero.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
-
-- Contour order differs in glyph 'q': [0, 1, 2, 3] in wght=100,wdth=125, [0, 1, 3, 2] in wght=700,wdth=100.
-
-- Contour 3 in glyph 'k': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
-
 - Contour 2 point 34 in glyph 'Drinks01.color0' has a kink between location wght=700,wdth=100 and location wght=700,wdth=125
-
-- Contour 2 in glyph 'X': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
-
-- Contour 4 in glyph 'X': becomes underweight between wght=100,wdth=125 and wght=700,wdth=100.
-
-- Contour 1 start point differs in glyph 'sterling.color1' between location wght=100,wdth=125 and location wght=700,wdth=100
-
-- Contour 0 in glyph 'eth.color1': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
-
-- Contour 3 in glyph 'zero': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
-
-- Contour order differs in glyph 'paragraph': [0, 1, 2, 3] in wght=100,wdth=125, [0, 2, 1, 3] in wght=700,wdth=100.
-
-- Contour 1 in glyph 'section': becomes underweight between wght=100,wdth=100 and wght=100,wdth=125.
 </code></pre>
  [code: interpolation-issues]
 
@@ -937,7 +941,7 @@ periodcentered.loclCAT.case.color0 and periodcentered.loclCAT.case.color1</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̦̀</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Sar (Latn, 500,000 speakers), Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Makaa (Latn, 221,000 speakers), Mfumte (Latn, 79,000 speakers), Ejagham (Latn, 120,000 speakers), Yala (Latn, 200,000 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Gulay (Latn, 250,478 speakers), Ngbaka (Latn, 1,020,000 speakers), Ekpeye (Latn, 226,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Nzakara (Latn, 50,000 speakers), Avokaya (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Ma’di (Latn, 584,000 speakers), Zapotec (Latn, 490,000 speakers), Koonzime (Latn, 40,000 speakers), Mundani (Latn, 34,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Fur (Latn, 1,230,163 speakers), Ejagham (Latn, 120,000 speakers), Mfumte (Latn, 79,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Nzakara (Latn, 50,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dii (Latn, 71,000 speakers), Koonzime (Latn, 40,000 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Bafut (Latn, 158,146 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -961,14 +965,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, coptic, tifinagh, syriac, canadian-aboriginal, old-permic, malayalam, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, syriac, malayalam, canadian-aboriginal, old-permic, coptic, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -982,7 +986,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: masaram-gondi, nko, bhaiksuki, hanifi-rohingya, tibetan, tirhuta, pahawh-hmong, caucasian-albanian, khmer, tagalog, sundanese, gurmukhi, oriya, chakma, bengali, thaana, osage, bassa-vah, dogra, hanunoo, miao, buginese, khojki, newa, gujarati, sinhala, tifinagh, mende-kikakui, kayah-li, buhid, kaithi, takri, warang-citi, music, wancho, hebrew, cham, tai-le, elbasan, new-tai-lue, limbu, symbols, devanagari, math, sogdian, telugu, canadian-aboriginal, manichaean, psalter-pahlavi, thai, myanmar, tai-viet, armenian, lepcha, gunjala-gondi, coptic, javanese, saurashtra, kharoshthi, zanabazar-square, tai-tham, brahmi, tagbanwa, kannada, mongolian, phags-pa, marchen, rejang, balinese, duployan, tamil, mahajani, syloti-nagri, khudawadi, sharada, adlam, batak, lao, siddham, ahom, meetei-mayek, yi, modi, soyombo, syriac, old-permic, grantha, mandaic, malayalam</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tagalog, khudawadi, new-tai-lue, mandaic, zanabazar-square, caucasian-albanian, batak, buginese, tai-tham, yi, masaram-gondi, marchen, sogdian, takri, canadian-aboriginal, old-permic, hanunoo, tirhuta, lao, grantha, saurashtra, mahajani, pahawh-hmong, tifinagh, malayalam, javanese, telugu, sharada, warang-citi, kaithi, manichaean, phags-pa, chakma, myanmar, thaana, tai-viet, syriac, hanifi-rohingya, tagbanwa, soyombo, syloti-nagri, cham, brahmi, gurmukhi, gujarati, kharoshthi, armenian, rejang, kannada, newa, mongolian, bhaiksuki, duployan, mende-kikakui, kayah-li, osage, bengali, oriya, meetei-mayek, tamil, buhid, gunjala-gondi, tai-le, wancho, ahom, miao, symbols, coptic, khmer, balinese, siddham, thai, music, lepcha, devanagari, khojki, adlam, hebrew, sundanese, nko, tibetan, limbu, modi, dogra, bassa-vah, sinhala, psalter-pahlavi, math, elbasan</li>
 <li>U+E001 : not included in any glyphset definition</li>
 <li>U+E002 : not included in any glyphset definition</li>
 <li>U+E003 : not included in any glyphset definition</li>
