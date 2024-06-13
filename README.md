@@ -57,7 +57,7 @@ You can customize colors in CSS or use tools like DJR's color font customizer (h
 
 ## About the Design
 
-Inspired by the Victorian era, Kalnia Glaze features high contrast and refined terminals. Much like the Victorian Sash windows that were meticulously glazed to capture a timeless charm, Kalnia Glaze takes the essence of this historical craftsmanship into its letterforms.  It incorporate their structural elegance, volume, and lighting nuances, to enhance the original structure of  Kalnia typeface with added complexity and decoration.
+Inspired by the Victorian era, Kalnia Glaze features high contrast and refined terminals. Much like the Victorian Sash windows that were meticulously glazed to capture a timeless charm, Kalnia Glaze takes the essence of this historical craftsmanship into its letterforms. It incorporate their structural elegance, volume, and lighting nuances, to enhance the original structure of  Kalnia typeface with added complexity and decoration.
 
 Kalnia Glaze is the color font version of [Kalnia Typeface](https://fonts.google.com/specimen/Kalnia) also available at Google Fonts.
 
